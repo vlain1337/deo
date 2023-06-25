@@ -1,1 +1,1 @@
-<center>Deobfuscate PHP Shell by <b>pwnsauce</b></center>
+Deobfuscate PHP Shell by <b>pwnsauce</b>
