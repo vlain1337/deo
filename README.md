@@ -5,6 +5,3 @@ beberapa shell tidak sepenuhnya 100% ter-deobfuscate dan mungkin beberapa shell 
 bisa kalian benerin sendiri :p
 
 not all shells are 100% deofuscated
-
-
-mau req deo? bapakgwheker@duck.com
