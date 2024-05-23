@@ -4,4 +4,3 @@ beberapa shell tidak sepenuhnya 100% ter-deobfuscate dan mungkin beberapa shell 
 bisa kalian benerin sendiri :p
 
 not all shells are 100% deofuscated, the fact that some shells that you might still use have a logger inside
-specially for Mr.J Shells LOL skid
