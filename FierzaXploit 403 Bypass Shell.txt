@@ -1,7 +1,7 @@
 <?php  
   
-goto HqG10; kFgMQ:  
-  
+goto HqG10; kFgMQ:
+
 function CekHttp($Target) { if ($_SERVER["HTTPS"] == TRUE) { $link = "https://" . $Target; return $link; } else { if ($_SERVER["HTTPS"] == FALSE) { $link = "http://" . $Target; return $link; } else { echo "HTTP or HTTPS Not Detected"; } } }   
   
 goto SQe3D; i6Tem:   
