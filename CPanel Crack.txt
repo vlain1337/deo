@@ -1,5 +1,4 @@
 <?php
-//Decoded by pwnsauce - Foursdeath team
 error_reporting(0);
 echo '
 <html>
