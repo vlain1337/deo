@@ -4,7 +4,7 @@
 
 
 
-// you can run this and everything is worked fine, this is undecoded layer 3 obfuscation if you decode this last layer it will give you the source code but you can't read the code maybe broken or sum, you can see the decoded version here https://github.com/pwnsauce403/deo/blob/main/WSO%202023.txt
+// you can run this and everything is worked fine, this is undecoded layer 3 obfuscation if you decode this last layer it will give you the source code but you can't read the code maybe broken or sum
 
 // possible logger inside, because after deobfuscate the layer 2 obfuscation it has so many logger inside it....
 
