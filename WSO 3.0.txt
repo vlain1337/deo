@@ -1,6 +1,6 @@
 <?php
 
-// 500 ERROR? BLANK? DELETE THE 404 LOGIN FUNCTION
+// 500 ERROR? BLANK? DELETE THE get_magic_quotes_runtime FUNCTION
 
 
 
