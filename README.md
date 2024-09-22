@@ -14,7 +14,7 @@ Where did i got all the PHP shell? others github repo, web.archive.org, website 
 
 sorry if my english is fucked, i just don't give a fuck.
 
-***tips to fix php shell that uses login function errors or goes blank:***
+***tips to fix php shell that uses login function got errors or goes blank:***
 * try to fix the "**magic_quotes_gpc**" function
 * fix the "**if(!isset($_SESSION[md5($_SERVER['HTTP_HOST'])]))**" function
 * remove the "**set_magic_quotes_runtime()**"
