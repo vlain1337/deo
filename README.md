@@ -16,4 +16,5 @@ Missing original shell? or any request to deobfuscate? let me help you, just mai
 ## Disclaimer
 
 This repository is for educational & cyber security research purposes only.
+
 Malicious usage of this repository will not be the author responsible.
