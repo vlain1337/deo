@@ -15,7 +15,7 @@ Where did i got all the PHP shell? only god and i knew
 * fix the "**if(!isset($_SESSION[md5($_SERVER['HTTP_HOST'])]))**" function
 * remove the "**set_magic_quotes_runtime()**"
 
-Missing original shell? or any request to deobfuscate? mail me at *bapakgwheker[at]duck.com* (free)
+Missing original shell? or any request to deobfuscate? mail me at *bapakgwheker[at]duck.com*
 
 ## Disclaimer
 
