@@ -1,6 +1,6 @@
 <div align="center"><h1>Reverse Engineered PHP Shell Backdoor Collection</h1></div>
 <p align="center">
-	<img src="https://img.shields.io/badge/PHP-blue">
+	<img src="https://img.shields.io/badge/PHP-all-blue">
 	<img src="https://img.shields.io/badge/LICENSE-MIT-lime">
 </p>
 
