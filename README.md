@@ -8,7 +8,7 @@ All PHP shell are deobfuscated manually (using my hand and my brain) from many d
 
 There are so many PHP shell backdoors that are obfuscated just to cover up that in their code there is an email logger that will automatically send the full backdoor shell url, server ip and others to the creator email, so that the creator can get a shell backdoored website for free, but some are just to protect their code from a skid :p, and also some shell are not 100% deofuscated if there some error, blank, fix it by your self.
 
-Where did i got all the PHP shell? only god and me know it.
+Where did i got all the PHP shell? only god and i knew
 
 ***tips to fix php shell that uses login function errors or goes blank:***
 * try to fix the "**magic_quotes_gpc**" function
