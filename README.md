@@ -10,7 +10,9 @@ There are so many PHP shell backdoors that are obfuscated just to cover up that 
 
 You can see the logger inside the PHP shell using "CTRL + F" and type "logger".
 
-Where did i got all the PHP shell? only god and i knew
+Where did i got all the PHP shell? others github repo, web.archive.org, website that has been hacked, websites that provide php shell download services.
+
+sorry if my english is fucked, i just don't give a fuck.
 
 ***tips to fix php shell that uses login function errors or goes blank:***
 * try to fix the "**magic_quotes_gpc**" function
