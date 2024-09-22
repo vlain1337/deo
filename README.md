@@ -9,6 +9,7 @@ All PHP shell are deobfuscated manually (using my hand and my brain) from many d
 There are so many PHP shell backdoors that are obfuscated just to cover up that in their code there is an email logger that will automatically send the full backdoor shell url, server ip and others to the creator email, so that the creator can get a shell backdoored website for free, usually the php shell is open-source but some irresponsible people add loggers to it and then obfuscate it and then distribute it for public use, but some are just to protect their code from a skid :p and if there some error, blank, fix it by your self.
 
 You can see the logger inside the PHP shell using "CTRL + F" and type "logger".
+
 Where did i got all the PHP shell? only god and i knew
 
 ***tips to fix php shell that uses login function errors or goes blank:***
