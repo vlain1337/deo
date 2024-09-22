@@ -1,8 +1,5 @@
 <div align="center"><h1>Reverse Engineered PHP Shell Backdoor Collection</h1></div> 
 
-Summary
-----------
-
 All PHP shells are deobfuscated manually (using my hand and my brain) from many diffrent types of obfuscation like goto, Yak-Pro, eval(, halt_compiler, fopo and some others.
 
 some shells are not 100% deofuscated if there some error, blank, fix it by your self
@@ -14,3 +11,7 @@ some shells are not 100% deofuscated if there some error, blank, fix it by your 
 
 missing original shell or any request to deobfuscate? contact me at bapakgwheker@duck.com
 
+## Disclaimer
+
+This repository is for educational & cyber security research purposes only.
+Malicious usage of this repository will not be the author responsible.
