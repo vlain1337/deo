@@ -7,7 +7,7 @@ some shells are not 100% deofuscated if there some error, blank, fix it by your 
 ***tips to fix php shell that uses login function errors or goes blank:***
 * try to fix the "**magic_quotes_gpc**" function
 * fix the "**if(!isset($_SESSION[md5($_SERVER['HTTP_HOST'])]))**" function
-* remove the "set_magic_quotes_runtime()" string**
+* remove the "set_magic_quotes_runtime()"
 
 missing original shell or any request to deobfuscate? mail me at *bapakgwheker[at]duck.com*
 
