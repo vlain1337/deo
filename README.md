@@ -1,8 +1,7 @@
 <div align="center"><h1>Reverse Engineered PHP Shell Backdoor Collection</h1></div>
 <p align="center">
-	<img src="https://img.shields.io/badge/PHP-all-blue">
+	<img src="https://img.shields.io/badge/PHP-blue">
 	<img src="https://img.shields.io/badge/LICENSE-MIT-lime">
-	<img src="https://img.shields.io/badge/Version-1.2.1-darkred">
 </p>
 
 All PHP shells are deobfuscated manually (using my hand and my brain) from many diffrent types of obfuscation like goto, Yak-Pro, eval(, halt_compiler, fopo and some others, i've spend like a year maybe to finish this project, so why don't you star and follow me :D.
