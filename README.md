@@ -9,7 +9,7 @@ some shells are not 100% deofuscated if there some error, blank, fix it by your 
 * fix the "**if(!isset($_SESSION[md5($_SERVER['HTTP_HOST'])]))**" function
 * remove the "set_magic_quotes_runtime()" string**
 
-missing original shell or any request to deobfuscate? mail me at bapakgwheker[at]duck.com
+missing original shell or any request to deobfuscate? mail me at *bapakgwheker[at]duck.com*
 
 ## Disclaimer
 
