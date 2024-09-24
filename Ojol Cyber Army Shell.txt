@@ -1,6 +1,9 @@
 <?php
 session_start();
 
+// Password : ~YQJOe]Fu*;OS4XXcWnc!l&1rxI/QxR1S{Vi£&U"Wt)^Sy6A'r
+
+
 /**
  * Disable error reporting
  *
