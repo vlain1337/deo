@@ -4,7 +4,7 @@
 	<img src="https://img.shields.io/badge/LICENSE-MIT-lime">
 </p>
 
-All PHP shell are deobfuscated manually (using my hand and my brain) from many diffrent types of obfuscation like goto, Yak-Pro, eval(, halt_compiler, fopo, ud64 and some others, i've spend like a year maybe to finish this project, so why don't you star and follow me :D, PHP shell are from around the world and will always be updated over time.
+All PHP shell are deobfuscated manually (using my hand and my brain) from many diffrent types of obfuscation like goto, Yak-Pro, eval(, halt_compiler, fopo, ud64, $SISTEMIT_COM_ENC and some others, i've spend like a year maybe to finish this project, so why don't you star and follow me :D, PHP shell are from around the world and will always be updated over time.
 
 There are so many PHP shell backdoors that are obfuscated just to cover up that in their code there is an email logger that will automatically send the full backdoor shell url, server ip and others to the creator email, so that the creator can get a shell backdoored website for free, usually the php shell is open-source but some irresponsible people add loggers to it and then obfuscate it and then distribute it for public use, but some are just to protect their code from a skid :p and if there some error, blank, fix it by your self.
 
