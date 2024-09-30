@@ -9,10 +9,6 @@ All PHP shell are deobfuscated from many diffrent types of obfuscation like goto
 
 There are so many PHP shell backdoors that are obfuscated just to cover up that in their code there is a logger that will automatically send the full backdoor shell url, server ip and others to the creator emails or telegram bots, so that the creator can get a shell backdoored website for free, usually the php shell is open-source but some irresponsible people add loggers to it and then obfuscate it and then distribute it for public use, but some are just to protect their code from a skid :p and if there's an error, blank, fix it by your self.
 
-## Where did i got all the PHP shell?
-
-github repo, web.archive.org, website that has been hacked, websites that provide php shell download services.
-
 Missing original shell? or any request to deobfuscate? mail me at *<b>bapakgwheker[at]duck.com</b>*
 
 ## Disclaimer
