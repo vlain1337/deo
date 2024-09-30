@@ -13,8 +13,6 @@ There are so many PHP shell backdoors that are obfuscated just to cover up that 
 
 github repo, web.archive.org, website that has been hacked, websites that provide php shell download services.
 
-##
-
 Missing original shell? or any request to deobfuscate? mail me at *<b>bapakgwheker[at]duck.com</b>*
 
 ## Disclaimer
