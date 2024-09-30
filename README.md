@@ -3,7 +3,7 @@
 	<img src="https://img.shields.io/badge/PHP-all-blue">
 </p>
 
-All PHP shell are deobfuscated manually (using my hand and my brain) from many diffrent types of obfuscation like goto, Yak-Pro, eval(, halt_compiler, fopo, ud64, $SISTEMIT_COM_ENC and some others, i've spend like a year to finish this project, so why don't you star and follow me :D, PHP shell are from around the world and will always be updated over time.
+All PHP shell are deobfuscated manually (using my hand and my brain) from many diffrent types of obfuscation like goto, eval(, halt_compiler, fopo, ud64, $SISTEMIT_COM_ENC and some others, i've spend like a year to finish this project, so why don't you star and follow me :D, PHP shell are from around the world and will always be updated over time.
 
 ## Why i did this?
 
