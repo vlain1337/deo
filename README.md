@@ -11,8 +11,6 @@ There are so many PHP shell backdoors that are obfuscated just to cover up that 
 
 Where did i got all the PHP shell? github repo, web.archive.org, website that has been hacked, websites that provide php shell download services.
 
-sorry if my english is fucked, i just don't give a fuck.
-
 Missing original shell? or any request to deobfuscate? mail me at *<b>bapakgwheker[at]duck.com</b>*
 
 ## Disclaimer
