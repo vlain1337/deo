@@ -14,7 +14,7 @@ Where did i got all the PHP shell? others github repo, web.archive.org, website 
 
 sorry if my english is fucked, i just don't give a fuck.
 
-Missing original shell? or any request to deobfuscate? mail me at *bapakgwheker[at]duck.com*
+Missing original shell? or any request to deobfuscate? mail me at *<b>bapakgwheker[at]duck.com</b>*
 
 ## Disclaimer
 
