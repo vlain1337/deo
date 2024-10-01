@@ -1,7 +1,4 @@
 <div align="center"><h1>Reverse Engineered PHP Shell Backdoor</h1></div>
-<p align="center">
-	<img src="https://img.shields.io/badge/PHP-all-blue">
-</p>
 
 All PHP shell are deobfuscated from many diffrent types of obfuscation like goto, eval(), halt_compiler, fopo, ud64, $SISTEMIT_COM_ENC, $stt0 and many others, i've spend like a year to finish this project, so why don't you star and follow me :D, PHP shell are from around the world and will always be updated over time.
 
